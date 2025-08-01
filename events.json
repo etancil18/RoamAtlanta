@@ -1,12 +1,12 @@
 [
   {
-    "Name": "Beso Buckhead",
-    "Vibe": "upscale, trendy, latin, cocktails, nightlife, romantic, stylish, crowd-pleaser",
-    "Lat": 33.84377,
-    "Lon": -84.378946,
-    "Link": "https://www.instagram.com/besobuckhead/",
+    "name": "Beso Buckhead",
+    "vibe": "upscale, trendy, latin, cocktails, nightlife, romantic, stylish, crowd-pleaser",
+    "lat": 33.84377,
+    "lon": -84.378946,
+    "link": "https://www.instagram.com/besobuckhead/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "1:00 PM–12:00 AM",
       "Monday": "Closed",
       "Tuesday": "6:00 PM–2:00 AM",
@@ -40,17 +40,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "bottle service, upscale date night, Latin DJ, dressed crowd, velvet rope",
-    "Price": "$$",
-    "Duration": 3
+    "price": "$$",
+    "duration": 3
   },
   {
-    "Name": "Pisces",
-    "Vibe": "seafood, cozy, boho, romantic, artsy, hidden-gem, date-night",
-    "Lat": 33.754117,
-    "Lon": -84.371798,
-    "Link": "https://www.instagram.com/pisces.atl/",
+    "name": "Pisces",
+    "vibe": "seafood, cozy, boho, romantic, artsy, hidden-gem, date-night",
+    "lat": 33.754117,
+    "lon": -84.371798,
+    "link": "https://www.instagram.com/pisces.atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -84,17 +84,17 @@
     "timeCategory": "late",
     "energyRamp": 3,
     "tags": "late-night oysters, artsy couples, low-light date spot, hidden Atlanta gem",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Alici Oyster Bar",
-    "Vibe": "oysters, bright, coastal, elegant, fresh, raw-bar, lunch-friendly, mediterranean",
-    "Lat": 33.7803409,
-    "Lon": -84.3686685,
-    "Link": "https://www.instagram.com/alicioysterbar/",
+    "name": "Alici Oyster Bar",
+    "vibe": "oysters, bright, coastal, elegant, fresh, raw-bar, lunch-friendly, mediterranean",
+    "lat": 33.7803409,
+    "lon": -84.3686685,
+    "link": "https://www.instagram.com/alicioysterbar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–9:00 PM",
       "Monday": "Closed",
       "Tuesday": "4:00 PM–9:00 PM",
@@ -128,17 +128,17 @@
     "timeCategory": "midday, happy hour, evening",
     "energyRamp": 2,
     "tags": "raw bar lunch, chic seafood, weekday elegant lunch, light wine pairings",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "KR SteakBar",
-    "Vibe": "steak, italian, power-lunch, upscale, wine, quiet, refined, romantic",
-    "Lat": 33.81826905,
-    "Lon": -84.37497385,
-    "Link": "https://www.instagram.com/krsteakbar/",
+    "name": "KR SteakBar",
+    "vibe": "steak, italian, power-lunch, upscale, wine, quiet, refined, romantic",
+    "lat": 33.81826905,
+    "lon": -84.37497385,
+    "link": "https://www.instagram.com/krsteakbar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–9:00 PM",
@@ -172,17 +172,17 @@
     "timeCategory": "happy hour, evening",
     "energyRamp": 2,
     "tags": "power dinner, quiet upscale, wine-forward, suits after dark",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Ruby Chow's",
-    "Vibe": "asian-fusion, dim, moody, design-forward, group-friendly, hip, cocktails",
-    "Lat": 33.7715868,
-    "Lon": -84.3681182,
-    "Link": "https://www.instagram.com/rubychowsatl/",
+    "name": "Ruby Chow's",
+    "vibe": "asian-fusion, dim, moody, design-forward, group-friendly, hip, cocktails",
+    "lat": 33.7715868,
+    "lon": -84.3681182,
+    "link": "https://www.instagram.com/rubychowsatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–10:00 PM",
       "Monday": "5:00 PM–10:00 PM",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -216,17 +216,17 @@
     "timeCategory": "happy hour, evening",
     "energyRamp": 3,
     "tags": "date night energy, design-forward Asian fusion, moody lighting, group-friendly hangout",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "After Eight",
-    "Vibe": "lounge, late-night, cocktails, DJ, velvet, exclusive, dressy, music",
-    "Lat": 33.7802207,
-    "Lon": -84.41060596,
-    "Link": "https://www.instagram.com/aftereightatl/",
+    "name": "After Eight",
+    "vibe": "lounge, late-night, cocktails, DJ, velvet, exclusive, dressy, music",
+    "lat": 33.7802207,
+    "lon": -84.41060596,
+    "link": "https://www.instagram.com/aftereightatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–11:00 PM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -260,17 +260,17 @@
     "timeCategory": "evening, happy hour, late",
     "energyRamp": 5,
     "tags": "late night lounge, high-energy DJ, upscale crowd, no sneakers",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Bon Ton",
-    "Vibe": "cajun, vietnamese, funky, bold, neon, seafood, casual, instagrammable",
-    "Lat": 33.772956,
-    "Lon": -84.3803812,
-    "Link": "https://www.instagram.com/bontonatlanta/",
+    "name": "Bon Ton",
+    "vibe": "cajun, vietnamese, funky, bold, neon, seafood, casual, instagrammable",
+    "lat": 33.772956,
+    "lon": -84.3803812,
+    "link": "https://www.instagram.com/bontonatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–10:30 PM",
       "Monday": "5:00 PM–10:30 PM",
       "Tuesday": "5:00 PM–10:30 PM",
@@ -304,17 +304,17 @@
     "timeCategory": "midday, happy hour, evening",
     "energyRamp": 4,
     "tags": "boozy brunch, seafood with attitude, neon vibes, funky Creole fusion",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "APT 4B",
-    "Vibe": "afro-caribbean, vintage, vinyl, lounge, curated, cozy, cool",
-    "Lat": 33.8156255,
-    "Lon": -84.3908082,
-    "Link": "https://www.instagram.com/apt4batl/",
+    "name": "APT 4B",
+    "vibe": "afro-caribbean, vintage, vinyl, lounge, curated, cozy, cool",
+    "lat": 33.8156255,
+    "lon": -84.3908082,
+    "link": "https://www.instagram.com/apt4batl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–12:00 AM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -348,17 +348,17 @@
     "timeCategory": "evening, happy hour, late",
     "energyRamp": 4,
     "tags": "vinyl lounge, curated cocktails, Afro-Caribbean energy, retro-modern fusion",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Delbar - Buckhead",
-    "Vibe": "middle-eastern, garden, modern, romantic, flavors, chic, mediterranean",
-    "Lat": 33.839527,
-    "Lon": -84.38125303,
-    "Link": "https://www.instagram.com/delbaratl/",
+    "name": "Delbar - Buckhead",
+    "vibe": "middle-eastern, garden, modern, romantic, flavors, chic, mediterranean",
+    "lat": 33.839527,
+    "lon": -84.38125303,
+    "link": "https://www.instagram.com/delbaratl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–9:00 PM",
       "Monday": "11:30 AM–10:00 PM",
       "Tuesday": "11:30 AM–10:00 PM",
@@ -392,17 +392,17 @@
     "timeCategory": "midday, evening",
     "energyRamp": 3,
     "tags": "garden patio brunch, chic Persian, lush Mediterranean date, floral decor",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Echo Room",
-    "Vibe": "minimal, loft, industrial, event-space, alternative, mixed-crowd, warehouse",
-    "Lat": 33.7749037,
-    "Lon": -84.41030778,
-    "Link": "https://www.instagram.com/echoroomatl/",
+    "name": "Echo Room",
+    "vibe": "minimal, loft, industrial, event-space, alternative, mixed-crowd, warehouse",
+    "lat": 33.7749037,
+    "lon": -84.41030778,
+    "link": "https://www.instagram.com/echoroomatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -436,17 +436,17 @@
     "timeCategory": "evening",
     "energyRamp": 5,
     "tags": "underground party, warehouse rave, creative scene, BYOB energy",
-    "Price": "$$",
-    "Duration": 3
+    "price": "$$",
+    "duration": 3
   },
   {
-    "Name": "97 Estoria",
-    "Vibe": "dive, artsy, indie, laid-back, casual, murals, beer, low-key",
-    "Lat": 33.7519921,
-    "Lon": -84.36345598,
-    "Link": "https://www.instagram.com/97estoria/",
+    "name": "97 Estoria",
+    "vibe": "dive, artsy, indie, laid-back, casual, murals, beer, low-key",
+    "lat": 33.7519921,
+    "lon": -84.36345598,
+    "link": "https://www.instagram.com/97estoria/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–12:00 AM",
       "Monday": "12:00 PM–12:00 AM",
       "Tuesday": "12:00 PM–12:00 AM",
@@ -480,17 +480,17 @@
     "timeCategory": "evening",
     "energyRamp": 4,
     "tags": "casual patio beers, alt crowd hangout, dive with soul, intown classic",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Bona Fide Deluxe",
-    "Vibe": "retro, creative, diner-style, cocktails, quirky, colorful, playful",
-    "Lat": 33.76066881,
-    "Lon": -84.34042587,
-    "Link": "https://www.instagram.com/bona_fide_deluxe/",
+    "name": "Bona Fide Deluxe",
+    "vibe": "retro, creative, diner-style, cocktails, quirky, colorful, playful",
+    "lat": 33.76066881,
+    "lon": -84.34042587,
+    "link": "https://www.instagram.com/bona_fide_deluxe/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–9:00 PM",
       "Monday": "Closed",
       "Tuesday": "11:00 AM–9:00 PM",
@@ -524,17 +524,17 @@
     "timeCategory": "midday",
     "energyRamp": 5,
     "tags": "colorful cocktails, offbeat lounge, eastside flair, date spot without pressure",
-    "Price": "$$",
-    "Duration": 1
+    "price": "$$",
+    "duration": 1
   },
   {
-    "Name": "The Porter Beer Bar",
-    "Vibe": "beer, cozy, gastropub, nerdy, hipster, local, classic, belgian",
-    "Lat": 33.7652193,
-    "Lon": -84.34965626,
-    "Link": "https://www.instagram.com/theporterbeerbar/",
+    "name": "The Porter Beer Bar",
+    "vibe": "beer, cozy, gastropub, nerdy, hipster, local, classic, belgian",
+    "lat": 33.7652193,
+    "lon": -84.34965626,
+    "link": "https://www.instagram.com/theporterbeerbar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–11:00 PM",
       "Monday": "12:00 PM–11:00 PM",
       "Tuesday": "12:00 PM–11:00 PM",
@@ -568,17 +568,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "beer, craft nerd haven, small-plate pub food, low-light chill",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "Wish Atlanta",
-    "Vibe": "streetwear, fashion, sneakers, hype, urban, boutique, minimalist",
-    "Lat": 33.7665546,
-    "Lon": -84.34895681,
-    "Link": "https://www.instagram.com/wishatl/",
+    "name": "Wish Atlanta",
+    "vibe": "streetwear, fashion, sneakers, hype, urban, boutique, minimalist",
+    "lat": 33.7665546,
+    "lon": -84.34895681,
+    "link": "https://www.instagram.com/wishatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "1:00 PM–7:00 PM",
       "Monday": "12:00 PM–7:00 PM",
       "Tuesday": "12:00 PM–7:00 PM",
@@ -612,17 +612,17 @@
     "timeCategory": "afternoon",
     "energyRamp": 2,
     "tags": "fashion-forward, sneaker drops, curated streetwear, creative scene hub",
-    "Price": "$$",
-    "Duration": 0.75
+    "price": "$$",
+    "duration": 0.75
   },
   {
-    "Name": "Wrecking Bar Brewpub",
-    "Vibe": "historic, craft-beer, cozy, elevated, tavern, patio, house-converted",
-    "Lat": 33.762309,
-    "Lon": -84.3496422,
-    "Link": "https://www.instagram.com/wreckingbarbrewpub/",
+    "name": "Wrecking Bar Brewpub",
+    "vibe": "historic, craft-beer, cozy, elevated, tavern, patio, house-converted",
+    "lat": 33.762309,
+    "lon": -84.3496422,
+    "link": "https://www.instagram.com/wreckingbarbrewpub/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–9:00 PM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -656,17 +656,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "historic house brews, slow food pub, smart beer pairings, neighborhood classic",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "The Brewhouse Cafe",
-    "Vibe": "pub, sports, soccer, brunch, casual, TVs, group-friendly, chill",
-    "Lat": 33.7652432,
-    "Lon": -84.3488434,
-    "Link": "https://www.instagram.com/thebrewhousecafe/",
+    "name": "The Brewhouse Cafe",
+    "vibe": "pub, sports, soccer, brunch, casual, TVs, group-friendly, chill",
+    "lat": 33.7652432,
+    "lon": -84.3488434,
+    "link": "https://www.instagram.com/thebrewhousecafe/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "10:00 AM–10:00 PM",
       "Monday": "11:00 AM–12:00 AM",
       "Tuesday": "11:30 AM–12:00 AM",
@@ -700,17 +700,17 @@
   "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "soccer bar, rowdy brunches, casual pint crowd, weekend match day zone",
-    "Price": "$",
-    "Duration": 2.5
+    "price": "$",
+    "duration": 2.5
   },
   {
-    "Name": "East Palisades Trailhead",
-    "Vibe": "outdoors, nature, forest, scenic, peaceful, hiking, trails",
-    "Lat": 33.87122555,
-    "Lon": -84.44004635,
-    "Link": "https://www.instagram.com/explore/search/keyword/?q=east%20palisades%20trail",
+    "name": "East Palisades Trailhead",
+    "vibe": "outdoors, nature, forest, scenic, peaceful, hiking, trails",
+    "lat": 33.87122555,
+    "lon": -84.44004635,
+    "link": "https://www.instagram.com/explore/search/keyword/?q=east%20palisades%20trail",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "9:00 AM–5:00 PM",
       "Monday": "9:00 AM–5:00 PM",
       "Tuesday": "9:00 AM–5:00 PM",
@@ -744,17 +744,17 @@
     "timeCategory": "afternoon",
     "energyRamp": 1,
     "tags": "nature escape, Chattahoochee views, shaded trails, city detox",
-    "Price": "$",
-    "Duration": 3.5
+    "price": "$",
+    "duration": 3.5
   },
   {
-    "Name": "E+ROSE Wellness Cafe - Westside Provisions Atlanta",
-    "Vibe": "wellness, vegan, minimalist, smoothie, healthy, clean, daytime",
-    "Lat": 33.7847648,
-    "Lon": -84.4122192,
-    "Link": "https://www.instagram.com/eandrosewellness/",
+    "name": "E+ROSE Wellness Cafe - Westside Provisions Atlanta",
+    "vibe": "wellness, vegan, minimalist, smoothie, healthy, clean, daytime",
+    "lat": 33.7847648,
+    "lon": -84.4122192,
+    "link": "https://www.instagram.com/eandrosewellness/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–7:00 PM",
       "Monday": "7:00 AM–7:00 PM",
       "Tuesday": "7:00 AM–7:00 PM",
@@ -788,17 +788,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "smoothie stop, clean eats, post-pilates refuel, casual wellness hang",
-    "Price": "$",
-    "Duration": 0.5
+    "price": "$",
+    "duration": 0.5
   },
   {
-    "Name": "Smith's Olde Bar",
-    "Vibe": "rock, dive, bar, music-venue, local, gritty, live-music",
-    "Lat": 33.79770375,
-    "Lon": -84.36880644,
-    "Link": "https://www.instagram.com/smithsoldebar/",
+    "name": "Smith's Olde Bar",
+    "vibe": "rock, dive, bar, music-venue, local, gritty, live-music",
+    "lat": 33.79770375,
+    "lon": -84.36880644,
+    "link": "https://www.instagram.com/smithsoldebar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–12:00 AM",
       "Monday": "5:00 PM–2:00 AM",
       "Tuesday": "5:00 PM–2:00 AM",
@@ -832,17 +832,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "local music venue, dive-rock feel, gritty charm, late-night shows",
-    "Price": "$",
-    "Duration": 2.5
+    "price": "$",
+    "duration": 2.5
   },
   {
-    "Name": "Jeni's Splendid Ice Creams",
-    "Vibe": "ice-cream, artisan, colorful, dessert, family-friendly, fun, sweet",
-    "Lat": 33.8401417,
-    "Lon": -84.3809742,
-    "Link": "https://www.instagram.com/jenisicecreams/",
+    "name": "Jeni's Splendid Ice Creams",
+    "vibe": "ice-cream, artisan, colorful, dessert, family-friendly, fun, sweet",
+    "lat": 33.8401417,
+    "lon": -84.3809742,
+    "link": "https://www.instagram.com/jenisicecreams/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–1:00 AM",
       "Monday": "12:00 PM–1:00 AM",
       "Tuesday": "12:00 PM–1:00 AM",
@@ -876,17 +876,17 @@
     "timeCategory": "evening",
     "energyRamp": 1,
     "tags": "Instagram scoop, inventive flavors, family-friendly, date night dessert",
-    "Price": "$",
-    "Duration": 0.75
+    "price": "$",
+    "duration": 0.75
   },
   {
-    "Name": "Redacted Basement Drink Parlor",
-    "Vibe": "speakeasy, cocktails, moody, underground, hidden, intimate, retro",
-    "Lat": 33.7367005,
-    "Lon": -84.3856771,
-    "Link": "https://www.instagram.com/redactedbasementdrinkparlor/",
+    "name": "Redacted Basement Drink Parlor",
+    "vibe": "speakeasy, cocktails, moody, underground, hidden, intimate, retro",
+    "lat": 33.7367005,
+    "lon": -84.3856771,
+    "link": "https://www.instagram.com/redactedbasementdrinkparlor/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -920,17 +920,17 @@
     "timeCategory": "evening",
     "energyRamp": 4,
     "tags": "hidden bar, password entry, vintage cocktails, prohibition aesthetic",
-    "Price": "$",
-    "Duration": 1.75
+    "price": "$",
+    "duration": 1.75
   },
   {
-    "Name": "Edgar's Proof & Provision",
-    "Vibe": "whiskey, upscale, leather, masculine, classic, cocktail-bar, hotel",
-    "Lat": 33.7724536,
-    "Lon": -84.3844007,
-    "Link": "https://www.instagram.com/edgarsproofprovisionsav/",
+    "name": "Edgar's Proof & Provision",
+    "vibe": "whiskey, upscale, leather, masculine, classic, cocktail-bar, hotel",
+    "lat": 33.7724536,
+    "lon": -84.3844007,
+    "link": "https://www.instagram.com/edgarsproofprovisionsav/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "2:00 PM–11:00 PM",
       "Monday": "5:00 PM–11:00 PM",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -964,17 +964,17 @@
     "timeCategory": "happy hour",
     "energyRamp": 3,
     "tags": "whiskey-focused, hotel bar energy, quiet nightcap, Southern dark woods",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "Red Phone Booth",
-    "Vibe": "speakeasy, exclusive, cigar, dress-code, secretive, prohibition, vintage",
-    "Lat": 33.7595884,
-    "Lon": -84.3869147,
-    "Link": "https://www.instagram.com/rpbatlanta/",
+    "name": "Red Phone Booth",
+    "vibe": "speakeasy, exclusive, cigar, dress-code, secretive, prohibition, vintage",
+    "lat": 33.7595884,
+    "lon": -84.3869147,
+    "link": "https://www.instagram.com/rpbatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "4:00 PM–11:00 PM",
       "Monday": "4:00 PM–12:00 AM",
       "Tuesday": "4:00 PM–12:00 AM",
@@ -1008,17 +1008,17 @@
     "timeCategory": "happy hour, evening, late",
     "energyRamp": 4,
     "tags": "secret speakeasy, cigar lounge vibe, upscale exclusivity, VIP reservation only",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "STATS Brewpub",
-    "Vibe": "sports, casual, tvs, beer, group-friendly, loud, downtown",
-    "Lat": 33.7615575,
-    "Lon": -84.3964558,
-    "Link": "https://www.instagram.com/statsbrewpub/",
+    "name": "STATS Brewpub",
+    "vibe": "sports, casual, tvs, beer, group-friendly, loud, downtown",
+    "lat": 33.7615575,
+    "lon": -84.3964558,
+    "link": "https://www.instagram.com/statsbrewpub/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1052,17 +1052,17 @@
     "timeCategory": "midday, happy hour",
     "energyRamp": 5,
     "tags": "game day hub, corporate happy hour, group tables, beer towers",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "The Painted Duck",
-    "Vibe": "bowling, upscale, industrial, cocktails, playful, social, events",
-    "Lat": 33.7814781,
-    "Lon": -84.4136351,
-    "Link": "https://www.instagram.com/paintedduckatl/",
+    "name": "The Painted Duck",
+    "vibe": "bowling, upscale, industrial, cocktails, playful, social, events",
+    "lat": 33.7814781,
+    "lon": -84.4136351,
+    "link": "https://www.instagram.com/paintedduckatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–12:00 AM",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -1096,17 +1096,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 5,
     "tags": "luxury bowling, high-concept bar games, date-friendly activity spot, upscale arcade",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "MJQ Concourse",
-    "Vibe": "club, underground, electronic, late-night, dance, gritty, alternative",
-    "Lat": 33.7518911,
-    "Lon": -84.3892495,
-    "Link": "https://www.instagram.com/mjqofficial/",
+    "name": "MJQ Concourse",
+    "vibe": "club, underground, electronic, late-night, dance, gritty, alternative",
+    "lat": 33.7518911,
+    "lon": -84.3892495,
+    "link": "https://www.instagram.com/mjqofficial/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1140,17 +1140,17 @@
     "timeCategory": "late",
     "energyRamp": 5,
     "tags": "underground dance cave, grungy nightlife, no-frills energy, late-night misfits",
-    "Price": "$",
-    "Duration": 3
+    "price": "$",
+    "duration": 3
   },
   {
-    "Name": "Lazy Betty",
-    "Vibe": "fine-dining, tasting-menu, romantic, upscale, modern, elegant, chef-driven",
-    "Lat": 33.7811172,
-    "Lon": -84.38370924,
-    "Link": "https://www.instagram.com/lazybettyatl/",
+    "name": "Lazy Betty",
+    "vibe": "fine-dining, tasting-menu, romantic, upscale, modern, elegant, chef-driven",
+    "lat": 33.7811172,
+    "lon": -84.38370924,
+    "link": "https://www.instagram.com/lazybettyatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–8:00 PM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–8:00 PM",
@@ -1184,17 +1184,17 @@
     "timeCategory": "happy hour",
     "energyRamp": 1,
     "tags": "chef’s tasting menu, quiet upscale, Michelin-starred vibe, intimate fine dining",
-    "Price": "$$$$",
-    "Duration": 2
+    "price": "$$$$",
+    "duration": 2
   },
   {
-    "Name": "Jojo’s Beloved Cocktail Lounge",
-    "Vibe": "disco, retro, cocktails, intimate, neon, immersive, curated",
-    "Lat": 33.787223,
-    "Lon": -84.3829621,
-    "Link": "https://www.instagram.com/jojosbeloved/",
+    "name": "Jojo’s Beloved Cocktail Lounge",
+    "vibe": "disco, retro, cocktails, intimate, neon, immersive, curated",
+    "lat": 33.787223,
+    "lon": -84.3829621,
+    "link": "https://www.instagram.com/jojosbeloved/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -1228,17 +1228,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "retro disco bar, neon lounge, velvet seating, themed cocktails",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Distillery of Modern Art in Chamblee",
-    "Vibe": "distillery, gallery, events, modern, industrial, artisan, design-focused",
-    "Lat": 33.8971099,
-    "Lon": -84.2961643,
-    "Link": "https://www.instagram.com/distilleryofmodernart/",
+    "name": "Distillery of Modern Art in Chamblee",
+    "vibe": "distillery, gallery, events, modern, industrial, artisan, design-focused",
+    "lat": 33.8971099,
+    "lon": -84.2961643,
+    "link": "https://www.instagram.com/distilleryofmodernart/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–5:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1272,17 +1272,17 @@
     "timeCategory": "happy hour",
     "energyRamp": 2,
     "tags": "industrial-chic, local spirits, art gallery crossover, event-forward venue",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Larakin",
-    "Vibe": "cocktail-bar, chic, downtown, intimate, modern, clean, polished",
-    "Lat": 33.7844809,
-    "Lon": -84.3805853,
-    "Link": "https://www.instagram.com/larakinatl/",
+    "name": "Larakin",
+    "vibe": "cocktail-bar, chic, downtown, intimate, modern, clean, polished",
+    "lat": 33.7844809,
+    "lon": -84.3805853,
+    "link": "https://www.instagram.com/larakinatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–6:00 PM",
       "Monday": "8:00 AM–2:00 PM",
       "Tuesday": "8:00 AM–2:00 PM",
@@ -1316,17 +1316,17 @@
     "timeCategory": "midday, evening",
     "energyRamp": 2,
     "tags": "natural wine, stylish minimalism, soft lighting, bar for design people",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Evergreen Butcher + Baker",
-    "Vibe": "brunch, bakery, local, hipster, seasonal, fresh, artisanal",
-    "Lat": 33.7510262,
-    "Lon": -84.3217927,
-    "Link": "https://www.instagram.com/evergreenbutcherandbaker/",
+    "name": "Evergreen Butcher + Baker",
+    "vibe": "brunch, bakery, local, hipster, seasonal, fresh, artisanal",
+    "lat": 33.7510262,
+    "lon": -84.3217927,
+    "link": "https://www.instagram.com/evergreenbutcherandbaker/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–3:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1360,17 +1360,17 @@
     "timeCategory": "morning",
     "energyRamp": 1,
     "tags": "locally sourced, rustic brunch, fresh pastries, chef-driven deli",
-    "Price": "$",
-    "Duration": 1
+    "price": "$",
+    "duration": 1
   },
   {
-    "Name": "Wai's Gong Fu Tea House",
-    "Vibe": "tea, zen, minimalist, traditional, asian, slow, ritual",
-    "Lat": 33.79233935,
-    "Lon": -84.4201058,
-    "Link": "https://www.instagram.com/waisgongfutea/",
+    "name": "Wai's Gong Fu Tea House",
+    "vibe": "tea, zen, minimalist, traditional, asian, slow, ritual",
+    "lat": 33.79233935,
+    "lon": -84.4201058,
+    "link": "https://www.instagram.com/waisgongfutea/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "10:00 AM–8:00 PM",
       "Monday": "1:00 PM–8:00 PM",
       "Tuesday": "1:00 PM–8:00 PM",
@@ -1404,17 +1404,17 @@
     "timeCategory": "afternoon",
     "energyRamp": 1,
     "tags": "ceremonial tea, meditative space, Asian minimalism, quiet culture escape",
-    "Price": "$",
-    "Duration": 1.33
+    "price": "$",
+    "duration": 1.33
   },
   {
-    "Name": "Kinship Butcher & Sundry",
-    "Vibe": "butcher, grocery, brunch, casual, artisanal, neighborhood, rustic",
-    "Lat": 33.7822964,
-    "Lon": -84.3538294,
-    "Link": "https://www.instagram.com/kinshipbutcher_atl/",
+    "name": "Kinship Butcher & Sundry",
+    "vibe": "butcher, grocery, brunch, casual, artisanal, neighborhood, rustic",
+    "lat": 33.7822964,
+    "lon": -84.3538294,
+    "link": "https://www.instagram.com/kinshipbutcher_atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–7:00 PM",
       "Monday": "8:00 AM–7:00 PM",
       "Tuesday": "8:00 AM–7:00 PM",
@@ -1448,17 +1448,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "neighborhood butcher counter, curated pantry, casual gourmet, local-first",
-    "Price": "$$",
-    "Duration": 1
+    "price": "$$",
+    "duration": 1
   },
   {
-    "Name": "Whoopsie's",
-    "Vibe": "divey, funky, queer-friendly, playful, casual, late-night, offbeat",
-    "Lat": 33.7534631,
-    "Lon": -84.3493682,
-    "Link": "https://www.instagram.com/whooopsies_place/",
+    "name": "Whoopsie's",
+    "vibe": "divey, funky, queer-friendly, playful, casual, late-night, offbeat",
+    "lat": 33.7534631,
+    "lon": -84.3493682,
+    "link": "https://www.instagram.com/whooopsies_place/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–12:00 AM",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -1492,17 +1492,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "low-key cocktail bar, off-the-radar date spot, moody lighting, mellow music",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "May Peel",
-    "Vibe": "cocktail-bar, velvet, moody, feminine, date-night, stylish, cozy",
-    "Lat": 33.7901025,
-    "Lon": -84.3881552,
-    "Link": "https://www.instagram.com/maypeel_atlanta/",
+    "name": "May Peel",
+    "vibe": "cocktail-bar, velvet, moody, feminine, date-night, stylish, cozy",
+    "lat": 33.7901025,
+    "lon": -84.3881552,
+    "link": "https://www.instagram.com/maypeel_atlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1536,17 +1536,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "floral-forward cocktails, intimate ambiance, feminine energy, warm pastel vibe",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Commune",
-    "Vibe": "café, quiet, local, creative, neighborhood, quaint, brunch",
-    "Lat": 33.775806,
-    "Lon": -84.273451,
-    "Link": "https://www.instagram.com/commune_atl/",
+    "name": "Commune",
+    "vibe": "café, quiet, local, creative, neighborhood, quaint, brunch",
+    "lat": 33.775806,
+    "lon": -84.273451,
+    "link": "https://www.instagram.com/commune_atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "6:00 PM–11:00 PM",
@@ -1580,17 +1580,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "plant-based brunch, Scandi aesthetics, community tables, slow dining",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "The Waiting Room",
-    "Vibe": "lounge, rooftop, moody, intimate, scenic, bar, skyline",
-    "Lat": 33.772956,
-    "Lon": -84.3803812,
-    "Link": "https://www.instagram.com/justkeepwaitingroom/",
+    "name": "The Waiting Room",
+    "vibe": "lounge, rooftop, moody, intimate, scenic, bar, skyline",
+    "lat": 33.772956,
+    "lon": -84.3803812,
+    "link": "https://www.instagram.com/justkeepwaitingroom/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–9:00 PM",
       "Monday": "9:00 PM–1:00 AM",
       "Tuesday": "7:00 PM–12:00 AM",
@@ -1624,17 +1624,17 @@
   "timeCategory": "happy hour, evening, late",
     "energyRamp": 4,
     "tags": "hotel rooftop, craft cocktails, skyline view, reservation recommended",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Controllerise",
-    "Vibe": "creative, hip-hop, anime, gaming, alt-culture, underground, chill",
-    "Lat": 33.7949913,
-    "Lon": -84.4098768,
-    "Link": "https://www.instagram.com/controllerise/",
+    "name": "Controllerise",
+    "vibe": "creative, hip-hop, anime, gaming, alt-culture, underground, chill",
+    "lat": 33.7949913,
+    "lon": -84.4098768,
+    "link": "https://www.instagram.com/controllerise/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "9:00 PM–1:00 AM",
       "Tuesday": "Closed",
@@ -1668,17 +1668,17 @@
   "timeCategory": "late",
     "energyRamp": 4,
     "tags": "nerd nightlife, lo-fi beats, anime culture crowd, gaming-centric community",
-    "Price": "$",
-    "Duration": 3
+    "price": "$",
+    "duration": 3
   },
   {
-    "Name": "Grana",
-    "Vibe": "italian, patio, pizza, casual, family-style, bright, buzzy",
-    "Lat": 33.805921,
-    "Lon": -84.366886,
-    "Link": "https://www.instagram.com/granaatl/",
+    "name": "Grana",
+    "vibe": "italian, patio, pizza, casual, family-style, bright, buzzy",
+    "lat": 33.805921,
+    "lon": -84.366886,
+    "link": "https://www.instagram.com/granaatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–10:00 PM",
       "Monday": "4:00 PM–10:00 PM",
       "Tuesday": "4:00 PM–10:00 PM",
@@ -1712,17 +1712,17 @@
   "timeCategory": "happy hour, evening",
     "energyRamp": 3,
     "tags": "Italian patio dining, rooftop Negronis, burrata & spritz, crowd-pleasing pasta",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Home grown GA Restaurant",
-    "Vibe": "southern, kitschy, breakfast, local, vintage, casual, diner",
-    "Lat": 33.7467393,
-    "Lon": -84.35594354,
-    "Link": "https://www.instagram.com/homegrownga/",
+    "name": "Home grown GA Restaurant",
+    "vibe": "southern, kitschy, breakfast, local, vintage, casual, diner",
+    "lat": 33.7467393,
+    "lon": -84.35594354,
+    "link": "https://www.instagram.com/homegrownga/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–2:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1756,17 +1756,17 @@
   "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "ATL breakfast classic, kitschy Southern, chicken biscuit fame, old-school diner feel",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Small Fry",
-    "Vibe": "smashburgers, casual, counter-service, neon, retro, street-food",
-    "Lat": 33.74483765,
-    "Lon": -84.3613051,
-    "Link": "https://www.instagram.com/smallfryatl/",
+    "name": "Small Fry",
+    "vibe": "smashburgers, casual, counter-service, neon, retro, street-food",
+    "lat": 33.74483765,
+    "lon": -84.3613051,
+    "link": "https://www.instagram.com/smallfryatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–8:00 PM",
       "Monday": "Closed",
       "Tuesday": "12:00 PM–10:00 PM",
@@ -1800,17 +1800,17 @@
   "timeCategory": "afternoon, evening, late",
     "energyRamp": 2,
     "tags": "fast casual remix, comfort food reimagined, smash burgers & nostalgia, indie energy",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Wicked Wolf Atlanta",
-    "Vibe": "sports-bar, nightlife, downtown, party, casual, high-energy",
-    "Lat": 33.7838568,
-    "Lon": -84.3836206,
-    "Link": "https://www.instagram.com/wickedwolfatlanta/",
+    "name": "Wicked Wolf Atlanta",
+    "vibe": "sports-bar, nightlife, downtown, party, casual, high-energy",
+    "lat": 33.7838568,
+    "lon": -84.3836206,
+    "link": "https://www.instagram.com/wickedwolfatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–12:00 AM",
       "Monday": "11:00 AM–12:00 AM",
       "Tuesday": "11:00 AM–12:00 AM",
@@ -1844,17 +1844,17 @@
   "timeCategory": "evening, late",
     "energyRamp": 5,
     "tags": "high-volume nightlife, Midtown bros, drink specials, club-adjacent crowd",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "BLOCK & DRUM",
-    "Vibe": "whiskey, lounge, upscale, bourbon, polished, local, industrial",
-    "Lat": 33.888521,
-    "Lon": -84.313226,
-    "Link": "https://www.instagram.com/blockanddrum/",
+    "name": "BLOCK & DRUM",
+    "vibe": "whiskey, lounge, upscale, bourbon, polished, local, industrial",
+    "lat": 33.888521,
+    "lon": -84.313226,
+    "link": "https://www.instagram.com/blockanddrum/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "9:00 AM–10:30 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -1888,17 +1888,17 @@
   "timeCategory": "midday, evening",
     "energyRamp": 4,
     "tags": "vinyl DJ lounge, analog aesthetic, cocktail-forward, beat-driven experience",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Victory Sandwich Bar",
-    "Vibe": "sandwiches, quirky, laid-back, drinks, ironic, divey, quick-bite",
-    "Lat": 33.7639997,
-    "Lon": -84.3577859,
-    "Link": "https://www.instagram.com/victorysandwichbar/",
+    "name": "Victory Sandwich Bar",
+    "vibe": "sandwiches, quirky, laid-back, drinks, ironic, divey, quick-bite",
+    "lat": 33.7639997,
+    "lon": -84.3577859,
+    "link": "https://www.instagram.com/victorysandwichbar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "10:00 AM–12:00 AM",
       "Monday": "10:00 AM–12:00 AM",
       "Tuesday": "10:00 AM–12:00 AM",
@@ -1932,17 +1932,17 @@
   "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "ironic lunch spot, boozy slushies, casual first date, cheap eats with edge",
-    "Price": "$",
-    "Duration": 1.25
+    "price": "$",
+    "duration": 1.25
   },
   {
-    "Name": "Twain's Brewpub & Billiards",
-    "Vibe": "billiards, beer, games, local, pub, casual, arcade",
-    "Lat": 33.77228,
-    "Lon": -84.294616,
-    "Link": "https://www.instagram.com/twainsbrewpub/",
+    "name": "Twain's Brewpub & Billiards",
+    "vibe": "billiards, beer, games, local, pub, casual, arcade",
+    "lat": 33.77228,
+    "lon": -84.294616,
+    "link": "https://www.instagram.com/twainsbrewpub/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–11:00 PM",
       "Monday": "5:00 PM–11:00 PM",
       "Tuesday": "12:00 PM–11:00 PM",
@@ -1976,17 +1976,17 @@
   "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "local beer, pool tables, Decatur community hangout, weekend casual",
-    "Price": "$",
-    "Duration": 2.5
+    "price": "$",
+    "duration": 2.5
   },
   {
-    "Name": "Fawn Wine + Amaro",
-    "Vibe": "wine, intimate, european, romantic, dim, curated, aperitif",
-    "Lat": 33.775424,
-    "Lon": -84.295543,
-    "Link": "https://www.instagram.com/fawnwineamaro/",
+    "name": "Fawn Wine + Amaro",
+    "vibe": "wine, intimate, european, romantic, dim, curated, aperitif",
+    "lat": 33.775424,
+    "lon": -84.295543,
+    "link": "https://www.instagram.com/fawnwineamaro/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "4:00 PM–11:00 PM",
@@ -2020,17 +2020,17 @@
   "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "natural wine hideout, dim date bar, intimate pours, wine nerd gem",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Indaco",
-    "Vibe": "italian, stylish, light-filled, brunch, group-friendly, pasta",
-    "Lat": 33.77372173,
-    "Lon": -84.36195002,
-    "Link": "https://www.instagram.com/indacoatl/",
+    "name": "Indaco",
+    "vibe": "italian, stylish, light-filled, brunch, group-friendly, pasta",
+    "lat": 33.77372173,
+    "lon": -84.36195002,
+    "link": "https://www.instagram.com/indacoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–2:30 PM; 5:00 PM–10:00 PM",
       "Monday": "8:00 AM–2:30 PM; 4:00 PM–10:00 PM",
       "Tuesday": "8:00 AM–2:30 PM; 4:00 PM–10:00 PM",
@@ -2064,17 +2064,17 @@
   "timeCategory": "midday, evening",
     "energyRamp": 2,
     "tags": "neighborhood Italian, wood-fired mains, soft-light date spot, upscale comfort",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Tesserae",
-    "Vibe": "rooftop, lounge, swanky, skyline, DJ, upscale, cocktails",
-    "Lat": 33.83820075,
-    "Lon": -84.37431322,
-    "Link": "https://www.instagram.com/tesseraeatl/",
+    "name": "Tesserae",
+    "vibe": "rooftop, lounge, swanky, skyline, DJ, upscale, cocktails",
+    "lat": 33.83820075,
+    "lon": -84.37431322,
+    "link": "https://www.instagram.com/tesseraeatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–11:00 PM",
       "Monday": "7:00 AM–11:00 PM",
       "Tuesday": "7:00 AM–11:00 PM",
@@ -2108,17 +2108,17 @@
   "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "rooftop cocktails, skyline date energy, sleek atmosphere, lounge seating",
-    "Price": "$$$",
-    "Duration": 2.5
+    "price": "$$$",
+    "duration": 2.5
   },
   {
-    "Name": "Halfway Crooks Beer",
-    "Vibe": "brewery, belgian-style, minimalist, euro-inspired, local, industrial",
-    "Lat": 33.736999,
-    "Lon": -84.385751,
-    "Link": "https://www.instagram.com/halfwaycrooksbeer/",
+    "name": "Halfway Crooks Beer",
+    "vibe": "brewery, belgian-style, minimalist, euro-inspired, local, industrial",
+    "lat": 33.736999,
+    "lon": -84.385751,
+    "link": "https://www.instagram.com/halfwaycrooksbeer/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–10:00 PM",
       "Monday": "4:00 PM–10:00 PM",
       "Tuesday": "4:00 PM–10:00 PM",
@@ -2152,17 +2152,17 @@
   "timeCategory": "happy hour, evening",
     "energyRamp": 3,
     "tags": "Euro-style beer, retro-futurist branding, chill outdoor hangs, alt-brew vibe",
-    "Price": "$",
-    "Duration": 1.25
+    "price": "$",
+    "duration": 1.25
   },
   {
-    "Name": "SkyLounge",
-    "Vibe": "rooftop, skyline, hotel, cocktails, dressy, lounge, city-view",
-    "Lat": 33.7569695,
-    "Lon": -84.392911,
-    "Link": "https://www.instagram.com/skyloungeatl/",
+    "name": "SkyLounge",
+    "vibe": "rooftop, skyline, hotel, cocktails, dressy, lounge, city-view",
+    "lat": 33.7569695,
+    "lon": -84.392911,
+    "link": "https://www.instagram.com/skyloungeatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "4:00 PM–9:00 PM",
       "Tuesday": "4:00 PM–9:00 PM",
@@ -2196,17 +2196,17 @@
     "timeCategory": "happy hour, evening",
     "energyRamp": 4,
     "tags": "hotel rooftop, skyline selfies, cocktails with view, post-dinner flex",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Fox Marquee Club",
-    "Vibe": "lounge, theater-adjacent, stylish, cocktails, moody, upscale",
-    "Lat": 33.7726429,
-    "Lon": -84.38556184,
-    "Link": "https://www.instagram.com/foxmarqueeclub/",
+    "name": "Fox Marquee Club",
+    "vibe": "lounge, theater-adjacent, stylish, cocktails, moody, upscale",
+    "lat": 33.7726429,
+    "lon": -84.38556184,
+    "link": "https://www.instagram.com/foxmarqueeclub/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–11:00 PM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -2240,17 +2240,17 @@
     "timeCategory": "evening",
     "energyRamp": 5,
     "tags": "Broadway afterparty, dressy theater drinks, velvet and chandeliers, pre-show energy",
-    "Price": "$$",
-    "Duration": 1.66
+    "price": "$$",
+    "duration": 1.66
   },
   {
-    "Name": "9 Mile Station",
-    "Vibe": "rooftop, beer-garden, gastropub, skyline, open-air, scenic",
-    "Lat": 33.7728212,
-    "Lon": -84.3659039,
-    "Link": "https://www.instagram.com/9milestation/",
+    "name": "9 Mile Station",
+    "vibe": "rooftop, beer-garden, gastropub, skyline, open-air, scenic",
+    "lat": 33.7728212,
+    "lon": -84.3659039,
+    "link": "https://www.instagram.com/9milestation/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–10:00 PM",
       "Monday": "5:00 PM–10:00 PM",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -2284,17 +2284,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "beer garden rooftop, elevated pub menu, tourist-friendly spot, social skyline",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Breaker Breaker",
-    "Vibe": "retro, seafood, colorful, beachy, tropical, casual, playful",
-    "Lat": 33.7521019,
-    "Lon": -84.3568532,
-    "Link": "https://www.instagram.com/breakerbreaker_atl/",
+    "name": "Breaker Breaker",
+    "vibe": "retro, seafood, colorful, beachy, tropical, casual, playful",
+    "lat": 33.7521019,
+    "lon": -84.3568532,
+    "link": "https://www.instagram.com/breakerbreaker_atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–10:00 PM",
       "Monday": "5:00 PM–9:00 PM",
       "Tuesday": "Closed",
@@ -2328,17 +2328,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "oceanic vibe, bright cocktails, New American coastal, daytime-to-night transition",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "SCAD FASH Museum of Fashion + Film",
-    "Vibe": "museum, fashion, culture, design, art-forward, modern, educational",
-    "Lat": 33.798045,
-    "Lon": -84.390777,
-    "Link": "https://www.instagram.com/scadfash/",
+    "name": "SCAD FASH Museum of Fashion + Film",
+    "vibe": "museum, fashion, culture, design, art-forward, modern, educational",
+    "lat": 33.798045,
+    "lon": -84.390777,
+    "link": "https://www.instagram.com/scadfash/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–5:00 PM",
       "Monday": "Closed",
       "Tuesday": "10:00 AM–5:00 PM",
@@ -2372,17 +2372,17 @@
     "timeCategory": "afternoon, midday",
     "energyRamp": 1,
     "tags": "fashion history, high-design, editorial photo ops, arts crowd magnet",
-    "Price": "$",
-    "Duration": 2.25
+    "price": "$",
+    "duration": 2.25
   },
   {
-    "Name": "Moonlight",
-    "Vibe": "rooftop, nightlife, sleek, elevated, vibey, after-dark, cocktails",
-    "Lat": 33.768629,
-    "Lon": -84.363636,
-    "Link": "https://www.instagram.com/moonlightatlanta/",
+    "name": "Moonlight",
+    "vibe": "rooftop, nightlife, sleek, elevated, vibey, after-dark, cocktails",
+    "lat": 33.768629,
+    "lon": -84.363636,
+    "link": "https://www.instagram.com/moonlightatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "2:00 PM–9:00 PM",
       "Monday": "5:00 PM–11:00 PM",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -2416,17 +2416,17 @@
     "timeCategory": "afternoon, evening, late",
     "energyRamp": 4,
     "tags": "hidden lounge, dark glam, romantic minimalist, vinyl energy",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Little Spirit",
-    "Vibe": "cocktails, edgy, compact, neighborhood, stylish, mixology",
-    "Lat": 33.7624505,
-    "Lon": -84.35858396,
-    "Link": "https://www.instagram.com/littlespiritatl/",
+    "name": "Little Spirit",
+    "vibe": "cocktails, edgy, compact, neighborhood, stylish, mixology",
+    "lat": 33.7624505,
+    "lon": -84.35858396,
+    "link": "https://www.instagram.com/littlespiritatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "5:30 PM–2:00 AM",
       "Tuesday": "5:30 PM–2:00 AM",
@@ -2460,17 +2460,17 @@
     "timeCategory": "late",
     "energyRamp": 5,
     "tags": "craft cocktail den, tight quarters, speakeasy-adjacent, date-before-dinner",
-    "Price": "$$",
-    "Duration": 1.75
+    "price": "$$",
+    "duration": 1.75
   },
   {
-    "Name": "Blind Willie's",
-    "Vibe": "blues, live-music, dive, old-school, intimate, local, no-frills",
-    "Lat": 33.77707,
-    "Lon": -84.352605,
-    "Link": "https://www.instagram.com/blindwilliesblues/",
+    "name": "Blind Willie's",
+    "vibe": "blues, live-music, dive, old-school, intimate, local, no-frills",
+    "lat": 33.77707,
+    "lon": -84.352605,
+    "link": "https://www.instagram.com/blindwilliesblues/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -2504,17 +2504,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "live blues, divey authenticity, ATL music legacy, gritty charm",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Academy Coffee",
-    "Vibe": "espresso, local, creative, small-batch, indie, minimalist, quiet",
-    "Lat": 33.7822964,
-    "Lon": -84.3538294,
-    "Link": "https://www.instagram.com/academycoffeeatl/",
+    "name": "Academy Coffee",
+    "vibe": "espresso, local, creative, small-batch, indie, minimalist, quiet",
+    "lat": 33.7822964,
+    "lon": -84.3538294,
+    "link": "https://www.instagram.com/academycoffeeatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–7:00 PM",
       "Monday": "8:00 AM–7:00 PM",
       "Tuesday": "8:00 AM–7:00 PM",
@@ -2548,17 +2548,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "third wave espresso, minimalist interior, creative freelancers, quiet ritual space",
-    "Price": "$",
-    "Duration": 0.5
+    "price": "$",
+    "duration": 0.5
   },
   {
-    "Name": "Big Softie",
-    "Vibe": "soft-serve, cute, dessert, family-friendly, colorful, walk-up",
-    "Lat": 33.77173338,
-    "Lon": -84.35261552,
-    "Link": "https://www.instagram.com/bigsoftieatl/",
+    "name": "Big Softie",
+    "vibe": "soft-serve, cute, dessert, family-friendly, colorful, walk-up",
+    "lat": 33.77173338,
+    "lon": -84.35261552,
+    "link": "https://www.instagram.com/bigsoftieatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–10:00 PM",
       "Monday": "12:00 PM–9:00 PM",
       "Tuesday": "12:00 PM–9:00 PM",
@@ -2592,17 +2592,17 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 1,
     "tags": "soft serve shop, kid-friendly, Instagram cone art, sunny weekend stop",
-    "Price": "$",
-    "Duration": 0.5
+    "price": "$",
+    "duration": 0.5
   },
   {
-    "Name": "Plaza Theatre",
-    "Vibe": "indie-film, historic, retro, cult-classic, cinema, vintage",
-    "Lat": 33.77334445,
-    "Lon": -84.35304857,
-    "Link": "https://www.instagram.com/plazaatlanta/",
+    "name": "Plaza Theatre",
+    "vibe": "indie-film, historic, retro, cult-classic, cinema, vintage",
+    "lat": 33.77334445,
+    "lon": -84.35304857,
+    "link": "https://www.instagram.com/plazaatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -2636,17 +2636,17 @@
     "timeCategory": "",
     "energyRamp": 2,
     "tags": "cult classic hub, indie film, drag shows & midnight screenings, ATL nostalgia",
-    "Price": "$",
-    "Duration": 2.5
+    "price": "$",
+    "duration": 2.5
   },
   {
-    "Name": "Whitespace Gallery",
-    "Vibe": "art, contemporary, white-box, curated, local, emerging-art",
-    "Lat": 33.7557099,
-    "Lon": -84.36083484,
-    "Link": "https://www.instagram.com/whitespace814/",
+    "name": "Whitespace Gallery",
+    "vibe": "art, contemporary, white-box, curated, local, emerging-art",
+    "lat": 33.7557099,
+    "lon": -84.36083484,
+    "link": "https://www.instagram.com/whitespace814/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–5:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -2680,17 +2680,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "emerging artists, experimental works, intimate art events, critical darling",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "ABV Gallery",
-    "Vibe": "street-art, urban, curated, modern, edgy, youth-driven, mural",
-    "Lat": 33.7419059,
-    "Lon": -84.3481672,
-    "Link": "https://www.instagram.com/abvgallery/",
+    "name": "ABV Gallery",
+    "vibe": "street-art, urban, curated, modern, edgy, youth-driven, mural",
+    "lat": 33.7419059,
+    "lon": -84.3481672,
+    "link": "https://www.instagram.com/abvgallery/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–7:00 PM",
       "Monday": "11:00 AM–5:00 PM",
       "Tuesday": "10:00 AM–5:00 PM",
@@ -2724,17 +2724,17 @@
     "timeCategory": "midday, afternoon",
     "energyRamp": 2,
     "tags": "street art curation, culture crossover, sneakerhead crowd, music meets mural",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Mason Fine Art",
-    "Vibe": "gallery, contemporary, upscale, curated, rotating-exhibits, polished, large-space",
-    "Lat": 33.830522,
-    "Lon": -84.361945,
-    "Link": "https://www.instagram.com/masonfineart/",
+    "name": "Mason Fine Art",
+    "vibe": "gallery, contemporary, upscale, curated, rotating-exhibits, polished, large-space",
+    "lat": 33.830522,
+    "lon": -84.361945,
+    "link": "https://www.instagram.com/masonfineart/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–5:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -2768,17 +2768,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "large-scale exhibits, high-end contemporary, VIP art circuit, private events",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Johnson Lowe Gallery",
-    "Vibe": "gallery, modern, black-art, curated, fine-art, boutique, emerging",
-    "Lat": 33.8312303,
-    "Lon": -84.3621253,
-    "Link": "https://www.instagram.com/johnsonlowegallery/",
+    "name": "Johnson Lowe Gallery",
+    "vibe": "gallery, modern, black-art, curated, fine-art, boutique, emerging",
+    "lat": 33.8312303,
+    "lon": -84.3621253,
+    "link": "https://www.instagram.com/johnsonlowegallery/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–5:30 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -2812,17 +2812,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "Afrocentric focus, academic lean, cultural storytelling, black fine art spotlight",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "The Painted Pin",
-    "Vibe": "bowling, upscale, nightlife, social, arcade, cocktails, industrial",
-    "Lat": 33.83001715,
-    "Lon": -84.362606,
-    "Link": "https://www.instagram.com/thepaintedpinatl/",
+    "name": "The Painted Pin",
+    "vibe": "bowling, upscale, nightlife, social, arcade, cocktails, industrial",
+    "lat": 33.83001715,
+    "lon": -84.362606,
+    "link": "https://www.instagram.com/thepaintedpinatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–2:00 AM",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -2856,17 +2856,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "lux bowling, group date fun, cocktails and competition, party arcade",
-    "Price": "$$$",
-    "Duration": 3
+    "price": "$$$",
+    "duration": 3
   },
   {
-    "Name": "Painted Pickle",
-    "Vibe": "pickleball, social-club, games, bar, vibrant, indoor-outdoor, sporty",
-    "Lat": 33.81169055,
-    "Lon": -84.37754088,
-    "Link": "https://www.instagram.com/paintedpickleatl/",
+    "name": "Painted Pickle",
+    "vibe": "pickleball, social-club, games, bar, vibrant, indoor-outdoor, sporty",
+    "lat": 33.81169055,
+    "lon": -84.37754088,
+    "link": "https://www.instagram.com/paintedpickleatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "9:00 AM–12:00 AM",
       "Monday": "9:00 AM–10:00 PM",
       "Tuesday": "9:00 AM–11:00 PM",
@@ -2900,17 +2900,17 @@
     "timeCategory": "midday, evening",
     "energyRamp": 4,
     "tags": "pickleball & play, social club energy, day-to-night action, fitness meets fun",
-    "Price": "$$",
-    "Duration": 3
+    "price": "$$",
+    "duration": 3
   },
   {
-    "Name": "SweetWater Brewing Company",
-    "Vibe": "brewery, beer, outdoors, casual, spacious, southern, laid-back",
-    "Lat": 33.8083643,
-    "Lon": -84.38069217,
-    "Link": "https://www.instagram.com/sweetwatertaproom/",
+    "name": "SweetWater Brewing Company",
+    "vibe": "brewery, beer, outdoors, casual, spacious, southern, laid-back",
+    "lat": 33.8083643,
+    "lon": -84.38069217,
+    "link": "https://www.instagram.com/sweetwatertaproom/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–10:00 PM",
       "Monday": "11:30 AM–8:00 PM",
       "Tuesday": "11:30 AM–9:00 PM",
@@ -2944,17 +2944,17 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 3,
     "tags": "flagship ATL brewery, outdoor beer garden, fratty energy, large-group friendly",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Hotto Hotto Ramen & Teppanyaki",
-    "Vibe": "ramen, teppanyaki, asian, bold-flavor, urban, sit-down, warm",
-    "Lat": 33.7258276,
-    "Lon": -84.37704052,
-    "Link": "https://www.instagram.com/hottohottoatl/",
+    "name": "Hotto Hotto Ramen & Teppanyaki",
+    "vibe": "ramen, teppanyaki, asian, bold-flavor, urban, sit-down, warm",
+    "lat": 33.7258276,
+    "lon": -84.37704052,
+    "link": "https://www.instagram.com/hottohottoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "12:00 PM–9:00 PM",
@@ -2988,17 +2988,17 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 2,
     "tags": "DIY teppan tables, cozy ramen spot, lunch crowd favorite, fusion-friendly",
-    "Price": "$$",
-    "Duration": 1.75
+    "price": "$$",
+    "duration": 1.75
   },
   {
-    "Name": "Buteco",
-    "Vibe": "brazilian, music, bar, multicultural, vibrant, relaxed, patio",
-    "Lat": 33.7250434,
-    "Lon": -84.3770384,
-    "Link": "https://www.instagram.com/butecoatl/",
+    "name": "Buteco",
+    "vibe": "brazilian, music, bar, multicultural, vibrant, relaxed, patio",
+    "lat": 33.7250434,
+    "lon": -84.3770384,
+    "link": "https://www.instagram.com/butecoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–12:00 AM",
       "Monday": "Closed",
       "Tuesday": "11:00 AM–11:00 PM",
@@ -3032,17 +3032,17 @@
     "timeCategory": "midday, evening, late",
     "energyRamp": 3,
     "tags": "Brazilian bar café, live music nights, Latin low-key energy, ATL-Belo Horizonte crossover",
-    "Price": "$",
-    "Duration": 1.75
+    "price": "$",
+    "duration": 1.75
   },
   {
-    "Name": "Ziba's Bistro and Wine Bar",
-    "Vibe": "wine, cozy, european, low-light, casual, intimate, charming",
-    "Lat": 33.7391559,
-    "Lon": -84.3679104,
-    "Link": "https://www.instagram.com/zibasbistroandwinebar/",
+    "name": "Ziba's Bistro and Wine Bar",
+    "vibe": "wine, cozy, european, low-light, casual, intimate, charming",
+    "lat": 33.7391559,
+    "lon": -84.3679104,
+    "link": "https://www.instagram.com/zibasbistroandwinebar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -3076,17 +3076,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "Euro-style bistro, intimate date spot, neighborhood wine escape, candlelit nook",
-    "Price": "$$",
-    "Duration": 1.66
+    "price": "$$",
+    "duration": 1.66
   },
   {
-    "Name": "HC Biergarten",
-    "Vibe": "biergarten, outdoor, social, casual, festive, group-friendly, picnic",
-    "Lat": 33.73708276,
-    "Lon": -84.38546065,
-    "Link": "https://www.instagram.com/hcbiergarten/",
+    "name": "HC Biergarten",
+    "vibe": "biergarten, outdoor, social, casual, festive, group-friendly, picnic",
+    "lat": 33.73708276,
+    "lon": -84.38546065,
+    "link": "https://www.instagram.com/hcbiergarten/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3120,17 +3120,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "German beer hall, open-air drinking, big tables, weekend soccer watch",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "BOCA",
-    "Vibe": "latin, bar, cocktails, night-out, vibrant, modern, small-plates",
-    "Lat": 33.736626,
-    "Lon": -84.386469,
-    "Link": "https://www.instagram.com/bocaatl/",
+    "name": "BOCA",
+    "vibe": "latin, bar, cocktails, night-out, vibrant, modern, small-plates",
+    "lat": 33.736626,
+    "lon": -84.386469,
+    "link": "https://www.instagram.com/bocaatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–11:00 PM",
       "Monday": "12:00 PM–10:00 PM",
       "Tuesday": "12:00 PM–10:00 PM",
@@ -3156,17 +3156,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "Latino nightclub, bottle service vibe, neon heat, bachata-heavy nights",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Talat Market",
-    "Vibe": "thai, inventive, buzzy, chef-driven, patio, seasonal, flavor-packed",
-    "Lat": 33.7317567,
-    "Lon": -84.3839743,
-    "Link": "https://www.instagram.com/talatmarketatl/",
+    "name": "Talat Market",
+    "vibe": "thai, inventive, buzzy, chef-driven, patio, seasonal, flavor-packed",
+    "lat": 33.7317567,
+    "lon": -84.3839743,
+    "link": "https://www.instagram.com/talatmarketatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3192,17 +3192,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "progressive Thai, tasting menu fusion, culinary acclaim, alt-dining energy",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Lottafrutta",
-    "Vibe": "smoothie, fruit, cuban, breakfast, fresh, colorful, daytime",
-    "Lat": 33.75597905,
-    "Lon": -84.36808679,
-    "Link": "https://www.instagram.com/lottafruttaatl/",
+    "name": "Lottafrutta",
+    "vibe": "smoothie, fruit, cuban, breakfast, fresh, colorful, daytime",
+    "lat": 33.75597905,
+    "lon": -84.36808679,
+    "link": "https://www.instagram.com/lottafruttaatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–4:00 PM",
       "Monday": "Closed",
       "Tuesday": "12:00 PM–5:00 PM",
@@ -3228,17 +3228,17 @@
     "timeCategory": "midday, afternoon",
     "energyRamp": 1,
     "tags": "fruit-forward brunch, smoothie bowls, colorful cafe, health-conscious locals",
-    "Price": "$",
-    "Duration": 0.5
+    "price": "$",
+    "duration": 0.5
   },
   {
-    "Name": "The Little Tart Bakeshop",
-    "Vibe": "bakery, coffee, french-inspired, pastry, minimalist, local",
-    "Lat": 33.746078,
-    "Lon": -84.3727959,
-    "Link": "https://www.instagram.com/littletartbakeshop/",
+    "name": "The Little Tart Bakeshop",
+    "vibe": "bakery, coffee, french-inspired, pastry, minimalist, local",
+    "lat": 33.746078,
+    "lon": -84.3727959,
+    "link": "https://www.instagram.com/littletartbakeshop/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–3:00 PM; 5:00 PM–9:00 PM",
       "Monday": "7:00 AM–6:00 PM",
       "Tuesday": "7:00 AM–6:00 PM",
@@ -3264,17 +3264,17 @@
     "timeCategory": "morning, midday, evening",
     "energyRamp": 1,
     "tags": "French pastries, cozy morning ritual, aesthetic bakery, ATL's croissant benchmark",
-    "Price": "$",
-    "Duration": 0.5
+    "price": "$",
+    "duration": 0.5
   },
   {
-    "Name": "Staplehouse",
-    "Vibe": "fine-dining, modern, tasting-menu, seasonal, elegant, chef-driven",
-    "Lat": 33.754103,
-    "Lon": -84.369851,
-    "Link": "https://www.instagram.com/staplehouse/",
+    "name": "Staplehouse",
+    "vibe": "fine-dining, modern, tasting-menu, seasonal, elegant, chef-driven",
+    "lat": 33.754103,
+    "lon": -84.369851,
+    "link": "https://www.instagram.com/staplehouse/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3300,17 +3300,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "Michelin-star intimacy, chef’s narrative, tasting menu journey, special-occasion minimalism",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "OK YAKI",
-    "Vibe": "japanese, okonomiyaki, authentic, counter-service, casual, niche, neighborhood",
-    "Lat": 33.7348157,
-    "Lon": -84.34881795,
-    "Link": "https://www.instagram.com/okyakiatl/",
+    "name": "OK YAKI",
+    "vibe": "japanese, okonomiyaki, authentic, counter-service, casual, niche, neighborhood",
+    "lat": 33.7348157,
+    "lon": -84.34881795,
+    "link": "https://www.instagram.com/okyakiatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "1:00 PM–1:00 AM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3336,17 +3336,17 @@
     "timeCategory": "late",
     "energyRamp": 3,
     "tags": "gritty yakisoba house, Japanese dive feel, East ATL cult fave, late-night noodles",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "Gaja Korean Bar",
-    "Vibe": "korean, cocktails, late-night, trendy, neon, grilled, edgy",
-    "Lat": 33.7405484,
-    "Lon": -84.3463317,
-    "Link": "https://www.instagram.com/gaja_eav/",
+    "name": "Gaja Korean Bar",
+    "vibe": "korean, cocktails, late-night, trendy, neon, grilled, edgy",
+    "lat": 33.7405484,
+    "lon": -84.3463317,
+    "link": "https://www.instagram.com/gaja_eav/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–12:00 AM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -3372,17 +3372,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "soju & small plates, neon-lit hangout, Korean fusion flavors, Gen Z nightlife magnet",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Bellwood Coffee - East Atlanta Village",
-    "Vibe": "coffee, local, minimalist, plant-filled, laptop-friendly, cozy",
-    "Lat": 33.7403846,
-    "Lon": -84.34377155,
-    "Link": "https://www.instagram.com/bellwoodcoffee/",
+    "name": "Bellwood Coffee - East Atlanta Village",
+    "vibe": "coffee, local, minimalist, plant-filled, laptop-friendly, cozy",
+    "lat": 33.7403846,
+    "lon": -84.34377155,
+    "link": "https://www.instagram.com/bellwoodcoffee/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–6:00 PM",
       "Monday": "7:00 AM–5:00 PM",
       "Tuesday": "7:00 AM–5:00 PM",
@@ -3408,17 +3408,17 @@
     "timeCategory": "morning",
     "energyRamp": 1,
     "tags": "minimalist brew bar, creative class caffeine, East Atlanta focus, sit-down sip spot",
-    "Price": "$",
-    "Duration": 0.75
+    "price": "$",
+    "duration": 0.75
   },
   {
-    "Name": "Banshee",
-    "Vibe": "upscale, date-night, cocktails, new-american, moody, buzzy",
-    "Lat": 33.7400282,
-    "Lon": -84.3459555,
-    "Link": "https://www.instagram.com/banshee_eav/",
+    "name": "Banshee",
+    "vibe": "upscale, date-night, cocktails, new-american, moody, buzzy",
+    "lat": 33.7400282,
+    "lon": -84.3459555,
+    "link": "https://www.instagram.com/banshee_eav/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -3444,17 +3444,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 5,
     "tags": "modern Southern, chef-led date night, chic bar crowd, inventive comfort food",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Lifting Noodles Ramen",
-    "Vibe": "ramen, street-style, quick-bite, flavorful, casual, hip",
-    "Lat": 33.7409824,
-    "Lon": -84.3464894,
-    "Link": "https://www.instagram.com/liftingnoodlesramen/",
+    "name": "Lifting Noodles Ramen",
+    "vibe": "ramen, street-style, quick-bite, flavorful, casual, hip",
+    "lat": 33.7409824,
+    "lon": -84.3464894,
+    "link": "https://www.instagram.com/liftingnoodlesramen/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "11:30 AM–9:00 PM",
@@ -3480,17 +3480,17 @@
     "timeCategory": "midday",
     "energyRamp": 2,
     "tags": "quick casual ramen, heavy on toppings, anime-wrapped interiors, college crowd",
-    "Price": "$",
-    "Duration": 1.25
+    "price": "$",
+    "duration": 1.25
   },
   {
-    "Name": "Pure Quill Superette",
-    "Vibe": "gourmet, pantry, local-goods, deli, quirky, small-format, curated",
-    "Lat": 33.7477238,
-    "Lon": -84.3428416,
-    "Link": "https://www.instagram.com/pure.quill.superette/",
+    "name": "Pure Quill Superette",
+    "vibe": "gourmet, pantry, local-goods, deli, quirky, small-format, curated",
+    "lat": 33.7477238,
+    "lon": -84.3428416,
+    "link": "https://www.instagram.com/pure.quill.superette/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "9:00 AM–6:00 PM",
       "Monday": "9:00 AM–6:00 PM",
       "Tuesday": "9:00 AM–6:00 PM",
@@ -3516,17 +3516,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "gourmet pantry, neighborhood micro-market, curated goods, hybrid cafe-model",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Adult Big Wheel Club",
-    "Vibe": "retro, arcade, nostalgic, kitschy, playful, nightlife, quirky",
-    "Lat": 33.74970365,
-    "Lon": -84.3443804,
-    "Link": "https://www.instagram.com/adultbigwheelclub/",
+    "name": "Adult Big Wheel Club",
+    "vibe": "retro, arcade, nostalgic, kitschy, playful, nightlife, quirky",
+    "lat": 33.74970365,
+    "lon": -84.3443804,
+    "link": "https://www.instagram.com/adultbigwheelclub/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "9:00 AM–9:00 PM",
       "Monday": "9:00 AM–9:00 PM",
       "Tuesday": "9:00 AM–9:00 PM",
@@ -3552,17 +3552,17 @@
     "timeCategory": "midday",
     "energyRamp": 3,
     "tags": "karaoke dive, neon trash aesthetic, chaotic party energy, ATL’s weird late-night",
-    "Price": "$",
-    "Duration": 3
+    "price": "$",
+    "duration": 3
   },
   {
-    "Name": "ParkGrounds",
-    "Vibe": "dog-friendly, coffee, patio, casual, local, community",
-    "Lat": 33.7501026,
-    "Lon": -84.354649,
-    "Link": "https://www.instagram.com/parkgrounds/",
+    "name": "ParkGrounds",
+    "vibe": "dog-friendly, coffee, patio, casual, local, community",
+    "lat": 33.7501026,
+    "lon": -84.354649,
+    "link": "https://www.instagram.com/parkgrounds/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–8:00 PM",
       "Monday": "8:00 AM–8:00 PM",
       "Tuesday": "8:00 AM–8:00 PM",
@@ -3588,17 +3588,17 @@
     "timeCategory": "morning",
     "energyRamp": 1,
     "tags": "dog-friendly patio, neighborhood coffee, fenced pup run, laptop-friendly",
-    "Price": "$",
-    "Duration": 0.75
+    "price": "$",
+    "duration": 0.75
   },
   {
-    "Name": "El Malo",
-    "Vibe": "tropical, moody, cocktails, immersive, Latin, bar",
-    "Lat": 33.7460782,
-    "Lon": -84.3610218,
-    "Link": "https://www.instagram.com/elmalo.atl/",
+    "name": "El Malo",
+    "vibe": "tropical, moody, cocktails, immersive, Latin, bar",
+    "lat": 33.7460782,
+    "lon": -84.3610218,
+    "link": "https://www.instagram.com/elmalo.atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "6:00 PM–12:00 AM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3624,17 +3624,17 @@
     "timeCategory": "late",
     "energyRamp": 5,
     "tags": "mezcal-centric, high-design dark bar, cool kid speakeasy, music-forward",
-    "Price": "$$$",
-    "Duration": 3
+    "price": "$$$",
+    "duration": 3
   },
   {
-    "Name": "Muchacho",
-    "Vibe": "tacos, colorful, casual, breakfast, patio, trendy",
-    "Lat": 33.7468699,
-    "Lon": -84.35798802,
-    "Link": "https://www.instagram.com/muchachoatl/",
+    "name": "Muchacho",
+    "vibe": "tacos, colorful, casual, breakfast, patio, trendy",
+    "lat": 33.7468699,
+    "lon": -84.35798802,
+    "link": "https://www.instagram.com/muchachoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–11:00 PM",
       "Monday": "8:00 AM–10:00 PM",
       "Tuesday": "8:00 AM–10:00 PM",
@@ -3660,17 +3660,17 @@
     "timeCategory": "midday, evening",
     "energyRamp": 2,
     "tags": "sun-drenched tacos, counter-service chill, breakfast burrito hype, patio brunch energy",
-    "Price": "$$",
-    "Duration": 1.25
+    "price": "$$",
+    "duration": 1.25
   },
   {
-    "Name": "El Tesoro",
-    "Vibe": "mexican, outdoor, rustic, authentic, family-friendly",
-    "Lat": 33.749472,
-    "Lon": -84.342591,
-    "Link": "https://www.instagram.com/eltesoroatl/",
+    "name": "El Tesoro",
+    "vibe": "mexican, outdoor, rustic, authentic, family-friendly",
+    "lat": 33.749472,
+    "lon": -84.342591,
+    "link": "https://www.instagram.com/eltesoroatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "10:00 AM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "11:00 AM–9:00 PM",
@@ -3696,17 +3696,17 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 2,
     "tags": "authentic Mexican, daytime margaritas, taco truck feel, no-frills delicious",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "a mano",
-    "Vibe": "italian, cozy, seasonal, neighborhood, date-night",
-    "Lat": 33.76387055,
-    "Lon": -84.36830803,
-    "Link": "https://www.instagram.com/amanoatl/",
+    "name": "a mano",
+    "vibe": "italian, cozy, seasonal, neighborhood, date-night",
+    "lat": 33.76387055,
+    "lon": -84.36830803,
+    "link": "https://www.instagram.com/amanoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
       "Monday": "Closed",
       "Tuesday": "11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
@@ -3732,17 +3732,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "Italian comfort, cozy porch dining, low-key romance, wine and handmade pasta",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Woody's CheeseSteaks",
-    "Vibe": "cheesesteak, late-night, classic, fast-casual, local",
-    "Lat": 33.77935922,
-    "Lon": -84.36955514,
-    "Link": "https://www.instagram.com/woodysatl/",
+    "name": "Woody's CheeseSteaks",
+    "vibe": "cheesesteak, late-night, classic, fast-casual, local",
+    "lat": 33.77935922,
+    "lon": -84.36955514,
+    "link": "https://www.instagram.com/woodysatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–12:00 AM",
       "Monday": "11:00 AM–12:00 AM",
       "Tuesday": "11:00 AM–12:00 AM",
@@ -3768,17 +3768,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "late-night comfort, walk-up window, counter culture, cheap eats classic",
-    "Price": "$",
-    "Duration": 1
+    "price": "$",
+    "duration": 1
   },
   {
-    "Name": "Park Tavern",
-    "Vibe": "patio, casual, events, Piedmont-Park, group-friendly",
-    "Lat": 33.7821472,
-    "Lon": -84.36923885,
-    "Link": "https://www.instagram.com/parktavern/",
+    "name": "Park Tavern",
+    "vibe": "patio, casual, events, Piedmont-Park, group-friendly",
+    "lat": 33.7821472,
+    "lon": -84.36923885,
+    "link": "https://www.instagram.com/parktavern/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–12:00 AM",
       "Monday": "4:30 PM–12:00 AM",
       "Tuesday": "4:30 PM–12:00 AM",
@@ -3804,17 +3804,17 @@
     "timeCategory": "evening",
     "energyRamp": 4,
     "tags": "Piedmont Park patio, big weekend energy, drinks with a view, casual crowd magnet",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Bar Margot",
-    "Vibe": "upscale, hotel, cocktails, modern, stylish",
-    "Lat": 33.78657571,
-    "Lon": -84.38509403,
-    "Link": "https://www.instagram.com/barmargotatl/",
+    "name": "Bar Margot",
+    "vibe": "upscale, hotel, cocktails, modern, stylish",
+    "lat": 33.78657571,
+    "lon": -84.38509403,
+    "link": "https://www.instagram.com/barmargotatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "3:00 PM–11:00 PM",
       "Monday": "3:00 PM–11:00 PM",
       "Tuesday": "3:00 PM–11:00 PM",
@@ -3840,17 +3840,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "hotel cocktail lounge, chic business drinks, polished ambiance, polished plate menu",
-    "Price": "$$$",
-    "Duration": 1.5
+    "price": "$$$",
+    "duration": 1.5
   },
   {
-    "Name": "MidCity",
-    "Vibe": "cocktails, sleek, modern, casual, downtown",
-    "Lat": 33.7776363,
-    "Lon": -84.3872941,
-    "Link": "https://www.instagram.com/midcity.atl/",
+    "name": "MidCity",
+    "vibe": "cocktails, sleek, modern, casual, downtown",
+    "lat": 33.7776363,
+    "lon": -84.3872941,
+    "link": "https://www.instagram.com/midcity.atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–10:00 PM",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -3876,17 +3876,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "modern bar & grill, weekday happy hour, downtown reset, unpretentious energy",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "The Garden Room",
-    "Vibe": "floral, whimsical, upscale, brunch, experiential, photo-ready",
-    "Lat": 33.8398015,
-    "Lon": -84.38241589,
-    "Link": "https://www.instagram.com/thegardenroomatlanta/",
+    "name": "The Garden Room",
+    "vibe": "floral, whimsical, upscale, brunch, experiential, photo-ready",
+    "lat": 33.8398015,
+    "lon": -84.38241589,
+    "link": "https://www.instagram.com/thegardenroomatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–3:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3912,17 +3912,17 @@
     "timeCategory": "midday, evening, late",
     "energyRamp": 4,
     "tags": "floral maximalism, Instagram opulence, upscale cocktails, girls’ night luxe",
-    "Price": "$$$$",
-    "Duration": 2
+    "price": "$$$$",
+    "duration": 2
   },
   {
-    "Name": "Himitsu",
-    "Vibe": "speakeasy, exclusive, Japanese, intimate, moody, upscale",
-    "Lat": 33.8387046,
-    "Lon": -84.3810675,
-    "Link": "https://www.instagram.com/umisushiatl",
+    "name": "Himitsu",
+    "vibe": "speakeasy, exclusive, Japanese, intimate, moody, upscale",
+    "lat": 33.8387046,
+    "lon": -84.3810675,
+    "link": "https://www.instagram.com/umisushiatl",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 PM–1:00 AM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -3948,17 +3948,17 @@
     "timeCategory": "late",
     "energyRamp": 5,
     "tags": "exclusive omakase, private sushi lounge, high-spend minimalism, zen luxe",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Ranger Station",
-    "Vibe": "casual, urban, hangout, eclectic, lounge, local",
-    "Lat": 33.759717,
-    "Lon": -84.3646037,
-    "Link": "https://www.instagram.com/rangerstationatl/",
+    "name": "Ranger Station",
+    "vibe": "casual, urban, hangout, eclectic, lounge, local",
+    "lat": 33.759717,
+    "lon": -84.3646037,
+    "link": "https://www.instagram.com/rangerstationatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–12:00 AM",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -3984,17 +3984,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 2,
     "tags": "intimate dive feel, Americana-heavy vibe, late-night regulars, whiskey-forward",
-    "Price": "$$",
-    "Duration": 1.75
+    "price": "$$",
+    "duration": 1.75
   },
   {
-    "Name": "Bully Boy",
-    "Vibe": "Japanese, chic, fusion, minimalist, date-night",
-    "Lat": 33.768267,
-    "Lon": -84.360439,
-    "Link": "https://www.instagram.com/bullyboyatl/",
+    "name": "Bully Boy",
+    "vibe": "Japanese, chic, fusion, minimalist, date-night",
+    "lat": 33.768267,
+    "lon": -84.360439,
+    "link": "https://www.instagram.com/bullyboyatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -4020,17 +4020,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "East Asian-American fusion, sleek interiors, large-group dining, sake-driven menu",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Burle's Bar",
-    "Vibe": "speakeasy, intimate, dim, industrial, cocktails",
-    "Lat": 33.7681929,
-    "Lon": -84.362462,
-    "Link": "https://www.instagram.com/burlesbar/",
+    "name": "Burle's Bar",
+    "vibe": "speakeasy, intimate, dim, industrial, cocktails",
+    "lat": 33.7681929,
+    "lon": -84.362462,
+    "link": "https://www.instagram.com/burlesbar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "3:00 PM–12:00 AM",
@@ -4056,17 +4056,17 @@
     "timeCategory": "midday, evening, late",
     "energyRamp": 3,
     "tags": "Westside dive, under-the-radar, vinyl nights, no-frills charm",
-    "Price": "$$",
-    "Duration": 1.25
+    "price": "$$",
+    "duration": 1.25
   },
   {
-    "Name": "The Local",
-    "Vibe": "dive-bar, casual, karaoke, no-frills, neighborhood",
-    "Lat": 33.7741056,
-    "Lon": -84.36229035,
-    "Link": "https://www.instagram.com/thelocalonponce/",
+    "name": "The Local",
+    "vibe": "dive-bar, casual, karaoke, no-frills, neighborhood",
+    "lat": 33.7741056,
+    "lon": -84.36229035,
+    "link": "https://www.instagram.com/thelocalonponce/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–12:00 AM",
       "Monday": "8:00 PM–2:00 AM",
       "Tuesday": "Closed",
@@ -4092,17 +4092,17 @@
     "timeCategory": "late",
     "energyRamp": 3,
     "tags": "neighborhood dive, trivia nights, comfort food + beer, ATL old guard",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Alon's Bakery & Market",
-    "Vibe": "European, gourmet, bakery, market, brunch, refined",
-    "Lat": 33.7926253,
-    "Lon": -84.3528263,
-    "Link": "https://www.instagram.com/alonsbakery/",
+    "name": "Alon's Bakery & Market",
+    "vibe": "European, gourmet, bakery, market, brunch, refined",
+    "lat": 33.7926253,
+    "lon": -84.3528263,
+    "link": "https://www.instagram.com/alonsbakery/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "9:00 AM–4:00 PM",
       "Monday": "7:00 AM–7:00 PM",
       "Tuesday": "7:00 AM–7:00 PM",
@@ -4128,17 +4128,17 @@
     "timeCategory": "morning",
     "energyRamp": 1,
     "tags": "Euro-style deli, gourmet pastries, premium to-go, slow brunch escape",
-    "Price": "$",
-    "Duration": 1
+    "price": "$",
+    "duration": 1
   },
   {
-    "Name": "Mary Mac's Tea Room",
-    "Vibe": "southern, historic, traditional, comfort-food, family",
-    "Lat": 33.7728357,
-    "Lon": -84.3799419,
-    "Link": "https://www.instagram.com/marymacstearoom/",
+    "name": "Mary Mac's Tea Room",
+    "vibe": "southern, historic, traditional, comfort-food, family",
+    "lat": 33.7728357,
+    "lon": -84.3799419,
+    "link": "https://www.instagram.com/marymacstearoom/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–9:00 PM",
       "Monday": "11:00 AM–9:00 PM",
       "Tuesday": "11:00 AM–9:00 PM",
@@ -4164,17 +4164,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "Southern hospitality classic, meat-and-three institution, family-style tradition, ATL heritage",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "The Varsity",
-    "Vibe": "fast-food, retro, iconic, American, touristy",
-    "Lat": 33.77170735,
-    "Lon": -84.38931505,
-    "Link": "https://www.instagram.com/thevarsity1928/",
+    "name": "The Varsity",
+    "vibe": "fast-food, retro, iconic, American, touristy",
+    "lat": 33.77170735,
+    "lon": -84.38931505,
+    "link": "https://www.instagram.com/thevarsity1928/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–8:00 PM",
       "Monday": "11:00 AM–8:00 PM",
       "Tuesday": "11:00 AM–8:00 PM",
@@ -4200,17 +4200,17 @@
     "timeCategory": "midday, evening",
     "energyRamp": 2,
     "tags": "fast food landmark, vintage counter service, greasy spoon energy, historic ATL staple",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Drawbar",
-    "Vibe": "rooftop, scenic, upscale, brunch, cocktails, stylish",
-    "Lat": 33.78497,
-    "Lon": -84.410571,
-    "Link": "https://www.instagram.com/drawbaratl/",
+    "name": "Drawbar",
+    "vibe": "rooftop, scenic, upscale, brunch, cocktails, stylish",
+    "lat": 33.78497,
+    "lon": -84.410571,
+    "link": "https://www.instagram.com/drawbaratl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "6:30 AM–1:00 AM",
       "Monday": "6:30 AM–11:00 PM",
       "Tuesday": "6:30 AM–11:00 PM",
@@ -4236,17 +4236,17 @@
     "timeCategory": "midday, late",
     "energyRamp": 4,
     "tags": "rooftop cocktails, skyline views, sleek date night, lounge meets luxe",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Little Sparrow",
-    "Vibe": "cocktail-bar, moody, modern, chic, intimate",
-    "Lat": 33.787134,
-    "Lon": -84.41266,
-    "Link": "https://www.instagram.com/littlesparrowatlanta/",
+    "name": "Little Sparrow",
+    "vibe": "cocktail-bar, moody, modern, chic, intimate",
+    "lat": 33.787134,
+    "lon": -84.41266,
+    "link": "https://www.instagram.com/littlesparrowatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–11:00 PM",
       "Monday": "5:00 PM–10:00 PM",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -4272,17 +4272,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "natural wine, minimalist interiors, creative pairings, Eastside date staple",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Palo Santo",
-    "Vibe": "rooftop, Latin, upscale, views, mezcal, nightlife",
-    "Lat": 33.78396723,
-    "Lon": -84.41817131,
-    "Link": "https://www.instagram.com/palosanto_atl/",
+    "name": "Palo Santo",
+    "vibe": "rooftop, Latin, upscale, views, mezcal, nightlife",
+    "lat": 33.78396723,
+    "lon": -84.41817131,
+    "link": "https://www.instagram.com/palosanto_atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "6:00 PM–2:00 AM",
       "Monday": "Closed",
       "Tuesday": "6:00 PM–12:00 AM",
@@ -4308,17 +4308,17 @@
     "timeCategory": "late",
     "energyRamp": 5,
     "tags": "rooftop taqueria, sexy tacos, mezcal-forward menu, tropical Atlanta energy",
-    "Price": "$$$",
-    "Duration": 2.5
+    "price": "$$$",
+    "duration": 2.5
   },
   {
-    "Name": "High Museum of Art",
-    "Vibe": "art, contemporary, culture, modern, architecture, educational",
-    "Lat": 33.78953465,
-    "Lon": -84.38626657,
-    "Link": "https://www.instagram.com/highmuseumofart/",
+    "name": "High Museum of Art",
+    "vibe": "art, contemporary, culture, modern, architecture, educational",
+    "lat": 33.78953465,
+    "lon": -84.38626657,
+    "link": "https://www.instagram.com/highmuseumofart/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–5:00 PM",
       "Monday": "Closed",
       "Tuesday": "10:00 AM–5:00 PM",
@@ -4344,17 +4344,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "cultural cornerstone, rotating exhibitions, dressy museum crowd, art-forward programming",
-    "Price": "$",
-    "Duration": 2.5
+    "price": "$",
+    "duration": 2.5
   },
   {
-    "Name": "Johnny's Hideaway",
-    "Vibe": "dance, retro, classic, cougar-bar, nightlife, throwback, crowd-pleaser",
-    "Lat": 33.857791,
-    "Lon": -84.380822,
-    "Link": "https://www.instagram.com/johnnyshideaway/",
+    "name": "Johnny's Hideaway",
+    "vibe": "dance, retro, classic, cougar-bar, nightlife, throwback, crowd-pleaser",
+    "lat": 33.857791,
+    "lon": -84.380822,
+    "link": "https://www.instagram.com/johnnyshideaway/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–12:00 AM",
       "Monday": "11:00 AM–3:00 AM",
       "Tuesday": "11:00 AM–3:00 AM",
@@ -4380,17 +4380,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "boomer dance floor, cougar central, retro jukebox hits, late-night chaos",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Le Bon Nosh",
-    "Vibe": "french, café, elegant, gourmet, brunch, minimalist, refined",
-    "Lat": 33.84132675,
-    "Lon": -84.38103404,
-    "Link": "https://www.instagram.com/lebonnosh/",
+    "name": "Le Bon Nosh",
+    "vibe": "french, café, elegant, gourmet, brunch, minimalist, refined",
+    "lat": 33.84132675,
+    "lon": -84.38103404,
+    "link": "https://www.instagram.com/lebonnosh/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–3:00 PM",
       "Monday": "Closed",
       "Tuesday": "8:00 AM–3:00 PM; 5:30 PM–9:00 PM",
@@ -4431,17 +4431,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "chef’s market cafe, French-leaning brunch, polished morning date, clean casual",
-    "Price": "$$",
-    "Duration": 1.25
+    "price": "$$",
+    "duration": 1.25
   },
   {
-    "Name": "Irby's Tavern",
-    "Vibe": "sports, casual, neighborhood, TVs, social, drinks",
-    "Lat": 33.83958005,
-    "Lon": -84.3770879,
-    "Link": "https://www.instagram.com/irbystavern/",
+    "name": "Irby's Tavern",
+    "vibe": "sports, casual, neighborhood, TVs, social, drinks",
+    "lat": 33.83958005,
+    "lon": -84.3770879,
+    "link": "https://www.instagram.com/irbystavern/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–2:00 AM",
       "Monday": "11:00 AM–12:00 AM",
       "Tuesday": "11:00 AM–12:00 AM",
@@ -4467,17 +4467,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "Buckhead sports crowd, wings & beer vibe, college game day hang, casual rowdy",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "St. Julep",
-    "Vibe": "rooftop, colorful, cocktails, trendy, skyline, fun",
-    "Lat": 33.83935865,
-    "Lon": -84.37503015,
-    "Link": "https://www.instagram.com/stjulep/",
+    "name": "St. Julep",
+    "vibe": "rooftop, colorful, cocktails, trendy, skyline, fun",
+    "lat": 33.83935865,
+    "lon": -84.37503015,
+    "link": "https://www.instagram.com/stjulep/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "3:00 PM–12:00 AM",
       "Monday": "5:00 PM–10:00 PM",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -4503,17 +4503,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "colorful rooftop cocktails, fun-first lounge, DJ-curated weekends, upbeat interiors",
-    "Price": "$$$",
-    "Duration": 1.75
+    "price": "$$$",
+    "duration": 1.75
   },
   {
-    "Name": "Yeppa & Co. - Buckhead",
-    "Vibe": "italian, lively, upscale, coastal, pasta, bright, social",
-    "Lat": 33.83831,
-    "Lon": -84.378026,
-    "Link": "https://www.instagram.com/yeppacoatl/",
+    "name": "Yeppa & Co. - Buckhead",
+    "vibe": "italian, lively, upscale, coastal, pasta, bright, social",
+    "lat": 33.83831,
+    "lon": -84.378026,
+    "link": "https://www.instagram.com/yeppacoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–12:00 AM",
       "Monday": "11:30 AM–11:00 PM",
       "Tuesday": "11:30 AM–11:00 PM",
@@ -4539,17 +4539,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "Italian aperitivo culture, Milanese energy, Euro crowd, fashion-forward drinks",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Fado Irish Pub",
-    "Vibe": "irish, pub, sports, beer, community, casual, bar-food",
-    "Lat": 33.7797074,
-    "Lon": -84.3840009,
-    "Link": "https://www.instagram.com/fadoirishpub/",
+    "name": "Fado Irish Pub",
+    "vibe": "irish, pub, sports, beer, community, casual, bar-food",
+    "lat": 33.7797074,
+    "lon": -84.3840009,
+    "link": "https://www.instagram.com/fadoirishpub/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "10:00 AM–1:00 AM",
       "Monday": "11:30 AM–11:00 PM",
       "Tuesday": "11:30 AM–11:00 PM",
@@ -4575,17 +4575,17 @@
     "timeCategory": "midday, evening, late",
     "energyRamp": 3,
     "tags": "Irish sports bar, match-day energy, pint-heavy weekends, group-friendly crowd",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Le Colonial Atlanta",
-    "Vibe": "vietnamese, fine-dining, colonial-style, chic, upscale, romantic",
-    "Lat": 33.83847596,
-    "Lon": -84.38087309,
-    "Link": "https://www.instagram.com/lecolonial_restaurants/",
+    "name": "Le Colonial Atlanta",
+    "vibe": "vietnamese, fine-dining, colonial-style, chic, upscale, romantic",
+    "lat": 33.83847596,
+    "lon": -84.38087309,
+    "link": "https://www.instagram.com/lecolonial_restaurants/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–11:00 PM",
       "Monday": "12:00 PM–10:00 PM",
       "Tuesday": "12:00 PM–10:00 PM",
@@ -4611,17 +4611,17 @@
     "timeCategory": "evening",
     "energyRamp": 1,
     "tags": "upscale French-Vietnamese, romantic interiors, Buckhead luxury, timeless elegance",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Northside Tavern",
-    "Vibe": "dive-bar, live-music, blues, gritty, historic, late-night",
-    "Lat": 33.7836184,
-    "Lon": -84.4120813,
-    "Link": "https://www.instagram.com/thenorthsidetavern/",
+    "name": "Northside Tavern",
+    "vibe": "dive-bar, live-music, blues, gritty, historic, late-night",
+    "lat": 33.7836184,
+    "lon": -84.4120813,
+    "link": "https://www.instagram.com/thenorthsidetavern/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–2:00 AM",
       "Monday": "12:00 PM–12:00 AM",
       "Tuesday": "12:00 PM–2:00 AM",
@@ -4647,17 +4647,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "gritty blues bar, dive classic, no-frills live music, Atlanta institution",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Wagyu House Atlanta | Rooftop BBQ",
-    "Vibe": "rooftop, korean, cocktails",
-    "Lat": 33.783135,
-    "Lon": -84.407566,
-    "Link": "https://www.instagram.com/wagyuhouseatl/",
+    "name": "Wagyu House Atlanta | Rooftop BBQ",
+    "vibe": "rooftop, korean, cocktails",
+    "lat": 33.783135,
+    "lon": -84.407566,
+    "link": "https://www.instagram.com/wagyuhouseatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–1:00 AM",
       "Monday": "12:00 PM–11:00 PM",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -4683,17 +4683,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "premium Korean BBQ, rooftop skyline dining, cook-at-table experience, group celebration spot, Buckhead power crowd",
-    "Price": "$$$",
-    "Duration": 2.5
+    "price": "$$$",
+    "duration": 2.5
   },
   {
-    "Name": "Ormsby's",
-    "Vibe": "pub, games, basement, chill, bocce, darts, social",
-    "Lat": 33.7859263,
-    "Lon": -84.4119319,
-    "Link": "https://www.instagram.com/ormsbys/",
+    "name": "Ormsby's",
+    "vibe": "pub, games, basement, chill, bocce, darts, social",
+    "lat": 33.7859263,
+    "lon": -84.4119319,
+    "link": "https://www.instagram.com/ormsbys/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–3:00 AM",
       "Monday": "4:00 PM–12:00 AM",
       "Tuesday": "4:00 PM–1:00 AM",
@@ -4719,17 +4719,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "basement games bar, bocce and brews, industrial chill, low-key hangout",
-    "Price": "$$",
-    "Duration": 1.75
+    "price": "$$",
+    "duration": 1.75
   },
   {
-    "Name": "STEREO",
-    "Vibe": "bar, funky, music, nightlife, curated, cocktails",
-    "Lat": 33.755066,
-    "Lon": -84.357816,
-    "Link": "https://www.instagram.com/stereoatl/",
+    "name": "STEREO",
+    "vibe": "bar, funky, music, nightlife, curated, cocktails",
+    "lat": 33.755066,
+    "lon": -84.357816,
+    "link": "https://www.instagram.com/stereoatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–3:00 PM; 6:00 PM–12:30 AM",
       "Monday": "8:00 AM–3:00 PM",
       "Tuesday": "8:00 AM–3:00 PM",
@@ -4755,17 +4755,17 @@
     "timeCategory": "midday, late",
     "energyRamp": 5,
     "tags": "vinyl-focused lounge, deep listening room, analog-first DJ sets, elevated soundscape",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "LLoyd's Restaurant & Lounge",
-    "Vibe": "retro, diner-vibes, dive-bar, cheeky, cocktails, playful",
-    "Lat": 33.755066,
-    "Lon": -84.357816,
-    "Link": "https://www.instagram.com/lloydspizzaparty/",
+    "name": "LLoyd's Restaurant & Lounge",
+    "vibe": "retro, diner-vibes, dive-bar, cheeky, cocktails, playful",
+    "lat": 33.755066,
+    "lon": -84.357816,
+    "link": "https://www.instagram.com/lloydspizzaparty/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–12:00 AM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -4791,17 +4791,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "retro diner bar, frozen cocktails, throwback Americana, comfort food + kitsch",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Glide Pizza",
-    "Vibe": "pizza, slice-shop, colorful, casual, quick-bite, local",
-    "Lat": 33.7560215,
-    "Lon": -84.36610812,
-    "Link": "https://www.instagram.com/glidepizza/",
+    "name": "Glide Pizza",
+    "vibe": "pizza, slice-shop, colorful, casual, quick-bite, local",
+    "lat": 33.7560215,
+    "lon": -84.36610812,
+    "link": "https://www.instagram.com/glidepizza/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–9:00 PM",
       "Monday": "12:00 PM–8:00 PM",
       "Tuesday": "Closed",
@@ -4827,17 +4827,17 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 3,
     "tags": "neighborhood slice shop, walk-up counter, NY-style pizza, hangover cure",
-    "Price": "$",
-    "Duration": 0.75
+    "price": "$",
+    "duration": 0.75
   },
   {
-    "Name": "The James Room",
-    "Vibe": "speakeasy, coffee-cocktail, upscale, moody, lounge",
-    "Lat": 33.7555043,
-    "Lon": -84.3655486,
-    "Link": "https://www.instagram.com/thejamesroom/",
+    "name": "The James Room",
+    "vibe": "speakeasy, coffee-cocktail, upscale, moody, lounge",
+    "lat": 33.7555043,
+    "lon": -84.3655486,
+    "link": "https://www.instagram.com/thejamesroom/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–2:00 AM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–10:00 PM",
@@ -4863,17 +4863,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "hidden speakeasy, upscale cocktails, moody luxe, password-entry lounge",
-    "Price": "$$$",
-    "Duration": 1.75
+    "price": "$$$",
+    "duration": 1.75
   },
   {
-    "Name": "Yuji Modern Japanese",
-    "Vibe": "omakase, minimalist, modern, japanese, refined, small-plates",
-    "Lat": 33.75704209,
-    "Lon": -84.36615321,
-    "Link": "https://www.instagram.com/yujiatlanta/",
+    "name": "Yuji Modern Japanese",
+    "vibe": "omakase, minimalist, modern, japanese, refined, small-plates",
+    "lat": 33.75704209,
+    "lon": -84.36615321,
+    "link": "https://www.instagram.com/yujiatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–2:30 PM; 5:00 PM–11:00 PM",
       "Monday": "11:30 AM–2:30 PM; 5:00 PM–11:00 PM",
       "Tuesday": "12:00 PM–2:30 PM; 5:00 PM–9:00 PM",
@@ -4899,17 +4899,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "modern omakase, minimal interior, chef's curation, luxury sushi theater",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Ladybird Grove & Mess Hall",
-    "Vibe": "patio, camp-style, beer, american, group-friendly, lively",
-    "Lat": 33.759717,
-    "Lon": -84.3646037,
-    "Link": "https://www.instagram.com/ladybirdatlanta/",
+    "name": "Ladybird Grove & Mess Hall",
+    "vibe": "patio, camp-style, beer, american, group-friendly, lively",
+    "lat": 33.759717,
+    "lon": -84.3646037,
+    "link": "https://www.instagram.com/ladybirdatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–2:00 AM",
       "Monday": "11:00 AM–12:00 AM",
       "Tuesday": "11:00 AM–12:00 AM",
@@ -4935,17 +4935,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "outdoor beer lodge, BeltLine brunch, casual Southern plates, big table gatherings",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Painted Park",
-    "Vibe": "bar, outdoor, casual, colorful, festive, fun",
-    "Lat": 33.76254145,
-    "Lon": -84.35944542,
-    "Link": "https://www.instagram.com/paintedparkatlanta/",
+    "name": "Painted Park",
+    "vibe": "bar, outdoor, casual, colorful, festive, fun",
+    "lat": 33.76254145,
+    "lon": -84.35944542,
+    "link": "https://www.instagram.com/paintedparkatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–2:00 AM",
       "Monday": "Closed",
       "Tuesday": "5:00 PM–12:00 AM",
@@ -4971,17 +4971,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "picnic tables, casual beer garden, relaxed weekend energy, group-friendly hang",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Harbor Coffee",
-    "Vibe": "coffee, minimalist, calm, design-forward, daytime, local",
-    "Lat": 33.76346,
-    "Lon": -84.358494,
-    "Link": "https://www.instagram.com/harborcoffee/",
+    "name": "Harbor Coffee",
+    "vibe": "coffee, minimalist, calm, design-forward, daytime, local",
+    "lat": 33.76346,
+    "lon": -84.358494,
+    "link": "https://www.instagram.com/harborcoffee/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 AM–4:00 PM",
       "Monday": "8:00 AM–4:00 PM",
       "Tuesday": "8:00 AM–4:00 PM",
@@ -5007,17 +5007,17 @@
     "timeCategory": "morning",
     "energyRamp": 1,
     "tags": "oceanic branding, clean design, remote work friendly, slow caffeine experience",
-    "Price": "$",
-    "Duration": 0.5
+    "price": "$",
+    "duration": 0.5
   },
   {
-    "Name": "BeetleCat",
-    "Vibe": "seafood, nautical, oysters, brunch, stylish, east-coast-vibes",
-    "Lat": 33.7624505,
-    "Lon": -84.35858396,
-    "Link": "https://www.instagram.com/beetlecatatl/",
+    "name": "BeetleCat",
+    "vibe": "seafood, nautical, oysters, brunch, stylish, east-coast-vibes",
+    "lat": 33.7624505,
+    "lon": -84.35858396,
+    "link": "https://www.instagram.com/beetlecatatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "10:00 AM–11:00 PM",
       "Monday": "4:00 PM–10:00 PM",
       "Tuesday": "4:00 PM–10:00 PM",
@@ -5043,17 +5043,17 @@
     "timeCategory": "midday",
     "energyRamp": 3,
     "tags": "nautical seafood spot, oyster tower dates, funky Buckhead brunch, upscale East Coast vibes",
-    "Price": "$$$",
-    "Duration": 2
+    "price": "$$$",
+    "duration": 2
   },
   {
-    "Name": "Highland Tap",
-    "Vibe": "steakhouse, underground, dark, classic, old-school, cozy, martinis",
-    "Lat": 33.78284196,
-    "Lon": -84.35453588,
-    "Link": "https://www.instagram.com/highlandtapatlanta/",
+    "name": "Highland Tap",
+    "vibe": "steakhouse, underground, dark, classic, old-school, cozy, martinis",
+    "lat": 33.78284196,
+    "lon": -84.35453588,
+    "link": "https://www.instagram.com/highlandtapatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–2:30 AM",
       "Monday": "5:00 PM–12:30 AM",
       "Tuesday": "11:30 AM–12:30 AM",
@@ -5079,17 +5079,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "underground steakhouse, old-school martinis, dim-light intimacy, neighborhood tradition",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "Dark Horse Tavern",
-    "Vibe": "dive-bar, rock, karaoke, grungy, casual, nightlife, local",
-    "Lat": 33.7768237,
-    "Lon": -84.3526593,
-    "Link": "https://www.instagram.com/darkhorseatlanta/",
+    "name": "Dark Horse Tavern",
+    "vibe": "dive-bar, rock, karaoke, grungy, casual, nightlife, local",
+    "lat": 33.7768237,
+    "lon": -84.3526593,
+    "link": "https://www.instagram.com/darkhorseatlanta/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "8:00 PM–3:00 AM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -5115,17 +5115,17 @@
     "timeCategory": "late",
     "energyRamp": 4,
     "tags": "rock dive bar, grunge energy, live music throwbacks, Midtown chaos",
-    "Price": "$",
-    "Duration": 2
+    "price": "$",
+    "duration": 2
   },
   {
-    "Name": "Dad's",
-    "Vibe": "retro, queer-friendly, funky, fun, casual, eclectic, alt",
-    "Lat": 33.77832855,
-    "Lon": -84.35305049,
-    "Link": "https://www.instagram.com/dadsatl/",
+    "name": "Dad's",
+    "vibe": "retro, queer-friendly, funky, fun, casual, eclectic, alt",
+    "lat": 33.77832855,
+    "lon": -84.35305049,
+    "link": "https://www.instagram.com/dadsatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–1:00 AM",
       "Monday": "5:00 PM–12:00 AM",
       "Tuesday": "5:00 PM–1:00 AM",
@@ -5151,17 +5151,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "karaoke-fueled bar, nostalgia decor, late-night rowdiness, theme nights",
-    "Price": "$$",
-    "Duration": 1.75
+    "price": "$$",
+    "duration": 1.75
   },
   {
-    "Name": "Moe's and Joe's",
-    "Vibe": "pub, casual, sports, patio, local-favorite, old-school",
-    "Lat": 33.7828246,
-    "Lon": -84.3541834,
-    "Link": "https://www.instagram.com/moesandjoesatl/",
+    "name": "Moe's and Joe's",
+    "vibe": "pub, casual, sports, patio, local-favorite, old-school",
+    "lat": 33.7828246,
+    "lon": -84.3541834,
+    "link": "https://www.instagram.com/moesandjoesatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–2:00 AM",
       "Monday": "11:30 AM–2:00 AM",
       "Tuesday": "11:30 AM–2:00 AM",
@@ -5187,17 +5187,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "front porch beers, college bar classic, Inman Park staple, cheap pitchers",
-    "Price": "$",
-    "Duration": 1.75
+    "price": "$",
+    "duration": 1.75
   },
   {
-    "Name": "The Rooftop at Clermont",
-    "Vibe": "rooftop, skyline, cocktails, scenic, lively, retro",
-    "Lat": 33.77347,
-    "Lon": -84.361399,
-    "Link": "https://www.instagram.com/hotelclermont/",
+    "name": "The Rooftop at Clermont",
+    "vibe": "rooftop, skyline, cocktails, scenic, lively, retro",
+    "lat": 33.77347,
+    "lon": -84.361399,
+    "link": "https://www.instagram.com/hotelclermont/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–1:00 AM",
       "Monday": "4:00 PM–12:00 AM",
       "Tuesday": "4:00 PM–12:00 AM",
@@ -5223,17 +5223,17 @@
     "timeCategory": "happy hour, evening, late",
     "energyRamp": 4,
     "tags": "retro motel rooftop, skyline dive vibes, kitschy chic, adult swim energy",
-    "Price": "$$",
-    "Duration": 1.75
+    "price": "$$",
+    "duration": 1.75
   },
   {
-    "Name": "Clermont Lounge",
-    "Vibe": "dive-bar, burlesque, historic, eccentric, gritty, legendary",
-    "Lat": 33.77347,
-    "Lon": -84.361399,
-    "Link": "https://www.instagram.com/clermontlounge/",
+    "name": "Clermont Lounge",
+    "vibe": "dive-bar, burlesque, historic, eccentric, gritty, legendary",
+    "lat": 33.77347,
+    "lon": -84.361399,
+    "link": "https://www.instagram.com/clermontlounge/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "3:00 PM–3:00 AM",
       "Monday": "3:00 PM–3:00 AM",
       "Tuesday": "8:00 PM–3:00 AM",
@@ -5259,17 +5259,17 @@
     "timeCategory": "late",
     "energyRamp": 5,
     "tags": "legendary strip club, ATL dive royalty, unpredictable energy, punk meets pole",
-    "Price": "$$",
-    "Duration": 2
+    "price": "$$",
+    "duration": 2
   },
   {
-    "Name": "Spaceman",
-    "Vibe": "rooftop, modern, cocktails, hotel-bar, skyline, upscale",
-    "Lat": 33.8436339,
-    "Lon": -84.3620118,
-    "Link": "https://www.instagram.com/spacemanatl/",
+    "name": "Spaceman",
+    "vibe": "rooftop, modern, cocktails, hotel-bar, skyline, upscale",
+    "lat": 33.8436339,
+    "lon": -84.3620118,
+    "link": "https://www.instagram.com/spacemanatl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "5:00 PM–12:00 AM",
       "Monday": "5:00 PM–11:00 PM",
       "Tuesday": "5:00 PM–11:00 PM",
@@ -5295,17 +5295,17 @@
     "timeCategory": "evening, late",
     "energyRamp": 4,
     "tags": "Buckhead rooftop, glossy cocktail bar, hotel-luxe feel, skyline socializing",
-    "Price": "$$$",
-    "Duration": 2.5
+    "price": "$$$",
+    "duration": 2.5
   },
   {
-    "Name": "Elemental Spirits Co.",
-    "Vibe": "wine, spirits, curated, boutique, artisanal, stylish",
-    "Lat": 33.7707666,
-    "Lon": -84.352723,
-    "Link": "https://www.instagram.com/elementalspirits.co/",
+    "name": "Elemental Spirits Co.",
+    "vibe": "wine, spirits, curated, boutique, artisanal, stylish",
+    "lat": 33.7707666,
+    "lon": -84.352723,
+    "link": "https://www.instagram.com/elementalspirits.co/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–9:00 PM",
       "Monday": "Closed",
       "Tuesday": "11:00 AM–8:00 PM",
@@ -5331,17 +5331,17 @@
     "timeCategory": "afternoon, midday, evening",
     "energyRamp": 1,
     "tags": "boutique bottle shop, curated spirits, cocktail-forward selection, ATL’s drink nerd haven",
-    "Price": "$",
-    "Duration": 0.66
+    "price": "$",
+    "duration": 0.66
   },
   {
-    "Name": "Murphy's Wine Shop",
-    "Vibe": "wine, cozy, boutique, romantic, intimate, neighborhood",
-    "Lat": 33.782121,
-    "Lon": -84.3548853,
-    "Link": "https://www.instagram.com/murphysatlwine/",
+    "name": "Murphy's Wine Shop",
+    "vibe": "wine, cozy, boutique, romantic, intimate, neighborhood",
+    "lat": 33.782121,
+    "lon": -84.3548853,
+    "link": "https://www.instagram.com/murphysatlwine/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–9:00 PM",
       "Monday": "12:00 PM–9:00 PM",
       "Tuesday": "12:00 PM–8:00 PM",
@@ -5367,17 +5367,17 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 1,
     "tags": "classic wine shop, Morningside anchor, sommelier-run picks, food pairings available",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   },
   {
-    "Name": "Wine Shoe",
-    "Vibe": "wine, casual, classes, boutique, local, approachable",
-    "Lat": 33.7515516,
-    "Lon": -84.3990245,
-    "Link": "https://www.instagram.com/wineshoe/",
+    "name": "Wine Shoe",
+    "vibe": "wine, casual, classes, boutique, local, approachable",
+    "lat": 33.7515516,
+    "lon": -84.3990245,
+    "link": "https://www.instagram.com/wineshoe/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "Closed",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -5403,17 +5403,17 @@
     "timeCategory": "afternoon",
     "energyRamp": 1,
     "tags": "tasting-first wine shop, casual classes, under-the-radar varietals, local wine community",
-    "Price": "$",
-    "Duration": 0.66
+    "price": "$",
+    "duration": 0.66
   },
   {
-    "Name": "Vin ATL",
-    "Vibe": "wine, natural, curated, neighborhood, hipster, boutique",
-    "Lat": 33.76066881,
-    "Lon": -84.34042587,
-    "Link": "https://www.instagram.com/vin.atl/",
+    "name": "Vin ATL",
+    "vibe": "wine, natural, curated, neighborhood, hipster, boutique",
+    "lat": 33.76066881,
+    "lon": -84.34042587,
+    "link": "https://www.instagram.com/vin.atl/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "1:00 PM–8:00 PM",
       "Monday": "1:00 PM–8:00 PM",
       "Tuesday": "4:00 PM–8:00 PM",
@@ -5439,17 +5439,17 @@
     "timeCategory": "afternoon, happy hour",
     "energyRamp": 2,
     "tags": "neighborhood wine bar, relaxed pours, friendly staff, solo-sip or date-ready",
-    "Price": "$",
-    "Duration": 0.66
+    "price": "$",
+    "duration": 0.66
   },
   {
-    "Name": "PERRINE's WINE - Westside",
-    "Vibe": "wine, upscale, french, boutique, refined, expert",
-    "Lat": 33.785691,
-    "Lon": -84.411774,
-    "Link": "https://www.instagram.com/perrineswine_westside/",
+    "name": "PERRINE's WINE - Westside",
+    "vibe": "wine, upscale, french, boutique, refined, expert",
+    "lat": 33.785691,
+    "lon": -84.411774,
+    "link": "https://www.instagram.com/perrineswine_westside/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–7:30 PM",
       "Monday": "11:00 AM–7:30 PM",
       "Tuesday": "11:00 AM–7:30 PM",
@@ -5475,17 +5475,17 @@
     "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "French-trained sommelier, high-end labels, Euro-centric palate, serious collectors shop",
-    "Price": "$",
-    "Duration": 0.66
+    "price": "$",
+    "duration": 0.66
   },
   {
-    "Name": "Barcelona Wine Bar",
-    "Vibe": "tapas, wine, spanish, bustling, date-night, patio",
-    "Lat": 33.76254145,
-    "Lon": -84.35944542,
-    "Link": "https://www.instagram.com/barcelonawinebar/",
+    "name": "Barcelona Wine Bar",
+    "vibe": "tapas, wine, spanish, bustling, date-night, patio",
+    "lat": 33.76254145,
+    "lon": -84.35944542,
+    "link": "https://www.instagram.com/barcelonawinebar/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–12:00 AM",
       "Monday": "1:00 PM–12:00 AM",
       "Tuesday": "1:00 PM–12:00 AM",
@@ -5511,17 +5511,17 @@
     "timeCategory": "evening",
     "energyRamp": 3,
     "tags": "tapas & Tempranillo, lively date night, dim communal tables, late night pours",
-    "Price": "$$",
-    "Duration": 2.5
+    "price": "$$",
+    "duration": 2.5
   },
   {
-    "Name": "Lucian Books and Wine",
-    "Vibe": "wine, bookstore, quiet, elegant, artistic, refined",
-    "Lat": 33.8369462,
-    "Lon": -84.381205,
-    "Link": "https://www.instagram.com/lucianbooksandwine/",
+    "name": "Lucian Books and Wine",
+    "vibe": "wine, bookstore, quiet, elegant, artistic, refined",
+    "lat": 33.8369462,
+    "lon": -84.381205,
+    "link": "https://www.instagram.com/lucianbooksandwine/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:30 AM–10:00 PM",
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -5547,17 +5547,17 @@
     "timeCategory": "evening",
     "energyRamp": 2,
     "tags": "literary wine bar, curated shelves, cultured sipping, upscale quiet energy",
-    "Price": "$$$$",
-    "Duration": 2
+    "price": "$$$$",
+    "duration": 2
   },
   {
-    "Name": "3 Parks Wine Shop - Old Fourth Ward",
-    "Vibe": "wine, boutique, local, approachable, curated, small-producer",
-    "Lat": 33.7687646,
-    "Lon": -84.36298948,
-    "Link": "https://www.instagram.com/3parkswine_fourthward/",
+    "name": "3 Parks Wine Shop - Old Fourth Ward",
+    "vibe": "wine, boutique, local, approachable, curated, small-producer",
+    "lat": 33.7687646,
+    "lon": -84.36298948,
+    "link": "https://www.instagram.com/3parkswine_fourthward/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "11:00 AM–8:00 PM",
       "Monday": "Closed",
       "Tuesday": "12:00 PM–8:00 PM",
@@ -5583,17 +5583,17 @@
     "timeCategory": "afternoon",
     "energyRamp": 1,
     "tags": "community-first bottle shop, casual tastings, BeltLine crowd, natural wine forward",
-    "Price": "$$",
-    "Duration": 1.5
+    "price": "$$",
+    "duration": 1.5
   },
   {
-    "Name": "VinoTeca",
-    "Vibe": "wine, stylish, retail, european, tastings, intimate",
-    "Lat": 33.7624505,
-    "Lon": -84.35858396,
-    "Link": "https://www.instagram.com/shopvinoteca/",
+    "name": "VinoTeca",
+    "vibe": "wine, stylish, retail, european, tastings, intimate",
+    "lat": 33.7624505,
+    "lon": -84.35858396,
+    "link": "https://www.instagram.com/shopvinoteca/",
     "openNow": true,
-    "Hours": {
+    "hours": {
       "Sunday": "12:00 PM–9:00 PM",
       "Monday": "12:00 PM–8:00 PM",
       "Tuesday": "12:00 PM–8:00 PM",
@@ -5619,7 +5619,7 @@
     "timeCategory": "afternoon, evening",
     "energyRamp": 2,
     "tags": "Euro-style boutique, focused import list, Inman Park favorite, language of terroir",
-    "Price": "$",
-    "Duration": 1.5
+    "price": "$",
+    "duration": 1.5
   }
 ]
