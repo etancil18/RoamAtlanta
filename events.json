@@ -6,7 +6,7 @@
     "lon": -84.378946,
     "link": "https://www.instagram.com/besobuckhead/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 1:00 PM–12:00 AM",
       "Monday: Closed",
       "Tuesday: 6:00 PM–2:00 AM",
@@ -14,7 +14,7 @@
       "Thursday: 6:00 PM–2:30 AM",
       "Friday: 6:00 PM–2:30 AM",
       "Saturday: 6:00 PM–2:30 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -50,7 +50,7 @@
     "lon": -84.371798,
     "link": "https://www.instagram.com/pisces.atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -58,7 +58,7 @@
       "Thursday: 10:00 PM–3:00 AM",
       "Friday: 10:00 PM–3:00 AM",
       "Saturday: 10:00 PM–3:00 AM"
-    },
+    ],
    "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -94,7 +94,7 @@
     "lon": -84.3686685,
     "link": "https://www.instagram.com/alicioysterbar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–9:00 PM",
       "Monday: Closed",
       "Tuesday: 4:00 PM–9:00 PM",
@@ -102,7 +102,7 @@
       "Thursday: 4:00 PM–9:00 PM",
       "Friday: 11:30 AM–10:00 PM",
       "Saturday: 11:30 AM–10:00 PM"
-    },
+    ],
    "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -138,7 +138,7 @@
     "lon": -84.37497385,
     "link": "https://www.instagram.com/krsteakbar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: 5:00 PM–9:00 PM",
@@ -146,7 +146,7 @@
       "Thursday: 5:00 PM–9:00 PM",
       "Friday: 5:00 PM–10:00 PM",
       "Saturday: 5:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -182,7 +182,7 @@
     "lon": -84.3681182,
     "link": "https://www.instagram.com/rubychowsatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -190,7 +190,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 5:00 PM–11:00 PM",
       "Saturday: 5:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -226,7 +226,7 @@
     "lon": -84.41060596,
     "link": "https://www.instagram.com/aftereightatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -234,7 +234,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -270,7 +270,7 @@
     "lon": -84.3803812,
     "link": "https://www.instagram.com/bontonatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–10:30 PM",
       "Monday: 5:00 PM–10:30 PM",
       "Tuesday: 5:00 PM–10:30 PM",
@@ -278,7 +278,7 @@
       "Thursday: 5:00 PM–10:30 PM",
       "Friday: 12:00 PM–11:30 PM",
       "Saturday: 12:00 PM–11:30 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -314,7 +314,7 @@
     "lon": -84.3908082,
     "link": "https://www.instagram.com/apt4batl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -322,7 +322,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 11:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -358,7 +358,7 @@
     "lon": -84.38125303,
     "link": "https://www.instagram.com/delbaratl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: 11:30 AM–10:00 PM",
       "Tuesday: 11:30 AM–10:00 PM",
@@ -366,7 +366,7 @@
       "Thursday: 11:30 AM–10:00 PM",
       "Friday: 11:30 AM–11:00 PM",
       "Saturday: 11:00 AM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -402,7 +402,7 @@
     "lon": -84.41030778,
     "link": "https://www.instagram.com/echoroomatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -410,7 +410,7 @@
       "Thursday: 8:00 PM–12:00 AM",
       "Friday: 8:00 PM–12:00 AM",
       "Saturday: 8:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -446,7 +446,7 @@
     "lon": -84.36345598,
     "link": "https://www.instagram.com/97estoria/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 12:00 PM–12:00 AM",
       "Tuesday: 12:00 PM–12:00 AM",
@@ -454,7 +454,7 @@
       "Thursday: 12:00 PM–12:00 AM",
       "Friday: 12:00 PM–12:00 AM",
       "Saturday: 12:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -490,7 +490,7 @@
     "lon": -84.34042587,
     "link": "https://www.instagram.com/bona_fide_deluxe/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: Closed",
       "Tuesday: 11:00 AM–9:00 PM",
@@ -498,7 +498,7 @@
       "Thursday: 11:00 AM–9:00 PM",
       "Friday: 11:00 AM–9:00 PM",
       "Saturday: 11:00 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -534,7 +534,7 @@
     "lon": -84.34965626,
     "link": "https://www.instagram.com/theporterbeerbar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–11:00 PM",
       "Monday: 12:00 PM–11:00 PM",
       "Tuesday: 12:00 PM–11:00 PM",
@@ -542,7 +542,7 @@
       "Thursday: 12:00 PM–11:00 PM",
       "Friday: 12:00 PM–12:00 AM",
       "Saturday: 11:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -578,7 +578,7 @@
     "lon": -84.34895681,
     "link": "https://www.instagram.com/wishatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 1:00 PM–7:00 PM",
       "Monday: 12:00 PM–7:00 PM",
       "Tuesday: 12:00 PM–7:00 PM",
@@ -586,7 +586,7 @@
       "Thursday: 12:00 PM–7:00 PM",
       "Friday: 12:00 PM–8:00 PM",
       "Saturday: 12:00 PM–8:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -622,7 +622,7 @@
     "lon": -84.3496422,
     "link": "https://www.instagram.com/wreckingbarbrewpub/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -630,7 +630,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 12:00 PM–11:00 PM",
       "Saturday: 12:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -666,7 +666,7 @@
     "lon": -84.3488434,
     "link": "https://www.instagram.com/thebrewhousecafe/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 10:00 AM–10:00 PM",
       "Monday: 11:00 AM–12:00 AM",
       "Tuesday: 11:30 AM–12:00 AM",
@@ -674,7 +674,7 @@
       "Thursday: 11:30 AM–12:00 AM",
       "Friday: 11:30 AM–12:00 AM",
       "Saturday: 10:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -710,7 +710,7 @@
     "lon": -84.44004635,
     "link": "https://www.instagram.com/explore/search/keyword/?q=east%20palisades%20trail",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 9:00 AM–5:00 PM",
       "Monday: 9:00 AM–5:00 PM",
       "Tuesday: 9:00 AM–5:00 PM",
@@ -718,7 +718,7 @@
       "Thursday: 9:00 AM–5:00 PM",
       "Friday: 9:00 AM–5:00 PM",
       "Saturday: 9:00 AM–5:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -754,7 +754,7 @@
     "lon": -84.4122192,
     "link": "https://www.instagram.com/eandrosewellness/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 7:00 AM–7:00 PM",
       "Tuesday: 7:00 AM–7:00 PM",
@@ -762,7 +762,7 @@
       "Thursday: 7:00 AM–7:00 PM",
       "Friday: 7:00 AM–7:00 PM",
       "Saturday: 8:00 AM–7:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -798,7 +798,7 @@
     "lon": -84.36880644,
     "link": "https://www.instagram.com/smithsoldebar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 5:00 PM–2:00 AM",
       "Tuesday: 5:00 PM–2:00 AM",
@@ -806,7 +806,7 @@
       "Thursday: 5:00 PM–2:00 AM",
       "Friday: 3:00 PM–3:00 AM",
       "Saturday: 12:00 PM–3:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -842,7 +842,7 @@
     "lon": -84.3809742,
     "link": "https://www.instagram.com/jenisicecreams/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–1:00 AM",
       "Monday: 12:00 PM–1:00 AM",
       "Tuesday: 12:00 PM–1:00 AM",
@@ -850,7 +850,7 @@
       "Thursday: 12:00 PM–1:00 AM",
       "Friday: 11:00 AM–1:00 AM",
       "Saturday: 11:00 AM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -886,7 +886,7 @@
     "lon": -84.3856771,
     "link": "https://www.instagram.com/redactedbasementdrinkparlor/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -894,7 +894,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -930,7 +930,7 @@
     "lon": -84.3844007,
     "link": "https://www.instagram.com/edgarsproofprovisionsav/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 2:00 PM–11:00 PM",
       "Monday: 5:00 PM–11:00 PM",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -938,7 +938,7 @@
       "Thursday: 5:00 PM – 11:00 PM",
       "Friday: 2:00 PM–11:00 PM",
       "Saturday: 2:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -974,7 +974,7 @@
     "lon": -84.3869147,
     "link": "https://www.instagram.com/rpbatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 4:00 PM–11:00 PM",
       "Monday: 4:00 PM–12:00 AM",
       "Tuesday: 4:00 PM–12:00 AM",
@@ -982,7 +982,7 @@
       "Thursday: 4:00 PM–1:00 AM",
       "Friday: 4:00 PM–1:00 AM",
       "Saturday: 4:00 PM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1018,7 +1018,7 @@
     "lon": -84.3964558,
     "link": "https://www.instagram.com/statsbrewpub/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1026,7 +1026,7 @@
       "Thursday: 4:00 PM–10:00 PM",
       "Friday: 4:00 PM–10:00 PM",
       "Saturday: 11:00 AM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1062,7 +1062,7 @@
     "lon": -84.4136351,
     "link": "https://www.instagram.com/paintedduckatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -1070,7 +1070,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–2:00 AM",
       "Saturday: 12:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1106,7 +1106,7 @@
     "lon": -84.3892495,
     "link": "https://www.instagram.com/mjqofficial/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1114,7 +1114,7 @@
       "Thursday: 11:00 PM–4:00 AM",
       "Friday: 11:00 PM–4:00 AM",
       "Saturday: 11:00 PM–4:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1150,7 +1150,7 @@
     "lon": -84.38370924,
     "link": "https://www.instagram.com/lazybettyatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–8:00 PM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–8:00 PM",
@@ -1158,7 +1158,7 @@
       "Thursday: 5:00 PM–9:00 PM",
       "Friday: 5:00 PM–9:00 PM",
       "Saturday: 5:00 PM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1194,7 +1194,7 @@
     "lon": -84.3829621,
     "link": "https://www.instagram.com/jojosbeloved/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -1202,7 +1202,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–2:00 AM",
       "Saturday: 5:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1238,7 +1238,7 @@
     "lon": -84.2961643,
     "link": "https://www.instagram.com/distilleryofmodernart/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1246,7 +1246,7 @@
       "Thursday: 5:00 PM–10:30 PM",
       "Friday: 5:00 PM–10:30 PM",
       "Saturday: 5:00 PM–10:30 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1282,7 +1282,7 @@
     "lon": -84.3805853,
     "link": "https://www.instagram.com/larakinatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–6:00 PM",
       "Monday: 8:00 AM–2:00 PM",
       "Tuesday: 8:00 AM–2:00 PM",
@@ -1290,7 +1290,7 @@
       "Thursday: 8:00 AM–10:00 PM",
       "Friday: 8:00 AM–10:00 PM",
       "Saturday: 8:00 AM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1326,7 +1326,7 @@
     "lon": -84.3217927,
     "link": "https://www.instagram.com/evergreenbutcherandbaker/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–3:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1334,7 +1334,7 @@
       "Thursday: 7:00 AM–3:00 PM",
       "Friday: 7:00 AM–3:00 PM",
       "Saturday: 8:00 AM–3:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1370,7 +1370,7 @@
     "lon": -84.4201058,
     "link": "https://www.instagram.com/waisgongfutea/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 10:00 AM–8:00 PM",
       "Monday: 1:00 PM–8:00 PM",
       "Tuesday: 1:00 PM–8:00 PM",
@@ -1378,7 +1378,7 @@
       "Thursday: 1:00 PM–8:00 PM",
       "Friday: 1:00 PM–8:00 PM",
       "Saturday: 10:00 AM–8:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1414,7 +1414,7 @@
     "lon": -84.3538294,
     "link": "https://www.instagram.com/kinshipbutcher_atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 8:00 AM–7:00 PM",
       "Tuesday: 8:00 AM–7:00 PM",
@@ -1422,7 +1422,7 @@
       "Thursday: 8:00 AM–7:00 PM",
       "Friday: 8:00 AM–7:00 PM",
       "Saturday: 8:00 AM–7:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1458,7 +1458,7 @@
     "lon": -84.3493682,
     "link": "https://www.instagram.com/whooopsies_place/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -1466,7 +1466,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1502,7 +1502,7 @@
     "lon": -84.3881552,
     "link": "https://www.instagram.com/maypeel_atlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1510,7 +1510,7 @@
       "Thursday: 6:00 PM–12:00 AM",
       "Friday: 6:00 PM–1:00 AM",
       "Saturday: 6:00 PM–1:00 AM"
-    },
+    ],
    "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1546,7 +1546,7 @@
     "lon": -84.273451,
     "link": "https://www.instagram.com/commune_atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: 6:00 PM–11:00 PM",
@@ -1554,7 +1554,7 @@
       "Thursday: 6:00 PM–11:00 PM",
       "Friday: 6:00 PM–11:00 PM",
       "Saturday: 6:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1590,7 +1590,7 @@
     "lon": -84.3803812,
     "link": "https://www.instagram.com/justkeepwaitingroom/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–9:00 PM",
       "Monday: 9:00 PM–1:00 AM",
       "Tuesday: 7:00 PM–12:00 AM",
@@ -1598,7 +1598,7 @@
       "Thursday: 7:00 PM–12:00 AM",
       "Friday: 7:00 PM–2:00 AM",
       "Saturday: 7:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1634,7 +1634,7 @@
     "lon": -84.4098768,
     "link": "https://www.instagram.com/controllerise/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: 9:00 PM–1:00 AM",
       "Tuesday: Closed",
@@ -1642,7 +1642,7 @@
       "Thursday: Closed",
       "Friday: Closed",
       "Saturday: Closed"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1678,7 +1678,7 @@
     "lon": -84.366886,
     "link": "https://www.instagram.com/granaatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 4:00 PM–10:00 PM",
       "Tuesday: 4:00 PM–10:00 PM",
@@ -1686,7 +1686,7 @@
       "Thursday: 4:00 PM–10:00 PM",
       "Friday: 4:00 PM–11:00 PM",
       "Saturday: 11:30 AM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1722,7 +1722,7 @@
     "lon": -84.35594354,
     "link": "https://www.instagram.com/homegrownga/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–2:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1730,7 +1730,7 @@
       "Thursday: 8:00 AM–2:00 PM",
       "Friday: 8:00 AM–2:00 PM",
       "Saturday: 8:00 AM–2:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1766,7 +1766,7 @@
     "lon": -84.3613051,
     "link": "https://www.instagram.com/smallfryatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–8:00 PM",
       "Monday: Closed",
       "Tuesday: 12:00 PM–10:00 PM",
@@ -1774,7 +1774,7 @@
       "Thursday: 12:00 PM–10:00 PM",
       "Friday: 12:00 PM–12:00 AM",
       "Saturday: 12:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1810,7 +1810,7 @@
     "lon": -84.3836206,
     "link": "https://www.instagram.com/wickedwolfatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 11:00 AM–12:00 AM",
       "Tuesday: 11:00 AM–12:00 AM",
@@ -1818,7 +1818,7 @@
       "Thursday: 11:00 AM–12:00 AM",
       "Friday: 11:00 AM–2:30 AM",
       "Saturday: 11:00 AM–2:30 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1854,7 +1854,7 @@
     "lon": -84.313226,
     "link": "https://www.instagram.com/blockanddrum/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 9:00 AM–10:30 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -1862,7 +1862,7 @@
       "Thursday: 6:30 PM–12:30 AM",
       "Friday: 6:30 PM–12:30 AM",
       "Saturday: 9:00 AM–12:30 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1898,7 +1898,7 @@
     "lon": -84.3577859,
     "link": "https://www.instagram.com/victorysandwichbar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 10:00 AM–12:00 AM",
       "Monday: 10:00 AM–12:00 AM",
       "Tuesday: 10:00 AM–12:00 AM",
@@ -1906,7 +1906,7 @@
       "Thursday: 10:00 AM–12:00 AM",
       "Friday: 10:00 AM–12:00 AM",
       "Saturday: 10:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1942,7 +1942,7 @@
     "lon": -84.294616,
     "link": "https://www.instagram.com/twainsbrewpub/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 5:00 PM–11:00 PM",
       "Tuesday: 12:00 PM–11:00 PM",
@@ -1950,7 +1950,7 @@
       "Thursday: 12:00 PM–11:00 PM",
       "Friday: 12:00 PM–1:00 AM",
       "Saturday: 12:00 PM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -1986,7 +1986,7 @@
     "lon": -84.295543,
     "link": "https://www.instagram.com/fawnwineamaro/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: 4:00 PM–11:00 PM",
@@ -1994,7 +1994,7 @@
       "Thursday: 4:00 PM–11:00 PM",
       "Friday: 4:00 PM–11:00 PM",
       "Saturday: 12:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2030,7 +2030,7 @@
     "lon": -84.36195002,
     "link": "https://www.instagram.com/indacoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–2:30 PM; 5:00 PM–10:00 PM",
       "Monday: 8:00 AM–2:30 PM; 4:00 PM–10:00 PM",
       "Tuesday: 8:00 AM–2:30 PM; 4:00 PM–10:00 PM",
@@ -2038,7 +2038,7 @@
       "Thursday: 8:00 AM–2:30 PM; 4:00 PM–10:00 PM",
       "Friday: 8:00 AM–2:30 PM; 4:00 PM–11:00 PM",
       "Saturday: 11:00 AM–2:30 PM; 5:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2074,7 +2074,7 @@
     "lon": -84.37431322,
     "link": "https://www.instagram.com/tesseraeatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–11:00 PM",
       "Monday: 7:00 AM–11:00 PM",
       "Tuesday: 7:00 AM–11:00 PM",
@@ -2082,7 +2082,7 @@
       "Thursday: 7:00 AM–11:00 PM",
       "Friday: Open 24 hours",
       "Saturday: Closed"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2118,7 +2118,7 @@
     "lon": -84.385751,
     "link": "https://www.instagram.com/halfwaycrooksbeer/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 4:00 PM–10:00 PM",
       "Tuesday: 4:00 PM–10:00 PM",
@@ -2126,7 +2126,7 @@
       "Thursday: 4:00 PM–10:00 PM",
       "Friday: 11:30 AM–12:00 AM",
       "Saturday: 11:30 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2162,7 +2162,7 @@
     "lon": -84.392911,
     "link": "https://www.instagram.com/skyloungeatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: 4:00 PM–9:00 PM",
       "Tuesday: 4:00 PM–9:00 PM",
@@ -2170,7 +2170,7 @@
       "Thursday: 4:00 PM–9:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2206,7 +2206,7 @@
     "lon": -84.38556184,
     "link": "https://www.instagram.com/foxmarqueeclub/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -2214,7 +2214,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–11:00 PM",
       "Saturday: 5:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2250,7 +2250,7 @@
     "lon": -84.3659039,
     "link": "https://www.instagram.com/9milestation/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -2258,7 +2258,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 11:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2294,7 +2294,7 @@
     "lon": -84.3568532,
     "link": "https://www.instagram.com/breakerbreaker_atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 5:00 PM–9:00 PM",
       "Tuesday: Closed",
@@ -2302,7 +2302,7 @@
       "Thursday: 11:30 AM–10:00 PM",
       "Friday: 11:30 AM–10:00 PM",
       "Saturday: 11:30 AM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2338,7 +2338,7 @@
     "lon": -84.390777,
     "link": "https://www.instagram.com/scadfash/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
       "Tuesday: 10:00 AM–5:00 PM",
@@ -2346,7 +2346,7 @@
       "Thursday: 10:00 AM–5:00 PM",
       "Friday: 10:00 AM–5:00 PM",
       "Saturday: 10:00 AM–5:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2382,7 +2382,7 @@
     "lon": -84.363636,
     "link": "https://www.instagram.com/moonlightatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 2:00 PM–9:00 PM",
       "Monday: 5:00 PM–11:00 PM",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -2390,7 +2390,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2426,7 +2426,7 @@
     "lon": -84.35858396,
     "link": "https://www.instagram.com/littlespiritatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: 5:30 PM–2:00 AM",
       "Tuesday: 5:30 PM–2:00 AM",
@@ -2434,7 +2434,7 @@
       "Thursday: 5:30 PM–2:00 AM",
       "Friday: 5:30 PM–2:00 AM",
       "Saturday: 5:30 PM–2:00 AM"
-    },
+    ],
    "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2470,7 +2470,7 @@
     "lon": -84.352605,
     "link": "https://www.instagram.com/blindwilliesblues/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -2478,7 +2478,7 @@
       "Thursday: 7:00 PM–12:00 AM",
       "Friday: 7:00 PM–2:00 AM",
       "Saturday: 7:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2514,7 +2514,7 @@
     "lon": -84.3538294,
     "link": "https://www.instagram.com/academycoffeeatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 8:00 AM–7:00 PM",
       "Tuesday: 8:00 AM–7:00 PM",
@@ -2522,7 +2522,7 @@
       "Thursday: 8:00 AM–7:00 PM",
       "Friday: 8:00 AM–7:00 PM",
       "Saturday: 8:00 AM–7:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2558,7 +2558,7 @@
     "lon": -84.35261552,
     "link": "https://www.instagram.com/bigsoftieatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 12:00 PM–9:00 PM",
       "Tuesday: 12:00 PM–9:00 PM",
@@ -2566,7 +2566,7 @@
       "Thursday: 12:00 PM–9:00 PM",
       "Friday: 12:00 PM–10:00 PM",
       "Saturday: 12:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2602,7 +2602,7 @@
     "lon": -84.35304857,
     "link": "https://www.instagram.com/plazaatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -2610,7 +2610,7 @@
       "Thursday: Closed",
       "Friday: Closed",
       "Saturday: Closed"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2646,7 +2646,7 @@
     "lon": -84.36083484,
     "link": "https://www.instagram.com/whitespace814/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–5:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -2654,7 +2654,7 @@
       "Thursday: 11:00 AM–5:00 PM",
       "Friday: 11:00 AM–5:00 PM",
       "Saturday: 11:00 AM–5:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2690,7 +2690,7 @@
     "lon": -84.3481672,
     "link": "https://www.instagram.com/abvgallery/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–7:00 PM",
       "Monday: 11:00 AM–5:00 PM",
       "Tuesday: 10:00 AM–5:00 PM",
@@ -2698,7 +2698,7 @@
       "Thursday: 10:00 AM–5:00 PM",
       "Friday: 10:00 AM–7:00 PM",
       "Saturday: 10:00 AM–7:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2734,7 +2734,7 @@
     "lon": -84.361945,
     "link": "https://www.instagram.com/masonfineart/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -2742,7 +2742,7 @@
       "Thursday: 11:00 AM–5:00 PM",
       "Friday: 11:00 AM–5:00 PM",
       "Saturday: 11:00 AM–5:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2778,7 +2778,7 @@
     "lon": -84.3621253,
     "link": "https://www.instagram.com/johnsonlowegallery/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–5:30 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -2786,7 +2786,7 @@
       "Thursday: 10:00 AM–5:30 PM",
       "Friday: 10:00 AM–5:30 PM",
       "Saturday: 10:00 AM–5:30 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2822,7 +2822,7 @@
     "lon": -84.362606,
     "link": "https://www.instagram.com/thepaintedpinatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–2:00 AM",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -2830,7 +2830,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–2:00 AM",
       "Saturday: 12:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2866,7 +2866,7 @@
     "lon": -84.37754088,
     "link": "https://www.instagram.com/paintedpickleatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 9:00 AM–12:00 AM",
       "Monday: 9:00 AM–10:00 PM",
       "Tuesday: 9:00 AM–11:00 PM",
@@ -2874,7 +2874,7 @@
       "Thursday: 9:00 AM–11:00 PM",
       "Friday: 9:00 AM–12:00 AM",
       "Saturday: 9:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2910,7 +2910,7 @@
     "lon": -84.38069217,
     "link": "https://www.instagram.com/sweetwatertaproom/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 11:30 AM–8:00 PM",
       "Tuesday: 11:30 AM–9:00 PM",
@@ -2918,7 +2918,7 @@
       "Thursday: 11:30 AM–9:00 PM",
       "Friday: 11:30 AM–10:00 PM",
       "Saturday: 11:30 AM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2954,7 +2954,7 @@
     "lon": -84.37704052,
     "link": "https://www.instagram.com/hottohottoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: 12:00 PM–9:00 PM",
@@ -2962,7 +2962,7 @@
       "Thursday: 12:00 PM–9:00 PM",
       "Friday: 12:00 PM–10:00 PM",
       "Saturday: 12:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -2998,7 +2998,7 @@
     "lon": -84.3770384,
     "link": "https://www.instagram.com/butecoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: Closed",
       "Tuesday: 11:00 AM–11:00 PM",
@@ -3006,7 +3006,7 @@
       "Thursday: 11:00 AM–11:00 PM",
       "Friday: 11:00 AM–12:00 AM",
       "Saturday: 11:00 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3042,7 +3042,7 @@
     "lon": -84.3679104,
     "link": "https://www.instagram.com/zibasbistroandwinebar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -3050,7 +3050,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 5:00 PM–10:00 PM",
       "Saturday: 5:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3086,7 +3086,7 @@
     "lon": -84.38546065,
     "link": "https://www.instagram.com/hcbiergarten/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3094,7 +3094,7 @@
       "Thursday: 5:00 PM–9:00 PM",
       "Friday: 5:00 PM–10:00 PM",
       "Saturday: 11:30 AM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3130,7 +3130,7 @@
     "lon": -84.386469,
     "link": "https://www.instagram.com/bocaatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 12:00 PM–10:00 PM",
       "Tuesday: 12:00 PM–10:00 PM",
@@ -3138,7 +3138,7 @@
       "Thursday: 12:00 PM–10:00 PM",
       "Friday: 12:00 PM–11:00 PM",
       "Saturday: 12:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3166,7 +3166,7 @@
     "lon": -84.3839743,
     "link": "https://www.instagram.com/talatmarketatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3174,7 +3174,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 5:00 PM–10:00 PM",
       "Saturday: 5:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3202,7 +3202,7 @@
     "lon": -84.36808679,
     "link": "https://www.instagram.com/lottafruttaatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–4:00 PM",
       "Monday: Closed",
       "Tuesday: 12:00 PM–5:00 PM",
@@ -3210,7 +3210,7 @@
       "Thursday: 12:00 PM–5:00 PM",
       "Friday: 12:00 PM–5:00 PM",
       "Saturday: 12:00 PM–4:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3238,7 +3238,7 @@
     "lon": -84.3727959,
     "link": "https://www.instagram.com/littletartbakeshop/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–3:00 PM; 5:00 PM–9:00 PM",
       "Monday: 7:00 AM–6:00 PM",
       "Tuesday: 7:00 AM–6:00 PM",
@@ -3246,7 +3246,7 @@
       "Thursday: 7:00 AM–6:00 PM",
       "Friday: 7:00 AM–9:00 PM",
       "Saturday: 8:00 AM–3:00 PM; 5:00 PM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3274,7 +3274,7 @@
     "lon": -84.369851,
     "link": "https://www.instagram.com/staplehouse/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3282,7 +3282,7 @@
       "Thursday: 12:00 PM–9:00 PM",
       "Friday: 12:00 PM–10:00 PM",
       "Saturday: 12:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3310,7 +3310,7 @@
     "lon": -84.34881795,
     "link": "https://www.instagram.com/okyakiatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 1:00 PM–1:00 AM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3318,7 +3318,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3346,7 +3346,7 @@
     "lon": -84.3463317,
     "link": "https://www.instagram.com/gaja_eav/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -3354,7 +3354,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3382,7 +3382,7 @@
     "lon": -84.34377155,
     "link": "https://www.instagram.com/bellwoodcoffee/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–6:00 PM",
       "Monday: 7:00 AM–5:00 PM",
       "Tuesday: 7:00 AM–5:00 PM",
@@ -3390,7 +3390,7 @@
       "Thursday: 7:00 AM–5:00 PM",
       "Friday: 7:00 AM–5:00 PM",
       "Saturday: 8:00 AM–6:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3418,7 +3418,7 @@
     "lon": -84.3459555,
     "link": "https://www.instagram.com/banshee_eav/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -3426,7 +3426,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 5:00 PM–2:30 AM",
       "Saturday: 5:00 PM–2:30 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3454,7 +3454,7 @@
     "lon": -84.3464894,
     "link": "https://www.instagram.com/liftingnoodlesramen/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: 11:30 AM–9:00 PM",
@@ -3462,7 +3462,7 @@
       "Thursday: 11:30 AM–9:00 PM",
       "Friday: 11:30 AM–9:00 PM",
       "Saturday: 11:30 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3490,7 +3490,7 @@
     "lon": -84.3428416,
     "link": "https://www.instagram.com/pure.quill.superette/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 9:00 AM–6:00 PM",
       "Monday: 9:00 AM–6:00 PM",
       "Tuesday: 9:00 AM–6:00 PM",
@@ -3498,7 +3498,7 @@
       "Thursday: 9:00 AM–6:00 PM",
       "Friday: 9:00 AM–6:00 PM",
       "Saturday: 9:00 AM–6:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3526,7 +3526,7 @@
     "lon": -84.3443804,
     "link": "https://www.instagram.com/adultbigwheelclub/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 9:00 AM–9:00 PM",
       "Monday: 9:00 AM–9:00 PM",
       "Tuesday: 9:00 AM–9:00 PM",
@@ -3534,7 +3534,7 @@
       "Thursday: 9:00 AM–9:00 PM",
       "Friday: 9:00 AM–9:00 PM",
       "Saturday: 9:00 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3562,7 +3562,7 @@
     "lon": -84.354649,
     "link": "https://www.instagram.com/parkgrounds/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–8:00 PM",
       "Monday: 8:00 AM–8:00 PM",
       "Tuesday: 8:00 AM–8:00 PM",
@@ -3570,7 +3570,7 @@
       "Thursday: 8:00 AM–8:00 PM",
       "Friday: 8:00 AM–8:00 PM",
       "Saturday: 8:00 AM–8:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3598,7 +3598,7 @@
     "lon": -84.3610218,
     "link": "https://www.instagram.com/elmalo.atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 6:00 PM–12:00 AM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3606,7 +3606,7 @@
       "Thursday: 6:00 PM–2:00 AM",
       "Friday: 6:00 PM–2:00 AM",
       "Saturday: 6:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3634,7 +3634,7 @@
     "lon": -84.35798802,
     "link": "https://www.instagram.com/muchachoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–11:00 PM",
       "Monday: 8:00 AM–10:00 PM",
       "Tuesday: 8:00 AM–10:00 PM",
@@ -3642,7 +3642,7 @@
       "Thursday: 8:00 AM–10:00 PM",
       "Friday: 8:00 AM–11:00 PM",
       "Saturday: 8:00 AM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3670,7 +3670,7 @@
     "lon": -84.342591,
     "link": "https://www.instagram.com/eltesoroatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 10:00 AM–10:00 PM",
       "Monday: Closed",
       "Tuesday: 11:00 AM–9:00 PM",
@@ -3678,7 +3678,7 @@
       "Thursday: 11:00 AM–9:00 PM",
       "Friday: 11:00 AM–10:00 PM",
       "Saturday: 10:00 AM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3706,7 +3706,7 @@
     "lon": -84.36830803,
     "link": "https://www.instagram.com/amanoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
       "Monday: Closed",
       "Tuesday: 11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
@@ -3714,7 +3714,7 @@
       "Thursday: 11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
       "Friday: 11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
       "Saturday: 11:00 AM–2:30 PM; 5:00 PM–9:30 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3742,7 +3742,7 @@
     "lon": -84.36955514,
     "link": "https://www.instagram.com/woodysatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 11:00 AM–12:00 AM",
       "Tuesday: 11:00 AM–12:00 AM",
@@ -3750,7 +3750,7 @@
       "Thursday: 11:00 AM–12:00 AM",
       "Friday: 11:00 AM–4:00 AM",
       "Saturday: 11:00 AM–4:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3778,7 +3778,7 @@
     "lon": -84.36923885,
     "link": "https://www.instagram.com/parktavern/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 4:30 PM–12:00 AM",
       "Tuesday: 4:30 PM–12:00 AM",
@@ -3786,7 +3786,7 @@
       "Thursday: 4:30 PM–12:00 AM",
       "Friday: 4:30 PM–12:00 AM",
       "Saturday: 11:30 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3814,7 +3814,7 @@
     "lon": -84.38509403,
     "link": "https://www.instagram.com/barmargotatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 3:00 PM–11:00 PM",
       "Monday: 3:00 PM–11:00 PM",
       "Tuesday: 3:00 PM–11:00 PM",
@@ -3822,7 +3822,7 @@
       "Thursday: 3:00 PM–11:00 PM",
       "Friday: 3:00 PM–12:00 AM",
       "Saturday: 3:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3850,7 +3850,7 @@
     "lon": -84.3872941,
     "link": "https://www.instagram.com/midcity.atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -3858,7 +3858,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3886,7 +3886,7 @@
     "lon": -84.38241589,
     "link": "https://www.instagram.com/thegardenroomatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–3:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3894,7 +3894,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 3:00 PM–12:00 AM",
       "Saturday: 3:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3922,7 +3922,7 @@
     "lon": -84.3810675,
     "link": "https://www.instagram.com/umisushiatl",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 PM–1:00 AM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -3930,7 +3930,7 @@
       "Thursday: Closed",
       "Friday: 8:00 PM–1:00 AM",
       "Saturday: 8:00 PM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3958,7 +3958,7 @@
     "lon": -84.3646037,
     "link": "https://www.instagram.com/rangerstationatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -3966,7 +3966,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–1:00 AM",
       "Saturday: 5:00 PM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -3994,7 +3994,7 @@
     "lon": -84.360439,
     "link": "https://www.instagram.com/bullyboyatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -4002,7 +4002,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 5:00 PM–11:00 PM",
       "Saturday: 5:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4030,7 +4030,7 @@
     "lon": -84.362462,
     "link": "https://www.instagram.com/burlesbar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: Closed",
       "Tuesday: 3:00 PM–12:00 AM",
@@ -4038,7 +4038,7 @@
       "Thursday: 3:00 PM–12:00 AM",
       "Friday: 3:00 PM–12:00 AM",
       "Saturday: 12:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4066,7 +4066,7 @@
     "lon": -84.36229035,
     "link": "https://www.instagram.com/thelocalonponce/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 8:00 PM–2:00 AM",
       "Tuesday: Closed",
@@ -4074,7 +4074,7 @@
       "Thursday: 5:00 PM–1:00 AM",
       "Friday: 5:00 PM–2:00 AM",
       "Saturday: 5:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4102,7 +4102,7 @@
     "lon": -84.3528263,
     "link": "https://www.instagram.com/alonsbakery/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 9:00 AM–4:00 PM",
       "Monday: 7:00 AM–7:00 PM",
       "Tuesday: 7:00 AM–7:00 PM",
@@ -4110,7 +4110,7 @@
       "Thursday: 7:00 AM–7:00 PM",
       "Friday: 7:00 AM–7:00 PM",
       "Saturday: 8:00 AM–7:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4138,7 +4138,7 @@
     "lon": -84.3799419,
     "link": "https://www.instagram.com/marymacstearoom/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: 11:00 AM–9:00 PM",
       "Tuesday: 11:00 AM–9:00 PM",
@@ -4146,7 +4146,7 @@
       "Thursday: 11:00 AM–9:00 PM",
       "Friday: 11:00 AM–9:00 PM",
       "Saturday: 11:00 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4174,7 +4174,7 @@
     "lon": -84.38931505,
     "link": "https://www.instagram.com/thevarsity1928/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: 11:00 AM–8:00 PM",
       "Tuesday: 11:00 AM–8:00 PM",
@@ -4182,7 +4182,7 @@
       "Thursday: 11:00 AM–8:00 PM",
       "Friday: 11:00 AM–9:00 PM",
       "Saturday: 11:00 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4210,7 +4210,7 @@
     "lon": -84.410571,
     "link": "https://www.instagram.com/drawbaratl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 6:30 AM–1:00 AM",
       "Monday: 6:30 AM–11:00 PM",
       "Tuesday: 6:30 AM–11:00 PM",
@@ -4218,7 +4218,7 @@
       "Thursday: 6:30 AM–11:00 PM",
       "Friday: 6:30 AM–1:00 AM",
       "Saturday: 6:30 AM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4246,7 +4246,7 @@
     "lon": -84.41266,
     "link": "https://www.instagram.com/littlesparrowatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: 5:00 PM–10:00 PM",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -4254,7 +4254,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 5:00 PM–11:00 PM",
       "Saturday: 5:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4282,7 +4282,7 @@
     "lon": -84.41817131,
     "link": "https://www.instagram.com/palosanto_atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 6:00 PM–2:00 AM",
       "Monday: Closed",
       "Tuesday: 6:00 PM–12:00 AM",
@@ -4290,7 +4290,7 @@
       "Thursday: 6:00 PM–12:00 AM",
       "Friday: 6:00 PM–2:00 AM",
       "Saturday: 6:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4318,7 +4318,7 @@
     "lon": -84.38626657,
     "link": "https://www.instagram.com/highmuseumofart/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
       "Tuesday: 10:00 AM–5:00 PM",
@@ -4326,7 +4326,7 @@
       "Thursday: 10:00 AM–5:00 PM",
       "Friday: 10:00 AM–5:00 PM",
       "Saturday: 10:00 AM–5:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4354,7 +4354,7 @@
     "lon": -84.380822,
     "link": "https://www.instagram.com/johnnyshideaway/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 11:00 AM–3:00 AM",
       "Tuesday: 11:00 AM–3:00 AM",
@@ -4362,7 +4362,7 @@
       "Thursday: 11:00 AM–3:00 AM",
       "Friday: 12:00 PM–3:00 AM",
       "Saturday: 12:00 PM–3:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4390,7 +4390,7 @@
     "lon": -84.38103404,
     "link": "https://www.instagram.com/lebonnosh/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–3:00 PM",
       "Monday: Closed",
       "Tuesday: 8:00 AM–3:00 PM; 5:30 PM–9:00 PM",
@@ -4398,7 +4398,7 @@
       "Thursday: 8:00 AM–3:00 PM; 5:30 PM–9:00 PM",
       "Friday: 8:00 AM–3:00 PM; 5:30 PM–9:00 PM",
       "Saturday: 8:00 AM–3:00 PM; 5:30 PM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4441,7 +4441,7 @@
     "lon": -84.3770879,
     "link": "https://www.instagram.com/irbystavern/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: 11:00 AM–12:00 AM",
       "Tuesday: 11:00 AM–12:00 AM",
@@ -4449,7 +4449,7 @@
       "Thursday: 11:00 AM–12:00 AM",
       "Friday: 11:00 AM–2:00 AM",
       "Saturday: 11:00 AM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4477,7 +4477,7 @@
     "lon": -84.37503015,
     "link": "https://www.instagram.com/stjulep/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 3:00 PM–12:00 AM",
       "Monday: 5:00 PM–10:00 PM",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -4485,7 +4485,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 3:00 PM–12:00 AM",
       "Saturday: 3:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4513,7 +4513,7 @@
     "lon": -84.378026,
     "link": "https://www.instagram.com/yeppacoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 11:30 AM–11:00 PM",
       "Tuesday: 11:30 AM–11:00 PM",
@@ -4521,7 +4521,7 @@
       "Thursday: 11:30 AM–11:00 PM",
       "Friday: 11:30 AM–12:00 AM",
       "Saturday: 11:30 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4549,7 +4549,7 @@
     "lon": -84.3840009,
     "link": "https://www.instagram.com/fadoirishpub/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 10:00 AM–1:00 AM",
       "Monday: 11:30 AM–11:00 PM",
       "Tuesday: 11:30 AM–11:00 PM",
@@ -4557,7 +4557,7 @@
       "Thursday: 11:30 AM–11:00 PM",
       "Friday: 11:30 AM–12:00 AM",
       "Saturday: 10:00 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4585,7 +4585,7 @@
     "lon": -84.38087309,
     "link": "https://www.instagram.com/lecolonial_restaurants/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 12:00 PM–10:00 PM",
       "Tuesday: 12:00 PM–10:00 PM",
@@ -4593,7 +4593,7 @@
       "Thursday: 12:00 PM–10:00 PM",
       "Friday: 12:00 PM–11:00 PM",
       "Saturday: 12:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4621,7 +4621,7 @@
     "lon": -84.4120813,
     "link": "https://www.instagram.com/thenorthsidetavern/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–2:00 AM",
       "Monday: 12:00 PM–12:00 AM",
       "Tuesday: 12:00 PM–2:00 AM",
@@ -4629,7 +4629,7 @@
       "Thursday: 12:00 PM–2:00 AM",
       "Friday: 12:00 PM–2:00 AM",
       "Saturday: 12:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4657,7 +4657,7 @@
     "lon": -84.407566,
     "link": "https://www.instagram.com/wagyuhouseatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–1:00 AM",
       "Monday: 12:00 PM–11:00 PM",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -4665,7 +4665,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 5:00 PM–2:00 AM",
       "Saturday: 5:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4693,7 +4693,7 @@
     "lon": -84.4119319,
     "link": "https://www.instagram.com/ormsbys/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–3:00 AM",
       "Monday: 4:00 PM–12:00 AM",
       "Tuesday: 4:00 PM–1:00 AM",
@@ -4701,7 +4701,7 @@
       "Thursday: 12:00 PM–1:00 AM",
       "Friday: 12:00 PM–2:00 AM",
       "Saturday: 12:00 PM–3:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4729,7 +4729,7 @@
     "lon": -84.357816,
     "link": "https://www.instagram.com/stereoatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–3:00 PM; 6:00 PM–12:30 AM",
       "Monday: 8:00 AM–3:00 PM",
       "Tuesday: 8:00 AM–3:00 PM",
@@ -4737,7 +4737,7 @@
       "Thursday: 8:00 AM–3:00 PM; 6:00 PM–12:30 AM",
       "Friday: 8:00 AM–3:00 PM; 6:00 PM–12:30 AM",
       "Saturday: 8:00 AM–3:00 PM; 6:00 PM–12:30 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4765,7 +4765,7 @@
     "lon": -84.357816,
     "link": "https://www.instagram.com/lloydspizzaparty/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -4773,7 +4773,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4801,7 +4801,7 @@
     "lon": -84.36610812,
     "link": "https://www.instagram.com/glidepizza/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–9:00 PM",
       "Monday: 12:00 PM–8:00 PM",
       "Tuesday: Closed",
@@ -4809,7 +4809,7 @@
       "Thursday: 11:30 AM–9:00 PM",
       "Friday: 11:30 AM–9:00 PM",
       "Saturday: 11:30 AM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4837,7 +4837,7 @@
     "lon": -84.3655486,
     "link": "https://www.instagram.com/thejamesroom/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–2:00 AM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–10:00 PM",
@@ -4845,7 +4845,7 @@
       "Thursday: 5:00 PM–1:00 AM",
       "Friday: 5:00 PM–1:00 AM",
       "Saturday: 5:00 PM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4873,7 +4873,7 @@
     "lon": -84.36615321,
     "link": "https://www.instagram.com/yujiatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–2:30 PM; 5:00 PM–11:00 PM",
       "Monday: 11:30 AM–2:30 PM; 5:00 PM–11:00 PM",
       "Tuesday: 12:00 PM–2:30 PM; 5:00 PM–9:00 PM",
@@ -4881,7 +4881,7 @@
       "Thursday: 12:00 PM–2:30 PM; 5:00 PM–10:30 PM",
       "Friday: 11:30 AM–2:30 PM; 5:00 PM–10:30 PM",
       "Saturday: 11:30 AM–2:30 PM; 5:00 PM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4909,7 +4909,7 @@
     "lon": -84.3646037,
     "link": "https://www.instagram.com/ladybirdatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: 11:00 AM–12:00 AM",
       "Tuesday: 11:00 AM–12:00 AM",
@@ -4917,7 +4917,7 @@
       "Thursday: 11:00 AM–12:00 AM",
       "Friday: 11:00 AM–2:00 AM",
       "Saturday: 11:00 AM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4945,7 +4945,7 @@
     "lon": -84.35944542,
     "link": "https://www.instagram.com/paintedparkatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: Closed",
       "Tuesday: 5:00 PM–12:00 AM",
@@ -4953,7 +4953,7 @@
       "Thursday: 5:00 PM–12:00 AM",
       "Friday: 12:00 PM–2:00 AM",
       "Saturday: 11:00 AM–2:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -4981,7 +4981,7 @@
     "lon": -84.358494,
     "link": "https://www.instagram.com/harborcoffee/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 AM–4:00 PM",
       "Monday: 8:00 AM–4:00 PM",
       "Tuesday: 8:00 AM–4:00 PM",
@@ -4989,7 +4989,7 @@
       "Thursday: 8:00 AM–4:00 PM",
       "Friday: 8:00 AM–4:00 PM",
       "Saturday: 8:00 AM–4:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5017,7 +5017,7 @@
     "lon": -84.35858396,
     "link": "https://www.instagram.com/beetlecatatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 10:00 AM–11:00 PM",
       "Monday: 4:00 PM–10:00 PM",
       "Tuesday: 4:00 PM–10:00 PM",
@@ -5025,7 +5025,7 @@
       "Thursday: 4:00 PM–10:00 PM",
       "Friday: 4:00 PM–11:00 PM",
       "Saturday: 10:00 AM–11:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5053,7 +5053,7 @@
     "lon": -84.35453588,
     "link": "https://www.instagram.com/highlandtapatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–2:30 AM",
       "Monday: 5:00 PM–12:30 AM",
       "Tuesday: 11:30 AM–12:30 AM",
@@ -5061,7 +5061,7 @@
       "Thursday: 11:30 AM–12:30 AM",
       "Friday: 11:30 AM–2:30 AM",
       "Saturday: 11:00 AM–2:30 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5089,7 +5089,7 @@
     "lon": -84.3526593,
     "link": "https://www.instagram.com/darkhorseatlanta/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 8:00 PM–3:00 AM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -5097,7 +5097,7 @@
       "Thursday: 6:30 PM–1:30 AM",
       "Friday: 6:30 PM–2:00 AM",
       "Saturday: 8:00 PM–3:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5125,7 +5125,7 @@
     "lon": -84.35305049,
     "link": "https://www.instagram.com/dadsatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–1:00 AM",
       "Monday: 5:00 PM–12:00 AM",
       "Tuesday: 5:00 PM–1:00 AM",
@@ -5133,7 +5133,7 @@
       "Thursday: 5:00 PM–1:00 AM",
       "Friday: 5:00 PM–1:00 AM",
       "Saturday: 5:00 PM–1:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5161,7 +5161,7 @@
     "lon": -84.3541834,
     "link": "https://www.instagram.com/moesandjoesatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–2:00 AM",
       "Monday: 11:30 AM–2:00 AM",
       "Tuesday: 11:30 AM–2:00 AM",
@@ -5169,7 +5169,7 @@
       "Thursday: 11:30 AM–2:00 AM",
       "Friday: 11:30 AM–1:00 AM",
       "Saturday: 12:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5197,7 +5197,7 @@
     "lon": -84.361399,
     "link": "https://www.instagram.com/hotelclermont/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–1:00 AM",
       "Monday: 4:00 PM–12:00 AM",
       "Tuesday: 4:00 PM–12:00 AM",
@@ -5205,7 +5205,7 @@
       "Thursday: 4:00 PM–12:00 AM",
       "Friday: 4:00 PM–1:00 AM",
       "Saturday: 12:00 PM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5233,7 +5233,7 @@
     "lon": -84.361399,
     "link": "https://www.instagram.com/clermontlounge/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 3:00 PM–3:00 AM",
       "Monday: 3:00 PM–3:00 AM",
       "Tuesday: 8:00 PM–3:00 AM",
@@ -5241,7 +5241,7 @@
       "Thursday: 8:00 PM–3:00 AM",
       "Friday: 3:00 PM–3:00 AM",
       "Saturday: Closed"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5269,7 +5269,7 @@
     "lon": -84.3620118,
     "link": "https://www.instagram.com/spacemanatl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–11:00 PM",
       "Tuesday: 5:00 PM–11:00 PM",
@@ -5277,7 +5277,7 @@
       "Thursday: 5:00 PM–11:00 PM",
       "Friday: 5:00 PM–12:00 AM",
       "Saturday: 5:00 PM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5305,7 +5305,7 @@
     "lon": -84.352723,
     "link": "https://www.instagram.com/elementalspirits.co/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: Closed",
       "Tuesday: 11:00 AM–8:00 PM",
@@ -5313,7 +5313,7 @@
       "Thursday: 11:00 AM–8:00 PM",
       "Friday: 11:00 AM–9:00 PM",
       "Saturday: 12:30 PM–6:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5341,7 +5341,7 @@
     "lon": -84.3548853,
     "link": "https://www.instagram.com/murphysatlwine/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 12:00 PM–9:00 PM",
       "Tuesday: 12:00 PM–8:00 PM",
@@ -5349,7 +5349,7 @@
       "Thursday: 12:00 PM–8:00 PM",
       "Friday: 12:00 PM–8:00 PM",
       "Saturday: 12:30 PM–8:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5377,7 +5377,7 @@
     "lon": -84.3990245,
     "link": "https://www.instagram.com/wineshoe/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: Closed",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -5385,7 +5385,7 @@
       "Thursday: Closed",
       "Friday: Closed",
       "Saturday: Closed"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5413,7 +5413,7 @@
     "lon": -84.34042587,
     "link": "https://www.instagram.com/vin.atl/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 1:00 PM–8:00 PM",
       "Monday: 1:00 PM–8:00 PM",
       "Tuesday: 4:00 PM–8:00 PM",
@@ -5421,7 +5421,7 @@
       "Thursday: 1:00 PM–8:00 PM",
       "Friday: 1:00 PM–8:00 PM",
       "Saturday: 1:00 PM–5:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5449,7 +5449,7 @@
     "lon": -84.411774,
     "link": "https://www.instagram.com/perrineswine_westside/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–7:30 PM",
       "Monday: 11:00 AM–7:30 PM",
       "Tuesday: 11:00 AM–7:30 PM",
@@ -5457,7 +5457,7 @@
       "Thursday: 11:00 AM–7:30 PM",
       "Friday: 11:00 AM–7:30 PM",
       "Saturday: Closed"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5485,7 +5485,7 @@
     "lon": -84.35944542,
     "link": "https://www.instagram.com/barcelonawinebar/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 1:00 PM–12:00 AM",
       "Tuesday: 1:00 PM–12:00 AM",
@@ -5493,7 +5493,7 @@
       "Thursday: 1:00 PM–12:00 AM",
       "Friday: 1:00 PM–12:00 AM",
       "Saturday: 11:30 AM–12:00 AM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5521,7 +5521,7 @@
     "lon": -84.381205,
     "link": "https://www.instagram.com/lucianbooksandwine/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: Closed",
       "Tuesday: Closed",
@@ -5529,7 +5529,7 @@
       "Thursday: 5:00 PM–10:00 PM",
       "Friday: 11:30 AM–10:00 PM",
       "Saturday: 11:30 AM–10:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5557,7 +5557,7 @@
     "lon": -84.36298948,
     "link": "https://www.instagram.com/3parkswine_fourthward/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: Closed",
       "Tuesday: 12:00 PM–8:00 PM",
@@ -5565,7 +5565,7 @@
       "Thursday: 12:00 PM–8:00 PM",
       "Friday: 12:00 PM–8:00 PM",
       "Saturday: 12:00 PM–7:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
@@ -5593,7 +5593,7 @@
     "lon": -84.35858396,
     "link": "https://www.instagram.com/shopvinoteca/",
     "openNow": true,
-    "hours": {
+    "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 12:00 PM–8:00 PM",
       "Tuesday: 12:00 PM–8:00 PM",
@@ -5601,7 +5601,7 @@
       "Thursday: 12:00 PM–8:00 PM",
       "Friday: 12:00 PM–9:00 PM",
       "Saturday: 12:00 PM–9:00 PM"
-    },
+    ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
   { "date": "-", "title": "-", "time": "-" }
