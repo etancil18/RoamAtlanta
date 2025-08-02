@@ -468,23 +468,52 @@ function getCurrentDayPart() {
 
   summaryDiv.appendChild(list);
 
-const saveBtn = document.createElement("button");
-saveBtn.textContent = "💾 Save to My Favorites";
-saveBtn.onclick = () => {
-  alert("Crawl saved to favorites (local only for now)!");
-};
-summaryDiv.appendChild(saveBtn);
+  const saveBtn = document.createElement("button");
+  saveBtn.textContent = "💾 Save to My Favorites";
+  saveBtn.onclick = () => {
+    if (crawlRoute.length < 2) {
+      alert('Add at least 2 stops to save a route.');
+      return;
+    }
+    const existing = localStorage.getItem('savedRoutes');
+    const routes = existing ? JSON.parse(existing) : [];
+    routes.push([...crawlRoute]);
+    localStorage.setItem('savedRoutes', JSON.stringify(routes));
+    alert("Crawl saved to favorites (local only for now)!");
+  };
+  summaryDiv.appendChild(saveBtn);
 
-const closeBtn = document.createElement("button");
-closeBtn.textContent = "✖ Close";
-closeBtn.style.marginLeft = "10px";
-closeBtn.onclick = () => {
-  summaryDiv.style.display = "none";
-};
-summaryDiv.appendChild(closeBtn);
+  const exportBtn = document.createElement("button");
+  exportBtn.textContent = "Export to Google Maps";
+  exportBtn.onclick = () => {
+    const base = "https://www.google.com/maps/dir/";
+    const waypoints = crawlRoute.map(stop => `${stop.lat},${stop.lng}`).join('/');
+    const url = `${base}${waypoints}`;
+    window.open(url, "_blank");
+  };
+  summaryDiv.appendChild(exportBtn);
 
-summaryDiv.style.display = "block";
-  }
+  const shareBtn = document.createElement("button");
+  shareBtn.textContent = "Copy Crawl Link";
+  shareBtn.onclick = () => {
+    const baseUrl = window.location.origin + window.location.pathname;
+    const encoded = encodeURIComponent(JSON.stringify(crawlRoute));
+    const link = `${baseUrl}?crawl=${encoded}`;
+    navigator.clipboard.writeText(link).then(() => {
+      alert("Link copied to clipboard!");
+    });
+  };
+  summaryDiv.appendChild(shareBtn);
+
+  const closeBtn = document.createElement("button");
+  closeBtn.textContent = "Close";
+  closeBtn.onclick = () => {
+    summaryDiv.style.display = "none";
+  };
+  summaryDiv.appendChild(closeBtn);
+
+  summaryDiv.style.display = "block"; // Show it
+}
   
 function generateCrawlRoute() {
 
