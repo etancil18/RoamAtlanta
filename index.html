@@ -356,7 +356,7 @@ document.getElementById('clearRouteBtn').addEventListener('click', () => {
   if (currentRoute) map.removeControl(currentRoute);
 });
 
-  let savedRoutes = [];
+
 const savedFromStorage = localStorage.getItem('savedRoutes');
 if (savedFromStorage) {
   savedRoutes = JSON.parse(savedFromStorage);
