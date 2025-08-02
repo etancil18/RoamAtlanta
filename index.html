@@ -453,16 +453,22 @@ function getCurrentDayPart() {
 
   summaryDiv.appendChild(list);
 
-  const saveBtn = document.createElement("button");
-  saveBtn.textContent = "💾 Save to My Favorites";
-  saveBtn.onclick = () => {
-    // Implement saving logic here
-    alert("Crawl saved to favorites (local only for now)!");
-  };
-  summaryDiv.appendChild(saveBtn);
+const saveBtn = document.createElement("button");
+saveBtn.textContent = "💾 Save to My Favorites";
+saveBtn.onclick = () => {
+  alert("Crawl saved to favorites (local only for now)!");
+};
+summaryDiv.appendChild(saveBtn);
 
-  summaryDiv.style.display = "block"; // Show it
-}
+const closeBtn = document.createElement("button");
+closeBtn.textContent = "✖ Close";
+closeBtn.style.marginLeft = "10px";
+closeBtn.onclick = () => {
+  summaryDiv.style.display = "none";
+};
+summaryDiv.appendChild(closeBtn);
+
+summaryDiv.style.display = "block";
   
 function generateCrawlRoute() {
 
