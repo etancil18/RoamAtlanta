@@ -653,14 +653,19 @@ validLocations.forEach(ev => {
   const sorted = validLocations
   .filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 1500)
   .sort((a, b) => b._score - a._score);
-
+  
 // 🎲 Randomize among the top 5 scoring candidates
 const topCandidates = sorted.slice(0, 5);
 const randomStart = topCandidates[Math.floor(Math.random() * topCandidates.length)];
 
+  if (!randomStart) {
+  alert('Unable to select a valid starting point.');
+  return;
+}
+
 const crawlRoute = [];
 let last = randomStart;
-let timeSpent = last.duration || 1;
+let timeSpent = (last?.duration !== undefined && !isNaN(last.duration)) ? last.duration : 1;
 crawlRoute.push(last);
 
 // Remove the chosen start from the sorted list
