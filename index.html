@@ -348,23 +348,24 @@ fetch('events.json')
 
     console.log("📅 Events Today:", eventsToday);
 
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.has('crawl')) {
-      try {
-        const crawl = JSON.parse(decodeURIComponent(urlParams.get('crawl')));
-        console.log("🔗 Loaded crawl from URL:", crawl);
+   const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('crawl')) {
+  try {
+    const crawl = JSON.parse(decodeURIComponent(urlParams.get('crawl')));
+    console.log("🔗 Loaded crawl from URL:", crawl);
 
-        renderMarkers(crawl, true); // ✅ pass crawlMode = true
-        selectedRoute = [...crawl];
-        drawRoute();
-        showCrawlSummary(crawl);
+    renderMarkers(crawl, true); // ✅ pass crawlMode = true
+    selectedRoute = [...crawl];
+    drawRoute();
+    showCrawlSummary(crawl);
 
-        document.querySelector('.controls').style.display = 'none'; // optional clean viewer
-        return; // ⛔ skip default render if crawl loaded
-      } catch (e) {
-        console.error("Invalid crawl link:", e);
-      }
-    }
+    document.querySelector('.controls').style.display = 'none'; // ✅ Hide controls for clean viewer
+
+    return; // ⛔ Skip default render if crawl loaded
+  } catch (e) {
+    console.error("Invalid crawl link:", e);
+  }
+}
 
     // fallback to default view
     renderMarkers(events);
