@@ -465,6 +465,9 @@ function getCurrentDayPart() {
 }
   
 function generateCrawlRoute() {
+
+const todayStr = new Date().toISOString().slice(0, 10);
+
   if (!globalEvents.length) {
     alert("Locations not loaded yet. Please wait a moment.");
     return;
