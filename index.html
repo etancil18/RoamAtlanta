@@ -144,14 +144,6 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   L: 'red'         // Late Night 
 };
 
-  function isLocationOpenNow(ev) {
-  const now = new Date();
-  const dayKeys = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
-  const todayKey = dayKeys[now.getDay()];
-  const currentHour = now.getHours();
-
-  const hours = ev.hoursNumeric?.[todayKey];
-  if (!hours || hours.open === undefined || hours.close === undefined) return false;
 
   function isLocationOpenNow(ev) {
   const now = new Date();
