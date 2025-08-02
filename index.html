@@ -370,6 +370,7 @@ document.getElementById('saveRouteBtn').addEventListener('click', () => {
 
   savedRoutes.push([...selectedRoute]);
   localStorage.setItem('savedRoutes', JSON.stringify(savedRoutes)); // ✅ persist to localStorage
+  console.log('🔐 Saved to localStorage:', savedRoutes); // <<< ADD THIS LINE
   alert('Route saved to favorites.');
 });
 
@@ -731,6 +732,8 @@ document.getElementById('crawlNowBtn').addEventListener('click', generateCrawlRo
 function openFavoritesModal() {
   const savedFromStorage = localStorage.getItem('savedRoutes');
   const routes = savedFromStorage ? JSON.parse(savedFromStorage) : [];
+
+  console.log('📦 Routes from localStorage:', routes);
 
   let html = `
     <div id="modal" style="position:fixed;top:10%;left:50%;transform:translateX(-50%);background:white;padding:20px;z-index:2000;border:1px solid #ccc;max-height:80%;overflow:auto;box-shadow:0 0 10px rgba(0,0,0,0.3);border-radius:8px;">
