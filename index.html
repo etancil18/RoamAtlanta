@@ -363,6 +363,8 @@ if (savedFromStorage) {
 }
   
 document.getElementById('saveRouteBtn').addEventListener('click', () => {
+  console.log('🧭 selectedRoute at time of save:', selectedRoute); // ✅ moved inside event
+
   if (selectedRoute.length < 2) {
     alert('Add at least 2 locations to save a route.');
     return;
@@ -370,7 +372,7 @@ document.getElementById('saveRouteBtn').addEventListener('click', () => {
 
   savedRoutes.push([...selectedRoute]);
   localStorage.setItem('savedRoutes', JSON.stringify(savedRoutes)); // ✅ persist to localStorage
-  console.log('🔐 Saved to localStorage:', savedRoutes); // <<< ADD THIS LINE
+  console.log('🔐 Saved to localStorage:', savedRoutes);
   alert('Route saved to favorites.');
 });
 
