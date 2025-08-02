@@ -356,13 +356,25 @@ document.getElementById('clearRouteBtn').addEventListener('click', () => {
   if (currentRoute) map.removeControl(currentRoute);
 });
 
+  let savedRoutes = [];
+const savedFromStorage = localStorage.getItem('savedRoutes');
+if (savedFromStorage) {
+  savedRoutes = JSON.parse(savedFromStorage);
+}
+  
 document.getElementById('saveRouteBtn').addEventListener('click', () => {
   if (selectedRoute.length < 2) {
     alert('Add at least 2 locations to save a route.');
     return;
   }
+
   savedRoutes.push([...selectedRoute]);
+  localStorage.setItem('savedRoutes', JSON.stringify(savedRoutes)); // ✅ persist to localStorage
   alert('Route saved to favorites.');
+});
+
+document.getElementById('favoritesBtn').addEventListener('click', () => {
+  openFavoritesModal();
 });
 
 document.getElementById('favoritesBtn').addEventListener('click', () => {
