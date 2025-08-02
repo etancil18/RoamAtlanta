@@ -651,7 +651,7 @@ validLocations.forEach(ev => {
 
   
   const sorted = validLocations
-  .filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 1500)
+  .filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 2500)
   .sort((a, b) => b._score - a._score);
   
 // 🎲 Randomize among the top 5 scoring candidates
@@ -676,7 +676,7 @@ sorted.splice(sorted.indexOf(randomStart), 1);
     const next = sorted.find(ev => {
       const dist = lastLatLng.distanceTo(L.latLng(ev.lat, ev.lon));
       const fits = timeSpent + (ev.duration || 1) <= maxDuration;
-      return dist <= 500 && fits;
+      return dist <= 1000 && fits;
     });
 
     if (!next) break;
