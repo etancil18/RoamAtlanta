@@ -642,9 +642,10 @@ validLocations.forEach(ev => {
   const tagMatches = normalizedTags.filter(t => themeKeywords.includes(t));
   const dist = center.distanceTo(L.latLng(ev.lat, ev.lon));
   ev._score = (vibeMatches.length + tagMatches.length) / (dist + 1);
-});
 
   ev._score += ev.dateEvents?.some(e => e.date === todayStr) ? 1 : 0;
+});
+
   
   const sorted = validLocations
   .filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 1500)
