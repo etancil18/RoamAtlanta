@@ -153,11 +153,37 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   const hours = ev.hoursNumeric?.[todayKey];
   if (!hours || hours.open === undefined || hours.close === undefined) return false;
 
-  // Handle closing after midnight
-  if (hours.close < hours.open) {
-    return currentHour >= hours.open || currentHour < hours.close;
+  function isLocationOpenNow(ev) {
+  const now = new Date();
+  const dayKeys = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+  const todayKey = dayKeys[now.getDay()];
+  const yesterdayKey = dayKeys[(now.getDay() + 6) % 7];
+  const currentHour = now.getHours();
+
+  const todayHours = ev.hoursNumeric?.[todayKey];
+  const yesterdayHours = ev.hoursNumeric?.[yesterdayKey];
+
+  const isWithin = (open, close) => {
+    if (close < open) {
+      return currentHour >= open || currentHour < close;
+    } else {
+      return currentHour >= open && currentHour < close;
+    }
+  };
+
+  // Check if still open from yesterday’s late-night hours
+  if (yesterdayHours && yesterdayHours.open !== undefined && yesterdayHours.close !== undefined) {
+    if (yesterdayHours.close < yesterdayHours.open && currentHour < yesterdayHours.close) {
+      return true;
+    }
   }
-  return currentHour >= hours.open && currentHour < hours.close;
+
+  // Check today’s hours
+  if (todayHours && todayHours.open !== undefined && todayHours.close !== undefined) {
+    return isWithin(todayHours.open, todayHours.close);
+  }
+
+  return false;
 }
   
   let globalEvents = [];
