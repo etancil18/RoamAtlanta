@@ -2025,7 +2025,7 @@
   },
   {
     "name": "Fawn Wine + Amaro",
-    "vibe": "wine, intimate, european, romantic, dim, curated, aperitif",
+    "vibe": "wine, intimate, european, romantic, dim, curated, aperitif, refined, cozy, stylish, upscale, slow-paced, warm",
     "type": "wine bar",
         "lat": 33.775424,
     "lon": -84.295543,
@@ -2070,7 +2070,7 @@
   },
   {
     "name": "Indaco",
-    "vibe": "italian, stylish, light-filled, brunch, group-friendly, pasta",
+    "vibe": "italian, stylish, light-filled, brunch, group-friendly, pasta, fresh, airy, modern, inviting, elegant, rustic, approachable",
     "type": "dinner",
         "lat": 33.77372173,
     "lon": -84.36195002,
@@ -2115,7 +2115,7 @@
   },
   {
     "name": "Tesserae",
-    "vibe": "rooftop, lounge, swanky, skyline, DJ, upscale, cocktails",
+    "vibe": "rooftop, lounge, swanky, skyline, DJ, upscale, cocktails, chic, panoramic, modern, vibrant, stylish, lively",
     "type": "rooftop",
         "lat": 33.83820075,
     "lon": -84.37431322,
@@ -2160,7 +2160,7 @@
   },
   {
     "name": "Halfway Crooks Beer",
-    "vibe": "brewery, belgian-style, minimalist, euro-inspired, local, industrial",
+    "vibe": "brewery, belgian-style, minimalist, euro-inspired, local, industrial, clean, modern, airy, craft, hipster, approachable, casual",
     "type": "bar",
         "lat": 33.736999,
     "lon": -84.385751,
