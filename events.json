@@ -1,7 +1,7 @@
 [
   {
     "name": "Beso Buckhead",
-    "vibe": "upscale, trendy, latin, cocktails, nightlife, romantic, stylish, crowd-pleaser",
+    "vibe": "upscale, trendy, latin, cocktails, nightlife, romantic, stylish, crowd-pleaser, vibrant, energetic, chic, social, high-energy, fashionable",
     "type": "club",
         "lat": 33.84377,
     "lon": -84.378946,
@@ -46,7 +46,7 @@
   },
   {
     "name": "Pisces",
-    "vibe": "seafood, cozy, boho, romantic, artsy, hidden-gem, date-night",
+    "vibe": "club, electronic, late-night, dance, gritty, neon, high-energy, pulsing, underground, immersive, nightlife, party",
     "type": "club",
         "lat": 33.754117,
     "lon": -84.371798,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Alici Oyster Bar",
-    "vibe": "oysters, bright, coastal, elegant, fresh, raw-bar, lunch-friendly, mediterranean",
+    "vibe": "oysters, bright, coastal, elegant, fresh, raw-bar, lunch-friendly, mediterranean, seaside, crisp, airy, refined, light, polished",
     "type": "dinner",
         "lat": 33.7803409,
     "lon": -84.3686685,
@@ -136,7 +136,7 @@
   },
   {
     "name": "KR SteakBar",
-    "vibe": "steak, italian, power-lunch, upscale, wine, quiet, refined, romantic",
+    "vibe": "steak, italian, power-lunch, upscale, wine, quiet, refined, romantic, classic, sophisticated, intimate, indulgent, polished",
     "type": "dinner",
         "lat": 33.81826905,
     "lon": -84.37497385,
@@ -181,7 +181,7 @@
   },
   {
     "name": "Ruby Chow's",
-    "vibe": "asian-fusion, dim, moody, design-forward, group-friendly, hip, cocktails",
+    "vibe": "asian-fusion, dim, moody, design-forward, group-friendly, hip, cocktails, inventive, trendy, bold, stylish, curated, modern",
     "type": "dinner",
         "lat": 33.7715868,
     "lon": -84.3681182,
@@ -226,7 +226,7 @@
   },
   {
     "name": "After Eight",
-    "vibe": "lounge, late-night, cocktails, DJ, velvet, exclusive, dressy, music",
+    "vibe": "lounge, late-night, cocktails, DJ, velvet, exclusive, dressy, music, sleek, intimate, chic, sophisticated, upscale, nightlife",
     "type": "bar",
         "lat": 33.7802207,
     "lon": -84.41060596,
@@ -271,7 +271,7 @@
   },
   {
     "name": "Bon Ton",
-    "vibe": "cajun, vietnamese, funky, bold, neon, seafood, casual, instagrammable",
+    "vibe": "cajun, vietnamese, funky, bold, neon, seafood, casual, lively, eclectic, playful, colorful, upbeat, quirky",
     "type": "dinner",
         "lat": 33.772956,
     "lon": -84.3803812,
@@ -316,7 +316,7 @@
   },
   {
     "name": "APT 4B",
-    "vibe": "afro-caribbean, vintage, vinyl, lounge, curated, cozy, cool",
+    "vibe": "afro-caribbean, vintage, vinyl, lounge, curated, cozy, cool, intimate, soulful, nostalgic, warm, vibey, atmospheric",
     "type": "brunch",
         "lat": 33.8156255,
     "lon": -84.3908082,
@@ -361,8 +361,7 @@
   },
   {
     "name": "Delbar - Buckhead",
-    "vibe": "middle-eastern, garden, modern, romantic, flavors, chic, mediterranean",
-    "type": "dinner",
+    "vibe": "middle-eastern, garden, modern, romantic, flavors, chic, mediterranean, lush, airy, elegant, colorful, aromatic, exotic",
         "lat": 33.839527,
     "lon": -84.38125303,
     "link": "https://www.instagram.com/delbaratl/",
@@ -406,7 +405,7 @@
   },
   {
     "name": "Echo Room",
-    "vibe": "minimal, loft, industrial, event-space, alternative, mixed-crowd, warehouse",
+    "vibe": "minimal, loft, industrial, event-space, alternative, mixed-crowd, warehouse, artsy, raw, open, urban, edgy, creative",
     "type": "bar",
         "lat": 33.7749037,
     "lon": -84.41030778,
@@ -451,7 +450,7 @@
   },
   {
     "name": "97 Estoria",
-    "vibe": "dive, artsy, indie, laid-back, casual, murals, beer, low-key",
+    "vibe": "dive, artsy, indie, laid-back, casual, murals, beer, low-key, local, unpretentious, neighborhood, friendly, authentic",
     "type": "bar",
         "lat": 33.7519921,
     "lon": -84.36345598,
@@ -496,7 +495,7 @@
   },
   {
     "name": "Bona Fide Deluxe",
-    "vibe": "retro, creative, diner-style, cocktails, quirky, colorful, playful",
+    "vibe": "retro, creative, diner-style, cocktails, quirky, colorful, playful, nostalgic, funky, vibrant, whimsical, artistic, bold",
     "type": "bar",
         "lat": 33.76066881,
     "lon": -84.34042587,
@@ -541,7 +540,7 @@
   },
   {
     "name": "The Porter Beer Bar",
-    "vibe": "beer, cozy, gastropub, nerdy, hipster, local, classic, belgian",
+    "vibe": "beer, cozy, gastropub, nerdy, hipster, local, classic, belgian, craft, warm, inviting, casual, community",
     "type": "bar",
         "lat": 33.7652193,
     "lon": -84.34965626,
@@ -586,7 +585,7 @@
   },
   {
     "name": "Wish Atlanta",
-    "vibe": "streetwear, fashion, sneakers, hype, urban, boutique, minimalist",
+    "vibe": "streetwear, fashion, sneakers, hype, urban, boutique, minimalist, edgy, modern, exclusive, curated, stylish, premium",
     "type": "random gem",
         "lat": 33.7665546,
     "lon": -84.34895681,
@@ -631,7 +630,7 @@
   },
   {
     "name": "Wrecking Bar Brewpub",
-    "vibe": "historic, craft-beer, cozy, elevated, tavern, patio, house-converted",
+    "vibe": "historic, craft-beer, cozy, elevated, tavern, patio, house-converted, warm, rustic, vintage, inviting, character, friendly",
     "type": "bar",
         "lat": 33.762309,
     "lon": -84.3496422,
@@ -676,7 +675,7 @@
   },
   {
     "name": "The Brewhouse Cafe",
-    "vibe": "pub, sports, soccer, brunch, casual, TVs, group-friendly, chill",
+    "vibe": "pub, sports, soccer, brunch, casual, TVs, group-friendly, chill, laid-back, lively, approachable, easygoing, classic",
     "type": "bar",
         "lat": 33.7652432,
     "lon": -84.3488434,
@@ -721,7 +720,7 @@
   },
   {
     "name": "East Palisades Trailhead",
-    "vibe": "outdoors, nature, forest, scenic, peaceful, hiking, trails",
+    "vibe": "outdoors, nature, forest, scenic, peaceful, hiking, trails, serene, refreshing, green, quiet, escape, tranquil",
     "type": "nature",
         "lat": 33.87122555,
     "lon": -84.44004635,
@@ -766,7 +765,7 @@
   },
   {
     "name": "E+ROSE Wellness Cafe - Westside Provisions Atlanta",
-    "vibe": "wellness, vegan, minimalist, smoothie, healthy, clean, daytime",
+    "vibe": "wellness, vegan, minimalist, smoothie, healthy, clean, daytime, fresh, bright, nourishing, energizing, plant-based, wholesome",
     "type": "coffee",
         "lat": 33.7847648,
     "lon": -84.4122192,
@@ -811,7 +810,7 @@
   },
   {
     "name": "Smith's Olde Bar",
-    "vibe": "rock, dive, bar, music-venue, local, gritty, live-music",
+    "vibe": "rock, dive, bar, music-venue, local, gritty, live-music, unpolished, vintage, alternative, lively, casual, classic",
     "type": "bar",
         "lat": 33.79770375,
     "lon": -84.36880644,
@@ -856,7 +855,7 @@
   },
   {
     "name": "Jeni's Splendid Ice Creams",
-    "vibe": "ice-cream, artisan, colorful, dessert, family-friendly, fun, sweet",
+    "vibe": "ice-cream, artisan, colorful, dessert, family-friendly, fun, sweet, whimsical, inviting, photogenic, nostalgic, indulgent, bright",
     "type": "dessert",
         "lat": 33.8401417,
     "lon": -84.3809742,
@@ -901,7 +900,7 @@
   },
   {
     "name": "Redacted Basement Drink Parlor",
-    "vibe": "speakeasy, cocktails, moody, underground, hidden, intimate, retro",
+    "vibe": "speakeasy, cocktails, moody, underground, hidden, intimate, retro, mysterious, exclusive, dim, vintage, stylish, atmospheric",
     "type": "speakeasy",
         "lat": 33.7367005,
     "lon": -84.3856771,
@@ -946,7 +945,7 @@
   },
   {
     "name": "Edgar's Proof & Provision",
-    "vibe": "whiskey, upscale, leather, masculine, classic, cocktail-bar, hotel",
+    "vibe": "whiskey, upscale, leather, masculine, classic, cocktail-bar, hotel, polished, refined, cozy, lounge, sophisticated, warm",
     "type": "cocktail",
         "lat": 33.7724536,
     "lon": -84.3844007,
@@ -991,7 +990,7 @@
   },
   {
     "name": "Red Phone Booth",
-    "vibe": "speakeasy, exclusive, cigar, dress-code, secretive, prohibition, vintage",
+    "vibe": "speakeasy, exclusive, cigar, dress-code, secretive, prohibition, vintage, refined, luxurious, intimate, classic, atmospheric, tailored",
     "type": "speakeasy",
         "lat": 33.7595884,
     "lon": -84.3869147,
@@ -1036,7 +1035,7 @@
   },
   {
     "name": "STATS Brewpub",
-    "vibe": "sports, casual, tvs, beer, group-friendly, loud, downtown",
+    "vibe": "sports, casual, tvs, beer, group-friendly, loud, downtown, lively, approachable, festive, big-screen, energetic, relaxed",
     "type": "bar",
         "lat": 33.7615575,
     "lon": -84.3964558,
@@ -1081,7 +1080,7 @@
   },
   {
     "name": "The Painted Duck",
-    "vibe": "bowling, upscale, industrial, cocktails, playful, social, events",
+    "vibe": "bowling, upscale, industrial, cocktails, playful, social, events, interactive, vibrant, trendy, competitive, stylish, group-oriented",
     "type": "activity",
         "lat": 33.7814781,
     "lon": -84.4136351,
@@ -1126,7 +1125,7 @@
   },
   {
     "name": "MJQ Concourse",
-    "vibe": "club, underground, electronic, late-night, dance, gritty, alternative",
+    "vibe": "club, underground, electronic, late-night, dance, gritty, alternative, edgy, neon, raw, eclectic, loud, immersive",
     "type": "club",
         "lat": 33.7518911,
     "lon": -84.3892495,
@@ -1171,7 +1170,7 @@
   },
   {
     "name": "Lazy Betty",
-    "vibe": "fine-dining, tasting-menu, romantic, upscale, modern, elegant, chef-driven",
+    "vibe": "fine-dining, tasting-menu, romantic, upscale, modern, elegant, chef-driven, sophisticated, intimate, polished, creative, seasonal, gourmet",
     "type": "dinner",
         "lat": 33.7811172,
     "lon": -84.38370924,
@@ -1216,7 +1215,7 @@
   },
   {
     "name": "Jojo’s Beloved Cocktail Lounge",
-    "vibe": "disco, retro, cocktails, intimate, neon, immersive, curated",
+    "vibe": "disco, retro, cocktails, intimate, neon, immersive, curated, nostalgic, glamorous, themed, stylish, atmospheric, playful",
     "type": "speakeasy",
         "lat": 33.787223,
     "lon": -84.3829621,
@@ -1261,7 +1260,7 @@
   },
   {
     "name": "Distillery of Modern Art in Chamblee",
-    "vibe": "distillery, gallery, events, modern, industrial, artisan, design-focused",
+    "vibe": "distillery, gallery, events, modern, industrial, artisan, design-focused, creative, cultural, upscale, experiential, polished, unique",
     "type": "bar",
         "lat": 33.8971099,
     "lon": -84.2961643,
@@ -1306,7 +1305,7 @@
   },
   {
     "name": "Larakin",
-    "vibe": "cocktail-bar, chic, downtown, intimate, modern, clean, polished",
+    "vibe": "cocktail-bar, chic, downtown, intimate, modern, clean, polished, stylish, minimal, curated, cozy, upscale, contemporary",
     "type": "wine bar",
         "lat": 33.7844809,
     "lon": -84.3805853,
@@ -1351,7 +1350,7 @@
   },
   {
     "name": "Evergreen Butcher + Baker",
-    "vibe": "brunch, bakery, local, hipster, seasonal, fresh, artisanal",
+    "vibe": "brunch, bakery, local, hipster, seasonal, fresh, artisanal, warm, rustic, wholesome, friendly, inviting, casual",
     "type": "lunch",
         "lat": 33.7510262,
     "lon": -84.3217927,
@@ -1396,7 +1395,7 @@
   },
   {
     "name": "Wai's Gong Fu Tea House",
-    "vibe": "tea, zen, minimalist, traditional, asian, slow, ritual",
+    "vibe": "tea, zen, minimalist, traditional, asian, slow, ritual, serene, calming, cultural, authentic, meditative, elegant",
     "type": "tea",
         "lat": 33.79233935,
     "lon": -84.4201058,
@@ -1441,7 +1440,7 @@
   },
   {
     "name": "Kinship Butcher & Sundry",
-    "vibe": "butcher, grocery, brunch, casual, artisanal, neighborhood, rustic",
+    "vibe": "butcher, grocery, brunch, casual, artisanal, neighborhood, rustic, heritage, hearty, welcoming, authentic, small-batch, local",
     "type": "market",
         "lat": 33.7822964,
     "lon": -84.3538294,
@@ -1486,7 +1485,7 @@
   },
   {
     "name": "Whoopsie's",
-    "vibe": "divey, funky, queer-friendly, playful, casual, late-night, offbeat",
+    "vibe": "divey, funky, queer-friendly, playful, casual, late-night, offbeat, eclectic, alternative, spirited, vibrant, colorful, relaxed",
     "type": "dinner",
         "lat": 33.7534631,
     "lon": -84.3493682,
@@ -1531,7 +1530,7 @@
   },
   {
     "name": "May Peel",
-    "vibe": "cocktail-bar, velvet, moody, feminine, date-night, stylish, cozy",
+    "vibe": "cocktail-bar, velvet, moody, feminine, date-night, stylish, cozy, refined, intimate, upscale, curated, romantic, elegant",
     "type": "cocktail",
         "lat": 33.7901025,
     "lon": -84.3881552,
@@ -1576,7 +1575,7 @@
   },
   {
     "name": "Commune",
-    "vibe": "café, quiet, local, creative, neighborhood, quaint, brunch",
+    "vibe": "café, quiet, local, creative, neighborhood, quaint, brunch, warm, inviting, artistic, comfortable, cozy, chill",
     "type": "cocktail",
         "lat": 33.775806,
     "lon": -84.273451,
@@ -1621,7 +1620,7 @@
   },
   {
     "name": "The Waiting Room",
-    "vibe": "lounge, rooftop, moody, intimate, scenic, bar, skyline",
+    "vibe": "lounge, rooftop, moody, intimate, scenic, bar, skyline, stylish, upscale, panoramic, chic, sophisticated, ambient",
     "type": "speakeasy",
         "lat": 33.772956,
     "lon": -84.3803812,
@@ -1666,7 +1665,7 @@
   },
   {
     "name": "Controllerise",
-    "vibe": "creative, hip-hop, anime, gaming, alt-culture, underground, chill",
+    "vibe": "creative, hip-hop, anime, gaming, alt-culture, underground, chill, retro, niche, immersive, eclectic, community, artistic",
     "type": "activity",
         "lat": 33.7949913,
     "lon": -84.4098768,
@@ -1711,7 +1710,7 @@
   },
   {
     "name": "Grana",
-    "vibe": "italian, patio, pizza, casual, family-style, bright, buzzy",
+    "vibe": "italian, patio, pizza, casual, family-style, bright, buzzy, lively, rustic, flavorful, warm, friendly, approachable",
     "type": "dinner",
         "lat": 33.805921,
     "lon": -84.366886,
@@ -1756,7 +1755,7 @@
   },
   {
     "name": "Home grown GA Restaurant",
-    "vibe": "southern, kitschy, breakfast, local, vintage, casual, diner",
+    "vibe": "southern, kitschy, breakfast, local, vintage, casual, diner, hearty, nostalgic, homey, relaxed, unfussy, classic",
     "type": "breakfast",
         "lat": 33.7467393,
     "lon": -84.35594354,
@@ -1801,7 +1800,7 @@
   },
   {
     "name": "Small Fry",
-    "vibe": "smashburgers, casual, counter-service, neon, retro, street-food",
+    "vibe": "smashburgers, casual, counter-service, neon, retro, street-food, fun, quick, approachable, fast-casual, indulgent, bold",
     "type": "lunch",
         "lat": 33.74483765,
     "lon": -84.3613051,
@@ -1846,7 +1845,7 @@
   },
   {
     "name": "Wicked Wolf Atlanta",
-    "vibe": "sports-bar, nightlife, downtown, party, casual, high-energy",
+    "vibe": "sports-bar, nightlife, downtown, party, casual, high-energy, lively, bustling, social, fun, festive, urban, upbeat",
     "type": "bar",
         "lat": 33.7838568,
     "lon": -84.3836206,
@@ -1891,7 +1890,7 @@
   },
   {
     "name": "BLOCK & DRUM",
-    "vibe": "whiskey, lounge, upscale, bourbon, polished, local, industrial",
+    "vibe": "whiskey, lounge, upscale, bourbon, polished, local, industrial, refined, stylish, intimate, masculine, moody, crafted",
     "type": "bar",
         "lat": 33.888521,
     "lon": -84.313226,
@@ -1936,7 +1935,7 @@
   },
   {
     "name": "Victory Sandwich Bar",
-    "vibe": "sandwiches, quirky, laid-back, drinks, ironic, divey, quick-bite",
+    "vibe": "sandwiches, quirky, laid-back, drinks, ironic, divey, quick-bite, fun, casual, hip, low-key, creative, approachable",
     "type": "lunch",
         "lat": 33.7639997,
     "lon": -84.3577859,
@@ -1981,7 +1980,7 @@
   },
   {
     "name": "Twain's Brewpub & Billiards",
-    "vibe": "billiards, beer, games, local, pub, casual, arcade",
+    "vibe": "billiards, beer, games, local, pub, casual, arcade, fun, group-friendly, laid-back, classic, social, relaxed",
     "type": "bar",
         "lat": 33.77228,
     "lon": -84.294616,
