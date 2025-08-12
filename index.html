@@ -416,7 +416,7 @@ function renderMarkers(events, crawlMode = false) {
       .filter(Boolean);
 
     const similar = allMarkers
-      .filter(m => m !== marker && latlng.distanceTo(m.getLatLng()) <= 2000)
+      .filter(m => m !== marker && latlng.distanceTo(m.getLatLng()) <= 1000)
       .filter(m => {
         const otherVibes = (m.ev.vibe || '')
           .split(',')
