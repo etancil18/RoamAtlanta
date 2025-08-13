@@ -464,7 +464,19 @@ function renderMarkers(events, crawlMode = false) {
 });
   });
 }
-    
+
+  function showOnlyRouteMarkers(map, markers, routeIds) {
+  const routeSet = new Set(routeIds);
+  (markers || []).forEach(m => {
+    const onRoute = routeSet.has(m.options?.venueId);
+    if (onRoute) {
+      if (!map.hasLayer(m)) m.addTo(map);
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+}
+  
 fetch('events.json')
   .then(res => res.json())
   .then(events => {
@@ -661,6 +673,46 @@ function getCurrentDayPart() {
   return ['L']; // Late night or overnight
 }
 
+  // ===== Time helpers (supports split hours + >24 closes) =====
+type DayKey = "sun"|"mon"|"tue"|"wed"|"thu"|"fri"|"sat";
+type Range = { open:number; close:number };              // 24+ allowed for after-midnight
+type HoursOneOrMany = Range | Range[];
+type HoursNumeric = Record<DayKey, HoursOneOrMany | null>;
+
+const _dayKey = (d: Date): DayKey =>
+  (["sun","mon","tue","wed","thu","fri","sat"] as DayKey[])[d.getDay()];
+
+const _ranges = (x: HoursOneOrMany | null | undefined): Range[] =>
+  !x ? [] : (Array.isArray(x) ? x : [x]);
+
+function _intervalsForDate(d: Date, hours: HoursNumeric): Array<[Date,Date]> {
+  const y=d.getFullYear(), m=d.getMonth(), day=d.getDate();
+  const zero = new Date(y,m,day); zero.setHours(0,0,0,0);
+  const at = (h:number)=> new Date(zero.getTime() + h*3600_000);
+
+  const out: Array<[Date,Date]> = [];
+  for (const r of _ranges(hours[_dayKey(d)])) out.push([at(r.open), at(r.close)]);
+
+  // carry over yesterday segments that close >24
+  const yst = new Date(zero); yst.setDate(zero.getDate()-1);
+  for (const r of _ranges(hours[_dayKey(yst)])) {
+    if (r.close > 24) {
+      const yZero = new Date(yst); yZero.setHours(0,0,0,0);
+      out.push([
+        new Date(yZero.getTime() + r.open*3600_000),
+        new Date(yZero.getTime() + r.close*3600_000)
+      ]);
+    }
+  }
+  return out;
+}
+
+// IMPORTANT: loc.hoursNumeric may be your old single-range or new arrays
+function isOpenAt(loc: any, when: Date): boolean {
+  const hours = (loc.hoursNumeric || {}) as HoursNumeric;
+  return _intervalsForDate(when, hours).some(([o,c]) => when >= o && when < c);
+}
+
   function showCrawlSummary(crawlRoute) {
   const summaryDiv = document.getElementById("crawlSummary");
   summaryDiv.innerHTML = ""; // Clear old content
@@ -734,6 +786,11 @@ function generateCrawlRoute() {
 
   let center;
   console.log('🚨 generateCrawlRoute() triggered');
+
+  // Crawl timing
+const crawlStart = new Date();      // or read from a UI input if you expose one
+const bufferHours = 1;              // your D+1 rule (“+1” hour buffer between stops)
+
 
   const neighborhood = document.getElementById('neighborhood-input').value.toLowerCase();
   const priceFilter = document.getElementById('priceFilter').value.trim();
@@ -884,9 +941,13 @@ function generateCrawlRoute() {
   const sorted = validLocations.filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 4000).sort((a, b) => b._score - a._score);
 
   const crawlStages = crawlFlows[theme] || [];
-  const crawlRoute = [];
-  let timeSpent = 0;
-  let lastPoint = center;
+const crawlRoute = [];
+let timeSpent = 0;
+let lastPoint = center;
+
+// D+1 timing state
+let lastStopStartTime = new Date(crawlStart); // first stop begins at crawlStart
+let lastStopDuration = 0;                     // populated after picking a stop
 
   let startingStageIndex = crawlStages.findIndex(stage => {
     return sorted.some(loc => loc.type === stage && themeKeywords.some(kw => [...loc.vibe, ...loc.tags].includes(kw)));
@@ -898,24 +959,59 @@ function generateCrawlRoute() {
   }
 
   for (let i = startingStageIndex; i < crawlStages.length; i++) {
-    const stage = crawlStages[i];
-    const stageCandidates = sorted.filter(loc => {
-      const vibeAndTags = [...(loc.vibe || []), ...(loc.tags || [])];
-      const matchesType = loc.type === stage;
-      const matchesVibe = themeKeywords.some(kw => vibeAndTags.includes(kw));
-      const withinDistance = lastPoint.distanceTo(L.latLng(loc.lat, loc.lon)) <= 2000;
-      const fitsTime = timeSpent + (loc.duration || 1) <= maxDuration;
-      return matchesType && matchesVibe && withinDistance && fitsTime;
-    });
+  const stage = crawlStages[i];
 
-    if (!stageCandidates.length) continue;
+  const stageCandidates = sorted.filter(loc => {
+    const vibeAndTags = [...(loc.vibe || []), ...(loc.tags || [])];
+    const matchesType = loc.type === stage;
+    const matchesVibe = themeKeywords.some(kw => vibeAndTags.includes(kw));
+    const withinDistance = lastPoint.distanceTo(L.latLng(loc.lat, loc.lon)) <= 2000;
+    const fitsTime = timeSpent + (loc.duration || 1) <= maxDuration;
 
-    const next = stageCandidates[Math.floor(Math.random() * stageCandidates.length)];
-    crawlRoute.push(next);
-    timeSpent += next.duration || 1;
-    lastPoint = L.latLng(next.lat, next.lon);
-    sorted.splice(sorted.indexOf(next), 1);
-  }
+    // D+1 arrival time (no travel time per your requirement)
+    // Rule: only enforce D+1 *after* the initial stop.
+    // If crawlRoute.length === 0, we're selecting the very first stop—skip D+1 check.
+    let passesDPlusOne = true;
+    if (crawlRoute.length > 0) {
+      const arrivalD1 = new Date(
+        lastStopStartTime.getTime()
+        + (lastStopDuration || (crawlRoute[crawlRoute.length-1]?.duration || 1))*3600_000
+        + (1 * 3600_000) // +1 hour buffer
+      );
+      passesDPlusOne = isOpenAt(loc, arrivalD1);
+      // Optional: store debug data for summary logs
+      loc._arrivalCheck = arrivalD1.toISOString();
+      loc._arrivalPass = passesDPlusOne;
+    }
+
+    return matchesType && matchesVibe && withinDistance && fitsTime && passesDPlusOne;
+  });
+
+  if (!stageCandidates.length) continue;
+
+  const next = stageCandidates[Math.floor(Math.random() * stageCandidates.length)];
+
+console.log('[D+1 CHECK]', {
+  candidate: next.name,
+  arrivalAt: next._arrivalCheck || '(first stop)',
+  passed: next._arrivalPass ?? true
+});
+    
+  crawlRoute.push(next);
+
+  // update timing state for next hop
+  lastStopStartTime = (crawlRoute.length === 1) ? new Date(crawlStart) : new Date(
+    lastStopStartTime.getTime()
+    + (lastStopDuration || (crawlRoute[crawlRoute.length-2]?.duration || 1))*3600_000
+    + (bufferHours * 3600_000) // D+1 buffer between previous and this stop
+  );
+  lastStopDuration = next.duration || 1;
+
+  timeSpent += next.duration || 1;
+  lastPoint = L.latLng(next.lat, next.lon);
+  sorted.splice(sorted.indexOf(next), 1);
+}
+
 
   if (crawlRoute.length < 2) {
     alert('Could not build a full crawl with available stops.');
@@ -934,6 +1030,14 @@ function generateCrawlRoute() {
 
   selectedRoute = [...crawlRoute];
   showCrawlSummary(crawlRoute);
+
+  // Hide other locations on the map
+try {
+  const routeIds = crawlRoute.map(l => l.id || l.name); // whatever your marker uses
+  showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+} catch (e) {
+  console.warn('Marker filtering failed:', e);
+}
 }
 
    // ✅ Only trigger crawl logic on button click — no arguments needed
