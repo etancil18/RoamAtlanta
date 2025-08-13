@@ -227,7 +227,7 @@
   {
     "name": "After Eight",
     "vibe": "lounge, late-night, cocktails, DJ, velvet, exclusive, dressy, music, sleek, intimate, chic, sophisticated, upscale, nightlife",
-    "type": "bar",
+    "type": "cocktail",
         "lat": 33.7802207,
     "lon": -84.41060596,
     "link": "https://www.instagram.com/aftereightatl/",
@@ -317,7 +317,7 @@
   {
     "name": "APT 4B",
     "vibe": "afro-caribbean, vintage, vinyl, lounge, curated, cozy, cool, intimate, soulful, nostalgic, warm, vibey, atmospheric",
-    "type": "brunch",
+    "type": "brunch, lounge",
         "lat": 33.8156255,
     "lon": -84.3908082,
     "link": "https://www.instagram.com/apt4batl/",
@@ -362,6 +362,7 @@
   {
     "name": "Delbar - Buckhead",
     "vibe": "middle-eastern, garden, modern, romantic, flavors, chic, mediterranean, lush, airy, elegant, colorful, aromatic, exotic",
+    "type": "lunch, dinner, cocktail",
         "lat": 33.839527,
     "lon": -84.38125303,
     "link": "https://www.instagram.com/delbaratl/",
@@ -586,7 +587,7 @@
   {
     "name": "Wish Atlanta",
     "vibe": "streetwear, fashion, sneakers, hype, urban, boutique, minimalist, edgy, modern, exclusive, curated, stylish, premium",
-    "type": "random gem",
+    "type": "random gem, lifestyle",
         "lat": 33.7665546,
     "lon": -84.34895681,
     "link": "https://www.instagram.com/wishatl/",
@@ -721,7 +722,7 @@
   {
     "name": "East Palisades Trailhead",
     "vibe": "outdoors, nature, forest, scenic, peaceful, hiking, trails, serene, refreshing, green, quiet, escape, tranquil",
-    "type": "nature",
+    "type": "nature, activity, fitness",
         "lat": 33.87122555,
     "lon": -84.44004635,
     "link": "https://www.instagram.com/explore/search/keyword/?q=east%20palisades%20trail",
@@ -811,7 +812,7 @@
   {
     "name": "Smith's Olde Bar",
     "vibe": "rock, dive, bar, music-venue, local, gritty, live-music, unpolished, vintage, alternative, lively, casual, classic",
-    "type": "bar",
+    "type": "bar, club",
         "lat": 33.79770375,
     "lon": -84.36880644,
     "link": "https://www.instagram.com/smithsoldebar/",
@@ -1081,7 +1082,7 @@
   {
     "name": "The Painted Duck",
     "vibe": "bowling, upscale, industrial, cocktails, playful, social, events, interactive, vibrant, trendy, competitive, stylish, group-oriented",
-    "type": "activity",
+    "type": "activity, cocktail",
         "lat": 33.7814781,
     "lon": -84.4136351,
     "link": "https://www.instagram.com/paintedduckatl/",
@@ -1216,7 +1217,7 @@
   {
     "name": "Jojo’s Beloved Cocktail Lounge",
     "vibe": "disco, retro, cocktails, intimate, neon, immersive, curated, nostalgic, glamorous, themed, stylish, atmospheric, playful",
-    "type": "speakeasy",
+    "type": "speakeasy, lounge",
         "lat": 33.787223,
     "lon": -84.3829621,
     "link": "https://www.instagram.com/jojosbeloved/",
@@ -1381,13 +1382,13 @@
     "dayParts": {
       "mon": "-",
       "tue": "-",
-      "wed": "M",
-      "thu": "M",
-      "fri": "M",
-      "sat": "M",
-      "sun": "M"
+      "wed": "MD",
+      "thu": "MD",
+      "fri": "MD",
+      "sat": "MD",
+      "sun": "MD"
     },
-    "timeCategory": "morning",
+    "timeCategory": "midday",
     "energyRamp": 1,
     "tags": "locally sourced, rustic brunch, fresh pastries, chef-driven deli",
     "price": "$",
@@ -1440,8 +1441,8 @@
   },
   {
     "name": "Kinship Butcher & Sundry",
-    "vibe": "butcher, grocery, brunch, casual, artisanal, neighborhood, rustic, heritage, hearty, welcoming, authentic, small-batch, local",
-    "type": "market",
+    "vibe": "butcher, grocery, casual, artisanal, neighborhood, rustic, heritage, hearty",
+    "type": "lunch, market",
         "lat": 33.7822964,
     "lon": -84.3538294,
     "link": "https://www.instagram.com/kinshipbutcher_atl/",
@@ -1575,7 +1576,7 @@
   },
   {
     "name": "Commune",
-    "vibe": "café, quiet, local, creative, neighborhood, quaint, brunch, warm, inviting, artistic, comfortable, cozy, chill",
+    "vibe": "vinyl, music, cocktail, creative, neighborhood, quaint, artistic, comfortable, cozy, chill",
     "type": "cocktail",
         "lat": 33.775806,
     "lon": -84.273451,
@@ -1801,7 +1802,7 @@
   {
     "name": "Small Fry",
     "vibe": "smashburgers, casual, counter-service, neon, retro, street-food, fun, quick, approachable, fast-casual, indulgent, bold",
-    "type": "lunch",
+    "type": "lunch, street food",
         "lat": 33.74483765,
     "lon": -84.3613051,
     "link": "https://www.instagram.com/smallfryatl/",
@@ -1935,7 +1936,7 @@
   },
   {
     "name": "Victory Sandwich Bar",
-    "vibe": "sandwiches, quirky, laid-back, drinks, ironic, divey, quick-bite, fun, casual, hip, low-key, creative, approachable",
+    "vibe": "sandwiches, quirky, laid-back, drinks, ping pong, divey, quick-bite, fun, casual, hip, low-key",
     "type": "lunch",
         "lat": 33.7639997,
     "lon": -84.3577859,
@@ -2025,8 +2026,8 @@
   },
   {
     "name": "Fawn Wine + Amaro",
-    "vibe": "wine, intimate, european, romantic, dim, curated, aperitif, refined, cozy, stylish, upscale, slow-paced, warm",
-    "type": "wine bar",
+    "vibe": "wine, intimate, european, seafood, romantic, dim, curated, aperitif, refined, cozy, stylish, upscale, slow-paced, warm",
+    "type": "wine bar, cocktail",
         "lat": 33.775424,
     "lon": -84.295543,
     "link": "https://www.instagram.com/fawnwineamaro/",
@@ -2071,7 +2072,7 @@
   {
     "name": "Indaco",
     "vibe": "italian, stylish, light-filled, brunch, group-friendly, pasta, fresh, airy, modern, inviting, elegant, rustic, approachable",
-    "type": "dinner",
+    "type": "lunch, dinner",
         "lat": 33.77372173,
     "lon": -84.36195002,
     "link": "https://www.instagram.com/indacoatl/",
@@ -2102,8 +2103,8 @@
     "mon": "MD",
     "tue": "MD",
     "wed": "MD",
-    "thu": "MD",
-    "fri": "MD",
+    "thu": "E",
+    "fri": "E",
     "sat": "E",
     "sun": "E"
   },
@@ -2116,7 +2117,7 @@
   {
     "name": "Tesserae",
     "vibe": "rooftop, lounge, swanky, skyline, DJ, upscale, cocktails, chic, panoramic, modern, vibrant, stylish, lively",
-    "type": "rooftop",
+    "type": "rooftop, lounge",
         "lat": 33.83820075,
     "lon": -84.37431322,
     "link": "https://www.instagram.com/tesseraeatl/",
@@ -2127,8 +2128,8 @@
       "Tuesday: 7:00 AM–11:00 PM",
       "Wednesday: 7:00 AM–11:00 PM",
       "Thursday: 7:00 AM–11:00 PM",
-      "Friday: Open 24 hours",
-      "Saturday: Closed"
+      "Friday: 7:00 AM–1:00 AM",
+      "Saturday: 11:00 AM–1:00 AM"
     ],
     "dateEvents": [
   { "date": "-", "title": "-", "time": "-" },
@@ -2140,19 +2141,19 @@
     "tue": { "open": 7, "close": 23 },
     "wed": { "open": 7, "close": 23 },
     "thu": { "open": 7, "close": 23 },
-    "fri": { "open": 7, "close": 23 },
-    "sat": null
+    "fri": { "open": 7, "close": 25 },
+    "sat": { "open": 11, "close": 25 }
   },
   "dayParts": {
     "mon": "E",
     "tue": "E",
     "wed": "E",
     "thu": "E",
-    "fri": "E",
-    "sat": "E",
-    "sun": "-"
+    "fri": "L",
+    "sat": "L",
+    "sun": "E"
   },
-  "timeCategory": "evening",
+  "timeCategory": "evening, late",
     "energyRamp": 3,
     "tags": "rooftop cocktails, skyline date energy, sleek atmosphere, lounge seating",
     "price": "$$$",
@@ -2251,7 +2252,7 @@
   {
     "name": "Fox Marquee Club",
     "vibe": "lounge, theater-adjacent, stylish, cocktails, moody, upscale, elegant, intimate, glamorous, curated, sleek, fashionable, social",
-    "type": "rooftop",
+    "type": "rooftop, lounge",
         "lat": 33.7726429,
     "lon": -84.38556184,
     "link": "https://www.instagram.com/foxmarqueeclub/",
@@ -2340,8 +2341,8 @@
   },
   {
     "name": "Breaker Breaker",
-    "vibe": "retro, seafood, colorful, beachy, tropical, casual, playful, sunny, fun, breezy, nautical, festive, relaxed",
-    "type": "rooftop",
+    "vibe": "retro, seafood, colorful, beachy, tropical, casual, dog-friendly, patio, nautical, relaxed",
+    "type": "dinner, rooftop",
         "lat": 33.7521019,
     "lon": -84.3568532,
     "link": "https://www.instagram.com/breakerbreaker_atl/",
@@ -2431,7 +2432,7 @@
   {
     "name": "Moonlight",
     "vibe": "rooftop, nightlife, sleek, elevated, vibey, cocktails, trendy, chic, moody, upscale, romantic, lively",
-    "type": "rooftop",
+    "type": "rooftop, cocktail",
         "lat": 33.768629,
     "lon": -84.363636,
     "link": "https://www.instagram.com/moonlightatlanta/",
@@ -3060,7 +3061,7 @@
   {
     "name": "Buteco",
     "vibe": "brazilian, music, bar, multicultural, vibrant, relaxed, patio",
-    "type": "bar",
+    "type": "music, cocktail, workspace",
         "lat": 33.7250434,
     "lon": -84.3770384,
     "link": "https://www.instagram.com/butecoatl/",
@@ -3195,7 +3196,7 @@
   {
     "name": "BOCA",
     "vibe": "latin, bar, cocktails, night-out, vibrant, modern, small-plates",
-    "type": "dinner",
+    "type": "dinner, cocktail",
         "lat": 33.736626,
     "lon": -84.386469,
     "link": "https://www.instagram.com/bocaatl/",
@@ -3269,7 +3270,7 @@
   {
     "name": "Lottafrutta",
     "vibe": "smoothie, fruit, cuban, breakfast, fresh, colorful, daytime, healthy, tropical, vibrant, casual, cheerful, light",
-    "type": "bakery",
+    "type": "lunch",
         "lat": 33.75597905,
     "lon": -84.36808679,
     "link": "https://www.instagram.com/lottafruttaatl/",
@@ -3417,7 +3418,7 @@
   {
     "name": "Gaja Korean Bar",
     "vibe": "korean, cocktails, late-night, trendy, neon, grilled, edgy, bold, vibrant, casual, nightlife, youthful, social",
-    "type": "dinner",
+    "type": "dinner, cocktail",
         "lat": 33.7405484,
     "lon": -84.3463317,
     "link": "https://www.instagram.com/gaja_eav/",
@@ -3527,8 +3528,8 @@
   },
   {
     "name": "Lifting Noodles Ramen",
-    "vibe": "ramen, street-style, quick-bite, flavorful, casual, hip, cozy, late-night, urban, aromatic, approachable, fun, warm",
-    "type": "dinner",
+    "vibe": "ramen, street-style, quick-bite, flavorful, casual, cozy",
+    "type": "dinner, street style",
         "lat": 33.7409824,
     "lon": -84.3464894,
     "link": "https://www.instagram.com/liftingnoodlesramen/",
@@ -3565,7 +3566,7 @@
   {
     "name": "Pure Quill Superette",
     "vibe": "gourmet, pantry, local-goods, deli, quirky, small-format, curated, artisanal, unique, cozy, nostalgic, boutique, casual",
-    "type": "dinner",
+    "type": "lunch",
         "lat": 33.7477238,
     "lon": -84.3428416,
     "link": "https://www.instagram.com/pure.quill.superette/",
@@ -3639,7 +3640,7 @@
   {
     "name": "ParkGrounds",
     "vibe": "dog-friendly, coffee, patio, casual, local, community, relaxed, social, cozy, laid-back",
-    "type": "coffee",
+    "type": "coffee, workspace",
         "lat": 33.7501026,
     "lon": -84.354649,
     "link": "https://www.instagram.com/parkgrounds/",
@@ -3713,7 +3714,7 @@
   {
     "name": "Muchacho",
     "vibe": "tacos, colorful, casual, breakfast, patio, trendy, lively, vibrant, bright, fun, street-food, approachable, hip",
-    "type": "bar",
+    "type": "bar, lunch",
         "lat": 33.7468699,
     "lon": -84.35798802,
     "link": "https://www.instagram.com/muchachoatl/",
@@ -3749,8 +3750,8 @@
   },
   {
     "name": "El Tesoro",
-    "vibe": "mexican, outdoor, rustic, authentic, family-friendly, casual, vibrant, colorful, neighborhood, approachable, festive, traditional, warm",
-    "type": "bar",
+    "vibe": "mexican, outdoor, margaritas, authentic, family-friendly, casual, vibrant, neighborhood",
+    "type": "bar, dinner",
         "lat": 33.749472,
     "lon": -84.342591,
     "link": "https://www.instagram.com/eltesoroatl/",
@@ -3824,7 +3825,7 @@
   {
     "name": "Woody's CheeseSteaks",
     "vibe": "cheesesteak, late-night, classic, fast-casual, local, no-frills, neighborhood, quick-bite, casual, hearty, retro, laid-back, friendly",
-    "type": "restaurant",
+    "type": "lunch, late-night",
         "lat": 33.77935922,
     "lon": -84.36955514,
     "link": "https://www.instagram.com/woodysatl/",
@@ -3851,8 +3852,8 @@
       "fri": { "open": 11, "close": 28 },
       "sat": { "open": 11, "close": 28 }
     },
-    "dayParts":      { "sun":"E","mon":"E","tue":"E","wed":"E","thu":"E","fri":"L","sat":"L" },
-    "timeCategory": "evening, late",
+    "dayParts":      { "sun":"MD","mon":"MD","tue":"MD","wed":"MD","thu":"MD","fri":"L","sat":"L" },
+    "timeCategory": "midday, late",
     "energyRamp": 3,
     "tags": "late-night comfort, walk-up window, counter culture, cheap eats classic",
     "price": "$",
@@ -3972,7 +3973,7 @@
   {
     "name": "The Garden Room",
     "vibe": "floral, whimsical, upscale, brunch, experiential, photo-ready, chic, vibrant, romantic, creative, lively, curated, elegant",
-    "type": "cocktail",
+    "type": "cocktail, brunch, dinner",
         "lat": 33.8398015,
     "lon": -84.38241589,
     "link": "https://www.instagram.com/thegardenroomatlanta/",
@@ -4046,7 +4047,7 @@
   {
     "name": "Ranger Station",
     "vibe": "casual, urban, hangout, eclectic, lounge, local, relaxed, social, neighborhood, inviting, fun, cozy, unpretentious",
-    "type": "speakeasy",
+    "type": "speakeasy, lounge",
         "lat": 33.759717,
     "lon": -84.3646037,
     "link": "https://www.instagram.com/rangerstationatl/",
@@ -4083,7 +4084,7 @@
   {
     "name": "Bully Boy",
     "vibe": "japanese, chic, fusion, minimalist, date-night, hip, modern, stylish, intimate, refined, creative, curated, upscale",
-    "type": "dinner",
+    "type": "dinner, cocktail",
         "lat": 33.768267,
     "lon": -84.360439,
     "link": "https://www.instagram.com/bullyboyatl/",
@@ -4194,7 +4195,7 @@
   {
     "name": "Alon's Bakery & Market",
     "vibe": "bakery, market, brunch, refined, artisanal, fresh, cozy",
-    "type": "bakery",
+    "type": "bakery, lunch",
         "lat": 33.7926253,
     "lon": -84.3528263,
     "link": "https://www.instagram.com/alonsbakery/",
@@ -4342,7 +4343,7 @@
   {
     "name": "Little Sparrow",
     "vibe": "cocktail-bar, moody, modern, chic, intimate, curated, dimly-lit, sophisticated, stylish, cozy, romantic",
-    "type": "cocktail",
+    "type": "cocktail, dinner",
         "lat": 33.787134,
     "lon": -84.41266,
     "link": "https://www.instagram.com/littlesparrowatlanta/",
@@ -4379,7 +4380,7 @@
   {
     "name": "Palo Santo",
     "vibe": "rooftop, latin, upscale, views, mezcal, nightlife, vibrant, trendy, exotic, festive, scenic, social, lively",
-    "type": "cocktail",
+    "type": "cocktail, dinner, rooftop",
         "lat": 33.78396723,
     "lon": -84.41817131,
     "link": "https://www.instagram.com/palosanto_atl/",
@@ -4490,7 +4491,7 @@
   {
     "name": "Le Bon Nosh",
     "vibe": "french, café, elegant, gourmet, brunch, minimalist, refined, chic, contemporary",
-    "type": "bakery",
+    "type": "bakery, brunch",
         "lat": 33.84132675,
     "lon": -84.38103404,
     "link": "https://www.instagram.com/lebonnosh/",
@@ -4616,7 +4617,7 @@
   {
     "name": "Yeppa & Co. - Buckhead",
     "vibe": "italian, lively, upscale, espresso martini, pasta, bright, social, stylish, contemporary, group-friendly",
-    "type": "cocktail",
+    "type": "cocktail, brunch, dinner",
         "lat": 33.83831,
     "lon": -84.378026,
     "link": "https://www.instagram.com/yeppacoatl/",
@@ -4690,7 +4691,7 @@
   {
     "name": "Le Colonial Atlanta",
     "vibe": "vietnamese, fine-dining, colonial-style, chic, upscale, romantic, refined, intimate, exotic, curated, hip, sophisticated",
-    "type": "cocktail",
+    "type": "cocktail, dinner",
         "lat": 33.83847596,
     "lon": -84.38087309,
     "link": "https://www.instagram.com/lecolonial_restaurants/",
@@ -4764,7 +4765,7 @@
   {
     "name": "Wagyu House Atlanta | Rooftop BBQ",
     "vibe": "rooftop, korean, cocktails, scenic, modern, trendy, casual, lively, social, stylish, group-friendly, flavorful, urban",
-    "type": "cocktail",
+    "type": "rooftop, dinner, cocktail",
         "lat": 33.783135,
     "lon": -84.407566,
     "link": "https://www.instagram.com/wagyuhouseatl/",
@@ -4837,8 +4838,8 @@
   },
   {
     "name": "STEREO",
-    "vibe": "bar, funky, music, nightlife, curated, cocktails",
-    "type": "coffee",
+    "vibe": "bar, funky, music, vinyl, curated, cocktails, stylish, energetic, urban, coffee, creative, trendy",
+    "type": "coffee, cocktail",
         "lat": 33.755066,
     "lon": -84.357816,
     "link": "https://www.instagram.com/stereoatl/",
@@ -4874,7 +4875,7 @@
   },
   {
     "name": "LLoyd's Restaurant & Lounge",
-    "vibe": "retro, diner-vibes, dive-bar, cheeky, cocktails, playful",
+    "vibe": "retro, diner-vibes, dive-bar, cheeky, cocktails, casual, nostalgic, quirky, lively",
     "type": "dinner",
         "lat": 33.755066,
     "lon": -84.357816,
@@ -4911,8 +4912,8 @@
   },
   {
     "name": "Glide Pizza",
-    "vibe": "pizza, slice-shop, colorful, casual, quick-bite, local",
-    "type": "quick bite",
+    "vibe": "pizza, slice-shop, casual, quick-bite, local",
+    "type": "quick bite, lunch",
         "lat": 33.7560215,
     "lon": -84.36610812,
     "link": "https://www.instagram.com/glidepizza/",
@@ -4948,7 +4949,7 @@
   },
   {
     "name": "The James Room",
-    "vibe": "speakeasy, coffee-cocktail, upscale, moody, lounge",
+    "vibe": "speakeasy, cocktail, upscale, moody, lounge, intimate, low-light",
     "type": "speakeasy",
         "lat": 33.7555043,
     "lon": -84.3655486,
@@ -4985,7 +4986,7 @@
   },
   {
     "name": "Yuji Modern Japanese",
-    "vibe": "omakase, minimalist, modern, japanese, refined, small-plates",
+    "vibe": "omakase, minimalist, modern, japanese, refined, small-plates, chef-driven, exclusive",
     "type": "dinner",
         "lat": 33.75704209,
     "lon": -84.36615321,
@@ -5022,7 +5023,7 @@
   },
   {
     "name": "Ladybird Grove & Mess Hall",
-    "vibe": "patio, camp-style, beer, american, group-friendly, lively",
+    "vibe": "patio, bar, beer, american, sports, group-friendly, lively, social, sunny",
     "type": "bar",
         "lat": 33.759717,
     "lon": -84.3646037,
@@ -5059,7 +5060,7 @@
   },
   {
     "name": "Painted Park",
-    "vibe": "bar, outdoor, casual, colorful, festive, fun",
+    "vibe": "bar, outdoor, casual, sports, fun, lively, crowd-pleaser",
     "type": "bar",
         "lat": 33.76254145,
     "lon": -84.35944542,
@@ -5096,7 +5097,7 @@
   },
   {
     "name": "Harbor Coffee",
-    "vibe": "coffee, minimalist, calm, design-forward, daytime, local",
+    "vibe": "coffee, minimalist, calm, daytime, local, light-filled, relaxed",
     "type": "coffee",
         "lat": 33.76346,
     "lon": -84.358494,
@@ -5133,7 +5134,7 @@
   },
   {
     "name": "BeetleCat",
-    "vibe": "seafood, nautical, oysters, brunch, stylish, east-coast-vibes",
+    "vibe": "seafood, nautical, oysters, brunch, stylish, fresh, patio",
     "type": "dinner",
         "lat": 33.7624505,
     "lon": -84.35858396,
@@ -5171,7 +5172,7 @@
   {
     "name": "Highland Tap",
     "vibe": "steakhouse, underground, dark, classic, old-school, cozy, martinis",
-    "type": "cocktail",
+    "type": "cocktail, dinner",
         "lat": 33.78284196,
     "lon": -84.35453588,
     "link": "https://www.instagram.com/highlandtapatlanta/",
@@ -5207,7 +5208,7 @@
   },
   {
     "name": "Dark Horse Tavern",
-    "vibe": "dive-bar, rock, karaoke, grungy, casual, nightlife, local",
+    "vibe": "dive-bar, rock, karaoke, grungy, casual, nightlife, local, rowdy",
     "type": "bar",
         "lat": 33.7768237,
     "lon": -84.3526593,
@@ -5244,8 +5245,8 @@
   },
   {
     "name": "Dad's",
-    "vibe": "retro, queer-friendly, funky, fun, casual, eclectic, alt",
-    "type": "bar",
+    "vibe": "cocktails, patio, retro, cinema, funky, fun, casual, eclectic",
+    "type": "bar, cocktail",
         "lat": 33.77832855,
     "lon": -84.35305049,
     "link": "https://www.instagram.com/dadsatl/",
@@ -5281,7 +5282,7 @@
   },
   {
     "name": "Moe's and Joe's",
-    "vibe": "pub, casual, sports, patio, local-favorite, old-school",
+    "vibe": "pub, casual, sports, patio, local-favorite, old-school, unpretentious",
     "type": "bar",
         "lat": 33.7828246,
     "lon": -84.3541834,
@@ -5318,7 +5319,7 @@
   },
   {
     "name": "The Rooftop at Clermont",
-    "vibe": "rooftop, skyline, cocktails, scenic, lively, retro",
+    "vibe": "rooftop, skyline, cocktails, scenic, lively, retro, photogenic, breezy",
     "type": "rooftop",
         "lat": 33.77347,
     "lon": -84.361399,
@@ -5355,7 +5356,7 @@
   },
   {
     "name": "Clermont Lounge",
-    "vibe": "dive-bar, burlesque, historic, eccentric, gritty, legendary",
+    "vibe": "dive-bar, burlesque, historic, eccentric, gritty, legendary, unfiltered",
     "type": "bar",
         "lat": 33.77347,
     "lon": -84.361399,
@@ -5429,7 +5430,7 @@
   },
   {
     "name": "Elemental Spirits Co.",
-    "vibe": "wine, spirits, curated, boutique, artisanal, stylish",
+    "vibe": "wine, spirits, curated, boutique, artisanal",
     "type": "random gem",
         "lat": 33.7707666,
     "lon": -84.352723,
@@ -5503,8 +5504,8 @@
   },
   {
     "name": "Wine Shoe",
-    "vibe": "wine, casual, classes, boutique, local, approachable",
-    "type": "wine bar",
+    "vibe": "wine shop, casual, classes, boutique, local",
+    "type": "wine bar, lifestyle",
         "lat": 33.7515516,
     "lon": -84.3990245,
     "link": "https://www.instagram.com/wineshoe/",
@@ -5578,7 +5579,7 @@
   {
     "name": "PERRINE's WINE - Westside",
     "vibe": "wine, upscale, french, boutique, refined, expert",
-    "type": "wine bar",
+    "type": "random gem",
         "lat": 33.785691,
     "lon": -84.411774,
     "link": "https://www.instagram.com/perrineswine_westside/",
@@ -5614,7 +5615,7 @@
   },
   {
     "name": "Barcelona Wine Bar",
-    "vibe": "tapas, wine, spanish, bustling, date-night, patio",
+    "vibe": "tapas, wine, spanish, bustling, date-night, patio, energetic",
     "type": "wine bar",
         "lat": 33.76254145,
     "lon": -84.35944542,
@@ -5652,7 +5653,7 @@
   {
     "name": "Lucian Books and Wine",
     "vibe": "wine, bookstore, quiet, elegant, artistic, refined",
-    "type": "wine bar",
+    "type": "wine bar, dinner",
         "lat": 33.8369462,
     "lon": -84.381205,
     "link": "https://www.instagram.com/lucianbooksandwine/",
@@ -5725,7 +5726,7 @@
   },
   {
     "name": "VinoTeca",
-    "vibe": "wine, stylish, retail, european, tastings, intimate",
+    "vibe": "wine, stylish, retail, european, tastings, intimate, outdoor seating, live music",
     "type": "wine bar",
         "lat": 33.7624505,
     "lon": -84.35858396,
@@ -5762,8 +5763,8 @@
   },
   {
     "name": "SEBASTIAN PINTXOS BAR",
-    "vibe": "Lively, Social Bites, Euro‑Chic, Wine & Tapas, Group‑Friendly",
-    "type": "bar",
+    "vibe": "lively, social, euro, chic, wine, tapas, group, bites, vibrant, upscale",
+    "type": "bar, dinner",
         "lat": 33.7768867,
     "lon": -84.38316217,
     "link": "https://www.instagram.com/sebastianpintxosbar/?hl=en",
@@ -5807,8 +5808,8 @@
   },
   {
     "name": "Criminal Records",
-    "vibe": "Indie, Artsy, Vinyl‑Hunter, Low‑Key Hangout, Cultural Gem",
-    "type": "random gem",
+    "vibe": "indie, artsy, vinyl, music, cultural, low-key, shop, retro, niche, local",
+    "type": "random gem, lifestyle",
         "lat": 33.7652096,
     "lon": -84.3498878,
     "link": "https://www.instagram.com/criminalrecords/?hl=en",
@@ -5852,8 +5853,8 @@
   },
   {
     "name": "Carroll Street Cafe",
-    "vibe": "Cozy, Artistic, Neighborhood Favorite, Laid‑Back Brunch",
-    "type": "dinner",
+    "vibe": "cozy, artistic, neighborhood, brunch, laid-back, local, casual, cafe, friendly, social",
+    "type": "brunch, dinner",
         "lat": 33.7489907,
     "lon": -84.3679455,
     "link": "https://www.instagram.com/carrollstcafe/?hl=en",
@@ -5897,7 +5898,7 @@
   },
   {
     "name": "Brick Store Pub",
-    "vibe": "Historic, Craft Beer Haven, Warm Vibes, Pub Enthusiast",
+    "vibe": "historic, craft, beer, pub, warm, casual, local, friendly, classic, social",
     "type": "bar",
         "lat": 33.7751446,
     "lon": -84.2958139,
@@ -5942,7 +5943,7 @@
   },
   {
     "name": "The Family Dog",
-    "vibe": "Casual, Dog‑Friendly, Sports‑Ready, Patio Chill",
+    "vibe": "casual, dog-friendly, sports, patio, pub, local, laid-back, social, neighborhood, chill",
     "type": "bar",
         "lat": 33.792682,
     "lon": -84.3522716,
@@ -5987,7 +5988,7 @@
   },
   {
     "name": "Ash Coffee",
-    "vibe": "Minimalist, Slow Mornings, Work-Friendly, Hipster Coffee Spot",
+    "vibe": "minimalist, slow, mornings, work, hipster, coffee, calm, bright, modern, cafe",
     "type": "coffee",
         "lat": 33.77983002,
     "lon": -84.34895895,
@@ -6032,7 +6033,7 @@
   },
   {
     "name": "Java Saga",
-    "vibe": "Quick Bite, Korean Fusion, Hidden Gem, Takeaway-Friendly",
+    "vibe": "quick, korean, fusion, hidden, takeaway, casual, street, flavorful, local, lunch",
     "type": "lunch",
         "lat": 33.8932252,
     "lon": -84.2834331,
@@ -6077,8 +6078,8 @@
   },
   {
     "name": "Hudson and Alphonse",
-    "vibe": "Stylish, Brunch Spot, Date-Worthy, Modern American",
-    "type": "restaurant",
+    "vibe": "stylish, brunch, date, modern, american, upscale, cafe, social, bright, local",
+    "type": "lunch",
         "lat": 33.71936579,
     "lon": -84.38000079,
     "link": "https://www.instagram.com/hudsonandalphonse/?hl=en",
@@ -6122,8 +6123,8 @@
   },
   {
     "name": "How Crispy Express",
-    "vibe": "Funky, Retro, Chicken-Centric, Fast Casual, Urban Vibe",
-    "type": "restaurant",
+    "vibe": "funky, retro, chicken, fast, casual, urban, local, colorful, quick, street",
+    "type": "dinner",
         "lat": 33.736586,
     "lon": -84.38522,
     "link": "https://www.instagram.com/howcrispy/?hl=en",
@@ -6167,7 +6168,7 @@
   },
   {
     "name": "Gene's",
-    "vibe": "Elevated, Local Hotspot, Dine & Wine, Trendy Neighborhood",
+    "vibe": "elevated, local, dine, wine, trendy, neighborhood, upscale, modern, social, evening",
     "type": "dinner",
         "lat": 33.7506665,
     "lon": -84.30957242,
@@ -6212,7 +6213,7 @@
   },
   {
     "name": "Sublime Doughnuts",
-    "vibe": "Quirky, Sweet Fix, 24‑Hour Cravings, Colorful Treats",
+    "vibe": "quirky, sweet, cravings, colorful, dessert, casual, 24-hour, playful, local, treat",
     "type": "dessert",
         "lat": 33.8284633,
     "lon": -84.3291753,
@@ -6257,7 +6258,7 @@
   },
   {
     "name": "Paolo's Gelato Italiano",
-    "vibe": "Euro‑Charm, Family‑Friendly, Dessert Destination, Walk‑Up Treats",
+    "vibe": "euro, charm, family, dessert, walk-up, casual, sweet, colorful, local, treat",
     "type": "dessert",
         "lat": 33.78231572,
     "lon": -84.35403173,
@@ -6302,7 +6303,7 @@
   },
   {
     "name": "Miss Conduck",
-    "vibe": "Hidden Gem, Intimate, Modern Southern, Early Evening Date Spot",
+    "vibe": "hidden, intimate, modern, southern, date, cozy, local, refined, upscale, evening",
     "type": "dinner",
         "lat": 33.754172,
     "lon": -84.375953,
@@ -6347,7 +6348,7 @@
   },
   {
     "name": "BoccaLupo",
-    "vibe": "Upscale, Intimate, Modern Italian, Culinary Adventure",
+    "vibe": "upscale, intimate, modern, italian, culinary, romantic, refined, local, luxe, dinner",
     "type": "dinner",
         "lat": 33.7547586,
     "lon": -84.36276957,
@@ -6392,8 +6393,8 @@
   },
   {
     "name": "Yakitori Kona",
-    "vibe": "Late‑Night Bites, Japanese Grunge, Skewers & Sake, Local Favorite",
-    "type": "dinner",
+    "vibe": "late-night, japanese, skewers, sake, local, urban, casual, lively, grill, bar",
+    "type": "dinner, cocktail",
         "lat": 33.78242657,
     "lon": -84.354841,
     "link": "https://www.instagram.com/yakitorikonaatl/?hl=en",
@@ -6437,7 +6438,7 @@
   },
   {
     "name": "Blackjack Bar Tapas",
-    "vibe": "After‑Hours, Tapas & Beats, Dimly Lit, Urban Cool",
+    "vibe": "after-hours, tapas, dimly-lit, urban, cool, late-night, social, lounge, drinks, bar",
     "type": "bar",
         "lat": 33.7838568,
     "lon": -84.3836206,
@@ -6482,7 +6483,7 @@
   },
   {
     "name": "Gigi's Italian Kitchen & Restaurant",
-    "vibe": "Romantic, Intimate, Chef‑Driven, Cozy European Vibe",
+    "vibe": "romantic, intimate, chef, cozy, european, upscale, refined, local, dinner, date",
     "type": "dinner",
         "lat": 33.7649126,
     "lon": -84.3332078,
@@ -6527,7 +6528,7 @@
   },
   {
     "name": "Little Bear",
-    "vibe": "Contemporary, Neighborhood Gem, Seasonal Plates, Quiet Luxe",
+    "vibe": "contemporary, neighborhood, seasonal, quiet, luxe, refined, modern, local, cozy, upscale",
     "type": "dinner",
         "lat": 33.736586,
     "lon": -84.38522,
@@ -6572,7 +6573,7 @@
   },
   {
     "name": "Tum Pok Pok",
-    "vibe": "Vibrant, Thai Street Energy, Spicy Food Lovers, Artsy Decor",
+    "vibe": "vibrant, thai, street, spicy, artsy, casual, flavorful, local, bold, colorful",
     "type": "dinner",
         "lat": 33.8877912,
     "lon": -84.2886581,
@@ -6617,8 +6618,8 @@
   },
   {
     "name": "Northern China Eatery",
-    "vibe": "Hole-in-the-Wall, Dumpling Heaven, Authentic Eats, No‑Frills Delicious",
-    "type": "restaurant",
+    "vibe": "hole-in-the-wall, dumpling, authentic, no-frills, casual, local, comfort, flavorful, street, simple",
+    "type": "lunch, dinner",
         "lat": 33.8925867,
     "lon": -84.2838997,
     "link": "https://www.instagram.com/northernchinaeatery/?hl=en",
@@ -6662,7 +6663,7 @@
   },
   {
     "name": "LanZhou Ramen",
-    "vibe": "Urban Noodle Bar, Fast & Flavorful, No-Nonsense Comfort",
+    "vibe": "urban, noodle, fast, flavorful, comfort, casual, local, warm, quick, street",
     "type": "dinner",
         "lat": 33.8948429,
     "lon": -84.2819667,
@@ -6707,7 +6708,7 @@
   },
   {
     "name": "La Calavera",
-    "vibe": "Wholesome, Family-Run, Chill Morning Spot, Latin Flair",
+    "vibe": "wholesome, family, morning, latin, casual, bakery, local, bright, fresh, friendly",
     "type": "dinner",
         "lat": 33.74751926,
     "lon": -84.33212981,
@@ -6752,8 +6753,8 @@
   },
   {
     "name": "Bread & Butterfly",
-    "vibe": "Parisian Cafe Vibes, Dreamy Brunch, Euro-Instagram Aesthetic",
-    "type": "coffee",
+    "vibe": "parisian, cafe, dreamy, brunch, euro, chic, stylish, local, bright, instagram",
+    "type": "coffee, brunch",
         "lat": 33.7624293,
     "lon": -84.3581661,
     "link": "https://www.instagram.com/bread_and_butterfly/?hl=en",
@@ -6797,8 +6798,8 @@
   },
   {
     "name": "Buena Gente Cuban Bakery",
-    "vibe": "Cuban Charm, Morning Rush, Takeaway Treats, Bright & Breezy",
-    "type": "bakery",
+    "vibe": "cuban, charm, morning, takeaway, bright, breezy, bakery, local, casual, quick",
+    "type": "bakery, coffee",
         "lat": 33.79332375,
     "lon": -84.30545994,
     "link": "https://www.instagram.com/buenagenteatl/?hl=en",
@@ -6842,7 +6843,7 @@
   },
   {
     "name": "Heaps Pies",
-    "vibe": "Aussie Comfort, Grab-and-Go, Casual Eats, Savory Pie Stop",
+    "vibe": "aussie, comfort, grab-and-go, casual, savory, pie, local, quick, bakery, snack",
     "type": "bakery",
         "lat": 33.778269,
     "lon": -84.277682,
@@ -6887,8 +6888,8 @@
   },
   {
     "name": "Galette",
-    "vibe": "French Minimalism, Locals’ Favorite, Quiet Charm, Crêpe Cozy",
-    "type": "bakery",
+    "vibe": "french, minimal, local, quiet, charm, crepe, cozy, casual, cafe, sweet",
+    "type": "bakery, coffee",
         "lat": 33.77627052,
     "lon": -84.26804452,
     "link": "https://www.instagram.com/galetteatl/?hl=en",
@@ -6932,7 +6933,7 @@
   },
   {
     "name": "Thinking Man Tavern",
-    "vibe": "Local Dive, Trivia Nights, Classic Tavern Energy, Late Night Comfort",
+    "vibe": "dive, trivia, tavern, late-night, casual, local, pub, comfort, bar, social",
     "type": "bar",
         "lat": 33.76787415,
     "lon": -84.30458409,
@@ -6977,7 +6978,7 @@
   },
   {
     "name": "Red's Beer Garden",
-    "vibe": "Laid‑Back, Outdoor Beers, Dog‑Friendly, Local Hangout",
+    "vibe": "laid-back, outdoor, beer, dog-friendly, local, casual, social, patio, hangout, sunny",
     "type": "bar",
         "lat": 33.71880063,
     "lon": -84.36842474,
@@ -7022,8 +7023,8 @@
   },
   {
     "name": "Arepa Mia",
-    "vibe": "Casual Latin, Flavor‑Packed, Counter Service, Quick Cultural Bite",
-    "type": "restaurant",
+    "vibe": "latin, casual, flavorful, counter, quick, cultural, street, colorful, vibrant, local",
+    "type": "lunch",
         "lat": 33.7770981,
     "lon": -84.2674198,
     "link": "https://www.instagram.com/arepamia/?hl=en",
@@ -7067,7 +7068,7 @@
   },
   {
     "name": "My Parents' Basement",
-    "vibe": "Nerdy Cool, Comic Books & Beer, Chill Vibes, Quirky & Fun",
+    "vibe": "nerdy, comics, beer, chill, quirky, fun, casual, retro, pop-culture, hangout",
     "type": "bar",
         "lat": 33.7755875,
     "lon": -84.2723257,
@@ -7112,7 +7113,7 @@
   },
   {
     "name": "Boggs Social & Supply",
-    "vibe": "Alt Music Scene, Grungey, Dive Bar Feels, DIY Energy",
+    "vibe": "alt, music, grunge, dive, bar, diy, live, casual, loud, edgy",
     "type": "bar",
         "lat": 33.7371739,
     "lon": -84.43040115,
@@ -7157,8 +7158,8 @@
   },
   {
     "name": "Joystick Gamebar",
-    "vibe": "Nostalgic Arcade, Retro & Rowdy, Gamer Vibes, Neon Lit Nights",
-    "type": "activity",
+    "vibe": "arcade, retro, gamer, neon, rowdy, nostalgic, bar, fun, drinks, social",
+    "type": "activity, bar",
         "lat": 33.754137,
     "lon": -84.373619,
     "link": "https://www.instagram.com/joystickgamebar/?hl=en",
@@ -7202,7 +7203,7 @@
   },
   {
     "name": "Sister Louisa's Church of the Living Room &...",
-    "vibe": "Irreverent, Divey, Offbeat, Southern Gothic, Weird in a Good Way",
+    "vibe": "irreverent, dive, offbeat, southern, gothic, weird, artsy, quirky, retro, bar",
     "type": "bar",
         "lat": 33.7544842,
     "lon": -84.37235211,
@@ -7247,7 +7248,7 @@
   },
   {
     "name": "Jackson Fine Art",
-    "vibe": "Refined, Minimalist, Photography Focused, Quiet Sophistication",
+    "vibe": "refined, minimalist, photography, quiet, sophisticated, gallery, elegant, modern, curated",
     "type": "gallery",
         "lat": 33.8402295,
     "lon": -84.37434883,
@@ -7292,7 +7293,7 @@
   },
   {
     "name": "The Bakery Atlanta (Arts Organization)",
-    "vibe": "Experimental, DIY Art Scene, Collective Energy, Gritty Creative Space",
+    "vibe": "experimental, diy, art, collective, gritty, creative, local, raw, cultural, alt",
     "type": "gallery",
         "lat": 42.089736,
     "lon": -87.98562,
@@ -7331,7 +7332,7 @@
   },
   {
     "name": "ZuCot Gallery",
-    "vibe": "Contemporary Black Art, Polished, Cultural Depth, Intimate Viewing",
+    "vibe": "contemporary, black-art, polished, cultural, intimate, refined, modern, elegant, gallery, curated",
     "type": "gallery",
         "lat": 33.7522285,
     "lon": -84.3988864,
@@ -7376,7 +7377,7 @@
   },
   {
     "name": "Monday Night Brewing - West Midtown",
-    "vibe": "Polished Industrial, Social Drinking, Beer Garden Vibes, After-Work Crowd",
+    "vibe": "industrial, social, beer, garden, polished, after-work, lively, casual, taproom, craft",
     "type": "bar",
         "lat": 33.7949288,
     "lon": -84.409924,
@@ -7421,8 +7422,8 @@
   },
   {
     "name": "The Goat Farm Arts Center",
-    "vibe": "Industrial Art, Raw Creative Energy, Hidden Gem, Gritty & Inspiring",
-    "type": "activity",
+    "vibe": "industrial, art, creative, hidden, gritty, inspiring, cultural, local, alt, raw",
+    "type": "activity, gallery",
         "lat": 33.7866125,
     "lon": -84.41441842,
     "link": "https://www.instagram.com/thegoatfarm/?hl=en",
@@ -7466,8 +7467,8 @@
   },
   {
     "name": "La Bodega Atl",
-    "vibe": "Latin Café Vibes, Local Gem, Chill & Cozy, Daytime Hangout",
-    "type": "coffee",
+    "vibe": "latin, cafe, local, chill, cozy, daytime, casual, bright, friendly, social",
+    "type": "coffee, lunch",
         "lat": 33.700541,
     "lon": -84.419055,
     "link": "https://www.instagram.com/labodega.atl/?hl=en",
@@ -7511,8 +7512,8 @@
   },
   {
     "name": "Sammy's",
-    "vibe": "Old‑School Diner Energy, Hearty Plates, Southern Soul, Breakfast Strong",
-    "type": "breakfast",
+    "vibe": "diner, old-school, hearty, southern, breakfast, casual, local, comfort, vintage, classic",
+    "type": "breakfast, lunch",
         "lat": 33.7406345,
     "lon": -84.40807286,
     "link": "https://www.instagram.com/sammysatl/?hl=en",
@@ -7556,7 +7557,7 @@
   },
   {
     "name": "Atlanta Auction Gallery",
-    "vibe": "Quiet, Hidden, Curated Finds, Collector‑Focused",
+    "vibe": "quiet, hidden, curated, collector, refined, art, gallery, elegant, niche, upscale",
     "type": "gallery",
         "lat": 33.7400956,
     "lon": -84.4101224,
@@ -7595,7 +7596,7 @@
   },
   {
     "name": "The Sun ATL",
-    "vibe": "Boutique Artsy, Curated Works, Minimal Design, Emerging Artists",
+    "vibe": "boutique, artsy, curated, minimal, emerging, refined, modern, local, elegant, gallery",
     "type": "gallery",
         "lat": 33.7542004,
     "lon": -84.3745335,
@@ -7640,7 +7641,7 @@
   },
   {
     "name": "One Contemporary Gallery",
-    "vibe": "Modern Aesthetic, Quiet Appreciation, Gallery‑Hopping Stop",
+    "vibe": "modern, quiet, appreciation, art, gallery, refined, curated, minimal, contemporary, cultural",
     "type": "gallery",
         "lat": 33.754138,
     "lon": -84.374769,
@@ -7685,8 +7686,8 @@
   },
   {
     "name": "Blooms Emporium Atlanta",
-    "vibe": "Vintage‑Cute, Plant Haven, Eclectic Finds, Giftable Aesthetic",
-    "type": "random gem",
+    "vibe": "vintage, cute, plant, eclectic, giftable, local, cozy, boutique, floral, decor",
+    "type": "random gem, lifestyle",
         "lat": 33.77243965,
     "lon": -84.36520322,
     "link": "https://www.instagram.com/blooms.emporium/?hl=en",
@@ -7730,7 +7731,7 @@
   },
   {
     "name": "The Supermarket",
-    "vibe": "Dark & Edgy, Alt‑Scene, Late Night Buzz, Dance + Dine Hybrid",
+    "vibe": "dark, edgy, alt, late-night, buzz, dance, dine, hybrid, urban, nightlife",
     "type": "gallery",
         "lat": 33.7718481,
     "lon": -84.35261541,
@@ -7775,7 +7776,7 @@
   },
   {
     "name": "Spalding Nix Fine Art",
-    "vibe": "Elegant, Upscale Art, Collector‑Friendly, Professional Gallery",
+    "vibe": "elegant, upscale, art, collector, professional, gallery, refined, curated, modern, stylish",
     "type": "gallery",
         "lat": 33.81937457,
     "lon": -84.3733047,
@@ -7820,8 +7821,8 @@
   },
   {
     "name": "7th House",
-    "vibe": "Mystical Lounge, Sultry Nights, Tarot Meets Cocktails",
-    "type": "lounge",
+    "vibe": "mystical, lounge, sultry, tarot, cocktails, intimate, dark, moody, romantic, niche",
+    "type": "lounge, cocktail",
         "lat": 33.7406345,
     "lon": -84.40807286,
     "link": "https://www.instagram.com/seventhouse/?hl=en",
@@ -7865,7 +7866,7 @@
   },
   {
     "name": "Madre Selva Atlanta",
-    "vibe": "Latin‑Modern, Jungle Chic, Dine with Ambiance, Romantic Night Out",
+    "vibe": "latin, modern, jungle, chic, dine, romantic, upscale, vibrant, lush, stylish",
     "type": "dinner",
         "lat": 33.8226467,
     "lon": -84.3684826,
@@ -7910,7 +7911,7 @@
   },
   {
     "name": "Strangers in Paradise",
-    "vibe": "Alt‑Lounge, Indie Crowd, Low Light, Underground Feels",
+    "vibe": "tropical, lounge, cocktails, bright, bar, drinks, retro, cozy",
     "type": "bar",
         "lat": 33.732134,
     "lon": -84.42061443,
@@ -7955,7 +7956,7 @@
   },
   {
     "name": "Bovino after dark",
-    "vibe": "Hidden Gem, Speakeasy Energy, Dinner + Drama, Dim & Intimate",
+    "vibe": "hidden, speakeasy, dinner, drama, dim, intimate, upscale, moody, refined, bar",
     "type": "dinner",
         "lat": 33.732134,
     "lon": -84.420261,
@@ -8000,8 +8001,8 @@
   },
   {
     "name": "Piedmont Park",
-    "vibe": "Scenic, Active, City Escape, Picnic‑Ready, Dog Walking Hotspot",
-    "type": "park",
+    "vibe": "scenic, active, escape, picnic, dog-friendly, outdoor, sunny, walking, open, green",
+    "type": "park, nature",
         "lat": 33.78904775,
     "lon": -84.37188621,
     "link": "https://www.instagram.com/piedmontpark/?hl=en",
@@ -8045,7 +8046,7 @@
   },
   {
     "name": "Decatur Farmers Market",
-    "vibe": "Local & Fresh, Community-Driven, Casual Shopping, Laid-Back Mornings",
+    "vibe": "local, fresh, community, casual, shopping, laid-back, morning, produce, friendly, market",
     "type": "market",
         "lat": 33.77916675,
     "lon": -84.29671367,
@@ -8090,7 +8091,7 @@
   },
   {
     "name": "East Atlanta Village Farmers Market",
-    "vibe": "Funky, Hyper-Local, Music Meets Produce, Weekend Explorer Vibe",
+    "vibe": "funky, local, music, produce, weekend, market, vibrant, artisan, fresh, cultural",
     "type": "market",
         "lat": 33.7385222,
     "lon": -84.3444816,
@@ -8135,7 +8136,7 @@
   },
   {
     "name": "Brookhaven Farmers Market",
-    "vibe": "Suburban Calm, Family-Friendly, Organic Goods, Morning Ritual",
+    "vibe": "suburban, family, organic, goods, morning, market, calm, fresh, friendly, local",
     "type": "market",
         "lat": 33.8598471,
     "lon": -84.3344076,
@@ -8180,7 +8181,7 @@
   },
   {
     "name": "Peachtree Road Farmers Market",
-    "vibe": "Family-Friendly, Organic, Upscale Market, Health-Conscious Crowd",
+    "vibe": "family, organic, upscale, market, health, fresh, local, seasonal, vibrant, friendly",
     "type": "market",
         "lat": 33.8312329,
     "lon": -84.3862539,
@@ -8225,7 +8226,7 @@
   },
   {
     "name": "Morningside Farmer's Market",
-    "vibe": "Intimate, Artisan Goods, Community-Oriented, Quiet & Local",
+    "vibe": "intimate, artisan, community, quiet, local, market, fresh, seasonal, niche, morning",
     "type": "market",
         "lat": 33.79301775,
     "lon": -84.35693639,
@@ -8270,7 +8271,7 @@
   },
   {
     "name": "Virginia Highland Farmers Market",
-    "vibe": "Neighborhood Feel, Relaxed, Walkable, Local-First",
+    "vibe": "neighborhood, relaxed, walkable, local, fresh, friendly, market, produce, small, casual",
     "type": "market",
         "lat": 33.781839,
     "lon": -84.363367,
@@ -8315,7 +8316,7 @@
   },
   {
     "name": "Freedom Farmers Market",
-    "vibe": "Diverse Vendors, Cultural Mix, Urban Market Energy, Foodie-Focused",
+    "vibe": "diverse, cultural, urban, market, foodie, fresh, vibrant, local, seasonal, community",
     "type": "market",
         "lat": 33.76778394,
     "lon": -84.35867613,
@@ -8360,7 +8361,7 @@
   },
   {
     "name": "Grant Park Farmers Market",
-    "vibe": "Lively, Dog-Friendly, Food Trucks, Family Vibes, Parkside Shopping",
+    "vibe": "lively, dog-friendly, food-trucks, family, park, shopping, local, fresh, weekend, social",
     "type": "market",
         "lat": 33.72660094,
     "lon": -84.37661647,
@@ -8405,8 +8406,8 @@
   },
   {
     "name": "The EARL",
-    "vibe": "Divey, Indie Rock, Loud & Gritty, Late Night Music Hangout",
-    "type": "music",
+    "vibe": "dive, indie, rock, gritty, loud, music, late-night, bar, live",
+    "type": "music, bar",
         "lat": 33.740986,
     "lon": -84.345892,
     "link": "https://www.instagram.com/badearl/?hl=en",
@@ -8450,7 +8451,7 @@
   },
   {
     "name": "Flight Club Atlanta",
-    "vibe": "Social Darts, Competitive Fun, Energetic Crowd, Upscale Pub Feel",
+    "vibe": "darts, social, competitive, fun, upscale, pub, crowd, drinks, energetic",
     "type": "bar",
         "lat": 33.7831991,
     "lon": -84.4115332,
@@ -8495,8 +8496,8 @@
   },
   {
     "name": "Bar Avize",
-    "vibe": "Elegant, Minimalist, Wine-First, Date-Night Quietude",
-    "type": "dinner",
+    "vibe": "wine, elegant, minimalist, date, upscale, refined, intimate",
+    "type": "dinner, cocktail",
         "lat": 33.78198587,
     "lon": -84.41364117,
     "link": "https://www.instagram.com/bar.avize/?hl=en",
@@ -8540,7 +8541,7 @@
   },
   {
     "name": "Atlanta Contemporary",
-    "vibe": "Artistic Depth, Modern, Gallery Vibes, Quiet Exploration",
+    "vibe": "art, modern, gallery, creative, quiet, design, culture, exhibit, space",
     "type": "gallery",
         "lat": 33.772975,
     "lon": -84.4051806,
@@ -8585,8 +8586,8 @@
   },
   {
     "name": "Jolene Jolene",
-    "vibe": "Laid‑Back, Indie Date Spot, Southern Charm with Style",
-    "type": "speakeasy",
+    "vibe": "casual, indie, date, southern, charm, style, cozy, vintage, local",
+    "type": "lunch, cocktail",
         "lat": 33.7596328,
     "lon": -84.3289425,
     "link": "https://www.instagram.com/jolenejoleneatl/?hl=en",
@@ -8630,7 +8631,7 @@
   },
   {
     "name": "Pullman Yards",
-    "vibe": "Industrial, Event-Based, Art Meets Entertainment, Transformative Space",
+    "vibe": "industrial, events, art, entertainment, creative, cultural, large, venue, adaptive",
     "type": "market",
         "lat": 33.7596269,
     "lon": -84.3289412,
@@ -8675,8 +8676,8 @@
   },
   {
     "name": "Ticonderoga Club",
-    "vibe": "Hidden Gem, Intimate Dining, Old‑School Cocktail Vibes, Cozy",
-    "type": "bar",
+    "vibe": "hidden, intimate, dining, cocktails, old-school, cozy, retro, classic, bar",
+    "type": "bar, dinner",
         "lat": 33.7588882,
     "lon": -84.36325649,
     "link": "https://www.instagram.com/ticonderogaclub/?hl=en",
@@ -8720,7 +8721,7 @@
   },
   {
     "name": "A Cappella Books",
-    "vibe": "Literary, Intellectual, Local Treasures, Offbeat Selections",
+    "vibe": "books, literary, local, intellectual, offbeat, indie, niche, vintage, curated",
     "type": "bookstore",
         "lat": 33.7595421,
     "lon": -84.3505635,
@@ -8765,7 +8766,7 @@
   },
   {
     "name": "Bar Blanc",
-    "vibe": "Romantic, Low Light, Euro-Chic, Intimate Date Spot",
+    "vibe": "romantic, low-light, chic, european, date, upscale, refined, intimate, stylish",
     "type": "cocktail",
         "lat": 33.787134,
     "lon": -84.41266,
@@ -8810,8 +8811,8 @@
   },
   {
     "name": "Carmel",
-    "vibe": "Coastal Mediterranean, Modern & Breezy, Tastefully Upscale",
-    "type": "dinner",
+    "vibe": "coastal, mediterranean, modern, breezy, upscale, seafood, refined, fresh",
+    "type": "dinner, cocktail",
         "lat": 33.83727906,
     "lon": -84.38016533,
     "link": "https://www.instagram.com/carmelatl/?hl=en",
@@ -8855,8 +8856,8 @@
   },
   {
     "name": "Lyla Lila",
-    "vibe": "Polished & Trendy, Dinner Destination, Refined Palate",
-    "type": "dinner",
+    "vibe": "trendy, dinner, refined, upscale, polished, creative, modern, elegant, seasonal",
+    "type": "dinner, cocktail",
         "lat": 33.7735507,
     "lon": -84.3846361,
     "link": "https://www.instagram.com/lylalilaatl/?hl=en",
@@ -8900,8 +8901,8 @@
   },
   {
     "name": "Elektra",
-    "vibe": "Bold Decor, Pan-Latin Energy, DJ Nights, Vivid Social Scene",
-    "type": "cocktail",
+    "vibe": "bold, latin, dj, nightlife, social, vibrant, colorful, dance, chic",
+    "type": "cocktail, dinner",
         "lat": 33.768629,
     "lon": -84.363636,
     "link": "https://www.instagram.com/elektraatl/?hl=en",
@@ -8945,7 +8946,7 @@
   },
   {
     "name": "Mend Coffee & Goods",
-    "vibe": "Minimalist Aesthetic, Relaxed Workspace, Organic-Focused",
+    "vibe": "coffee, minimalist, relaxed, work, organic, bright, cozy, clean, local",
     "type": "coffee",
         "lat": 33.855474,
     "lon": -84.381357,
@@ -8990,7 +8991,7 @@
   },
   {
     "name": "Daydreamer Coffee",
-    "vibe": "Light & Bright, Neighborhood Favorite, Chill Mornings, Plant-Filled",
+    "vibe": "coffee, bright, local, morning, plant-filled, cozy, airy, fresh, casual",
     "type": "coffee",
         "lat": 33.77820925,
     "lon": -84.38836036,
@@ -9035,8 +9036,8 @@
   },
   {
     "name": "Cochran Shoals Trail - River Loop",
-    "vibe": "Active Escape, Riverside Trail, Scenic Jogging Spot, Nature Detox",
-    "type": "nature",
+    "vibe": "outdoor, trail, scenic, active, nature, riverside, walking, fresh, jogging",
+    "type": "nature, activity, fitness",
         "lat": 33.9032313,
     "lon": -84.4448052,
     "link": "https://www.instagram.com/explore/search/keyword/?q=cochran%20shoals%20trail",
@@ -9080,7 +9081,7 @@
   },
   {
     "name": "Sean’s Harvest Market",
-    "vibe": "Casual, Neighborhood Favorite, Fresh & Local, Healthy Eats, Relaxed Patio",
+    "vibe": "casual, local, fresh, healthy, patio, market, bright, airy, friendly",
     "type": "breakfast, brunch, market",
     "lat": 33.78830585,
     "lon": -84.36913713,
@@ -9125,8 +9126,8 @@
   },
   {
     "name": "Antico Pizza Napoletana",
-    "vibe": "Authentic, Italian, Communal Tables, Bustling, No-Frills Charm",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "pizza, italian, authentic, communal, bustling, casual, no-frills, local, rustic",
+    "type": "lunch, dinner",
     "lat": 33.7846556,
     "lon": -84.4056305,
     "link": "https://www.instagram.com/gioantico/?hl=en",
@@ -9170,8 +9171,8 @@
   },
   {
     "name": "Pelicana Chicken Atlanta",
-    "vibe": "Korean Fried Chicken, Crispy & Saucy, Late-Night Energy, Casual Hangout",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "korean, chicken, crispy, saucy, casual, hangout, late-night, flavorful, pub",
+    "type": "lunch, dinner, late-night",
     "lat": 33.78592805,
     "lon": -84.4008616,
     "link": "https://www.instagram.com/pelicanaatlanta/?hl=en",
@@ -9215,7 +9216,7 @@
   },
   {
     "name": "The Albert",
-    "vibe": "Neighborhood Pub, Laid-Back, Sports-Friendly, Comfort Food",
+    "vibe": "pub, local, sports, casual, comfort, beer, neighborhood, friendly, bar",
     "type": "bar, dinner",
     "lat": 33.76200645,
     "lon": -84.35752215,
@@ -9260,8 +9261,8 @@
   },
   {
     "name": "Der Biergarten",
-    "vibe": "German Beer Hall, Lively, Pretzel & Brat Focused, Festive Vibe",
-    "type": "dinner, bar",
+    "vibe": "german, beer, hall, pretzel, brat, festive, lively, pub, social",
+    "type": "bar",
     "lat": 33.7615575,
     "lon": -84.3964558,
     "link": "https://www.instagram.com/derbiergarten/?hl=en",
@@ -9305,7 +9306,7 @@
   },
   {
     "name": "Starlight Drive‑In Theatre & Flea Market",
-    "vibe": "Retro Americana, Outdoor Movie Night, Nostalgic, Family-Friendly",
+    "vibe": "retro, outdoor, movie, nostalgic, family, vintage, americana, fun, casual",
     "type": "cinema, market",
     "lat": 33.7026988,
     "lon": -84.3470132,
@@ -9350,8 +9351,8 @@
   },
   {
     "name": "One Flew South – BeltLine",
-    "vibe": "Elevated, Global Fusion, Sleek & Modern, Date-Night Ready",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "fusion, global, upscale, sleek, date, refined, dining, modern, creative",
+    "type": "lunch, dinner, cocktail",
     "lat": 33.7615452,
     "lon": -84.3429678,
     "link": "https://www.instagram.com/oneflewsouthatl/?hl=en",
@@ -9395,8 +9396,8 @@
   },
   {
     "name": "Double Zero",
-    "vibe": "Contemporary Italian, Refined, Wine-Focused, Date-Night",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "italian, contemporary, refined, wine, upscale, date, modern, elegant, dining",
+    "type": "lunch, dinner",
     "lat": 33.7879838,
     "lon": -84.3261663,
     "link": "https://www.instagram.com/doublezeroatl/?hl=en",
@@ -9440,7 +9441,7 @@
   },
   {
     "name": "All Fired Up",
-    "vibe": "Creative, Hands-On, Pottery Fun, Family-Friendly",
+    "vibe": "pottery, creative, hands-on, family, art, workshop, fun, craft, local",
     "type": "activity",
     "lat": 33.78788597,
     "lon": -84.32672831,
@@ -9485,7 +9486,7 @@
   },
   {
     "name": "The Po’Boy Shop Basement Bar",
-    "vibe": "Casual Bar, Southern Eats, Underground Vibe, Beer-Centric",
+    "vibe": "bar, casual, southern, underground, beer, local, pub, hearty, comfort",
     "type": "bar",
     "lat": 33.79113765,
     "lon": -84.30455607,
@@ -9530,8 +9531,8 @@
   },
   {
     "name": "Salaryman Toco Hills",
-    "vibe": "Korean Pub-Style, Comfort Food, Neighborhood Spot, Casual Cool",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "korean, pub, comfort, casual, neighborhood, food, local, social, friendly",
+    "type": "lunch, dinner",
     "lat": 33.815529,
     "lon": -84.31112,
     "link": "https://www.instagram.com/salarymanatl/?hl=en",
@@ -9575,8 +9576,8 @@
   },
   {
     "name": "CHE BUTTER JONEZ",
-    "vibe": "Bold Flavors, Street-Food Energy, Creative Southern, Local Favorite",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "southern, creative, local, flavorful, casual, vibrant, eatery",
+    "type": "lunch, dinner",
     "lat": 33.81502703,
     "lon": -84.33629013,
     "link": "https://www.instagram.com/chebutterjonez/?hl=en",
@@ -9620,7 +9621,7 @@
   },
   {
     "name": "KODAK Film Lab Atlanta",
-    "vibe": "Vintage-Inspired, Artistic, Analog-Lover Haven, Creative Hub",
+    "vibe": "vintage, artistic, analog, creative, retro, photo, niche, indie, studio",
     "type": "random gem",
     "lat": 33.81227048,
     "lon": -84.35827276,
@@ -9665,7 +9666,7 @@
   },
   {
     "name": "Eleventh Street Pub",
-    "vibe": "Classic Pub Vibes, Relaxed, Sports on TV, Draft Beer",
+    "vibe": "pub, classic, casual, sports, beer, local, tv, friendly, relaxed",
     "type": "bar",
     "lat": 33.7830897,
     "lon": -84.3875018,
@@ -9710,8 +9711,8 @@
   },
   {
     "name": "Bulla Gastrobar",
-    "vibe": "Spanish Tapas, Chic & Social, Lively, Brunch Hotspot",
-    "type": "lunch, dinner, restaurant, wine bar",
+    "vibe": "spanish, tapas, chic, social, lively, brunch, wine, vibrant, upscale",
+    "type": "lunch, dinner, wine bar",
     "lat": 33.7834161,
     "lon": -84.3847646,
     "link": "https://www.instagram.com/bullagastrobar/?hl=en",
@@ -9755,8 +9756,8 @@
   },
   {
     "name": "Lure",
-    "vibe": "Coastal-Inspired, Elegant Seafood, Patio Dining, Upscale Yet Relaxed",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "coastal, seafood, elegant, patio, upscale, refined, fresh, modern, relaxed",
+    "type": "lunch, dinner",
     "lat": 33.78499975,
     "lon": -84.38454233,
     "link": "https://www.instagram.com/lure.atl/?hl=en",
@@ -9800,8 +9801,8 @@
   },
   {
     "name": "El Valle",
-    "vibe": "Modern Mexican, Stylish, Vibrant Flavors, Date-Night Spot",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "latin, modern, stylish, vibrant, date, upscale, flavorful, lively, bar",
+    "type": "lunch, dinner, cocktail",
     "lat": 33.7763008,
     "lon": -84.3847755,
     "link": "https://www.instagram.com/elvalleatl/?hl=en",
@@ -9845,7 +9846,7 @@
   },
   {
     "name": "Trap Music Museum",
-    "vibe": "Urban Culture Hub, Immersive, Hip-Hop History, Instagrammable",
+    "vibe": "urban, culture, immersive, hip-hop, history, art, photo, music, social",
     "type": "gallery",
     "lat": 33.7718036,
     "lon": -84.4086916,
@@ -9890,8 +9891,8 @@
   },
   {
     "name": "Mirko Pasta",
-    "vibe": "Cozy Italian, Neighborhood Favorite, Comfort Pasta, Casual Dining",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "italian, cozy, neighborhood, pasta, comfort, casual, local, hearty, classic",
+    "type": "lunch, dinner",
     "lat": 33.870015,
     "lon": -84.380597,
     "link": "https://www.instagram.com/mirko_pasta/?hl=en",
@@ -9934,9 +9935,9 @@
     "duration": 1.75
   },
   {
-    "name": "Hal’s \"The Steakhouse\"",
-    "vibe": "Old-School Steakhouse, Power Dining, Live Jazz, Classic Luxury",
-    "type": "dinner, restaurant",
+    "name": "Hal’s "The Steakhouse"",
+    "vibe": "steakhouse, upscale, jazz, classic, luxury, refined, cigar, elegant, old-school",
+    "type": "dinner",
     "lat": 33.8546922,
     "lon": -84.38169335,
     "link": "https://www.instagram.com/halsthesteakhouse/?hl=en",
@@ -9980,7 +9981,7 @@
   },
   {
     "name": "The Punchline Comedy Club",
-    "vibe": "Intimate, Laughter-Filled, Laid-Back Night Out, Classic Comedy Venue",
+    "vibe": "comedy, casual, intimate, laughter, local, entertainment, stage, night-out, fun",
     "type": "comedy",
     "lat": 33.85515489,
     "lon": -84.38276373,
@@ -10025,8 +10026,8 @@
   },
   {
     "name": "Little Alley Steak Buckhead",
-    "vibe": "Upscale Steakhouse, Whiskey-Focused, Dark & Moody, Business-Ready",
-    "type": "dinner, restaurant",
+    "vibe": "steakhouse, upscale, whiskey, moody, business, refined, dark, bourbon, classic",
+    "type": "dinner",
     "lat": 33.85211425,
     "lon": -84.36635429,
     "link": "https://www.instagram.com/littlealleysteakatl/?hl=en",
@@ -10070,8 +10071,8 @@
   },
   {
     "name": "Rose and Rye",
-    "vibe": "Glamorous, Rooftop Views, Cocktail-Centric, Date-Night Luxe",
-    "type": "cocktail, dinner",
+    "vibe": "rooftop, cocktails, upscale, date, views, glamorous, skyline, chic, romantic",
+    "type": "cocktail, dinner, rooftop",
     "lat": 33.8479272,
     "lon": -84.3663338,
     "link": "https://www.instagram.com/roseandrye.atl/?hl=en",
@@ -10115,8 +10116,8 @@
   },
   {
     "name": "Raging Burrito",
-    "vibe": "Casual, Colorful Patio, Mexican-American Fusion, Social Vibes",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "mexican, casual, patio, colorful, social, fusion, local, tex-mex, lively",
+    "type": "lunch, dinner",
     "lat": 33.78443335,
     "lon": -84.2933602,
     "link": "https://www.instagram.com/ragingburrito/?hl=en",
@@ -10160,7 +10161,7 @@
   },
   {
     "name": "Opo Coffee",
-    "vibe": "Minimalist, Modern, Specialty Coffee, Work-Friendly",
+    "vibe": "coffee, minimalist, modern, work, quiet, specialty, bright, local, cozy",
     "type": "coffee",
     "lat": 33.77188743,
     "lon": -84.29244043,
@@ -10205,8 +10206,8 @@
   },
   {
     "name": "Casa Balam",
-    "vibe": "Latin-Inspired, Craft Cocktails, Artistic, Vibrant Nightlife",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "latin, cocktails, artistic, nightlife, vibrant, mezcal, social, stylish, colorful",
+    "type": "dinner",
     "lat": 33.77548713,
     "lon": -84.29902085,
     "link": "https://www.instagram.com/casabalamatl/?hl=en",
@@ -10250,7 +10251,7 @@
   },
   {
     "name": "The S.O.S. Tiki Bar",
-    "vibe": "Tropical Escape, Kitschy Fun, Rum-Focused, Playful Atmosphere",
+    "vibe": "tiki, tropical, rum, kitschy, playful, colorful, themed, lively, exotic",
     "type": "bar, cocktail",
     "lat": 33.7742092,
     "lon": -84.2950236,
@@ -10295,8 +10296,8 @@
   },
   {
     "name": "Sapphire Karaoke & Restaurant",
-    "vibe": "Nightlife Energy, Private Karaoke Rooms, Asian Fusion, Late-Night Crowd",
-    "type": "karaoke, dinner",
+    "vibe": "karaoke, nightlife, asian, private, late-night, social, bar, lively, music",
+    "type": "activity",
     "lat": 33.893689,
     "lon": -84.2854402,
     "link": "https://www.instagram.com/sapphirekaraoke/?hl=en",
@@ -10340,8 +10341,8 @@
   },
   {
     "name": "Heirloom Market BBQ",
-    "vibe": "Korean-Southern BBQ Fusion, Hole-in-the-Wall Gem, Flavor-Packed, Casual",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "bbq, korean, casual, fusion, smoky, local, flavorful, hole-in-the-wall, hearty",
+    "type": "lunch, dinner",
     "lat": 33.8985938,
     "lon": -84.4471801,
     "link": "https://www.instagram.com/heirloommarketbbq/?hl=en",
@@ -10385,7 +10386,7 @@
   },
   {
     "name": "The Daily Cafe – Buckhead",
-    "vibe": "Bright & Minimalist, Healthy Brunch, Social Media Friendly, Coffee-Forward",
+    "vibe": "brunch, bright, minimalist, healthy, coffee, café, social, fresh, airy",
     "type": "coffee, breakfast, brunch",
     "lat": 33.85513221,
     "lon": -84.43122221,
@@ -10430,7 +10431,7 @@
   },
   {
     "name": "Bellwood Coffee – Riverside",
-    "vibe": "Industrial-Chic, Specialty Coffee, Cozy Corners, Neighborhood Spot",
+    "vibe": "coffee, industrial, cozy, specialty, local, modern, work, warm, neighborhood",
     "type": "coffee",
     "lat": 33.81057,
     "lon": -84.476868,
@@ -10475,8 +10476,8 @@
   },
   {
     "name": "Hankook Taqueria",
-    "vibe": "Korean-Mexican Fusion, Street-Food Energy, Quick & Flavorful",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "korean, mexican, casual, fusion, quick, flavorful, street, local, taco",
+    "type": "lunch, dinner",
     "lat": 33.8114042,
     "lon": -84.4317513,
     "link": "https://www.instagram.com/hankooktaqueria/",
@@ -10520,7 +10521,7 @@
   },
   {
     "name": "Taste Wine Bar and Market",
-    "vibe": "Wine-Lover’s Destination, Cozy Yet Upscale, Small Plates, Neighborhood Gem",
+    "vibe": "wine, cozy, upscale, small-plates, boutique, date, tasting, intimate, refined",
     "type": "wine bar",
     "lat": 33.80201249,
     "lon": -84.42947613,
@@ -10565,7 +10566,7 @@
   },
   {
     "name": "Deljou Art Group",
-    "vibe": "Contemporary Art, Creative Hub, Curated Collections, Inspiring Space",
+    "vibe": "gallery, contemporary, creative, curated, artistic, inspiring, local, modern, design",
     "type": "gallery",
     "lat": 33.7987173,
     "lon": -84.4245928,
@@ -10610,7 +10611,7 @@
   },
   {
     "name": "Floral Park Market",
-    "vibe": "Gourmet Grocery, Small-Batch Products, Neighborhood Charm, Artisanal Focus",
+    "vibe": "grocery, artisanal, local, gourmet, small-batch, market, fresh, seasonal, specialty",
     "type": "market",
     "lat": 33.79438345,
     "lon": -84.41374163,
@@ -10655,8 +10656,8 @@
   },
   {
     "name": "Ace’s Place",
-    "vibe": "Sports Bar Energy, Big Screens, Neighborhood Hangout, Casual Eats",
-    "type": "bar",
+    "vibe": "sports, bar, casual, local, screens, neighborhood, beer, social, friendly",
+    "type": "bar, lunch",
     "lat": 33.86082479,
     "lon": -84.33155693,
     "link": "https://www.instagram.com/acesplacebrookhavenga/",
@@ -10700,8 +10701,8 @@
   },
   {
     "name": "Gunshow",
-    "vibe": "Interactive Dining, Chef-Driven, Southern Meets Global, Playful Presentation",
-    "type": "dinner, restaurant",
+    "vibe": "chef, dining, southern, global, playful, interactive, refined, creative, bold",
+    "type": "dinner",
     "lat": 33.7407083,
     "lon": -84.3580222,
     "link": "https://www.instagram.com/gunshowatl/",
@@ -10745,7 +10746,7 @@
   },
   {
     "name": "The Dirty Tea",
-    "vibe": "Boba & Tea Lounge, Colorful Drinks, Casual Hangout, Youthful Energy",
+    "vibe": "tea, boba, colorful, casual, lounge, youth, drinks, sweet, fun",
     "type": "tea, dessert",
     "lat": 33.7755446,
     "lon": -84.3529905,
@@ -10790,8 +10791,8 @@
   },
   {
     "name": "Unknown",
-    "vibe": "Modern American, Seasonal Menu, Neighborhood Casual, Date-Night Option",
-    "type": "dinner, restaurant",
+    "vibe": "american, seasonal, casual, modern, neighborhood, local, date, fresh, social",
+    "type": "dinner, cocktail",
     "lat": 33.8148981,
     "lon": -84.3537531,
     "link": "https://www.instagram.com/unknown.atlanta/",
@@ -10835,8 +10836,8 @@
   },
   {
     "name": "Whitehall Tavern",
-    "vibe": "Classic Sports Bar, Laid-Back, Local Favorite, Beer & Burgers",
-    "type": "bar, dinner",
+    "vibe": "sports, bar, casual, laid-back, local, beer, burgers, pub, friendly",
+    "type": "bar, lunch",
     "lat": 33.8201785,
     "lon": -84.3876576,
     "link": "https://www.instagram.com/whitehall_tavern/",
@@ -10880,7 +10881,7 @@
   },
   {
     "name": "Brewdog Atlanta",
-    "vibe": "Craft Beer Haven, Industrial-Chic, Dog-Friendly Patio, Social Buzz",
+    "vibe": "beer, craft, industrial, patio, social, brewery, dog-friendly, casual, lively",
     "type": "bar",
     "lat": 33.756269,
     "lon": -84.3649011,
@@ -10925,7 +10926,7 @@
   },
   {
     "name": "The Salty Donut",
-    "vibe": "Artisanal Donuts, Instagrammable, Sweet Fix, Coffee Companion",
+    "vibe": "donuts, artisanal, sweet, coffee, bakery, local, treat, dessert",
     "type": "dessert, bakery",
     "lat": 33.75772085,
     "lon": -84.36423362,
@@ -10970,7 +10971,7 @@
   },
   {
     "name": "The Vortex Bar & Grill",
-    "vibe": "Eclectic, Rock ’n’ Roll Attitude, Over-the-Top Burgers, Local Landmark",
+    "vibe": "burgers, rock, eclectic, casual, local, pub, landmark, bar, bold",
     "type": "bar, dinner",
     "lat": 33.7662554,
     "lon": -84.349211,
@@ -11015,8 +11016,8 @@
   },
   {
     "name": "no. 246",
-    "vibe": "Italian-Inspired, Garden Patio, Seasonal Focus, Date-Night Friendly",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "italian, patio, seasonal, date, garden, upscale, modern, local, romantic",
+    "type": "brunch, dinner",
     "lat": 33.775422,
     "lon": -84.295294,
     "link": "https://www.instagram.com/no246atlanta/",
@@ -11060,8 +11061,8 @@
   },
   {
     "name": "Sotto Sotto Restaurant",
-    "vibe": "Romantic Italian, Intimate, Wine-Focused, Old-World Charm",
-    "type": "dinner, restaurant",
+    "vibe": "italian, romantic, intimate, wine, upscale, fine-dining, classic, cozy, refined",
+    "type": "dinner",
     "lat": 33.7628556,
     "lon": -84.35769409,
     "link": "https://www.instagram.com/sottosottoatl/",
@@ -11105,8 +11106,8 @@
   },
   {
     "name": "La Grotta Ristorante",
-    "vibe": "Classic Fine Dining, Elegant Italian, Upscale Ambiance, Special-Occasion Ready",
-    "type": "dinner, restaurant",
+    "vibe": "italian, fine-dining, elegant, upscale, classic, romantic, refined, special, formal",
+    "type": "dinner",
     "lat": 33.82618443,
     "lon": -84.38759961,
     "link": "https://www.instagram.com/lagrottaatl/",
@@ -11150,7 +11151,7 @@
   },
   {
     "name": "Yonder Yoga – Inman Park",
-    "vibe": "Bright & Airy, Mindful Movement, Community Vibe, Wellness Focus",
+    "vibe": "yoga, bright, airy, wellness, mindful, community, movement, fresh, calm",
     "type": "fitness",
     "lat": 33.7611561,
     "lon": -84.3657219,
@@ -11195,7 +11196,7 @@
   },
   {
     "name": "evolation yoga atlanta",
-    "vibe": "Calm & Centered, Warm Environment, Instructor-Focused, Flow-Friendly",
+    "vibe": "yoga, calm, warm, flow, friendly, wellness, minimal, guided, serene",
     "type": "fitness",
     "lat": 33.7801725,
     "lon": -84.3875317,
@@ -11240,8 +11241,8 @@
   },
   {
     "name": "Yebo Beach Haus",
-    "vibe": "Coastal-Inspired, Trendy, Seasonal Menu, Upscale Social Spot",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "coastal, trendy, seasonal, upscale, social, seafood, modern, vibrant, fresh",
+    "type": "lunch, dinner",
     "lat": 33.84334392,
     "lon": -84.38290658,
     "link": "https://www.instagram.com/yebobeachhaus/",
@@ -11285,8 +11286,8 @@
   },
   {
     "name": "Tiny Lou’s",
-    "vibe": "French Brasserie, Retro Glamour, Basement Chic, Date-Night Darling",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "french, retro, chic, romantic, brasserie, upscale, classic, elegant, intimate",
+    "type": "brunch, lunch, dinner",
     "lat": 33.77347,
     "lon": -84.361399,
     "link": "https://www.instagram.com/tinylousatl/",
@@ -11330,8 +11331,8 @@
   },
   {
     "name": "Yalda",
-    "vibe": "Persian Elegance, Luxe Ambiance, Flavor-Rich Dining, Stylish Crowd",
-    "type": "dinner, restaurant",
+    "vibe": "persian, elegant, upscale, stylish, refined, flavorful, luxury, modern, vibrant",
+    "type": "dinner, cocktail",
     "lat": 33.7811243,
     "lon": -84.411056,
     "link": "https://www.instagram.com/yalda.atl/",
@@ -11375,7 +11376,7 @@
   },
   {
     "name": "Vesper Atlanta",
-    "vibe": "Cocktail-Forward, Sophisticated Lounge, Moody Lighting, Late-Night Appeal",
+    "vibe": "cocktails, lounge, upscale, moody, late-night, intimate, trendy, dim-lighting, chic",
     "type": "cocktail, bar",
     "lat": 33.7407235,
     "lon": -84.3578402,
@@ -11420,8 +11421,8 @@
   },
   {
     "name": "Umi",
-    "vibe": "Sleek Japanese, High-End Sushi, Date-Night Luxe, Celebrity Spotting",
-    "type": "dinner, restaurant",
+    "vibe": "japanese, sushi, upscale, sleek, celebrity, fine-dining, refined, elegant, high-end",
+    "type": "dinner, cocktail",
     "lat": 33.8395908,
     "lon": -84.3816729,
     "link": "https://www.instagram.com/umisushiatl/",
@@ -11465,8 +11466,8 @@
   },
   {
     "name": "Fudo",
-    "vibe": "Modern Japanese, Creative Rolls, Sleek Design, Neighborhood Favorite",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "japanese, sushi, creative, sleek, local, modern, rolls, fresh, casual",
+    "type": "lunch, dinner",
     "lat": 33.8877602,
     "lon": -84.3147177,
     "link": "https://www.instagram.com/fudoatl/",
@@ -11510,8 +11511,8 @@
   },
   {
     "name": "Mujō",
-    "vibe": "Omakase Experience, Minimalist Luxury, Japanese Precision, Intimate Setting",
-    "type": "dinner, restaurant",
+    "vibe": "omakase, minimalist, upscale, japanese, intimate, luxury, refined, seasonal, precise",
+    "type": "dinner",
     "lat": 33.7861054,
     "lon": -84.4106648,
     "link": "https://www.instagram.com/mujoatl/",
@@ -11555,8 +11556,8 @@
   },
   {
     "name": "Rock Steady – Atlanta",
-    "vibe": "Caribbean Fusion, Lively Nightlife, Stylish Crowd, Dance-Ready",
-    "type": "dinner, late-night",
+    "vibe": "caribbean, nightlife, stylish, dance, vibrant, dj, high-energy, social, urban",
+    "type": "dinner, cocktail, late-night",
     "lat": 33.777293,
     "lon": -84.408183,
     "link": "https://www.instagram.com/rocksteadyatlanta/",
@@ -11600,7 +11601,7 @@
   },
   {
     "name": "Cafe Comma",
-    "vibe": "Cozy Coffee Spot, Minimalist Design, Work-Friendly, Pastry Pairings",
+    "vibe": "coffee, minimalist, work, pastry, cozy, modern, quiet, bright, study",
     "type": "coffee, breakfast",
     "lat": 33.8647205,
     "lon": -84.4719725,
@@ -11645,8 +11646,8 @@
   },
   {
     "name": "Old Vinings Inn",
-    "vibe": "Historic Charm, Southern Hospitality, Upscale Dining, Porch Seating",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "historic, southern, upscale, porch, charm, classic, romantic, traditional, scenic",
+    "type": "lunch, dinner",
     "lat": 33.86654265,
     "lon": -84.46597944,
     "link": "https://www.instagram.com/oldvinings/",
@@ -11690,8 +11691,8 @@
   },
   {
     "name": "Canoe",
-    "vibe": "Riverside Dining, Romantic, Garden Setting, Seasonal American",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "riverside, romantic, garden, seasonal, american, upscale, scenic, elegant, patio",
+    "type": "lunch, dinner",
     "lat": 33.85974,
     "lon": -84.455173,
     "link": "https://www.instagram.com/canoe_atl/",
@@ -11735,7 +11736,7 @@
   },
   {
     "name": "Read Shop by The Merchant",
-    "vibe": "Bookstore Café, Cozy & Quiet, Specialty Coffee, Creative Atmosphere",
+    "vibe": "bookstore, café, coffee, creative, cozy, quiet, stylish, design, literary",
     "type": "coffee, bookstore",
     "lat": 33.8649149,
     "lon": -84.4655889,
@@ -11780,8 +11781,8 @@
   },
   {
     "name": "Folk Art Restaurant Inman Park",
-    "vibe": "Retro Diner Feel, Southern Comfort, Brunch Favorite, Eclectic Decor",
-    "type": "breakfast, brunch, restaurant",
+    "vibe": "diner, southern, brunch, eclectic, casual, comfort-food, retro, local, hearty",
+    "type": "breakfast, brunch",
     "lat": 33.766686,
     "lon": -84.352985,
     "link": "https://www.instagram.com/folkart_inmanpark/",
@@ -11825,8 +11826,8 @@
   },
   {
     "name": "Communidad Taqueria",
-    "vibe": "Fresh Mexican, Neighborhood Gem, Bright & Airy, Quick & Flavorful",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "mexican, casual, bright, quick, fresh, colorful, local, taco, neighborhood",
+    "type": "lunch, dinner",
     "lat": 33.7611561,
     "lon": -84.3657219,
     "link": "https://www.instagram.com/communidadatl/",
@@ -11870,8 +11871,8 @@
   },
   {
     "name": "La Semilla",
-    "vibe": "Vegan Innovation, Bright & Modern, Latin Influence, Plant-Based Brunch",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "vegan, modern, latin, brunch, plant-based, fresh, bright, innovative, casual",
+    "type": "lunch, dinner",
     "lat": 33.74673873,
     "lon": -84.36330386,
     "link": "https://www.instagram.com/lasemilla.atl/",
@@ -11915,7 +11916,7 @@
   },
   {
     "name": "Monday Night Brewing – The Garage",
-    "vibe": "Experimental Beer, Funky Warehouse, Beer Garden Vibe, Social Hub",
+    "vibe": "beer, brewery, warehouse, social, experimental, casual, craft, group, lively",
     "type": "bar",
     "lat": 33.729269,
     "lon": -84.416017,
@@ -11960,8 +11961,8 @@
   },
   {
     "name": "Daily Chew",
-    "vibe": "Fresh & Seasonal, Wholesome Eats, Bright Café, Plant-Forward",
-    "type": "breakfast, lunch, restaurant",
+    "vibe": "seasonal, café, fresh, plant-based, wholesome, bright, healthy, casual, breakfast",
+    "type": "breakfast, lunch",
     "lat": 33.8117273,
     "lon": -84.3627468,
     "link": "https://www.instagram.com/dailychewatl/?hl=en",
@@ -12005,7 +12006,7 @@
   },
   {
     "name": "Fellaship.ATL",
-    "vibe": "Upscale Lounge, Sports Viewing, Southern Bites, Cigar-Friendly",
+    "vibe": "lounge, sports, southern, cigar, upscale, lively, social, drinks, crowd",
     "type": "bar, dinner",
     "lat": 33.7521147,
     "lon": -84.3990442,
@@ -12050,7 +12051,7 @@
   },
   {
     "name": "The Record Loft",
-    "vibe": "Vinyl Lover’s Paradise, Retro Cool, Collector-Focused, Laid-Back",
+    "vibe": "vinyl, retro, collector, casual, music, vintage, niche, indie, relaxed",
     "type": "random gem",
     "lat": 33.73453585,
     "lon": -84.34905613,
@@ -12095,8 +12096,8 @@
   },
   {
     "name": "Your 3rd Spot",
-    "vibe": "Social Dining, Games & Entertainment, Large-Group Friendly, Modern Design",
-    "type": "bar, dinner",
+    "vibe": "dining, games, group, modern, social, entertainment, fun, interactive, casual",
+    "type": "bar, activity",
     "lat": 33.80292775,
     "lon": -84.42947057,
     "link": "https://www.instagram.com/your3rdspot/?hl=en",
@@ -12140,7 +12141,7 @@
   },
   {
     "name": "Side Saddle Wine Saloon & Bar",
-    "vibe": "Cozy Wine Spot, Rustic Charm, Intimate Lighting, Date-Friendly",
+    "vibe": "wine, rustic, intimate, date, cozy, charming, vintage, soft-light, boutique",
     "type": "wine bar",
     "lat": 33.72584216,
     "lon": -84.36493295,
@@ -12177,8 +12178,8 @@
   },
   {
     "name": "Fat Matt’s Rib Shack",
-    "vibe": "Classic BBQ, Live Blues, No-Frills Charm, Southern Soul",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "bbq, blues, casual, southern, live-music, classic, smoky, local, comfort",
+    "type": "lunch, dinner",
     "lat": 33.80470696,
     "lon": -84.36735975,
     "link": "https://www.instagram.com/fatmattsribshack/?hl=en",
@@ -12214,7 +12215,7 @@
   },
   {
     "name": "Pata Negra Mezcaleria",
-    "vibe": "Mezcal-Centric, Mexican Small Plates, Warm & Rustic, Intimate Bar",
+    "vibe": "mezcal, mexican, rustic, intimate, bar, artisanal, cocktail, cozy, warm",
     "type": "cocktail, dinner",
     "lat": 33.80277748,
     "lon": -84.39306704,
@@ -12251,8 +12252,8 @@
   },
   {
     "name": "Varasano’s Pizzeria – Buckhead",
-    "vibe": "Thin-Crust Expert, Casual Italian, Neighborhood Favorite, Family-Friendly",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "pizza, italian, casual, family, neighborhood, classic, thin-crust, local, friendly",
+    "type": "lunch, dinner, brunch",
     "lat": 33.813769,
     "lon": -84.392083,
     "link": "https://www.instagram.com/varasanospizzeria/?hl=en",
@@ -12288,8 +12289,8 @@
   },
   {
   "name": "Tuk Tuk Thai Food Loft",
-  "vibe": "Thai Street-Food Chic, Upscale Setting, Bold Flavors, Scenic Views",
-  "type": "lunch, dinner, restaurant",
+  "vibe": "thai, upscale, bold, scenic, flavorful, colorful, modern, vibrant, city-view",
+  "type": "lunch, dinner",
   "lat": 33.8003326,
   "lon": -84.3921328,
   "link": "https://www.instagram.com/tuktuk_thairestaurant/?hl=en",
@@ -12325,8 +12326,8 @@
 },
   {
     "name": "El Azteca",
-    "vibe": "Casual Mexican, Local Favorite, Margarita Spot, Colorful Patio",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "mexican, casual, margarita, patio, festive, colorful, local, lively, relaxed",
+    "type": "lunch, dinner, bar",
     "lat": 33.80292081,
     "lon": -84.39310231,
     "link": "https://www.instagram.com/elaztecaatlanta/?hl=en",
@@ -12362,8 +12363,8 @@
   },
   {
     "name": "Little Rey",
-    "vibe": "Fast-Casual Mexican, Pollo al Carbon, Family-Friendly, Bright & Fun",
-    "type": "lunch, dinner, restaurant",
+    "vibe": "mexican, casual, chicken, family, bright, fresh, local, quick, upbeat",
+    "type": "lunch, dinner",
     "lat": 33.807094,
     "lon": -84.36650078,
     "link": "https://www.instagram.com/littlereyalcarbon/?hl=en",
@@ -12399,7 +12400,7 @@
   },
   {
     "name": "New Realm Brewing Co.",
-    "vibe": "Rooftop Views, Large Tap List, Industrial-Chic, Event-Friendly",
+    "vibe": "brewery, rooftop, industrial, events, taproom, large, social, group, casual",
     "type": " bar",
     "lat": 33.7690299,
     "lon": -84.36195415,
@@ -12436,8 +12437,8 @@
   },
   {
     "name": "Atlanta Worldwide Gallery",
-    "vibe": "Camera Collectors’ Haven, Specialty Shop, Photography-Centric, Expert Staff",
-    "type": "random gem",
+    "vibe": "photography, shop, specialty, expert, camera, niche, creative, visual, art",
+    "type": "random gem, lifestyle",
     "lat": 33.758602,
     "lon": -84.365546,
     "link": "https://www.instagram.com/atlworldwidegallery/?hl=en",
@@ -12473,7 +12474,7 @@
   },
   {
     "name": "TEN ATL",
-    "vibe": "Neighborhood Lounge, Hip-Hop Nights, Urban Vibe, Late-Night Crowd",
+    "vibe": "lounge, hip-hop, urban, nightlife, party, lively, music, local, social",
     "type": "bar, music",
     "lat": 33.7403991,
     "lon": -84.34613055,
@@ -12510,7 +12511,7 @@
   },
   {
     "name": "Five Iron Golf",
-    "vibe": "Indoor Golf Lounge, Modern Sports Bar, Social & Competitive, Group-Friendly",
+    "vibe": "golf, sports, social, group, lounge, interactive, fun, modern, competitive",
     "type": "activity",
     "lat": 33.773304,
     "lon": -84.3860568,
