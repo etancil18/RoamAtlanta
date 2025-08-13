@@ -9077,5 +9077,3472 @@
     "tags": "running trail, nature escape, river loop, hike & bike, urban scenic",
     "price": "$",
     "duration": 3
+  },
+  {
+    "name": "Sean’s Harvest Market",
+    "vibe": "Casual, Neighborhood Favorite, Fresh & Local, Healthy Eats, Relaxed Patio",
+    "type": "breakfast, brunch, market",
+    "lat": 33.78830585,
+    "lon": -84.36913713,
+    "link": "https://www.instagram.com/seansharvestmarket/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 9:00 AM–5:00 PM",
+      "Monday: 8:00 AM–5:00 PM",
+      "Tuesday: 8:00 AM–5:00 PM",
+      "Wednesday: 8:00 AM–5:00 PM",
+      "Thursday: 8:00 AM–5:00 PM",
+      "Friday: 8:00 AM–5:00 PM",
+      "Saturday: 9:00 AM–5:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 9, "close": 17 },
+      "mon": { "open": 8, "close": 17 },
+      "tue": { "open": 8, "close": 17 },
+      "wed": { "open": 8, "close": 17 },
+      "thu": { "open": 8, "close": 17 },
+      "fri": { "open": 8, "close": 17 },
+      "sat": { "open": 9, "close": 17 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "local-produce, casual-outdoor, health-conscious",
+    "price": "$",
+    "duration": 0.66
+  },
+  {
+    "name": "Antico Pizza Napoletana",
+    "vibe": "Authentic, Italian, Communal Tables, Bustling, No-Frills Charm",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.7846556,
+    "lon": -84.4056305,
+    "link": "https://www.instagram.com/gioantico/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–9:00 PM",
+      "Monday: 11:30 AM–10:00 PM",
+      "Tuesday: 11:30 AM–10:00 PM",
+      "Wednesday: 11:30 AM–10:00 PM",
+      "Thursday: 11:30 AM–10:00 PM",
+      "Friday: 11:30 AM–10:00 PM",
+      "Saturday: 12:00 PM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 21 },
+      "mon": { "open": 11.5, "close": 22 },
+      "tue": { "open": 11.5, "close": 22 },
+      "wed": { "open": 11.5, "close": 22 },
+      "thu": { "open": 11.5, "close": 22 },
+      "fri": { "open": 11.5, "close": 22 },
+      "sat": { "open": 12, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "group-friendly, fast-casual, BYOB-vibe",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Pelicana Chicken Atlanta",
+    "vibe": "Korean Fried Chicken, Crispy & Saucy, Late-Night Energy, Casual Hangout",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.78592805,
+    "lon": -84.4008616,
+    "link": "https://www.instagram.com/pelicanaatlanta/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–3:00 AM",
+      "Monday: 11:00 AM–3:00 AM",
+      "Tuesday: 11:00 AM–3:00 AM",
+      "Wednesday: 11:00 AM–3:00 AM",
+      "Thursday: 11:00 AM–3:00 AM",
+      "Friday: 11:00 AM–3:00 AM",
+      "Saturday: 11:00 AM–3:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 27 },
+      "mon": { "open": 11, "close": 27 },
+      "tue": { "open": 11, "close": 27 },
+      "wed": { "open": 11, "close": 27 },
+      "thu": { "open": 11, "close": 27 },
+      "fri": { "open": 11, "close": 27 },
+      "sat": { "open": 11, "close": 27 }
+    },
+    "dayParts": {
+      "sun": "L",
+      "mon": "L",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "late",
+    "energyRamp": 4,
+    "tags": "late-night-bite, K-food, casual",
+    "price": "$",
+    "duration": 2
+  },
+  {
+    "name": "The Albert",
+    "vibe": "Neighborhood Pub, Laid-Back, Sports-Friendly, Comfort Food",
+    "type": "bar, dinner",
+    "lat": 33.76200645,
+    "lon": -84.35752215,
+    "link": "https://www.instagram.com/thealbertatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–11:00 PM",
+      "Monday: 11:30 AM–11:00 PM",
+      "Tuesday: 11:30 AM–11:00 PM",
+      "Wednesday: 11:30 AM–12:00 AM",
+      "Thursday: 11:30 AM–12:00 AM",
+      "Friday: 11:30 AM–1:00 AM",
+      "Saturday: 11:30 AM–1:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 23 },
+      "mon": { "open": 11.5, "close": 23 },
+      "tue": { "open": 11.5, "close": 23 },
+      "wed": { "open": 11.5, "close": 24 },
+      "thu": { "open": 11.5, "close": 24 },
+      "fri": { "open": 11.5, "close": 25 },
+      "sat": { "open": 11.5, "close": 25 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 3,
+    "tags": "sports-bar, neighborhood-hang, beer-focused",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Der Biergarten",
+    "vibe": "German Beer Hall, Lively, Pretzel & Brat Focused, Festive Vibe",
+    "type": "dinner, bar",
+    "lat": 33.7615575,
+    "lon": -84.3964558,
+    "link": "https://www.instagram.com/derbiergarten/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–9:00 PM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 4:00 PM–9:00 PM",
+      "Thursday: 4:00 PM–9:00 PM",
+      "Friday: 4:00 PM–9:00 PM",
+      "Saturday: 12:00 PM–9:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 21 },
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 16, "close": 21 },
+      "thu": { "open": 16, "close": 21 },
+      "fri": { "open": 16, "close": 21 },
+      "sat": { "open": 12, "close": 21 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "—",
+      "tue": "—",
+      "wed": "HH",
+      "thu": "HH",
+      "fri": "HH",
+      "sat": "E"
+    },
+    "timeCategory": "happy hour, evening",
+    "energyRamp": 4,
+    "tags": "Oktoberfest-vibe, large-groups, beer-hall",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "Starlight Drive‑In Theatre & Flea Market",
+    "vibe": "Retro Americana, Outdoor Movie Night, Nostalgic, Family-Friendly",
+    "type": "cinema, market",
+    "lat": 33.7026988,
+    "lon": -84.3470132,
+    "link": "https://www.instagram.com/starlightdrivein/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 6:00 AM–3:00 PM",
+      "Monday: 9:00 PM–1:00 AM",
+      "Tuesday: 9:00 PM–1:00 AM",
+      "Wednesday: 9:00 PM–1:00 AM",
+      "Thursday: 9:00 PM–1:00 AM",
+      "Friday: 9:00 PM–1:00 AM",
+      "Saturday: 6:00 AM–3:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 6, "close": 15 },
+      "mon": { "open": 21, "close": 25 },
+      "tue": { "open": 21, "close": 25 },
+      "wed": { "open": 21, "close": 25 },
+      "thu": { "open": 21, "close": 25 },
+      "fri": { "open": 21, "close": 25 },
+      "sat": { "open": 6, "close": 15 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "L",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "E"
+    },
+    "timeCategory": "morning, evening, late",
+    "energyRamp": 3,
+    "tags": "retro, family-friendly, all-day-experience",
+    "price": "$$",
+    "duration": 2.5
+  },
+  {
+    "name": "One Flew South – BeltLine",
+    "vibe": "Elevated, Global Fusion, Sleek & Modern, Date-Night Ready",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.7615452,
+    "lon": -84.3429678,
+    "link": "https://www.instagram.com/oneflewsouthatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–10:00 PM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 3:00 PM–10:00 PM",
+      "Thursday: 3:00 PM–10:00 PM",
+      "Friday: 3:00 PM–10:00 PM",
+      "Saturday: 11:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 22 },
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 15, "close": 22 },
+      "thu": { "open": 15, "close": 22 },
+      "fri": { "open": 15, "close": 22 },
+      "sat": { "open": 11, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "—",
+      "tue": "—",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "upscale-cocktails, chef-driven, date-night",
+    "price": "$$$",
+    "duration": 2
+  },
+  {
+    "name": "Double Zero",
+    "vibe": "Contemporary Italian, Refined, Wine-Focused, Date-Night",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.7879838,
+    "lon": -84.3261663,
+    "link": "https://www.instagram.com/doublezeroatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 5:00 PM–9:00 PM",
+      "Tuesday: 5:00 PM–9:00 PM",
+      "Wednesday: 5:00 PM–9:00 PM",
+      "Thursday: 5:00 PM–9:00 PM",
+      "Friday: 5:00 PM–10:00 PM",
+      "Saturday: 5:00 PM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 17, "close": 21 },
+      "tue": { "open": 17, "close": 21 },
+      "wed": { "open": 17, "close": 21 },
+      "thu": { "open": 17, "close": 21 },
+      "fri": { "open": 17, "close": 22 },
+      "sat": { "open": 17, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 3,
+    "tags": "wine-forward, Italian, date-night",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "All Fired Up",
+    "vibe": "Creative, Hands-On, Pottery Fun, Family-Friendly",
+    "type": "activity",
+    "lat": 33.78788597,
+    "lon": -84.32672831,
+    "link": "https://www.instagram.com/allfiredupatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–7:00 PM",
+      "Monday: 10:00 AM–8:00 PM",
+      "Tuesday: 10:00 AM–8:00 PM",
+      "Wednesday: 10:00 AM–8:00 PM",
+      "Thursday: 10:00 AM–8:00 PM",
+      "Friday: 10:00 AM–10:00 PM",
+      "Saturday: 10:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 19 },
+      "mon": { "open": 10, "close": 20 },
+      "tue": { "open": 10, "close": 20 },
+      "wed": { "open": 10, "close": 20 },
+      "thu": { "open": 10, "close": 20 },
+      "fri": { "open": 10, "close": 22 },
+      "sat": { "open": 10, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "A",
+      "tue": "A",
+      "wed": "A",
+      "thu": "A",
+      "fri": "HH",
+      "sat": "HH"
+    },
+    "timeCategory": "afternoon, happy hour",
+    "energyRamp": 2,
+    "tags": "interactive, art-focused, BYOB-friendly",
+    "price": "$$",
+    "duration": 2.33
+  },
+  {
+    "name": "The Po’Boy Shop Basement Bar",
+    "vibe": "Casual Bar, Southern Eats, Underground Vibe, Beer-Centric",
+    "type": "bar",
+    "lat": 33.79113765,
+    "lon": -84.30455607,
+    "link": "https://www.instagram.com/thepoboyshop/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–2:00 AM",
+      "Monday: 11:00 AM–2:00 AM",
+      "Tuesday: 11:00 AM–2:00 AM",
+      "Wednesday: 11:00 AM–2:00 AM",
+      "Thursday: 11:00 AM–2:00 AM",
+      "Friday: 11:00 AM–2:00 AM",
+      "Saturday: 11:00 AM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 26 },
+      "mon": { "open": 11, "close": 26 },
+      "tue": { "open": 11, "close": 26 },
+      "wed": { "open": 11, "close": 26 },
+      "thu": { "open": 11, "close": 26 },
+      "fri": { "open": 11, "close": 26 },
+      "sat": { "open": 11, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "L",
+      "mon": "L",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "late",
+    "energyRamp": 4,
+    "tags": "divey, live-music, New-Orleans-vibe",
+    "price": "$$",
+    "duration": 1.66
+  },
+  {
+    "name": "Salaryman Toco Hills",
+    "vibe": "Korean Pub-Style, Comfort Food, Neighborhood Spot, Casual Cool",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.815529,
+    "lon": -84.31112,
+    "link": "https://www.instagram.com/salarymanatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–9:30 PM",
+      "Monday: 11:30 AM–9:30 PM",
+      "Tuesday: 11:30 AM–9:30 PM",
+      "Wednesday: 11:30 AM–9:30 PM",
+      "Thursday: 11:30 AM–9:30 PM",
+      "Friday: 11:30 AM–10:30 PM",
+      "Saturday: 11:30 AM–10:30 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 21.5 },
+      "mon": { "open": 11.5, "close": 21.5 },
+      "tue": { "open": 11.5, "close": 21.5 },
+      "wed": { "open": 11.5, "close": 21.5 },
+      "thu": { "open": 11.5, "close": 21.5 },
+      "fri": { "open": 11.5, "close": 22.5 },
+      "sat": { "open": 11.5, "close": 22.5 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 3,
+    "tags": "ramen, sake-bar, casual-date",
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "CHE BUTTER JONEZ",
+    "vibe": "Bold Flavors, Street-Food Energy, Creative Southern, Local Favorite",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.81502703,
+    "lon": -84.33629013,
+    "link": "https://www.instagram.com/chebutterjonez/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 11:00 AM–7:00 PM",
+      "Thursday: 11:00 AM–7:00 PM",
+      "Friday: 12:00 PM–8:00 PM",
+      "Saturday: 12:00 PM–8:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 11, "close": 19 },
+      "thu": { "open": 11, "close": 19 },
+      "fri": { "open": 12, "close": 20 },
+      "sat": { "open": 12, "close": 20 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "—",
+      "wed": "HH",
+      "thu": "HH",
+      "fri": "HH",
+      "sat": "HH"
+    },
+    "timeCategory": "happy hour",
+    "energyRamp": 2,
+    "tags": "street-food, hip-hop-vibe, community-favorite",
+    "price": "$",
+    "duration": 1
+  },
+  {
+    "name": "KODAK Film Lab Atlanta",
+    "vibe": "Vintage-Inspired, Artistic, Analog-Lover Haven, Creative Hub",
+    "type": "random gem",
+    "lat": 33.81227048,
+    "lon": -84.35827276,
+    "link": "https://www.instagram.com/kodakfilmlabatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 8:00 AM–4:00 PM",
+      "Tuesday: 8:00 AM–4:00 PM",
+      "Wednesday: 8:00 AM–4:00 PM",
+      "Thursday: 8:00 AM–4:00 PM",
+      "Friday: 8:00 AM–4:00 PM",
+      "Saturday: Closed"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 8, "close": 16 },
+      "tue": { "open": 8, "close": 16 },
+      "wed": { "open": 8, "close": 16 },
+      "thu": { "open": 8, "close": 16 },
+      "fri": { "open": 8, "close": 16 },
+      "sat": null
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "—"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "creative-space, photography, retro-nostalgia",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Eleventh Street Pub",
+    "vibe": "Classic Pub Vibes, Relaxed, Sports on TV, Draft Beer",
+    "type": "bar",
+    "lat": 33.7830897,
+    "lon": -84.3875018,
+    "link": "https://www.instagram.com/eleventhstreetpub/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–12:00 AM",
+      "Monday: 11:00 AM–3:00 AM",
+      "Tuesday: 11:00 AM–3:00 AM",
+      "Wednesday: 11:00 AM–3:00 AM",
+      "Thursday: 11:00 AM–3:00 AM",
+      "Friday: 11:00 AM–3:00 AM",
+      "Saturday: 11:30 AM–3:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 24 },
+      "mon": { "open": 11, "close": 27 },
+      "tue": { "open": 11, "close": 27 },
+      "wed": { "open": 11, "close": 27 },
+      "thu": { "open": 11, "close": 27 },
+      "fri": { "open": 11, "close": 27 },
+      "sat": { "open": 11.5, "close": 27 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "L",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "darts, casual-pub, neighborhood-hang",
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+    "name": "Bulla Gastrobar",
+    "vibe": "Spanish Tapas, Chic & Social, Lively, Brunch Hotspot",
+    "type": "lunch, dinner, restaurant, wine bar",
+    "lat": 33.7834161,
+    "lon": -84.3847646,
+    "link": "https://www.instagram.com/bullagastrobar/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–10:00 PM",
+      "Monday: 11:30 AM–10:00 PM",
+      "Tuesday: 11:30 AM–10:00 PM",
+      "Wednesday: 11:30 AM–10:00 PM",
+      "Thursday: 11:30 AM–10:00 PM",
+      "Friday: 11:30 AM–11:00 PM",
+      "Saturday: 11:30 AM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 22 },
+      "mon": { "open": 11.5, "close": 22 },
+      "tue": { "open": 11.5, "close": 22 },
+      "wed": { "open": 11.5, "close": 22 },
+      "thu": { "open": 11.5, "close": 22 },
+      "fri": { "open": 11.5, "close": 23 },
+      "sat": { "open": 11.5, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "tapas, wine-focused, lively-atmosphere",
+    "price": "$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Lure",
+    "vibe": "Coastal-Inspired, Elegant Seafood, Patio Dining, Upscale Yet Relaxed",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.78499975,
+    "lon": -84.38454233,
+    "link": "https://www.instagram.com/lure.atl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: 4:00 PM–9:00 PM",
+      "Wednesday: 4:00 PM–9:00 PM",
+      "Thursday: 4:00 PM–9:00 PM",
+      "Friday: 4:00 PM–10:00 PM",
+      "Saturday: 5:00 PM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": { "open": 16, "close": 21 },
+      "wed": { "open": 16, "close": 21 },
+      "thu": { "open": 16, "close": 21 },
+      "fri": { "open": 16, "close": 22 },
+      "sat": { "open": 17, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "seafood-forward, romantic, upscale",
+    "price": "$$$",
+    "duration": 2.5
+  },
+  {
+    "name": "El Valle",
+    "vibe": "Modern Mexican, Stylish, Vibrant Flavors, Date-Night Spot",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.7763008,
+    "lon": -84.3847755,
+    "link": "https://www.instagram.com/elvalleatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–11:00 PM",
+      "Monday: 11:00 AM–11:00 PM",
+      "Tuesday: 11:00 AM–11:00 PM",
+      "Wednesday: 11:00 AM–11:00 PM",
+      "Thursday: 11:00 AM–12:00 AM",
+      "Friday: 11:00 AM–2:00 AM",
+      "Saturday: 11:00 AM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 23 },
+      "mon": { "open": 11, "close": 23 },
+      "tue": { "open": 11, "close": 23 },
+      "wed": { "open": 11, "close": 23 },
+      "thu": { "open": 11, "close": 24 },
+      "fri": { "open": 11, "close": 26 },
+      "sat": { "open": 11, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "modern-Mexican, cocktail-focused, lively",
+    "price": "$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Trap Music Museum",
+    "vibe": "Urban Culture Hub, Immersive, Hip-Hop History, Instagrammable",
+    "type": "gallery",
+    "lat": 33.7718036,
+    "lon": -84.4086916,
+    "link": "https://www.instagram.com/trapmusicmuseum/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–6:00 PM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 4:00 PM–9:00 PM",
+      "Saturday: 12:00 PM–8:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 18 },
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": { "open": 16, "close": 21 },
+      "sat": { "open": 12, "close": 20 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "—",
+      "tue": "—",
+      "wed": "—",
+      "thu": "—",
+      "fri": "HH",
+      "sat": "A"
+    },
+    "timeCategory": "afternoon, happy hour",
+    "energyRamp": 2,
+    "tags": "immersive-experience, hip-hop-culture, photo-op",
+    "price": "$",
+    "duration": 3
+  },
+  {
+    "name": "Mirko Pasta",
+    "vibe": "Cozy Italian, Neighborhood Favorite, Comfort Pasta, Casual Dining",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.870015,
+    "lon": -84.380597,
+    "link": "https://www.instagram.com/mirko_pasta/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–9:30 PM",
+      "Monday: 12:00 PM–9:30 PM",
+      "Tuesday: 12:00 PM–9:30 PM",
+      "Wednesday: 12:00 PM–9:30 PM",
+      "Thursday: 12:00 PM–9:30 PM",
+      "Friday: 12:00 PM–10:30 PM",
+      "Saturday: 12:00 PM–10:30 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 21.5 },
+      "mon": { "open": 12, "close": 21.5 },
+      "tue": { "open": 12, "close": 21.5 },
+      "wed": { "open": 12, "close": 21.5 },
+      "thu": { "open": 12, "close": 21.5 },
+      "fri": { "open": 12, "close": 22.5 },
+      "sat": { "open": 12, "close": 22.5 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 2,
+    "tags": "neighborhood-Italian, comfort-food, wine-friendly",
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "Hal’s \"The Steakhouse\"",
+    "vibe": "Old-School Steakhouse, Power Dining, Live Jazz, Classic Luxury",
+    "type": "dinner, restaurant",
+    "lat": 33.8546922,
+    "lon": -84.38169335,
+    "link": "https://www.instagram.com/halsthesteakhouse/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 5:00 PM–11:00 PM",
+      "Tuesday: 5:00 PM–11:00 PM",
+      "Wednesday: 5:00 PM–11:00 PM",
+      "Thursday: 5:00 PM–11:00 PM",
+      "Friday: 5:00 PM–11:00 PM",
+      "Saturday: 5:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 17, "close": 23 },
+      "tue": { "open": 17, "close": 23 },
+      "wed": { "open": 17, "close": 23 },
+      "thu": { "open": 17, "close": 23 },
+      "fri": { "open": 17, "close": 23 },
+      "sat": { "open": 17, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "power-dinner, cigar-friendly, live-music",
+    "price": "$$$$",
+    "duration": 2
+  },
+  {
+    "name": "The Punchline Comedy Club",
+    "vibe": "Intimate, Laughter-Filled, Laid-Back Night Out, Classic Comedy Venue",
+    "type": "comedy",
+    "lat": 33.85515489,
+    "lon": -84.38276373,
+    "link": "https://www.instagram.com/punchlinecomedy/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: Closed"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "—",
+      "wed": "—",
+      "thu": "—",
+      "fri": "—",
+      "sat": "—"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 4,
+    "tags": "stand-up-comedy, casual, date-night",
+    "price": "$$",
+    "duration": 3
+  },
+  {
+    "name": "Little Alley Steak Buckhead",
+    "vibe": "Upscale Steakhouse, Whiskey-Focused, Dark & Moody, Business-Ready",
+    "type": "dinner, restaurant",
+    "lat": 33.85211425,
+    "lon": -84.36635429,
+    "link": "https://www.instagram.com/littlealleysteakatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–10:00 PM",
+      "Monday: 11:30 AM–10:00 PM",
+      "Tuesday: 11:30 AM–10:00 PM",
+      "Wednesday: 11:30 AM–10:00 PM",
+      "Thursday: 11:30 AM–10:00 PM",
+      "Friday: 11:30 AM–10:00 PM",
+      "Saturday: 4:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 22 },
+      "mon": { "open": 11.5, "close": 22 },
+      "tue": { "open": 11.5, "close": 22 },
+      "wed": { "open": 11.5, "close": 22 },
+      "thu": { "open": 11.5, "close": 22 },
+      "fri": { "open": 11.5, "close": 22 },
+      "sat": { "open": 16, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "high-end-steakhouse, business-meetings, bourbon",
+    "price": "$$$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Rose and Rye",
+    "vibe": "Glamorous, Rooftop Views, Cocktail-Centric, Date-Night Luxe",
+    "type": "cocktail, dinner",
+    "lat": 33.8479272,
+    "lon": -84.3663338,
+    "link": "https://www.instagram.com/roseandrye.atl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: 5:00 PM–1:00 AM",
+      "Wednesday: 5:00 PM–1:00 AM",
+      "Thursday: 5:00 PM–1:00 AM",
+      "Friday: 5:00 PM–3:00 AM",
+      "Saturday: 5:00 PM–3:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": { "open": 17, "close": 25 },
+      "wed": { "open": 17, "close": 25 },
+      "thu": { "open": 17, "close": 25 },
+      "fri": { "open": 17, "close": 27 },
+      "sat": { "open": 17, "close": 27 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "late",
+    "energyRamp": 5,
+    "tags": "skyline-views, craft-cocktails, romantic",
+    "price": "$$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Raging Burrito",
+    "vibe": "Casual, Colorful Patio, Mexican-American Fusion, Social Vibes",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.78443335,
+    "lon": -84.2933602,
+    "link": "https://www.instagram.com/ragingburrito/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–9:30 PM",
+      "Monday: 11:00 AM–9:30 PM",
+      "Tuesday: 11:00 AM–9:30 PM",
+      "Wednesday: 11:00 AM–9:30 PM",
+      "Thursday: 11:00 AM–9:30 PM",
+      "Friday: 11:00 AM–10:00 PM",
+      "Saturday: 11:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 21.5 },
+      "mon": { "open": 11, "close": 21.5 },
+      "tue": { "open": 11, "close": 21.5 },
+      "wed": { "open": 11, "close": 21.5 },
+      "thu": { "open": 11, "close": 21.5 },
+      "fri": { "open": 11, "close": 22 },
+      "sat": { "open": 11, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 2,
+    "tags": "large-patio, Tex-Mex, margarita-hub",
+    "price": "$",
+    "duration": 1.25
+  },
+  {
+    "name": "Opo Coffee",
+    "vibe": "Minimalist, Modern, Specialty Coffee, Work-Friendly",
+    "type": "coffee",
+    "lat": 33.77188743,
+    "lon": -84.29244043,
+    "link": "https://www.instagram.com/opocoffee/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 6:30 AM–8:00 PM",
+      "Tuesday: 6:30 AM–8:00 PM",
+      "Wednesday: 6:30 AM–8:00 PM",
+      "Thursday: 6:30 AM–8:00 PM",
+      "Friday: 6:30 AM–8:00 PM",
+      "Saturday: 6:30 AM–8:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 6.5, "close": 20 },
+      "tue": { "open": 6.5, "close": 20 },
+      "wed": { "open": 6.5, "close": 20 },
+      "thu": { "open": 6.5, "close": 20 },
+      "fri": { "open": 6.5, "close": 20 },
+      "sat": { "open": 6.5, "close": 20 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "specialty-coffee, minimal-aesthetic, remote-work",
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Casa Balam",
+    "vibe": "Latin-Inspired, Craft Cocktails, Artistic, Vibrant Nightlife",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.77548713,
+    "lon": -84.29902085,
+    "link": "https://www.instagram.com/casabalamatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–10:00 PM",
+      "Monday: 5:00 PM–10:00 PM",
+      "Tuesday: 5:00 PM–10:00 PM",
+      "Wednesday: 5:00 PM–10:00 PM",
+      "Thursday: 5:00 PM–10:00 PM",
+      "Friday: 5:00 PM–11:00 PM",
+      "Saturday: 12:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 22 },
+      "mon": { "open": 17, "close": 22 },
+      "tue": { "open": 17, "close": 22 },
+      "wed": { "open": 17, "close": 22 },
+      "thu": { "open": 17, "close": 22 },
+      "fri": { "open": 17, "close": 23 },
+      "sat": { "open": 12, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 4,
+    "tags": "Latin-inspired, mezcal-focused, nightlife",
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "The S.O.S. Tiki Bar",
+    "vibe": "Tropical Escape, Kitschy Fun, Rum-Focused, Playful Atmosphere",
+    "type": "bar, cocktail",
+    "lat": 33.7742092,
+    "lon": -84.2950236,
+    "link": "https://www.instagram.com/sostikibar/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 6:00 PM–12:00 AM",
+      "Thursday: 6:00 PM–12:00 AM",
+      "Friday: 6:00 PM–12:00 AM",
+      "Saturday: 6:00 PM–12:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 18, "close": 24 },
+      "thu": { "open": 18, "close": 24 },
+      "fri": { "open": 18, "close": 24 },
+      "sat": { "open": 18, "close": 24 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "—",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "late",
+    "energyRamp": 4,
+    "tags": "tiki-drinks, tropical, kitschy",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "Sapphire Karaoke & Restaurant",
+    "vibe": "Nightlife Energy, Private Karaoke Rooms, Asian Fusion, Late-Night Crowd",
+    "type": "karaoke, dinner",
+    "lat": 33.893689,
+    "lon": -84.2854402,
+    "link": "https://www.instagram.com/sapphirekaraoke/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 5:00 PM–2:00 AM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 5:00 PM–2:00 AM",
+      "Thursday: 5:00 PM–2:00 AM",
+      "Friday: 5:00 PM–2:00 AM",
+      "Saturday: 5:00 PM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 17, "close": 26 },
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 17, "close": 26 },
+      "thu": { "open": 17, "close": 26 },
+      "fri": { "open": 17, "close": 26 },
+      "sat": { "open": 17, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "L",
+      "mon": "—",
+      "tue": "—",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "late",
+    "energyRamp": 5,
+    "tags": "private-rooms, Asian-fusion, nightlife",
+    "price": "$$",
+    "duration": 3
+  },
+  {
+    "name": "Heirloom Market BBQ",
+    "vibe": "Korean-Southern BBQ Fusion, Hole-in-the-Wall Gem, Flavor-Packed, Casual",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.8985938,
+    "lon": -84.4471801,
+    "link": "https://www.instagram.com/heirloommarketbbq/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: 11:00 AM–8:00 PM",
+      "Wednesday: 11:00 AM–8:00 PM",
+      "Thursday: 11:00 AM–8:00 PM",
+      "Friday: 11:00 AM–8:00 PM",
+      "Saturday: 11:00 AM–8:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": { "open": 11, "close": 20 },
+      "wed": { "open": 11, "close": 20 },
+      "thu": { "open": 11, "close": 20 },
+      "fri": { "open": 11, "close": 20 },
+      "sat": { "open": 11, "close": 20 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "Korean-BBQ-fusion, casual, takeout-friendly",
+    "price": "$",
+    "duration": 0.66
+  },
+  {
+    "name": "The Daily Cafe – Buckhead",
+    "vibe": "Bright & Minimalist, Healthy Brunch, Social Media Friendly, Coffee-Forward",
+    "type": "coffee, breakfast, brunch",
+    "lat": 33.85513221,
+    "lon": -84.43122221,
+    "link": "https://www.instagram.com/thedailyatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:00 AM–3:00 PM",
+      "Monday: 7:00 AM–3:00 PM",
+      "Tuesday: 7:00 AM–3:00 PM",
+      "Wednesday: 7:00 AM–3:00 PM",
+      "Thursday: 7:00 AM–3:00 PM",
+      "Friday: 7:00 AM–3:00 PM",
+      "Saturday: 8:00 AM–3:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8, "close": 15 },
+      "mon": { "open": 7, "close": 15 },
+      "tue": { "open": 7, "close": 15 },
+      "wed": { "open": 7, "close": 15 },
+      "thu": { "open": 7, "close": 15 },
+      "fri": { "open": 7, "close": 15 },
+      "sat": { "open": 8, "close": 15 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "brunch-spot, health-focused, bright-interior",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Bellwood Coffee – Riverside",
+    "vibe": "Industrial-Chic, Specialty Coffee, Cozy Corners, Neighborhood Spot",
+    "type": "coffee",
+    "lat": 33.81057,
+    "lon": -84.476868,
+    "link": "https://www.instagram.com/bellwoodcoffee/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:00 AM–4:00 PM",
+      "Monday: Closed",
+      "Tuesday: 7:00 AM–4:00 PM",
+      "Wednesday: 7:00 AM–10:00 PM",
+      "Thursday: 7:00 AM–10:00 PM",
+      "Friday: 7:00 AM–10:00 PM",
+      "Saturday: 8:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8, "close": 16 },
+      "mon": null,
+      "tue": { "open": 7, "close": 16 },
+      "wed": { "open": 7, "close": 22 },
+      "thu": { "open": 7, "close": 22 },
+      "fri": { "open": 7, "close": 22 },
+      "sat": { "open": 8, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "—",
+      "tue": "M",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "specialty-coffee, minimal-aesthetic, remote-work",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Hankook Taqueria",
+    "vibe": "Korean-Mexican Fusion, Street-Food Energy, Quick & Flavorful",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.8114042,
+    "lon": -84.4317513,
+    "link": "https://www.instagram.com/hankooktaqueria/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 11:00 AM–3:00 PM",
+      "Tuesday: 11:00 AM–9:00 PM",
+      "Wednesday: 11:00 AM–9:00 PM",
+      "Thursday: 11:00 AM–9:00 PM",
+      "Friday: 11:00 AM–9:00 PM",
+      "Saturday: 11:00 AM–9:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 11, "close": 15 },
+      "tue": { "open": 11, "close": 21 },
+      "wed": { "open": 11, "close": 21 },
+      "thu": { "open": 11, "close": 21 },
+      "fri": { "open": 11, "close": 21 },
+      "sat": { "open": 11, "close": 21 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "MD",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "Korean-Mexican-fusion, casual, takeout",
+    "price": "$",
+    "duration": 1
+  },
+  {
+    "name": "Taste Wine Bar and Market",
+    "vibe": "Wine-Lover’s Destination, Cozy Yet Upscale, Small Plates, Neighborhood Gem",
+    "type": "wine bar",
+    "lat": 33.80201249,
+    "lon": -84.42947613,
+    "link": "https://www.instagram.com/taste.winebar/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–10:00 PM",
+      "Monday: 3:00 PM–10:00 PM",
+      "Tuesday: 3:00 PM–10:00 PM",
+      "Wednesday: 3:00 PM–10:00 PM",
+      "Thursday: 3:00 PM–10:00 PM",
+      "Friday: 12:00 PM–11:00 PM",
+      "Saturday: 12:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 22 },
+      "mon": { "open": 15, "close": 22 },
+      "tue": { "open": 15, "close": 22 },
+      "wed": { "open": 15, "close": 22 },
+      "thu": { "open": 15, "close": 22 },
+      "fri": { "open": 12, "close": 23 },
+      "sat": { "open": 12, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "wine-tasting, retail, date-night",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "Deljou Art Group",
+    "vibe": "Contemporary Art, Creative Hub, Curated Collections, Inspiring Space",
+    "type": "gallery",
+    "lat": 33.7987173,
+    "lon": -84.4245928,
+    "link": "https://www.instagram.com/deljouartgroup/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 9:00 AM–5:00 PM",
+      "Tuesday: 9:00 AM–5:00 PM",
+      "Wednesday: 9:00 AM–5:00 PM",
+      "Thursday: 9:00 AM–5:00 PM",
+      "Friday: 9:00 AM–4:00 PM",
+      "Saturday: Closed"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 9, "close": 17 },
+      "tue": { "open": 9, "close": 17 },
+      "wed": { "open": 9, "close": 17 },
+      "thu": { "open": 9, "close": 17 },
+      "fri": { "open": 9, "close": 16 },
+      "sat": null
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "A",
+      "tue": "A",
+      "wed": "A",
+      "thu": "A",
+      "fri": "A",
+      "sat": "—"
+    },
+    "timeCategory": "afternoon",
+    "energyRamp": 1,
+    "tags": "art-gallery, creative-space, appointment-only",
+    "price": "$",
+    "duration": 1
+  },
+  {
+    "name": "Floral Park Market",
+    "vibe": "Gourmet Grocery, Small-Batch Products, Neighborhood Charm, Artisanal Focus",
+    "type": "market",
+    "lat": 33.79438345,
+    "lon": -84.41374163,
+    "link": "https://www.instagram.com/floralparkmarket/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–4:00 PM",
+      "Monday: 9:00 AM–6:00 PM",
+      "Tuesday: 9:00 AM–6:00 PM",
+      "Wednesday: 9:00 AM–6:00 PM",
+      "Thursday: 9:00 AM–6:00 PM",
+      "Friday: 9:00 AM–6:00 PM",
+      "Saturday: 10:00 AM–5:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 16 },
+      "mon": { "open": 9, "close": 18 },
+      "tue": { "open": 9, "close": 18 },
+      "wed": { "open": 9, "close": 18 },
+      "thu": { "open": 9, "close": 18 },
+      "fri": { "open": 9, "close": 18 },
+      "sat": { "open": 10, "close": 17 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "A",
+      "tue": "A",
+      "wed": "A",
+      "thu": "A",
+      "fri": "A",
+      "sat": "A"
+    },
+    "timeCategory": "afternoon",
+    "energyRamp": 2,
+    "tags": "local-market, seasonal-produce, family-friendly",
+    "price": "$",
+    "duration": 0.66
+  },
+  {
+    "name": "Ace’s Place",
+    "vibe": "Sports Bar Energy, Big Screens, Neighborhood Hangout, Casual Eats",
+    "type": "bar",
+    "lat": 33.86082479,
+    "lon": -84.33155693,
+    "link": "https://www.instagram.com/acesplacebrookhavenga/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–12:00 AM",
+      "Monday: 4:00 PM–1:00 AM",
+      "Tuesday: 4:00 PM–1:00 AM",
+      "Wednesday: 4:00 PM–1:00 AM",
+      "Thursday: 4:00 PM–1:00 AM",
+      "Friday: 12:00 PM–2:00 AM",
+      "Saturday: 12:00 PM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 24 },
+      "mon": { "open": 16, "close": 25 },
+      "tue": { "open": 16, "close": 25 },
+      "wed": { "open": 16, "close": 25 },
+      "thu": { "open": 16, "close": 25 },
+      "fri": { "open": 12, "close": 26 },
+      "sat": { "open": 12, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "L",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "sports-bar, late-night, casual",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "Gunshow",
+    "vibe": "Interactive Dining, Chef-Driven, Southern Meets Global, Playful Presentation",
+    "type": "dinner, restaurant",
+    "lat": 33.7407083,
+    "lon": -84.3580222,
+    "link": "https://www.instagram.com/gunshowatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 6:00 PM–9:00 PM",
+      "Thursday: 6:00 PM–9:00 PM",
+      "Friday: 6:00 PM–9:00 PM",
+      "Saturday: 6:00 PM–9:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 18, "close": 21 },
+      "thu": { "open": 18, "close": 21 },
+      "fri": { "open": 18, "close": 21 },
+      "sat": { "open": 18, "close": 21 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "—",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "chef-driven, interactive-dining, rotating-menu",
+    "price": "$$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "The Dirty Tea",
+    "vibe": "Boba & Tea Lounge, Colorful Drinks, Casual Hangout, Youthful Energy",
+    "type": "tea, dessert",
+    "lat": 33.7755446,
+    "lon": -84.3529905,
+    "link": "https://www.instagram.com/thedirtyteaatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–6:00 PM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 11:00 AM–6:00 PM",
+      "Thursday: 11:00 AM–6:00 PM",
+      "Friday: 11:00 AM–7:00 PM",
+      "Saturday: 11:00 AM–7:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 18 },
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 11, "close": 18 },
+      "thu": { "open": 11, "close": 18 },
+      "fri": { "open": 11, "close": 19 },
+      "sat": { "open": 11, "close": 19 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "—",
+      "tue": "—",
+      "wed": "A",
+      "thu": "A",
+      "fri": "A",
+      "sat": "A"
+    },
+    "timeCategory": "afternoon",
+    "energyRamp": 2,
+    "tags": "bubble-tea, dessert-focused, casual-hang",
+    "price": "$$$",
+    "duration": 2
+  },
+  {
+    "name": "Unknown",
+    "vibe": "Modern American, Seasonal Menu, Neighborhood Casual, Date-Night Option",
+    "type": "dinner, restaurant",
+    "lat": 33.8148981,
+    "lon": -84.3537531,
+    "link": "https://www.instagram.com/unknown.atlanta/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 5:00 PM–12:00 AM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 5:00 PM–12:00 AM",
+      "Thursday: 5:00 PM–12:00 AM",
+      "Friday: 5:00 PM–12:00 AM",
+      "Saturday: 5:00 PM–12:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 17, "close": 24 },
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 17, "close": 24 },
+      "thu": { "open": 17, "close": 24 },
+      "fri": { "open": 17, "close": 24 },
+      "sat": { "open": 17, "close": 24 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "—",
+      "tue": "—",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 4,
+    "tags": "TBD, eclectic, flexible-use",
+    "price": "$$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Whitehall Tavern",
+    "vibe": "Classic Sports Bar, Laid-Back, Local Favorite, Beer & Burgers",
+    "type": "bar, dinner",
+    "lat": 33.8201785,
+    "lon": -84.3876576,
+    "link": "https://www.instagram.com/whitehall_tavern/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–10:00 PM",
+      "Monday: 11:30 AM–10:30 PM",
+      "Tuesday: 11:30 AM–11:00 PM",
+      "Wednesday: 11:30 AM–11:30 PM",
+      "Thursday: 11:30 AM–11:30 PM",
+      "Friday: 11:30 AM–11:30 PM",
+      "Saturday: 11:30 AM–11:30 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 22 },
+      "mon": { "open": 11.5, "close": 22.5 },
+      "tue": { "open": 11.5, "close": 23 },
+      "wed": { "open": 11.5, "close": 23.5 },
+      "thu": { "open": 11.5, "close": 23.5 },
+      "fri": { "open": 11.5, "close": 23.5 },
+      "sat": { "open": 11.5, "close": 23.5 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "sports-bar, pub-grub, neighborhood-hang",
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+    "name": "Brewdog Atlanta",
+    "vibe": "Craft Beer Haven, Industrial-Chic, Dog-Friendly Patio, Social Buzz",
+    "type": "bar",
+    "lat": 33.756269,
+    "lon": -84.3649011,
+    "link": "https://www.instagram.com/brewdogatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–10:00 PM",
+      "Monday: 11:00 AM–11:00 PM",
+      "Tuesday: 11:00 AM–11:00 PM",
+      "Wednesday: 11:00 AM–11:00 PM",
+      "Thursday: 11:00 AM–11:00 PM",
+      "Friday: 11:00 AM–12:00 AM",
+      "Saturday: 11:00 AM–12:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 22 },
+      "mon": { "open": 11, "close": 23 },
+      "tue": { "open": 11, "close": 23 },
+      "wed": { "open": 11, "close": 23 },
+      "thu": { "open": 11, "close": 23 },
+      "fri": { "open": 11, "close": 24 },
+      "sat": { "open": 11, "close": 24 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "craft-beer, dog-friendly, industrial-chic",
+    "price": "$$",
+    "duration": 1.66
+  },
+  {
+    "name": "The Salty Donut",
+    "vibe": "Artisanal Donuts, Instagrammable, Sweet Fix, Coffee Companion",
+    "type": "dessert, bakery",
+    "lat": 33.75772085,
+    "lon": -84.36423362,
+    "link": "https://www.instagram.com/thesaltydonut/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:00 AM–8:00 PM",
+      "Monday: 8:00 AM–8:00 PM",
+      "Tuesday: 8:00 AM–8:00 PM",
+      "Wednesday: 8:00 AM–8:00 PM",
+      "Thursday: 8:00 AM–8:00 PM",
+      "Friday: 8:00 AM–10:00 PM",
+      "Saturday: 8:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8, "close": 20 },
+      "mon": { "open": 8, "close": 20 },
+      "tue": { "open": 8, "close": 20 },
+      "wed": { "open": 8, "close": 20 },
+      "thu": { "open": 8, "close": 20 },
+      "fri": { "open": 8, "close": 22 },
+      "sat": { "open": 8, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 2,
+    "tags": "artisan-donuts, coffee-pairing, instagrammable",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "The Vortex Bar & Grill",
+    "vibe": "Eclectic, Rock ’n’ Roll Attitude, Over-the-Top Burgers, Local Landmark",
+    "type": "bar, dinner",
+    "lat": 33.7662554,
+    "lon": -84.349211,
+    "link": "https://www.instagram.com/thevortexatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–12:00 AM",
+      "Monday: 11:00 AM–12:00 AM",
+      "Tuesday: 11:00 AM–12:00 AM",
+      "Wednesday: 11:00 AM–12:00 AM",
+      "Thursday: 11:00 AM–12:00 AM",
+      "Friday: 11:00 AM–2:00 AM",
+      "Saturday: 11:00 AM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 24 },
+      "mon": { "open": 11, "close": 24 },
+      "tue": { "open": 11, "close": 24 },
+      "wed": { "open": 11, "close": 24 },
+      "thu": { "open": 11, "close": 24 },
+      "fri": { "open": 11, "close": 26 },
+      "sat": { "open": 11, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 3,
+    "tags": "burger-hub, edgy-vibe, 21+-only",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "no. 246",
+    "vibe": "Italian-Inspired, Garden Patio, Seasonal Focus, Date-Night Friendly",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.775422,
+    "lon": -84.295294,
+    "link": "https://www.instagram.com/no246atlanta/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 10:30 AM–2:30 PM; 5:00 PM–9:00 PM",
+      "Monday: 5:00 PM–10:00 PM",
+      "Tuesday: 5:00 PM–10:00 PM",
+      "Wednesday: 5:00 PM–10:00 PM",
+      "Thursday: 5:00 PM–10:00 PM",
+      "Friday: 5:00 PM–11:00 PM",
+      "Saturday: 10:30 AM–2:30 PM; 5:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": [ { "open": 10.5, "close": 14.5 }, { "open": 17, "close": 21 } ],
+  "mon": [ { "open": 17, "close": 22 } ],
+  "tue": [ { "open": 17, "close": 22 } ],
+  "wed": [ { "open": 17, "close": 22 } ],
+  "thu": [ { "open": 17, "close": 22 } ],
+  "fri": [ { "open": 17, "close": 23 } ],
+  "sat": [ { "open": 10.5, "close": 14.5 }, { "open": 17, "close": 23 } ]
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "MD"
+    },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "Italian-inspired, farm-to-table, date-night",
+    "price": "$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Sotto Sotto Restaurant",
+    "vibe": "Romantic Italian, Intimate, Wine-Focused, Old-World Charm",
+    "type": "dinner, restaurant",
+    "lat": 33.7628556,
+    "lon": -84.35769409,
+    "link": "https://www.instagram.com/sottosottoatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 5:30 PM–10:00 PM",
+      "Monday: 5:30 PM–11:00 PM",
+      "Tuesday: 5:30 PM–11:00 PM",
+      "Wednesday: 5:30 PM–11:00 PM",
+      "Thursday: 5:30 PM–11:00 PM",
+      "Friday: 5:30 PM–12:00 AM",
+      "Saturday: 5:30 PM–12:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 17.5, "close": 22 },
+      "mon": { "open": 17.5, "close": 23 },
+      "tue": { "open": 17.5, "close": 23 },
+      "wed": { "open": 17.5, "close": 23 },
+      "thu": { "open": 17.5, "close": 23 },
+      "fri": { "open": 17.5, "close": 24 },
+      "sat": { "open": 17.5, "close": 24 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 3,
+    "tags": "upscale-Italian, romantic, wine-forward",
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "La Grotta Ristorante",
+    "vibe": "Classic Fine Dining, Elegant Italian, Upscale Ambiance, Special-Occasion Ready",
+    "type": "dinner, restaurant",
+    "lat": 33.82618443,
+    "lon": -84.38759961,
+    "link": "https://www.instagram.com/lagrottaatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 5:30 PM–9:30 PM",
+      "Tuesday: 5:30 PM–9:30 PM",
+      "Wednesday: 5:30 PM–9:30 PM",
+      "Thursday: 5:30 PM–9:30 PM",
+      "Friday: 5:00 PM–10:30 PM",
+      "Saturday: 5:00 PM–10:30 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 17.5, "close": 21.5 },
+      "tue": { "open": 17.5, "close": 21.5 },
+      "wed": { "open": 17.5, "close": 21.5 },
+      "thu": { "open": 17.5, "close": 21.5 },
+      "fri": { "open": 17, "close": 22.5 },
+      "sat": { "open": 17, "close": 22.5 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 2,
+    "tags": "fine-dining, old-school-Italian, romantic",
+    "price": "$$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Yonder Yoga – Inman Park",
+    "vibe": "Bright & Airy, Mindful Movement, Community Vibe, Wellness Focus",
+    "type": "fitness",
+    "lat": 33.7611561,
+    "lon": -84.3657219,
+    "link": "https://www.instagram.com/yonderyoga/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:30 AM–7:30 PM",
+      "Monday: 6:30 AM–8:30 PM",
+      "Tuesday: 6:30 AM–8:30 PM",
+      "Wednesday: 6:30 AM–8:30 PM",
+      "Thursday: 6:30 AM–8:30 PM",
+      "Friday: 6:30 AM–7:00 PM",
+      "Saturday: 8:30 AM–1:30 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8.5, "close": 19.5 },
+      "mon": { "open": 6.5, "close": 20.5 },
+      "tue": { "open": 6.5, "close": 20.5 },
+      "wed": { "open": 6.5, "close": 20.5 },
+      "thu": { "open": 6.5, "close": 20.5 },
+      "fri": { "open": 6.5, "close": 19 },
+      "sat": { "open": 8.5, "close": 13.5 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "boutique-fitness, wellness, community-focused",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "evolation yoga atlanta",
+    "vibe": "Calm & Centered, Warm Environment, Instructor-Focused, Flow-Friendly",
+    "type": "fitness",
+    "lat": 33.7801725,
+    "lon": -84.3875317,
+    "link": "https://www.instagram.com/evolationyogaatlanta/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 7:00 AM–9:00 PM",
+      "Monday: 6:00 AM–9:00 PM",
+      "Tuesday: 6:00 AM–9:00 PM",
+      "Wednesday: 6:00 AM–9:00 PM",
+      "Thursday: 6:00 AM–9:00 PM",
+      "Friday: 6:00 AM–9:00 PM",
+      "Saturday: 7:00 AM–9:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 7, "close": 21 },
+      "mon": { "open": 6, "close": 21 },
+      "tue": { "open": 6, "close": 21 },
+      "wed": { "open": 6, "close": 21 },
+      "thu": { "open": 6, "close": 21 },
+      "fri": { "open": 6, "close": 21 },
+      "sat": { "open": 7, "close": 21 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "yoga-studio, meditation, wellness",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Yebo Beach Haus",
+    "vibe": "Coastal-Inspired, Trendy, Seasonal Menu, Upscale Social Spot",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.84334392,
+    "lon": -84.38290658,
+    "link": "https://www.instagram.com/yebobeachhaus/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 11:30 AM–10:00 PM",
+      "Tuesday: 11:30 AM–10:00 PM",
+      "Wednesday: 11:30 AM–10:00 PM",
+      "Thursday: 11:30 AM–10:00 PM",
+      "Friday: 11:30 AM–11:00 PM",
+      "Saturday: 11:30 AM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 11.5, "close": 22 },
+      "tue": { "open": 11.5, "close": 22 },
+      "wed": { "open": 11.5, "close": 22 },
+      "thu": { "open": 11.5, "close": 22 },
+      "fri": { "open": 11.5, "close": 23 },
+      "sat": { "open": 11.5, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 4,
+    "tags": "coastal-vibe, seafood-forward, seasonal-menu",
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Tiny Lou’s",
+    "vibe": "French Brasserie, Retro Glamour, Basement Chic, Date-Night Darling",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.77347,
+    "lon": -84.361399,
+    "link": "https://www.instagram.com/tinylousatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 9:00 AM–2:00 PM; 5:00 PM–10:00 PM",
+      "Monday: 5:30 PM–10:00 PM",
+      "Tuesday: 5:30 PM–10:00 PM",
+      "Wednesday: 5:30 PM–10:00 PM",
+      "Thursday: 5:30 PM–10:00 PM",
+      "Friday: 5:30 PM–11:00 PM",
+      "Saturday: 9:00 AM–2:00 PM; 5:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": [ { "open": 9, "close": 14 }, { "open": 17, "close": 22 } ],
+  "mon": [ { "open": 17.5, "close": 22 } ],
+  "tue": [ { "open": 17.5, "close": 22 } ],
+  "wed": [ { "open": 17.5, "close": 22 } ],
+  "thu": [ { "open": 17.5, "close": 22 } ],
+  "fri": [ { "open": 17.5, "close": 23 } ],
+  "sat": [ { "open": 9, "close": 14 }, { "open": 17, "close": 23 } ]
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "MD"
+    },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "French-bistro, boutique-hotel, romantic",
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Yalda",
+    "vibe": "Persian Elegance, Luxe Ambiance, Flavor-Rich Dining, Stylish Crowd",
+    "type": "dinner, restaurant",
+    "lat": 33.7811243,
+    "lon": -84.411056,
+    "link": "https://www.instagram.com/yalda.atl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–2:45 PM; 4:00 PM–10:00 PM",
+      "Monday: 4:00 PM–10:00 PM",
+      "Tuesday: 4:00 PM–10:00 PM",
+      "Wednesday: 4:00 PM–10:00 PM",
+      "Thursday: 4:00 PM–10:00 PM",
+      "Friday: 11:00 AM–2:45 PM; 4:00 PM–11:00 PM",
+      "Saturday: 11:00 AM–2:45 PM; 4:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": [ { "open": 11, "close": 14.75 }, { "open": 16, "close": 22 } ],
+  "mon": [ { "open": 16, "close": 22 } ],
+  "tue": [ { "open": 16, "close": 22 } ],
+  "wed": [ { "open": 16, "close": 22 } ],
+  "thu": [ { "open": 16, "close": 22 } ],
+  "fri": [ { "open": 11, "close": 14.75 }, { "open": 16, "close": 23 } ],
+  "sat": [ { "open": 11, "close": 14.75 }, { "open": 16, "close": 23 } ]
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "MD",
+      "sat": "MD"
+    },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "Persian-cuisine, upscale, share-plates",
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Vesper Atlanta",
+    "vibe": "Cocktail-Forward, Sophisticated Lounge, Moody Lighting, Late-Night Appeal",
+    "type": "cocktail, bar",
+    "lat": 33.7407235,
+    "lon": -84.3578402,
+    "link": "https://www.instagram.com/vesperatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 5:00 PM–12:00 AM",
+      "Monday: 5:00 PM–12:00 AM",
+      "Tuesday: 5:00 PM–12:00 AM",
+      "Wednesday: 5:00 PM–12:00 AM",
+      "Thursday: 5:00 PM–12:00 AM",
+      "Friday: 5:00 PM–2:00 AM",
+      "Saturday: 5:00 PM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 17, "close": 24 },
+      "mon": { "open": 17, "close": 24 },
+      "tue": { "open": 17, "close": 24 },
+      "wed": { "open": 17, "close": 24 },
+      "thu": { "open": 17, "close": 24 },
+      "fri": { "open": 17, "close": 26 },
+      "sat": { "open": 17, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 3,
+    "tags": "cocktail-lounge, speakeasy-vibe, date-night",
+    "price": "$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Umi",
+    "vibe": "Sleek Japanese, High-End Sushi, Date-Night Luxe, Celebrity Spotting",
+    "type": "dinner, restaurant",
+    "lat": 33.8395908,
+    "lon": -84.3816729,
+    "link": "https://www.instagram.com/umisushiatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: 5:00 PM–9:00 PM",
+      "Tuesday: 5:00 PM–9:00 PM",
+      "Wednesday: 5:00 PM–9:00 PM",
+      "Thursday: 5:00 PM–9:00 PM",
+      "Friday: 5:00 PM–10:00 PM",
+      "Saturday: 5:00 PM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": { "open": 17, "close": 21 },
+      "tue": { "open": 17, "close": 21 },
+      "wed": { "open": 17, "close": 21 },
+      "thu": { "open": 17, "close": 21 },
+      "fri": { "open": 17, "close": 22 },
+      "sat": { "open": 17, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "upscale-sushi, celebrity-spotting, romantic",
+    "price": "$$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Fudo",
+    "vibe": "Modern Japanese, Creative Rolls, Sleek Design, Neighborhood Favorite",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.8877602,
+    "lon": -84.3147177,
+    "link": "https://www.instagram.com/fudoatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–9:00 PM",
+      "Monday: 11:00 AM–10:00 PM",
+      "Tuesday: 11:00 AM–10:00 PM",
+      "Wednesday: 11:00 AM–10:00 PM",
+      "Thursday: 11:00 AM–10:00 PM",
+      "Friday: 11:00 AM–11:00 PM",
+      "Saturday: 12:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 21 },
+      "mon": { "open": 11, "close": 22 },
+      "tue": { "open": 11, "close": 22 },
+      "wed": { "open": 11, "close": 22 },
+      "thu": { "open": 11, "close": 22 },
+      "fri": { "open": 11, "close": 23 },
+      "sat": { "open": 12, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "sushi, Asian-fusion, casual-date",
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "Mujō",
+    "vibe": "Omakase Experience, Minimalist Luxury, Japanese Precision, Intimate Setting",
+    "type": "dinner, restaurant",
+    "lat": 33.7861054,
+    "lon": -84.4106648,
+    "link": "https://www.instagram.com/mujoatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 5:30 PM–9:30 PM",
+      "Thursday: 5:30 PM–9:30 PM",
+      "Friday: 5:30 PM–9:30 PM",
+      "Saturday: 5:30 PM–9:30 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": null,
+      "wed": { "open": 17.5, "close": 21.5 },
+      "thu": { "open": 17.5, "close": 21.5 },
+      "fri": { "open": 17.5, "close": 21.5 },
+      "sat": { "open": 17.5, "close": 21.5 }
+    },
+    "dayParts": {
+      "sun": "—",
+      "mon": "—",
+      "tue": "—",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 2,
+    "tags": "omakase, Japanese-fine-dining, chef-driven",
+    "price": "$$$$",
+    "duration": 2
+  },
+  {
+    "name": "Rock Steady – Atlanta",
+    "vibe": "Caribbean Fusion, Lively Nightlife, Stylish Crowd, Dance-Ready",
+    "type": "dinner, late-night",
+    "lat": 33.777293,
+    "lon": -84.408183,
+    "link": "https://www.instagram.com/rocksteadyatlanta/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 5:00 PM–12:00 AM",
+      "Monday: Closed",
+      "Tuesday: 5:00 PM–2:00 AM",
+      "Wednesday: 5:00 PM–2:00 AM",
+      "Thursday: 5:00 PM–2:00 AM",
+      "Friday: 5:00 PM–2:00 AM",
+      "Saturday: 4:00 PM–2:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 17, "close": 24 },
+      "mon": null,
+      "tue": { "open": 17, "close": 26 },
+      "wed": { "open": 17, "close": 26 },
+      "thu": { "open": 17, "close": 26 },
+      "fri": { "open": 17, "close": 26 },
+      "sat": { "open": 16, "close": 26 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "—",
+      "tue": "L",
+      "wed": "L",
+      "thu": "L",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "Caribbean-influenced, nightlife, DJ-sets",
+    "price": "$$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Cafe Comma",
+    "vibe": "Cozy Coffee Spot, Minimalist Design, Work-Friendly, Pastry Pairings",
+    "type": "coffee, breakfast",
+    "lat": 33.8647205,
+    "lon": -84.4719725,
+    "link": "https://www.instagram.com/cafecomma_atl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 9:00 AM–7:00 AM",
+      "Monday: 8:00 AM–6:00 PM",
+      "Tuesday: 8:00 AM–6:00 PM",
+      "Wednesday: 8:00 AM–6:00 PM",
+      "Thursday: 8:00 AM–6:00 PM",
+      "Friday: 8:00 AM–6:00 PM",
+      "Saturday: 9:00 AM–7:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 9, "close": 31 },  
+      "mon": { "open": 8, "close": 18 },
+      "tue": { "open": 8, "close": 18 },
+      "wed": { "open": 8, "close": 18 },
+      "thu": { "open": 8, "close": 18 },
+      "fri": { "open": 8, "close": 18 },
+      "sat": { "open": 9, "close": 31 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "Korean-style-cafe, dessert-focused, cozy",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Old Vinings Inn",
+    "vibe": "Historic Charm, Southern Hospitality, Upscale Dining, Porch Seating",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.86654265,
+    "lon": -84.46597944,
+    "link": "https://www.instagram.com/oldvinings/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–2:00 PM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 5:00 PM–8:00 PM",
+      "Thursday: 12:00 PM–2:00 PM; 5:00 PM–8:00 PM",
+      "Friday: 12:00 PM–2:00 PM; 5:00 PM–9:00 PM",
+      "Saturday: 11:30 AM–2:00 PM; 5:00 PM–9:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+       "sun": [ { "open": 11.5, "close": 14 } ],
+  "mon": null,
+  "tue": null,
+  "wed": [ { "open": 17, "close": 20 } ],
+  "thu": [ { "open": 12, "close": 14 }, { "open": 17, "close": 20 } ],
+  "fri": [ { "open": 12, "close": 14 }, { "open": 17, "close": 21 } ],
+  "sat": [ { "open": 11.5, "close": 14 }, { "open": 17, "close": 21 } ]
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "—",
+      "tue": "—",
+      "wed": "E",
+      "thu": "MD",
+      "fri": "MD",
+      "sat": "MD"
+    },
+    "timeCategory": "midday, evening",
+    "energyRamp": 2,
+    "tags": "Southern-fine-dining, historic-building, live-music",
+    "price": "$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Canoe",
+    "vibe": "Riverside Dining, Romantic, Garden Setting, Seasonal American",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.85974,
+    "lon": -84.455173,
+    "link": "https://www.instagram.com/canoe_atl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 10:30 AM–9:30 PM",
+      "Monday: 11:30 AM–9:30 PM",
+      "Tuesday: 11:30 AM–9:30 PM",
+      "Wednesday: 11:30 AM–9:30 PM",
+      "Thursday: 11:30 AM–9:30 PM",
+      "Friday: 11:30 AM–10:00 PM",
+      "Saturday: 5:30 PM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 10.5, "close": 21.5 },
+      "mon": { "open": 11.5, "close": 21.5 },
+      "tue": { "open": 11.5, "close": 21.5 },
+      "wed": { "open": 11.5, "close": 21.5 },
+      "thu": { "open": 11.5, "close": 21.5 },
+      "fri": { "open": 11.5, "close": 22 },
+      "sat": { "open": 17.5, "close": 22 }
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "E",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "riverside-dining, upscale-American, romantic",
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Read Shop by The Merchant",
+    "vibe": "Bookstore Café, Cozy & Quiet, Specialty Coffee, Creative Atmosphere",
+    "type": "coffee, bookstore",
+    "lat": 33.8649149,
+    "lon": -84.4655889,
+    "link": "https://www.instagram.com/read.shop/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:00 AM–6:00 PM",
+      "Monday: 7:00 AM–7:00 PM",
+      "Tuesday: 7:00 AM–7:00 PM",
+      "Wednesday: 7:00 AM–7:00 PM",
+      "Thursday: 7:00 AM–7:00 PM",
+      "Friday: 7:00 AM–7:00 PM",
+      "Saturday: 8:00 AM–7:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8, "close": 18 },
+      "mon": { "open": 7, "close": 19 },
+      "tue": { "open": 7, "close": 19 },
+      "wed": { "open": 7, "close": 19 },
+      "thu": { "open": 7, "close": 19 },
+      "fri": { "open": 7, "close": 19 },
+      "sat": { "open": 8, "close": 19 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "coffee-and-books, design-forward, remote-work",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Folk Art Restaurant Inman Park",
+    "vibe": "Retro Diner Feel, Southern Comfort, Brunch Favorite, Eclectic Decor",
+    "type": "breakfast, brunch, restaurant",
+    "lat": 33.766686,
+    "lon": -84.352985,
+    "link": "https://www.instagram.com/folkart_inmanpark/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 9:00 AM–5:00 PM",
+      "Monday: 7:30 AM–3:00 PM",
+      "Tuesday: 7:30 AM–3:00 PM",
+      "Wednesday: 7:30 AM–3:00 PM",
+      "Thursday: 7:30 AM–3:00 PM",
+      "Friday: 7:30 AM–3:00 PM",
+      "Saturday: 9:00 AM–5:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 9, "close": 17 },
+      "mon": { "open": 7.5, "close": 15 },
+      "tue": { "open": 7.5, "close": 15 },
+      "wed": { "open": 7.5, "close": 15 },
+      "thu": { "open": 7.5, "close": 15 },
+      "fri": { "open": 7.5, "close": 15 },
+      "sat": { "open": 9, "close": 17 }
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "M",
+      "tue": "M",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "MD"
+    },
+    "timeCategory": "morning, midday",
+    "energyRamp": 2,
+    "tags": "brunch-spot, Southern-comfort, casual",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Communidad Taqueria",
+    "vibe": "Fresh Mexican, Neighborhood Gem, Bright & Airy, Quick & Flavorful",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.7611561,
+    "lon": -84.3657219,
+    "link": "https://www.instagram.com/communidadatl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:00 AM–9:00 PM",
+      "Monday: 8:00 AM–9:00 PM",
+      "Tuesday: 8:00 AM–9:00 PM",
+      "Wednesday: 8:00 AM–9:00 PM",
+      "Thursday: 8:00 AM–9:00 PM",
+      "Friday: 8:00 AM–9:00 PM",
+      "Saturday: 8:00 AM–9:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8, "close": 21 },
+      "mon": { "open": 8, "close": 21 },
+      "tue": { "open": 8, "close": 21 },
+      "wed": { "open": 8, "close": 21 },
+      "thu": { "open": 8, "close": 21 },
+      "fri": { "open": 8, "close": 21 },
+      "sat": { "open": 8, "close": 21 }
+    },
+    "dayParts": {
+      "sun": "MD",
+      "mon": "MD",
+      "tue": "MD",
+      "wed": "MD",
+      "thu": "MD",
+      "fri": "MD",
+      "sat": "MD"
+    },
+    "timeCategory": "midday",
+    "energyRamp": 3,
+    "tags": "authentic-Mexican, neighborhood-favorite, casual",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "La Semilla",
+    "vibe": "Vegan Innovation, Bright & Modern, Latin Influence, Plant-Based Brunch",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.74673873,
+    "lon": -84.36330386,
+    "link": "https://www.instagram.com/lasemilla.atl/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 5:00 PM–9:00 PM",
+      "Monday: Closed",
+      "Tuesday: 5:00 PM–10:00 PM",
+      "Wednesday: 5:00 PM–10:00 PM",
+      "Thursday: 5:00 PM–10:00 PM",
+      "Friday: 5:00 PM–11:00 PM",
+      "Saturday: 5:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 17, "close": 21 },
+      "mon": null,
+      "tue": { "open": 17, "close": 22 },
+      "wed": { "open": 17, "close": 22 },
+      "thu": { "open": 17, "close": 22 },
+      "fri": { "open": 17, "close": 23 },
+      "sat": { "open": 17, "close": 23 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "—",
+      "tue": "E",
+      "wed": "E",
+      "thu": "E",
+      "fri": "E",
+      "sat": "E"
+    },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "plant-based, Latin-inspired, upscale",
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "Monday Night Brewing – The Garage",
+    "vibe": "Experimental Beer, Funky Warehouse, Beer Garden Vibe, Social Hub",
+    "type": "bar",
+    "lat": 33.729269,
+    "lon": -84.416017,
+    "link": "https://www.instagram.com/mondaynight/",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–8:00 PM",
+      "Monday: 12:00 PM–9:00 PM",
+      "Tuesday: 12:00 PM–9:00 PM",
+      "Wednesday: 12:00 PM–9:00 PM",
+      "Thursday: 12:00 PM–10:00 PM",
+      "Friday: 12:00 PM–12:00 AM",
+      "Saturday: 12:00 PM–12:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 20 },
+      "mon": { "open": 12, "close": 21 },
+      "tue": { "open": 12, "close": 21 },
+      "wed": { "open": 12, "close": 21 },
+      "thu": { "open": 12, "close": 22 },
+      "fri": { "open": 12, "close": 24 },
+      "sat": { "open": 12, "close": 24 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "A",
+      "tue": "A",
+      "wed": "A",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "afternoon, evening, late",
+    "energyRamp": 4,
+    "tags": "craft-brewery, beer-garden, events-space",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Daily Chew",
+    "vibe": "Fresh & Seasonal, Wholesome Eats, Bright Café, Plant-Forward",
+    "type": "breakfast, lunch, restaurant",
+    "lat": 33.8117273,
+    "lon": -84.3627468,
+    "link": "https://www.instagram.com/dailychewatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 9:00 AM–3:00 PM",
+      "Monday: 8:00 AM–3:00 PM",
+      "Tuesday: Closed",
+      "Wednesday: 8:00 AM–3:00 PM",
+      "Thursday: 8:00 AM–3:00 PM",
+      "Friday: 8:00 AM–3:00 PM",
+      "Saturday: 9:00 AM–3:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 9, "close": 15 },
+      "mon": { "open": 8, "close": 15 },
+      "tue": null,
+      "wed": { "open": 8, "close": 15 },
+      "thu": { "open": 8, "close": 15 },
+      "fri": { "open": 8, "close": 15 },
+      "sat": { "open": 9, "close": 15 }
+    },
+    "dayParts": {
+      "sun": "M",
+      "mon": "M",
+      "tue": "—",
+      "wed": "M",
+      "thu": "M",
+      "fri": "M",
+      "sat": "M"
+    },
+    "timeCategory": "morning",
+    "energyRamp": 1,
+    "tags": "all-day-cafe, seasonal-menu, health-conscious",
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Fellaship.ATL",
+    "vibe": "Upscale Lounge, Sports Viewing, Southern Bites, Cigar-Friendly",
+    "type": "bar, dinner",
+    "lat": 33.7521147,
+    "lon": -84.3990442,
+    "link": "https://www.instagram.com/fellaship.atl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–6:00 PM",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 5:00 PM–11:00 PM",
+      "Friday: 5:00 PM–1:00 AM",
+      "Saturday: 5:00 PM–1:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 18 },
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": { "open": 17, "close": 23 },
+      "fri": { "open": 17, "close": 25 },
+      "sat": { "open": 17, "close": 25 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "—",
+      "tue": "—",
+      "wed": "—",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "afternoon, evening, late",
+    "energyRamp": 3,
+    "tags": "cigar-lounge, upscale-social, live-entertainment",
+    "price": "$$",
+    "duration": 2.25
+  },
+  {
+    "name": "The Record Loft",
+    "vibe": "Vinyl Lover’s Paradise, Retro Cool, Collector-Focused, Laid-Back",
+    "type": "random gem",
+    "lat": 33.73453585,
+    "lon": -84.34905613,
+    "link": "https://www.instagram.com/recordloftatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 2:00 PM–7:00 PM",
+      "Monday: 12:00 PM–6:00 PM",
+      "Tuesday: 12:00 PM–6:00 PM",
+      "Wednesday: 12:00 PM–6:00 PM",
+      "Thursday: 12:00 PM–7:00 PM",
+      "Friday: 12:00 PM–8:00 PM",
+      "Saturday: 12:00 PM–8:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 14, "close": 19 },
+      "mon": { "open": 12, "close": 18 },
+      "tue": { "open": 12, "close": 18 },
+      "wed": { "open": 12, "close": 18 },
+      "thu": { "open": 12, "close": 19 },
+      "fri": { "open": 12, "close": 20 },
+      "sat": { "open": 12, "close": 20 }
+    },
+    "dayParts": {
+      "sun": "A",
+      "mon": "A",
+      "tue": "A",
+      "wed": "A",
+      "thu": "A",
+      "fri": "A",
+      "sat": "A"
+    },
+    "timeCategory": "afternoon",
+    "energyRamp": 2,
+    "tags": "vinyl-shop, cafe, retro-vibe",
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Your 3rd Spot",
+    "vibe": "Social Dining, Games & Entertainment, Large-Group Friendly, Modern Design",
+    "type": "bar, dinner",
+    "lat": 33.80292775,
+    "lon": -84.42947057,
+    "link": "https://www.instagram.com/your3rdspot/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 1:00 PM–11:30 PM",
+      "Monday: 6:00 PM–11:30 PM",
+      "Tuesday: Closed",
+      "Wednesday: 5:00 PM–11:30 PM",
+      "Thursday: 5:00 PM–11:30 PM",
+      "Friday: 6:00 PM–1:30 AM",
+      "Saturday: 1:00 PM–1:30 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 13, "close": 23.5 },
+      "mon": { "open": 18, "close": 23.5 },
+      "tue": null,
+      "wed": { "open": 17, "close": 23.5 },
+      "thu": { "open": 17, "close": 23.5 },
+      "fri": { "open": 18, "close": 25.5 },
+      "sat": { "open": 13, "close": 25.5 }
+    },
+    "dayParts": {
+      "sun": "E",
+      "mon": "E",
+      "tue": "—",
+      "wed": "E",
+      "thu": "E",
+      "fri": "L",
+      "sat": "L"
+    },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "social-gaming, experiential-dining, nightlife",
+    "price": "$$",
+    "duration": 2.75
+  },
+  {
+    "name": "Side Saddle Wine Saloon & Bar",
+    "vibe": "Cozy Wine Spot, Rustic Charm, Intimate Lighting, Date-Friendly",
+    "type": "wine bar",
+    "lat": 33.72584216,
+    "lon": -84.36493295,
+    "link": "https://www.instagram.com/sidesaddlewine/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–10:00 PM",
+      "Monday: 5:00 PM–10:00 PM",
+      "Tuesday: 5:00 PM–10:00 PM",
+      "Wednesday: 5:00 PM–10:00 PM",
+      "Thursday: 5:00 PM–11:00 PM",
+      "Friday: 5:00 PM–11:00 PM",
+      "Saturday: 12:00 PM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 22 },
+      "mon": { "open": 17, "close": 22 },
+      "tue": { "open": 17, "close": 22 },
+      "wed": { "open": 17, "close": 22 },
+      "thu": { "open": 17, "close": 23 },
+      "fri": { "open": 17, "close": 23 },
+      "sat": { "open": 12, "close": 23 }
+    },
+    "dayParts": { "sun": "E", "mon": "E", "tue": "E", "wed": "E", "thu": "E", "fri": "E", "sat": "E" },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "wine-bar, intimate, rustic-charm",
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "Fat Matt’s Rib Shack",
+    "vibe": "Classic BBQ, Live Blues, No-Frills Charm, Southern Soul",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.80470696,
+    "lon": -84.36735975,
+    "link": "https://www.instagram.com/fatmattsribshack/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–10:00 PM",
+      "Monday: 11:00 AM–10:00 PM",
+      "Tuesday: 11:00 AM–10:00 PM",
+      "Wednesday: 11:00 AM–10:00 PM",
+      "Thursday: 11:00 AM–10:00 PM",
+      "Friday: 11:00 AM–11:00 PM",
+      "Saturday: 11:00 AM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 22 },
+      "mon": { "open": 11, "close": 22 },
+      "tue": { "open": 11, "close": 22 },
+      "wed": { "open": 11, "close": 22 },
+      "thu": { "open": 11, "close": 22 },
+      "fri": { "open": 11, "close": 23 },
+      "sat": { "open": 11, "close": 23 }
+    },
+    "dayParts": { "sun": "MD", "mon": "MD", "tue": "MD", "wed": "MD", "thu": "MD", "fri": "E", "sat": "E" },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "BBQ-joint, live-blues, casual",
+    "price": "$",
+    "duration": 1.75
+  },
+  {
+    "name": "Pata Negra Mezcaleria",
+    "vibe": "Mezcal-Centric, Mexican Small Plates, Warm & Rustic, Intimate Bar",
+    "type": "cocktail, dinner",
+    "lat": 33.80277748,
+    "lon": -84.39306704,
+    "link": "https://www.instagram.com/patanegraatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:00 AM–9:00 PM",
+      "Monday: Closed",
+      "Tuesday: 11:00 AM–10:00 PM",
+      "Wednesday: 11:00 AM–10:00 PM",
+      "Thursday: 11:00 AM–10:00 PM",
+      "Friday: 11:00 AM–10:00 PM",
+      "Saturday: 11:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11, "close": 21 },
+      "mon": null,
+      "tue": { "open": 11, "close": 22 },
+      "wed": { "open": 11, "close": 22 },
+      "thu": { "open": 11, "close": 22 },
+      "fri": { "open": 11, "close": 22 },
+      "sat": { "open": 11, "close": 22 }
+    },
+    "dayParts": { "sun": "MD", "mon": "—", "tue": "E", "wed": "E", "thu": "E", "fri": "E", "sat": "E" },
+    "timeCategory": "midday, evening",
+    "energyRamp": 4,
+    "tags": "mezcal-bar, tapas, intimate-setting",
+    "price": "$$$",
+    "duration": 2
+  },
+  {
+    "name": "Varasano’s Pizzeria – Buckhead",
+    "vibe": "Thin-Crust Expert, Casual Italian, Neighborhood Favorite, Family-Friendly",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.813769,
+    "lon": -84.392083,
+    "link": "https://www.instagram.com/varasanospizzeria/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–9:00 PM",
+      "Monday: 5:30 PM–9:00 PM",
+      "Tuesday: 5:30 PM–9:00 PM",
+      "Wednesday: 5:30 PM–9:00 PM",
+      "Thursday: 5:30 PM–9:00 PM",
+      "Friday: 5:30 PM–10:00 PM",
+      "Saturday: 11:30 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 21 },
+      "mon": { "open": 17.5, "close": 21 },
+      "tue": { "open": 17.5, "close": 21 },
+      "wed": { "open": 17.5, "close": 21 },
+      "thu": { "open": 17.5, "close": 21 },
+      "fri": { "open": 17.5, "close": 22 },
+      "sat": { "open": 11.5, "close": 22 }
+    },
+    "dayParts": { "sun": "MD", "mon": "E", "tue": "E", "wed": "E", "thu": "E", "fri": "E", "sat": "E" },
+    "timeCategory": "midday, evening",
+    "energyRamp": 3,
+    "tags": "artisan-pizza, casual-date, neighborhood",
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+  "name": "Tuk Tuk Thai Food Loft",
+  "vibe": "Thai Street-Food Chic, Upscale Setting, Bold Flavors, Scenic Views",
+  "type": "lunch, dinner, restaurant",
+  "lat": 33.8003326,
+  "lon": -84.3921328,
+  "link": "https://www.instagram.com/tuktuk_thairestaurant/?hl=en",
+  "openNow": true,
+  "hours": [
+    "Sunday: 5:00 PM–10:00 PM",
+    "Monday: 11:30 AM–2:30 PM; 5:30 PM–10:00 PM",
+    "Tuesday: 11:30 AM–2:30 PM; 5:30 PM–10:00 PM",
+    "Wednesday: 11:30 AM–2:30 PM; 5:30 PM–10:00 PM",
+    "Thursday: 11:30 AM–2:30 PM; 5:30 PM–10:00 PM",
+    "Friday: 11:30 AM–2:30 PM; 5:30 PM–11:00 PM",
+    "Saturday: 5:00 PM–11:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [ { "open": 17, "close": 22 } ],
+    "mon": [ { "open": 11.5, "close": 14.5 }, { "open": 17.5, "close": 22 } ],
+    "tue": [ { "open": 11.5, "close": 14.5 }, { "open": 17.5, "close": 22 } ],
+    "wed": [ { "open": 11.5, "close": 14.5 }, { "open": 17.5, "close": 22 } ],
+    "thu": [ { "open": 11.5, "close": 14.5 }, { "open": 17.5, "close": 22 } ],
+    "fri": [ { "open": 11.5, "close": 14.5 }, { "open": 17.5, "close": 23 } ],
+    "sat": [ { "open": 17, "close": 23 } ]
+  },
+  "dayParts": { "sun": "E", "mon": "MD", "tue": "MD", "wed": "MD", "thu": "MD", "fri": "E", "sat": "E" },
+  "timeCategory": "midday, evening",
+  "energyRamp": 3,
+  "tags": "upscale-thai, city-views, date-night",
+  "price": "$$",
+  "duration": 2
+},
+  {
+    "name": "El Azteca",
+    "vibe": "Casual Mexican, Local Favorite, Margarita Spot, Colorful Patio",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.80292081,
+    "lon": -84.39310231,
+    "link": "https://www.instagram.com/elaztecaatlanta/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 11:30 AM–10:00 PM",
+      "Monday: 11:00 AM–10:00 PM",
+      "Tuesday: 11:00 AM–10:00 PM",
+      "Wednesday: 11:00 AM–10:00 PM",
+      "Thursday: 11:00 AM–10:00 PM",
+      "Friday: 11:00 AM–11:00 PM",
+      "Saturday: 11:30 AM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 11.5, "close": 22 },
+      "mon": { "open": 11, "close": 22 },
+      "tue": { "open": 11, "close": 22 },
+      "wed": { "open": 11, "close": 22 },
+      "thu": { "open": 11, "close": 22 },
+      "fri": { "open": 11, "close": 23 },
+      "sat": { "open": 11.5, "close": 23 }
+    },
+    "dayParts": { "sun": "E", "mon": "E", "tue": "E", "wed": "E", "thu": "E", "fri": "E", "sat": "E" },
+    "timeCategory": "evening",
+    "energyRamp": 3,
+    "tags": "Tex-Mex, casual, margarita-focused",
+    "price": "$",
+    "duration": 1.75
+  },
+  {
+    "name": "Little Rey",
+    "vibe": "Fast-Casual Mexican, Pollo al Carbon, Family-Friendly, Bright & Fun",
+    "type": "lunch, dinner, restaurant",
+    "lat": 33.807094,
+    "lon": -84.36650078,
+    "link": "https://www.instagram.com/littlereyalcarbon/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 9:00 AM–9:00 PM",
+      "Monday: 11:00 AM–9:00 PM",
+      "Tuesday: 11:00 AM–9:00 PM",
+      "Wednesday: 11:00 AM–9:00 PM",
+      "Thursday: 11:00 AM–9:00 PM",
+      "Friday: 11:00 AM–10:00 PM",
+      "Saturday: 9:00 AM–10:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 9, "close": 21 },
+      "mon": { "open": 11, "close": 21 },
+      "tue": { "open": 11, "close": 21 },
+      "wed": { "open": 11, "close": 21 },
+      "thu": { "open": 11, "close": 21 },
+      "fri": { "open": 11, "close": 22 },
+      "sat": { "open": 9, "close": 22 }
+    },
+    "dayParts": { "sun": "MD", "mon": "MD", "tue": "MD", "wed": "MD", "thu": "MD", "fri": "E", "sat": "E" },
+    "timeCategory": "midday, evening",
+    "energyRamp": 2,
+    "tags": "fast-casual, wood-grilled, Mexican-inspired",
+    "price": "$",
+    "duration": 1.75
+  },
+  {
+    "name": "New Realm Brewing Co.",
+    "vibe": "Rooftop Views, Large Tap List, Industrial-Chic, Event-Friendly",
+    "type": " bar",
+    "lat": 33.7690299,
+    "lon": -84.36195415,
+    "link": "https://www.instagram.com/newrealmbrewing/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–10:00 PM",
+      "Monday: 12:00 PM–10:00 PM",
+      "Tuesday: 12:00 PM–10:00 PM",
+      "Wednesday: 12:00 PM–10:00 PM",
+      "Thursday: 12:00 PM–10:00 PM",
+      "Friday: 11:00 AM–11:00 PM",
+      "Saturday: 11:00 AM–11:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 22 },
+      "mon": { "open": 12, "close": 22 },
+      "tue": { "open": 12, "close": 22 },
+      "wed": { "open": 12, "close": 22 },
+      "thu": { "open": 12, "close": 22 },
+      "fri": { "open": 11, "close": 23 },
+      "sat": { "open": 11, "close": 23 }
+    },
+    "dayParts": { "sun": "E", "mon": "E", "tue": "E", "wed": "E", "thu": "E", "fri": "E", "sat": "E" },
+    "timeCategory": "evening",
+    "energyRamp": 4,
+    "tags": "craft-brewery, rooftop, live-music",
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+    "name": "Atlanta Worldwide Gallery",
+    "vibe": "Camera Collectors’ Haven, Specialty Shop, Photography-Centric, Expert Staff",
+    "type": "random gem",
+    "lat": 33.758602,
+    "lon": -84.365546,
+    "link": "https://www.instagram.com/atlworldwidegallery/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 12:00 PM–7:00 PM",
+      "Monday: 12:00 PM–7:00 PM",
+      "Tuesday: 12:00 PM–7:00 PM",
+      "Wednesday: 12:00 PM–7:00 PM",
+      "Thursday: 12:00 PM–7:00 PM",
+      "Friday: 12:00 PM–7:00 PM",
+      "Saturday: 12:00 PM–7:00 PM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 12, "close": 19 },
+      "mon": { "open": 12, "close": 19 },
+      "tue": { "open": 12, "close": 19 },
+      "wed": { "open": 12, "close": 19 },
+      "thu": { "open": 12, "close": 19 },
+      "fri": { "open": 12, "close": 19 },
+      "sat": { "open": 12, "close": 19 }
+    },
+    "dayParts": { "sun": "A", "mon": "A", "tue": "A", "wed": "A", "thu": "A", "fri": "A", "sat": "A" },
+    "timeCategory": "afternoon",
+    "energyRamp": 1,
+    "tags": "art-gallery, contemporary, event-space",
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "TEN ATL",
+    "vibe": "Neighborhood Lounge, Hip-Hop Nights, Urban Vibe, Late-Night Crowd",
+    "type": "bar, music",
+    "lat": 33.7403991,
+    "lon": -84.34613055,
+    "link": "https://www.instagram.com/tenatl/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 6:00 PM–12:00 AM",
+      "Monday: 8:00 PM–2:00 AM",
+      "Tuesday: Closed",
+      "Wednesday: 8:00 PM–2:00 AM",
+      "Thursday: 8:00 PM–2:00 AM",
+      "Friday: 6:00 PM–3:00 AM",
+      "Saturday: 6:00 PM–3:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 18, "close": 24 },
+      "mon": { "open": 20, "close": 26 },
+      "tue": null,
+      "wed": { "open": 20, "close": 26 },
+      "thu": { "open": 20, "close": 26 },
+      "fri": { "open": 18, "close": 27 },
+      "sat": { "open": 18, "close": 27 }
+    },
+    "dayParts": { "sun": "E", "mon": "L", "tue": "—", "wed": "L", "thu": "L", "fri": "L", "sat": "L" },
+    "timeCategory": "evening, late",
+    "energyRamp": 4,
+    "tags": "nightlife, hookah-lounge, DJ-sets",
+    "price": "$$",
+    "duration": 2.5
+  },
+  {
+    "name": "Five Iron Golf",
+    "vibe": "Indoor Golf Lounge, Modern Sports Bar, Social & Competitive, Group-Friendly",
+    "type": "activity",
+    "lat": 33.773304,
+    "lon": -84.3860568,
+    "link": "https://www.instagram.com/fiveirongolf/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Sunday: 8:00 AM–11:00 PM",
+      "Monday: 6:00 AM–11:00 PM",
+      "Tuesday: 6:00 AM–11:00 PM",
+      "Wednesday: 6:00 AM–11:00 PM",
+      "Thursday: 6:00 AM–11:00 PM",
+      "Friday: 6:00 AM–1:00 AM",
+      "Saturday: 8:00 AM–1:00 AM"
+    ],
+    "dateEvents": [
+      { "date": "-", "title": "-", "time": "-" },
+      { "date": "-", "title": "-", "time": "-" }
+    ],
+    "hoursNumeric": {
+      "sun": { "open": 8, "close": 23 },
+      "mon": { "open": 6, "close": 23 },
+      "tue": { "open": 6, "close": 23 },
+      "wed": { "open": 6, "close": 23 },
+      "thu": { "open": 6, "close": 23 },
+      "fri": { "open": 6, "close": 25 },
+      "sat": { "open": 8, "close": 25 }
+    },
+    "dayParts": { "sun": "MD", "mon": "M", "tue": "M", "wed": "M", "thu": "M", "fri": "E", "sat": "E" },
+    "timeCategory": "morning, midday, evening",
+    "energyRamp": 3,
+    "tags": "indoor-golf, sports-bar, group-activity",
+    "price": "$$",
+    "duration": 3
   }
 ]
