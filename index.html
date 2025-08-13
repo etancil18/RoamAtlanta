@@ -673,44 +673,52 @@ function getCurrentDayPart() {
   return ['L']; // Late night or overnight
 }
 
-  // ===== Time helpers (supports split hours + >24 closes) =====
-type DayKey = "sun"|"mon"|"tue"|"wed"|"thu"|"fri"|"sat";
-type Range = { open:number; close:number };              // 24+ allowed for after-midnight
-type HoursOneOrMany = Range | Range[];
-type HoursNumeric = Record<DayKey, HoursOneOrMany | null>;
+ // day key from Date object
+function _dayKey(d) {
+  return ["sun","mon","tue","wed","thu","fri","sat"][d.getDay()];
+}
 
-const _dayKey = (d: Date): DayKey =>
-  (["sun","mon","tue","wed","thu","fri","sat"] as DayKey[])[d.getDay()];
+// normalize to array of {open, close} objects
+function _ranges(x) {
+  if (!x) return [];
+  return Array.isArray(x) ? x : [x];
+}
 
-const _ranges = (x: HoursOneOrMany | null | undefined): Range[] =>
-  !x ? [] : (Array.isArray(x) ? x : [x]);
+// Get actual open/close Date objects for a given date
+function _intervalsForDate(d, hours) {
+  const y = d.getFullYear(), m = d.getMonth(), day = d.getDate();
+  const zero = new Date(y, m, day);
+  zero.setHours(0, 0, 0, 0);
 
-function _intervalsForDate(d: Date, hours: HoursNumeric): Array<[Date,Date]> {
-  const y=d.getFullYear(), m=d.getMonth(), day=d.getDate();
-  const zero = new Date(y,m,day); zero.setHours(0,0,0,0);
-  const at = (h:number)=> new Date(zero.getTime() + h*3600_000);
+  const at = h => new Date(zero.getTime() + h * 3600 * 1000);
 
-  const out: Array<[Date,Date]> = [];
-  for (const r of _ranges(hours[_dayKey(d)])) out.push([at(r.open), at(r.close)]);
+  const out = [];
+  // today's ranges
+  (_ranges(hours[_dayKey(d)])).forEach(r => {
+    out.push([at(r.open), at(r.close)]);
+  });
 
-  // carry over yesterday segments that close >24
-  const yst = new Date(zero); yst.setDate(zero.getDate()-1);
-  for (const r of _ranges(hours[_dayKey(yst)])) {
+  // yesterday's late ranges (>24h close)
+  const yst = new Date(zero);
+  yst.setDate(zero.getDate() - 1);
+  (_ranges(hours[_dayKey(yst)])).forEach(r => {
     if (r.close > 24) {
-      const yZero = new Date(yst); yZero.setHours(0,0,0,0);
+      const yZero = new Date(yst);
+      yZero.setHours(0, 0, 0, 0);
       out.push([
-        new Date(yZero.getTime() + r.open*3600_000),
-        new Date(yZero.getTime() + r.close*3600_000)
+        new Date(yZero.getTime() + r.open * 3600 * 1000),
+        new Date(yZero.getTime() + r.close * 3600 * 1000)
       ]);
     }
-  }
+  });
+
   return out;
 }
 
-// IMPORTANT: loc.hoursNumeric may be your old single-range or new arrays
-function isOpenAt(loc: any, when: Date): boolean {
-  const hours = (loc.hoursNumeric || {}) as HoursNumeric;
-  return _intervalsForDate(when, hours).some(([o,c]) => when >= o && when < c);
+// Check if a location is open at a given datetime
+function isOpenAt(loc, when) {
+  const hours = loc.hoursNumeric || {};
+  return _intervalsForDate(when, hours).some(([o, c]) => when >= o && when < c);
 }
 
   function showCrawlSummary(crawlRoute) {
