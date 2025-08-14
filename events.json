@@ -12548,7 +12548,7 @@
   },
   {
     "name": "Café Intermezzo - Midtown",
-    "vibe": "decadent, layered, plush, sultry, romantic, nostalgic, indulgent, European",
+    "vibe": "decadent, cake, date, coffee, cocktails, sultry, romantic, nostalgic, indulgent, European",
     "type": "dessert",
     "lat": 33.78354631,
     "lon": -84.38342062,
@@ -12583,7 +12583,7 @@
     },
     "timeCategory": "evening, late",
     "energyRamp": 2,
-    "tags": "decadent, layered, plush, sultry, romantic, nostalgic, indulgent, European",
+    "tags": "literary, lingerer, velvet-lined, euro-noir, after-dark, ornate, mirrored, aromatic",
     "price": "$$",
     "duration": 1.5
   },
