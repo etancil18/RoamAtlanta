@@ -909,7 +909,7 @@ function isOpenAt(loc, when) {
   };
   summaryDiv.appendChild(exportBtn);
 
-  unction copyShareableRouteLink(crawlRoute){
+  function copyShareableRouteLink(crawlRoute){
   const ids = (crawlRoute || []).map(l => l.id || l.name).join(',');
   const url = new URL(location.href);
   url.searchParams.set('route', ids);   // short & robust
