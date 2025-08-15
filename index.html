@@ -330,6 +330,8 @@ function filterMarkersByVibe() {
 
 // ─── RENDER MARKERS (with Similar & Add-To-Route) ──────────────────────────────
 const markerLayer = L.layerGroup().addTo(map);
+// 🔹 Global cache for all markers (used by the route filter)
+window.allMarkers = window.allMarkers || [];
 
 function showRouteControls() {
   const popup = document.querySelector('.leaflet-popup-content');
@@ -371,7 +373,8 @@ function showRouteControls() {
 
 function renderMarkers(events, crawlMode = false) {
   markerLayer.clearLayers();
-  allMarkers = [];
+  // 🔹 Reset and rebuild the global marker cache each render
+  window.allMarkers = [];
 
   const weekdayKeys = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const todayIndex = new Date().getDay();
@@ -392,7 +395,9 @@ function renderMarkers(events, crawlMode = false) {
       shadowSize: [41, 41]
     });
 
-    const marker = L.marker([parseFloat(ev.lat), parseFloat(ev.lon)], { icon });
+    // 🔹 Tag each marker with a stable venueId (used for route filtering)
+    const venueId = ev.id || ev.name;
+    const marker = L.marker([parseFloat(ev.lat), parseFloat(ev.lon)], { icon, venueId });
     marker.ev = ev;
 
     marker.bindPopup(`<strong>${ev.name}</strong><br>${(ev.vibe || '').split(',').map(v => v.trim()).join(', ')}`);
@@ -405,15 +410,17 @@ function renderMarkers(events, crawlMode = false) {
       marker.bindTooltip("🔴 Live Today!", { permanent: true }).addTo(map);
     }
 
-    allMarkers.push(marker);
+    // 🔹 Keep an authoritative list of all markers
+    window.allMarkers.push(marker);
   });
 
-  allMarkers.forEach(marker => {
+  window.allMarkers.forEach(marker => {
     const ev = marker.ev;
     const latlng = marker.getLatLng();
     const isOpen = isLocationOpenNow(ev);
 
     if (crawlMode) {
+      // In crawl mode, just add the markers you passed in
       marker.addTo(markerLayer);
       return;
     }
@@ -423,7 +430,7 @@ function renderMarkers(events, crawlMode = false) {
       .map(v => v.trim().toLowerCase())
       .filter(Boolean);
 
-    const similar = allMarkers
+    const similar = window.allMarkers
       .filter(m => m !== marker && latlng.distanceTo(m.getLatLng()) <= 1000)
       .filter(m => {
         const otherVibes = (m.ev.vibe || '')
@@ -456,34 +463,154 @@ function renderMarkers(events, crawlMode = false) {
     marker.bindPopup(popupContent).addTo(markerLayer);
 
     marker.on('popupopen', () => {
-  setTimeout(() => {
-    const popup = marker._popup.getElement();
-    const btn = popup.querySelector('.add-route-btn');
-    if (btn) {
-      console.log("✅ Add to Route button found for:", ev.name);
-      btn.onclick = () => {
-        console.log("🟢 Add to Route clicked for:", ev.name);
-        addToRoute(ev);
-      };
-    } else {
-      console.warn("❌ Add to Route button not found in popup");
-    }
-  }, 50); // Slight delay ensures DOM is ready
-});
+      setTimeout(() => {
+        const popup = marker._popup.getElement();
+        const btn = popup.querySelector('.add-route-btn');
+        if (btn) {
+          console.log("✅ Add to Route button found for:", ev.name);
+          btn.onclick = () => {
+            console.log("🟢 Add to Route clicked for:", ev.name);
+            addToRoute(ev);
+          };
+        } else {
+          console.warn("❌ Add to Route button not found in popup");
+        }
+      }, 50); // Slight delay ensures DOM is ready
+    });
   });
 }
 
-  function showOnlyRouteMarkers(map, markers, routeIds) {
+  function applyRouteFromURL(){
+  const params = new URLSearchParams(location.search);
+  const route = params.get('route');
+  if (!route) return;
+  const routeIds = route.split(',').map(s => s.trim()).filter(Boolean);
+
+  // Hide non-route markers immediately
+  showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+
+  // Rebuild waypoints / route line if desired
+  const byId = new Map(globalEvents.map(ev => [ev.id || ev.name, ev]));
+  const waypoints = routeIds.map(id => byId.get(id))
+                            .filter(Boolean)
+                            .map(loc => L.latLng(parseFloat(loc.lat), parseFloat(loc.lon)));
+  if (window.routeLayer) map.removeControl(window.routeLayer);
+  if (waypoints.length >= 2) {
+    window.routeLayer = L.Routing.control({
+      waypoints,
+      routeWhileDragging: false,
+      draggableWaypoints: false,
+      addWaypoints: false,
+      show: false
+    }).addTo(map);
+  }
+}
+
+// 🔹 Route filtering helpers (keep only markers that are part of the route)
+function showOnlyRouteMarkers(map, markers, routeIds) {
   const routeSet = new Set(routeIds);
+  markerLayer.clearLayers(); // 🔑 reset the group to avoid ghosts
+
   (markers || []).forEach(m => {
-    const onRoute = routeSet.has(m.options?.venueId);
+    const onRoute = routeSet.has(m.options && m.options.venueId);
     if (onRoute) {
-      if (!map.hasLayer(m)) m.addTo(map);
-    } else {
-      if (map.hasLayer(m)) map.removeLayer(m);
+      markerLayer.addLayer(m); // 🔑 add back into the same group
     }
   });
 }
+
+// 🔹 Convenience: call this right after you set selectedRoute in generateCrawlRoute()
+function filterMapToRoute() {
+  try {
+    const routeIds = (selectedRoute || []).map(l => l.id || l.name);
+    showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+  } catch (e) {
+    console.warn('Marker filtering failed:', e);
+  }
+}
+
+  // --- Ensure expected globals exist ---
+window.allMarkers   = window.allMarkers   || [];   // filled by renderMarkers()
+window.routeLayer   = window.routeLayer   || null; // L.Routing.control instance
+window.routeGroup   = window.routeGroup   || null; // optional LayerGroup for route-only pins
+window.selectedRoute= window.selectedRoute|| [];   // your in-memory route array
+
+// Bring all markers back into the visible layer group
+function restoreAllMarkers(map, markers) {
+  if (!window.markerLayer) {
+    console.warn('markerLayer not found; creating a new one');
+    window.markerLayer = L.layerGroup().addTo(map);
+  }
+  markerLayer.clearLayers();
+  (markers || []).forEach(m => markerLayer.addLayer(m));
+}
+
+// Full clear: remove route line/control, restore markers, reset state + URL
+function clearRoute(){
+  // 1) Remove the route line / control
+  if (window.routeLayer) {
+    try { map.removeControl(window.routeLayer); } catch(_) {}
+    window.routeLayer = null;
+  }
+
+  // 2) Restore ALL markers to the map (via markerLayer)
+  restoreAllMarkers(map, window.allMarkers || []);
+
+  // 3) If you used a dedicated route-only group, clear it
+  if (window.routeGroup) { try { window.routeGroup.clearLayers(); } catch(_) {} }
+
+  // 4) Reset in-memory route state
+  window.selectedRoute = [];
+
+  // 5) Strip ?route= from the URL so reloads don't re-filter the map
+  try {
+    const url = new URL(location.href);
+    if (url.searchParams.has('route')) {
+      url.searchParams.delete('route');
+      history.replaceState(null, '', url.toString());
+    }
+  } catch (e) {
+    console.warn('URL cleanup failed:', e);
+  }
+
+  // 6) (Optional) clear any UI summary
+  if (typeof showCrawlSummary === 'function') {
+    try { showCrawlSummary([]); } catch(_) {}
+  }
+
+  // 7) (Optional) disable the clear button until a new route is built
+  setClearRouteButtonEnabled(false);
+
+  console.log('🧹 Route cleared and markers restored');
+}
+
+// Utility: enable/disable the Clear Route button for good UX
+function setClearRouteButtonEnabled(enabled) {
+  const btn = document.getElementById('clearRouteBtn');
+  if (!btn) return;
+  btn.disabled = !enabled;
+  btn.style.opacity = enabled ? '1' : '0.6';
+  btn.style.cursor  = enabled ? 'pointer' : 'not-allowed';
+}
+
+// Wire the Clear Route button
+(function wireClearRouteButton(){
+  const btn = document.getElementById('clearRouteBtn');
+  if (!btn) {
+    console.warn('Clear Route button #clearRouteBtn not found in DOM');
+    return;
+  }
+  btn.addEventListener('click', clearRoute);
+  // Start disabled until a route exists
+  setClearRouteButtonEnabled(!!(window.selectedRoute && window.selectedRoute.length));
+})();
+
+// Call this AFTER you generate a route to enable the button automatically.
+// Example: after `selectedRoute = [...crawlRoute]; showCrawlSummary(crawlRoute);`
+function onRouteGenerated() {
+  setClearRouteButtonEnabled(true);
+}
+
   
 fetch('events.json')
   .then(res => res.json())
@@ -782,16 +909,21 @@ function isOpenAt(loc, when) {
   };
   summaryDiv.appendChild(exportBtn);
 
-  const shareBtn = document.createElement("button");
-  shareBtn.textContent = "Copy Crawl Link";
-  shareBtn.onclick = () => {
-    const baseUrl = window.location.origin + window.location.pathname;
-    const encoded = encodeURIComponent(JSON.stringify(crawlRoute));
-    const link = `${baseUrl}?crawl=${encoded}`;
-    navigator.clipboard.writeText(link).then(() => {
-      alert("Link copied to clipboard!");
-    });
-  };
+  unction copyShareableRouteLink(crawlRoute){
+  const ids = (crawlRoute || []).map(l => l.id || l.name).join(',');
+  const url = new URL(location.href);
+  url.searchParams.set('route', ids);   // short & robust
+  navigator.clipboard.writeText(url.toString()).then(() => {
+    alert('Route link copied!');
+  }).catch(err => console.warn('Copy failed:', err));
+}
+
+// Replace your existing shareBtn.onclick with this:
+const shareBtn = document.createElement("button");
+shareBtn.textContent = "Copy Crawl Link";
+shareBtn.onclick = () => {
+  copyShareableRouteLink(selectedRoute || []);
+};
   summaryDiv.appendChild(shareBtn);
 
   const closeBtn = document.createElement("button");
