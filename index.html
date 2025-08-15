@@ -88,21 +88,24 @@
 <option value="work session">Work Session</option>
   </select>
   <select id="neighborhood-input">
- <option value="midtown">Midtown</option>
+ <option value="brookhaven">Brookhaven</option>
 <option value="buckhead">Buckhead</option>
-<option value="inman park">Inman Park</option>
-<option value="virginia-highland">Virginia-Highland</option>
-<option value="old fourth ward">Old Fourth Ward</option>
-<option value="east atlanta village">East Atlanta Village</option>
-<option value="west midtown">West Midtown</option>
-<option value="candler park">Candler Park</option>
-<option value="little five points">Little Five Points</option>
-<option value="poncey-highland">Poncey-Highland</option>
-<option value="grant park">Grant Park</option>
-<option value="the highlands">The Highlands</option>
-<option value="castleberry hill">Castleberry Hill</option>
 <option value="buckhead village district">Buckhead Village District</option>
+<option value="candler park">Candler Park</option>
 <option value="cheshire bridge road">Cheshire Bridge Road</option>
+<option value="decatur">Decatur</option>
+<option value="downtown">Downtown</option>
+<option value="east atlanta village">East Atlanta Village</option>
+<option value="grant park">Grant Park</option>
+<option value="inman park">Inman Park</option>
+<option value="little five points">Little Five Points</option>
+<option value="midtown">Midtown</option>
+<option value="old fourth ward">Old Fourth Ward</option>
+<option value="poncey-highland">Poncey-Highland</option>
+<option value="vinings">Vinings</option>
+<option value="virginia-highland">Virginia-Highland</option>
+<option value="west end">West End</option>
+<option value="west midtown">West Midtown</option>
 </select>
   <select id="priceFilter">
     <option value="">Price</option>
@@ -551,21 +554,24 @@ document.getElementById('favoritesBtn').addEventListener('click', () => {
 });
   
 const neighborhoodCenters = {
-  "midtown": L.latLng(33.7756, -84.3963),
+  "brookhaven": L.latLng(33.86511, -84.33659),
   "buckhead": L.latLng(33.8508, -84.3673),
-  "inman park": L.latLng(33.749, -84.3581),
-  "virginia-highland": L.latLng(33.7613, -84.361),
-  "old fourth ward": L.latLng(33.7588, -84.3604),
-  "east atlanta village": L.latLng(33.7405, -84.3411),
-  "west midtown": L.latLng(33.7809, -84.4292),
-  "candler park": L.latLng(33.7494, -84.3373),
-  "little five points": L.latLng(33.7592, -84.3486),
-  "poncey-highland": L.latLng(33.76, -84.3582),
-  "grant park": L.latLng(33.7347, -84.3701),
-  "the highlands": L.latLng(33.7499, -84.3553),
-  "castleberry hill": L.latLng(33.7462, -84.394),
   "buckhead village district": L.latLng(33.8419, -84.3727),
-  "cheshire bridge road": L.latLng(33.8199, -84.357)
+  "candler park": L.latLng(33.7494, -84.3373),
+  "cheshire bridge road": L.latLng(33.8199, -84.357),
+  "decatur": L.latLng(33.77483, -84.29631),
+  "downtown": L.latLng(33.755711, -84.388372),
+  "east atlanta village": L.latLng(33.7405, -84.3411),
+  "grant park": L.latLng(33.7347, -84.3701),
+  "inman park": L.latLng(33.749, -84.3581),
+  "little five points": L.latLng(33.7592, -84.3486),
+  "midtown": L.latLng(33.7756, -84.3963),
+  "old fourth ward": L.latLng(33.7588, -84.3604),
+  "poncey-highland": L.latLng(33.76, -84.3582),
+  "vinings": L.latLng(33.86483, -84.46437),
+  "virginia-highland": L.latLng(33.7613, -84.361),
+  "west end": L.latLng(33.74066, -84.42743),
+  "west midtown": L.latLng(33.7809, -84.4292)
 };
 
   const crawlFlows = {
@@ -576,15 +582,14 @@ const neighborhoodCenters = {
   "chill hang": ["coffee", "bookstore", "random gem", "lifestyle", "bar", "dessert"],
   "creative kickstart": ["coffee", "gallery", "random gem", "bookstore", "lunch"],
   "date day": ["brunch", "park", "random gem", "lifestyle", "dinner", "dessert"],
-  "date night": ["dinner", "cocktail", "music", "speakeasy", "dessert"],
+  "date night": ["dinner", "music", "speakeasy", "dessert"],
   "foodie tour": ["market", "lunch", "cocktail", "dinner", "dessert"],
   "friends night out": ["bar", "bar", "dinner", "club", "late-night"],
   "gallery crawl": ["gallery", "gallery", "lunch", "wine bar", "music"],
-  "golden hour": ["rooftop", "cocktail", "wine bar", "dinner"],
   "health nut": ["fitness", "juice bar", "spa", "garden"],
   "hidden gems": ["random gem", "cafe", "restaurant", "speakeasy", "bar"],
   "late start legends": ["brunch", "bar", "cocktail", "dinner", "speakeasy", "lounge"],
-  "luxe life": ["lounge", "fine dining", "cocktail", "rooftop"],
+  "luxe life": ["gallery", "dinner", "cocktail", "lounge"],
   "midday recharge": ["coffee", "lunch", "park", "gallery"],
   "mindful mornings": ["wellness", "coffee", "garden", "market", "spa"],
   "neighborhood sampler": ["coffee", "random gem", "lunch", "gallery", "bar"],
@@ -599,20 +604,18 @@ const neighborhoodCenters = {
   "solo explorer": ["coffee", "random gem", "bookstore", "market", "park", "rooftop"],
   "sports day": ["fitness", "activity", "lunch", "bar", "dinner"],
   "street food safari": ["market", "street food", "cocktail", "dessert"],
-  "summer splash": ["pool", "juice bar", "rooftop", "dinner", "late-night"],
-  "sunrise start": ["bakery", "coffee", "fitness", "market", "brunch"],
+  "sunrise start": ["fitness", "bakery", "coffee", "market", "park"],
   "sunset lovers": ["park", "rooftop", "dinner", "cocktail"],
   "sunday reset": ["fitness", "market", "lifestyle", "tea", "dinner"],
   "tech bro escape": ["cocktail", "rooftop", "dinner", "club", "late-night"],
   "vintage vibes": ["thrift store", "coffee", "random gem", "cocktail"],
   "weekend warriors": ["bar", "speakeasy", "bar", "club", "late-night"],
-  "winter warm-up": ["coffee", "museum", "cocktail", "speakeasy"],
   "work session": ["coffee", "lunch", "coffee", "cocktail"]
 };
 
   
   const themeMap = {
-  "art & culture": ["gallery", "museum", "art", "exhibit", "creative", "theater", "film", "architecture", "history", "design", "photography"],
+  "art & culture": ["gallery", "aesthetic", "museum", "art", "exhibit", "creative", "theater", "film", "architecture", "history", "design", "photography"],
   "artsy & indie": ["gallery", "vinyl", "underground", "zine", "eclectic", "alt", "poetry", "studio", "indie", "niche", "handmade", "crafts", "bohemian"],
   "brunch & beyond": ["brunch", "mimosa", "day party", "pancakes", "bistro", "patio", "sunny", "casual", "daytime", "weekend", "outdoor", "social"],
   "cheap & cheerful": ["diner", "cheap", "budget", "street", "casual", "$", "bite", "fast", "local", "market", "takeout", "food truck"],
@@ -622,12 +625,11 @@ const neighborhoodCenters = {
   "date night": ["romantic", "cocktail", "jazz", "twilight", "vibe", "wine", "dim", "moody", "candlelit", "intimate", "charming", "slow-paced"],
   "foodie tour": ["restaurant", "tasting", "chef", "bistro", "eats", "gastro", "brunch", "dining", "flavors", "street food", "multi-course", "local cuisine"],
   "friends night out": ["loud", "crowded", "bar", "dinner", "club", "dj", "party", "scene", "drinks", "late-night", "social", "vibrant"],
-  "gallery crawl": ["gallery", "exhibit", "art", "creative", "museum", "vernissage", "opening", "culture", "fine art", "contemporary", "showcase", "art walk"],
-  "golden hour": ["rooftop", "patio", "sunset", "cocktail", "wine", "view", "outdoor", "aperitif", "photogenic", "skyline", "twilight", "glow"],
-  "health nut": ["wellness", "juice", "smoothie", "matcha", "organic", "spa", "bathhouse", "vegan", "yoga", "light bite", "gym", "meditation", "fresh"],
+  "gallery crawl": ["gallery", "exhibit", "art", "creative", "museum", "opening", "culture", "fine art", "contemporary", "showcase", "art walk"],
+  "health nut": ["wellness", "juice", "smoothie", "matcha", "organic", "spa", "bathhouse", "vegan", "yoga", "fitness", "light bite", "gym", "meditation", "fresh"],
   "hidden gems": ["speakeasy", "secret", "underground", "niche", "alt", "unmarked", "local", "offbeat", "exclusive", "rare", "quirky", "low-profile"],
   "late start legends": ["brunch", "cocktails", "twilight", "pre-game", "vibe", "evening", "casual", "low key", "date", "nightlife", "urban", "chill"],
-  "luxe life": ["fine dining", "exclusive", "high-end", "rooftop", "wine", "luxury", "private", "VIP", "premium", "gourmet", "opulent", "exclusive view"],
+  "luxe life": ["fine dining", "aesthetic", "exclusive", "high-end", "rooftop", "wine", "luxury", "private", "VIP", "premium", "gourmet", "opulent", "exclusive view"],
   "midday recharge": ["lunch", "coffee", "café", "juice", "quick bite", "park", "sunlight", "relaxed", "low key", "grab-and-go", "outdoor", "break"],
   "mindful mornings": ["yoga", "meditation", "spa", "sunlight", "tea", "calm", "minimal", "introspective", "garden", "journal", "wellness", "fresh air", "stretch"],
   "neighborhood sampler": ["walkable", "local", "market", "coffee", "casual", "random gem", "community vibe", "shops", "restaurants", "street life", "hidden spot", "corner café"],
@@ -642,14 +644,12 @@ const neighborhoodCenters = {
   "solo explorer": ["bookstore", "quiet", "scenic", "café", "park", "rooftop", "garden", "introspective", "nook", "wander", "hidden spot", "photo walk"],
   "sports day": ["active", "game", "match", "fitness", "team", "outdoor", "energy", "training", "stadium", "competition", "field", "spectator"],
   "street food safari": ["market", "street", "casual", "cheap", "local", "spicy", "crowd", "quick bite", "vendor", "takeout", "night market", "pop-up"],
-  "summer splash": ["pool", "juice", "sun", "cocktail", "rooftop", "warm weather", "chill", "beach", "lounge", "bar", "outdoor", "day party"],
   "sunrise start": ["coffee", "matcha", "sunrise", "morning", "café", "bakery", "brunch", "acai", "patio", "quiet", "fresh", "early"],
   "sunset lovers": ["park", "view", "golden hour", "romantic", "cocktail", "outdoor", "patio", "date", "skyline", "twilight", "serene", "photogenic"],
   "sunday reset": ["garden", "tea", "spa", "quiet", "book", "relax", "wellness", "reflection", "meditation", "sunlight", "fresh", "slow"],
   "tech bro escape": ["steakhouse", "cocktail", "crypto", "rooftop", "sleek", "bourbon", "high-end", "modern", "rare", "network", "exclusive", "private"],
   "vintage vibes": ["thrift", "retro", "vintage", "coffee", "vinyl", "nostalgic", "eclectic", "antique", "boho", "quirky", "retro bar", "record shop"],
   "weekend warriors": ["dive bar", "after hours", "shots", "karaoke", "late night", "chaotic", "party", "crowd", "open late", "wild", "rowdy", "social"],
-  "winter warm-up": ["café", "cozy", "fireplace", "museum", "speakeasy", "cocktail", "chill", "seasonal", "warm drinks", "snug", "intimate", "soft light"],
   "work session": ["cafe", "wifi", "coffee", "focus", "quiet", "workspace", "daytime", "study", "productive", "neighborhood", "light music", "comfortable seating"]
 };
 
