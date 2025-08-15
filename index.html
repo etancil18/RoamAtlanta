@@ -478,7 +478,49 @@ function renderMarkers(events, crawlMode = false) {
       }, 50); // Slight delay ensures DOM is ready
     });
   });
+
+  // ─── 🔒 Keep shared views filtered post-render (if ?route= is present) ───
+  try {
+    const params = new URLSearchParams(location.search);
+    const q = params.get('route');
+    if (q) {
+      const ids = q.split(',').map(s => s.trim()).filter(Boolean);
+      showOnlyRouteMarkers(map, window.allMarkers || [], ids);
+    }
+  } catch (e) {
+    console.warn('Post-render route filter failed:', e);
+  }
+
+  // ─── 🔔 Signal once that markers are fully rendered ───
+  window.dispatchEvent(new CustomEvent('markers:rendered'));
 }
+
+  // --- Bootstrap: apply route from URL after markers exist ---
+function getRouteIdsFromURL() {
+  try {
+    const params = new URLSearchParams(location.search);
+    const q = params.get('route');
+    return q ? q.split(',').map(s => s.trim()).filter(Boolean) : [];
+  } catch { return []; }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const routeIds = getRouteIdsFromURL();
+  if (!routeIds.length) return;
+
+  // Apply immediately if markers already exist...
+  const tryApply = () => {
+    if ((window.allMarkers || []).length) {
+      applyRouteFromURL();                 // your existing function (now sets selectedRoute + enables clear)
+      window.removeEventListener('markers:rendered', tryApply);
+    }
+  };
+
+  // ...otherwise wait for renderMarkers to finish
+  window.addEventListener('markers:rendered', tryApply);
+  tryApply();
+});
+
 
   function applyRouteFromURL(){
   const params = new URLSearchParams(location.search);
