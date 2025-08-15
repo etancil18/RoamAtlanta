@@ -484,6 +484,7 @@ function renderMarkers(events, crawlMode = false) {
   const params = new URLSearchParams(location.search);
   const route = params.get('route');
   if (!route) return;
+
   const routeIds = route.split(',').map(s => s.trim()).filter(Boolean);
 
   // Hide non-route markers immediately
@@ -491,9 +492,15 @@ function renderMarkers(events, crawlMode = false) {
 
   // Rebuild waypoints / route line if desired
   const byId = new Map(globalEvents.map(ev => [ev.id || ev.name, ev]));
-  const waypoints = routeIds.map(id => byId.get(id))
-                            .filter(Boolean)
-                            .map(loc => L.latLng(parseFloat(loc.lat), parseFloat(loc.lon)));
+  const matchedEvents = routeIds.map(id => byId.get(id)).filter(Boolean);
+
+  // Keep selectedRoute in sync
+  window.selectedRoute = matchedEvents;
+
+  const waypoints = matchedEvents.map(loc => 
+    L.latLng(parseFloat(loc.lat), parseFloat(loc.lon))
+  );
+
   if (window.routeLayer) map.removeControl(window.routeLayer);
   if (waypoints.length >= 2) {
     window.routeLayer = L.Routing.control({
@@ -504,7 +511,13 @@ function renderMarkers(events, crawlMode = false) {
       show: false
     }).addTo(map);
   }
+
+  // ✅ Enable Clear Route button since a route is now active
+  if (typeof setClearRouteButtonEnabled === 'function') {
+    setClearRouteButtonEnabled(true);
+  }
 }
+
 
 // 🔹 Route filtering helpers (keep only markers that are part of the route)
 function showOnlyRouteMarkers(map, markers, routeIds) {
@@ -546,6 +559,16 @@ function restoreAllMarkers(map, markers) {
 }
 
 // Full clear: remove route line/control, restore markers, reset state + URL
+// --- bring all markers back into the visible layer group (NEW) ---
+function restoreAllMarkers(map, markers) {
+  if (!window.markerLayer) {
+    console.warn('markerLayer not found; creating a new one');
+    window.markerLayer = L.layerGroup().addTo(map);
+  }
+  markerLayer.clearLayers();
+  (markers || []).forEach(m => markerLayer.addLayer(m));
+}
+
 function clearRoute(){
   // 1) Remove the route line / control
   if (window.routeLayer) {
@@ -593,16 +616,20 @@ function setClearRouteButtonEnabled(enabled) {
   btn.style.cursor  = enabled ? 'pointer' : 'not-allowed';
 }
 
-// Wire the Clear Route button
+// Wire the Clear Route button (robust to DOM timing) (UPDATED)
 (function wireClearRouteButton(){
-  const btn = document.getElementById('clearRouteBtn');
-  if (!btn) {
-    console.warn('Clear Route button #clearRouteBtn not found in DOM');
-    return;
+  const hook = () => {
+    const btn = document.getElementById('clearRouteBtn');
+    if (!btn) { console.warn('#clearRouteBtn not found in DOM'); return; }
+    btn.addEventListener('click', clearRoute);
+    // Start disabled until a route exists
+    setClearRouteButtonEnabled(!!(window.selectedRoute && window.selectedRoute.length));
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hook);
+  } else {
+    hook();
   }
-  btn.addEventListener('click', clearRoute);
-  // Start disabled until a route exists
-  setClearRouteButtonEnabled(!!(window.selectedRoute && window.selectedRoute.length));
 })();
 
 // Call this AFTER you generate a route to enable the button automatically.
@@ -610,6 +637,7 @@ function setClearRouteButtonEnabled(enabled) {
 function onRouteGenerated() {
   setClearRouteButtonEnabled(true);
 }
+
 
   
 fetch('events.json')
@@ -1189,6 +1217,8 @@ console.log('[D+1 CHECK]', {
 
   selectedRoute = [...crawlRoute];
   showCrawlSummary(crawlRoute);
+  filterMapToRoute();
+  setClearRouteButtonEnabled(selectedRoute.length >= 2);
 
   // Hide other locations on the map
 try {
