@@ -13654,47 +13654,6 @@
     "duration": 2
   },
   {
-    "name": "South River Art Studios",
-    "vibe": "collective, rough-edged, unfinished, bold-color, DIY, expressive-space, maker-energy, indie-core",
-    "type": "gallery",
-    "lat": 33.683606,
-    "lon": -84.337046,
-    "link": "https://www.instagram.com/southriverartstudios/",
-    "openNow": true,
-    "hours": [
-      "Sunday: Closed",
-      "Monday: Closed",
-      "Tuesday: Closed",
-      "Wednesday: Closed",
-      "Thursday: Closed",
-      "Friday: Closed",
-      "Saturday: Closed"
-    ],
-    "hoursNumeric": {
-      "sun": null,
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": null,
-      "sat": null
-    },
-    "dayParts": {
-      "sun": "-",
-      "mon": "-",
-      "tue": "-",
-      "wed": "-",
-      "thu": "-",
-      "fri": "-",
-      "sat": "-"
-    },
-    "timeCategory": "-",
-    "energyRamp": 2,
-    "tags": "collective, rough-edged, unfinished, bold-color, DIY, expressive-space, maker-energy, indie-core",
-    "price": "$",
-    "duration": 2.5
-  },
-  {
     "name": "JDS SUMMERHILL VARIETY DELI",
     "vibe": "corner-shop, wrap-joint, fast-casual, lowkey, gritty, delicious, backdoor, local-vibe",
     "type": "lunch",
