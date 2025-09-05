@@ -1,7 +1,5 @@
-
-
 <head>
-  <title>ATL Roam Temporal Map</title>
+  <title>ATL x Roam Map</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -51,7 +49,6 @@
   <option value="al fresco all day">Al Fresco All Day</option>
   <option value="art & culture">Art & Culture</option>
   <option value="art to afterparty">Art to Afterparty</option>
-  <option value="artsy & indie">Artsy & Indie</option>
   <option value="brunch & beyond">Brunch & Beyond</option>
   <option value="cheap & cheerful">Cheap & Cheerful</option>
   <option value="chill hang">Chill Hang</option>
@@ -82,13 +79,11 @@
   <option value="self-care">Self-Care</option>
   <option value="solo explorer">Solo Explorer</option>
   <option value="sports day">Sports Day</option>
-  <option value="street food safari">Street Food Safari</option>
   <option value="stretch, shop, sip">Stretch, Shop, Sip</option>
   <option value="sunrise start">Sunrise Start</option>
   <option value="sunset lovers">Sunset Lovers</option>
   <option value="sunday reset">Sunday Reset</option>
   <option value="tech bro escape">Tech Bro Escape</option>
-  <option value="vintage vibes">Vintage Vibes</option>
   <option value="weekend warriors">Weekend Warriors</option>
   <option value="work session">Work Session</option>
   </select>
@@ -187,38 +182,51 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 };
 
 
-  function isLocationOpenNow(ev) {
+  // 🔁 REPLACE your current isLocationOpenNow with this version
+function isLocationOpenNow(ev) {
   const now = new Date();
   const dayKeys = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const todayKey = dayKeys[now.getDay()];
   const yesterdayKey = dayKeys[(now.getDay() + 6) % 7];
-  const currentHour = now.getHours();
+
+  // Use fractional hour for better accuracy (e.g., 21.5 for 9:30 PM)
+  const currentHour = now.getHours() + now.getMinutes() / 60;
 
   const todayHours = ev.hoursNumeric?.[todayKey];
   const yesterdayHours = ev.hoursNumeric?.[yesterdayKey];
 
+  // Normalize to an array of ranges
+  const normalizeRanges = (h) =>
+    Array.isArray(h) ? h : (h && typeof h === 'object' ? [h] : []);
+
+  const todayRanges = normalizeRanges(todayHours);
+  const yRanges = normalizeRanges(yesterdayHours);
+
   const isWithin = (open, close) => {
-    if (close < open) {
-      return currentHour >= open || currentHour < close;
-    } else {
-      return currentHour >= open && currentHour < close;
-    }
+    // Over-midnight window (e.g., 18 → 26)
+    if (close < open) return currentHour >= open || currentHour < close;
+    return currentHour >= open && currentHour < close;
   };
 
-  // Check if still open from yesterday’s late-night hours
-  if (yesterdayHours && yesterdayHours.open !== undefined && yesterdayHours.close !== undefined) {
-    if (yesterdayHours.close < yesterdayHours.open && currentHour < yesterdayHours.close) {
-      return true;
-    }
+  // Still open from **yesterday** (handles over-midnight spill)
+  if (yRanges.some(r =>
+    Number.isFinite(r.open) && Number.isFinite(r.close) &&
+    r.close < r.open && currentHour < r.close
+  )) {
+    return true;
   }
 
-  // Check today’s hours
-  if (todayHours && todayHours.open !== undefined && todayHours.close !== undefined) {
-    return isWithin(todayHours.open, todayHours.close);
+  // Open during **today** in any range
+  if (todayRanges.some(r =>
+    Number.isFinite(r.open) && Number.isFinite(r.close) &&
+    isWithin(r.open, r.close)
+  )) {
+    return true;
   }
 
   return false;
 }
+
   
   let globalEvents = [];
 let allMarkers = [];
@@ -365,6 +373,77 @@ function buildRouteShareUrl(routeArr) {
   url.searchParams.set('route', buildRouteIds(routeArr));
   return url.toString();
 }
+
+  // ✅ Add photo cover helper functions here (before renderMarkers)
+function slugifyName(name = '') {
+  return String(name)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Build an ordered list of possible image URLs.
+// Adjust the paths to match your repo structure if different.
+function coverCandidates(ev) {
+  const s = slugifyName(ev.name || '');
+  const guesses = [
+    ev.cover || null,                                       // explicit
+    `img/venues/${s}/cover.jpg`,
+    `img/venues/${s}/cover.webp`,
+    `img/venues/${s}/cover.png`,
+    `img/venues/${s}.jpg`,
+    `img/venues/${s}.webp`,
+    `img/venues/${s}.png`
+  ].filter(Boolean);
+  // Dedupe while preserving order
+  return [...new Set(guesses)];
+}
+
+// Called by <img onerror> to try the next candidate, or remove the image
+function tryNextCover(imgEl) {
+  try {
+    const list = (imgEl.dataset.candidates || '').split('|').filter(Boolean);
+    let idx = parseInt(imgEl.dataset.idx || '0', 10) + 1;
+    if (idx < list.length) {
+      imgEl.dataset.idx = String(idx);
+      imgEl.src = list[idx];
+    } else {
+      // No candidates left — remove the image cleanly
+      const parent = imgEl.parentNode;
+      parent && parent.removeChild(imgEl);
+      // Optional: remove credit line if present just below
+      const credit = parent?.querySelector?.('.cover-credit');
+      if (credit) credit.remove();
+    }
+  } catch (_) {
+    // If anything goes sideways, remove the element
+    imgEl.parentNode && imgEl.parentNode.removeChild(imgEl);
+  }
+}
+
+// Returns the HTML for the image block with all candidates embedded.
+// You can pass ev.coverCredit / ev.coverAlt if you add them in JSON.
+function buildCoverImgHTML(ev) {
+  const candidates = coverCandidates(ev);
+  if (!candidates.length) return '';
+  const first = candidates[0];
+  const alt = (ev.coverAlt || ev.name || 'Cover').replace(/"/g, '&quot;');
+  const credit = ev.coverCredit ? 
+    `<div class="cover-credit" style="font-size:11px;color:#999;margin:-4px 0 6px;">${ev.coverCredit}</div>` : '';
+  return `
+    <img
+      src="${first}"
+      alt="${alt}"
+      loading="lazy"
+      style="width:100%;max-height:140px;object-fit:cover;border-radius:8px;margin:6px 0;"
+      data-candidates="${candidates.join('|')}"
+      data-idx="0"
+      onerror="tryNextCover(this)"
+    />
+    ${credit}
+  `;
+}
+
   
 // ─── FILTER MARKERS ────────────────────────────────────────────────────
 function filterMarkersByVibe() {
@@ -436,6 +515,11 @@ function renderMarkers(events, crawlMode = false) {
   const todayIndex = new Date().getDay();
 
   events.forEach(ev => {
+    const lat = Number(ev.lat), lon = Number(ev.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    console.warn('Skipping invalid coords:', ev.name || ev.title, ev.lat, ev.lon);
+    return;
+  }
     const rawPart = ev.dayParts?.[weekdayKeys[todayIndex]];
     const isOpen = isLocationOpenNow(ev);
     const markerColor = isOpen && rawPart && rawPart !== '-'
@@ -487,7 +571,7 @@ function renderMarkers(events, crawlMode = false) {
       .filter(Boolean);
 
     const similar = window.allMarkers
-      .filter(m => m !== marker && latlng.distanceTo(m.getLatLng()) <= 750)
+      .filter(m => m !== marker && latlng.distanceTo(m.getLatLng()) <= 400)
       .filter(m => {
         const otherVibes = (m.ev.vibe || '')
           .split(',')
@@ -502,20 +586,23 @@ function renderMarkers(events, crawlMode = false) {
       : '<em>No similar places nearby.</em>';
 
     const popupContent = `
-      <div style="font-size:14px;line-height:1.4;">
-        <strong>${ev.name}</strong><br/>
-        <em>Vibe:</em> ${ev.vibe}<br/>
-        <em>Hours:</em> ${ev.hours?.[todayIndex] || 'N/A'}<br/>
-        <em>Status:</em> ${isOpen ? '<span style="color:green;">Open Now</span>' : '<span style="color:red;">Closed</span>'}<br/>
-        <a href="${ev.link}" target="_blank">More Info</a>
-        <hr/>
-        <strong>Could also be the move..:</strong>
-        ${similarList}
-        <br/><br/>
-        <button class="add-route-btn">Add to Route</button>
-        <button class="add-fav-btn">Add to Favorites</button>
-      </div>
-    `;
+  <div style="font-size:14px;line-height:1.4;">
+    <strong>${ev.name}</strong><br/>
+    ${buildCoverImgHTML(ev)}
+    <em>Vibe:</em> ${ev.vibe}<br/>
+    <em>Hours:</em> ${ev.hours?.[todayIndex] || 'N/A'}<br/>
+    <em>Status:</em> ${isOpen ? '<span style="color:green;">Open Now</span>' : '<span style="color:red;">Closed</span>'}<br/>
+    <a href="${ev.link}" target="_blank" rel="noopener">More Info</a>
+    <hr/>
+    <strong>Could also be the move..:</strong>
+    ${similarList}
+    <br/><br/>
+    <button class="add-route-btn">Add to Route</button>
+    <button class="add-fav-btn">Add to Favorites</button>
+  </div>
+`;
+
+
 
     marker.bindPopup(popupContent).addTo(markerLayer);
 
@@ -651,12 +738,12 @@ const STAGE_GROUPS = [
 ];
 
 // distance caps (meters)
-const DIST_CAP_DEFAULT = 200;
-const DIST_CAP_MEAL    = 4000; // breakfast/brunch/lunch/dinner types
+const DIST_CAP_DEFAULT = 1500;
+const DIST_CAP_MEAL    = 3500; // breakfast/brunch/lunch/dinner types
 
 // How long to linger and buffer between stops
-const DEFAULT_DURATION_HOURS = 1;     // fallbacks if missing
-const BUFFER_HOURS = 1;               // your D+1 rule from earlier
+const DEFAULT_DURATION_HOURS = 1;
+const BUFFER_HOURS = 1;
 
 // --- Time helpers you already use elsewhere ---
 function _dayKey(d) { return ["sun","mon","tue","wed","thu","fri","sat"][d.getDay()]; }
@@ -694,7 +781,6 @@ function distanceMeters(aLat,aLon,bLat,bLon){
 function vibesArray(loc){
   const v = (loc.vibe || '').split(',').map(s=>s.trim().toLowerCase()).filter(Boolean);
   const t = (loc.tags || '').split(',').map(s=>s.trim().toLowerCase()).filter(Boolean);
-  // de-dupe
   return Array.from(new Set([...v, ...t]));
 }
 function vibeOverlapCount(a,b){
@@ -703,95 +789,84 @@ function vibeOverlapCount(a,b){
   return c;
 }
 
-// --- Type normalization (so "bar, dinner" matches "bar") ---
+// --- Type normalization ---
 function hasType(loc, desired){
-  const types = (loc.type || '').split(',').map(s=>s.trim().toLowerCase());
+  const types = Array.isArray(loc.type)
+    ? loc.type.map(t => t.toLowerCase())
+    : String(loc.type || '').split(',').map(s => s.trim().toLowerCase());
   return types.some(t => desired.includes(t));
 }
 function isMealType(loc){
   const meals = ["breakfast","brunch","lunch","dinner"];
-  const types = (loc.type || '').split(',').map(s=>s.trim().toLowerCase());
+  const types = Array.isArray(loc.type)
+    ? loc.type.map(t => t.toLowerCase())
+    : String(loc.type || '').split(',').map(s => s.trim().toLowerCase());
   return types.some(t => meals.includes(t));
 }
 
-// --- Daypart sanity: avoid morning-only when it’s afternoon, etc. ---
+// --- Daypart sanity ---
 function daypartAllowedForNow(loc, now){
-  // If loc.dayParts is an object of {sun:'M',...}, read today’s letter.
-  // If array or string, fall back to hoursNumeric check only.
   const dp = (typeof loc.dayParts === 'object' && loc.dayParts !== null && !Array.isArray(loc.dayParts))
     ? loc.dayParts[_dayKey(now)]
     : null;
-  if (!dp || dp === '-' ) return true; // unknown; let hoursNumeric gating do the work
+  if (!dp || dp === '-' ) return true;
 
   const hour = now.getHours() + now.getMinutes()/60;
   const letter = String(dp).toUpperCase();
 
-  // Rough mapping windows (tune if you have stricter rules):
   const windowByLetter = {
-    M:  [5, 12],        // Morning
-    MD: [10, 15],       // Midday / Lunch
-    A:  [12, 17],       // Afternoon
-    HH: [16, 19],       // Happy Hour / early evening
-    E:  [17, 24],       // Evening
-    L:  [22, 28],       // Late (wrap past midnight)
+    M:  [5, 12],
+    MD: [10, 15],
+    A:  [12, 17],
+    HH: [16, 19],
+    E:  [17, 24],
+    L:  [22, 28],
   };
   const w = windowByLetter[letter];
   if (!w) return true;
   const [start, end] = w;
   if (end <= 24) return hour >= start && hour < end;
-  // handle late-night wrap
   return (hour >= start && hour <= 24) || (hour < (end-24));
 }
 
-// --- Build sequence starting at the best index for current time ---
+// --- Stage sequencing ---
 function sequencedStagesForNow(now){
-  // Basic heuristic: morning bias start near index 0; evening near dinner/bar.
   const h = now.getHours() + now.getMinutes()/60;
   let startIdx = 0;
-  if (h >= 10.5 && h < 13) startIdx = 2;        // late morning → breakfast/brunch
-  else if (h >= 13 && h < 16) startIdx = 4;     // early afternoon → lifestyle/random gem
-  else if (h >= 16 && h < 19) startIdx = 7;     // HH → cocktail/random
-  else if (h >= 19 && h < 22) startIdx = 8;     // dinner
-  else if (h >= 22 || h < 3) startIdx = 9;      // late → bar/cocktail/speakeasy
-  // rotate sequence to start at startIdx but still keep order
+  if (h >= 10.5 && h < 13) startIdx = 2;
+  else if (h >= 13 && h < 16) startIdx = 4;
+  else if (h >= 16 && h < 19) startIdx = 7;
+  else if (h >= 19 && h < 22) startIdx = 8;
+  else if (h >= 22 || h < 3) startIdx = 9;
   return STAGE_GROUPS.slice(startIdx).concat(STAGE_GROUPS.slice(0,startIdx));
 }
 
-// --- Core: generate from a single favorite ---
+// --- Core route generator ---
 function generateRouteFromFavorite(favorite, opts = {}) {
   const now = opts.startTime || new Date();
   const maxStops = opts.maxStops || 6;
 
-  // 1) map favorite to a globalEvents entry (so we have full fields like hoursNumeric)
   const byId = new Map(globalEvents.map(ev => [ev.id || ev.name, ev]));
-  const start = byId.get(favorite.id || favorite.name) || favorite; // fall back to favorite object
+  const start = byId.get(favorite.id || favorite.name) || favorite;
 
-  // 2) seed route with the favorite as first stop
   const route = [start];
   let last = start;
   let lastStart = new Date(now);
   let lastDuration = Number(start.duration) || DEFAULT_DURATION_HOURS;
 
-  // 3) build stage plan relative to current time, but ensure the first stage group
-  //    is compatible with the favorite's type (otherwise treat favorite as "pre-stage" and proceed)
   const stagePlan = sequencedStagesForNow(now);
 
-  // 4) Precompute candidates pool with coords and vibes
   const pool = globalEvents
     .filter(ev => (ev.lat && ev.lon))
     .map(ev => ({...ev, lat: parseFloat(ev.lat), lon: parseFloat(ev.lon)}))
     .filter(ev => (ev.id || ev.name) !== (start.id || start.name));
 
-  // 5) iterative pick
   for (let i = 0; i < stagePlan.length && route.length < maxStops; i++) {
-    const desiredTypes = stagePlan[i]; // e.g., ["cocktail","random gem"]
-    // arrival time for NEXT stop: previousStart + previousDuration + buffer (no travel time by your rule)
+    const desiredTypes = stagePlan[i];
     const arrival = new Date(lastStart.getTime() + (lastDuration + BUFFER_HOURS) * 3600 * 1000);
 
-    // Filter candidates by: type, distance, open at arrival, vibe overlap, daypart sanity
     let candidates = pool.filter(ev => {
-      const matchesType = hasType(ev, desiredTypes);
-      if (!matchesType) return false;
+      if (!hasType(ev, desiredTypes)) return false;
 
       const cap = isMealType(ev) ? DIST_CAP_MEAL : DIST_CAP_DEFAULT;
       const dist = distanceMeters(last.lat, last.lon, ev.lat, ev.lon);
@@ -799,8 +874,6 @@ function generateRouteFromFavorite(favorite, opts = {}) {
 
       if (!daypartAllowedForNow(ev, arrival)) return false;
       if (!isOpenAt(ev, arrival)) return false;
-
-      // require at least 1 common vibe/tag with the previous stop
       if (vibeOverlapCount(ev, last) < 1) return false;
 
       return true;
@@ -808,29 +881,27 @@ function generateRouteFromFavorite(favorite, opts = {}) {
 
     if (!candidates.length) continue;
 
-    // Score: closer + more vibe overlap preferred
     candidates.forEach(ev => {
       const dist = distanceMeters(last.lat, last.lon, ev.lat, ev.lon);
       const overlap = vibeOverlapCount(ev, last);
-      ev.__score = (overlap * 1000) - dist; // arbitrary: 1 vibe ~= 1km advantage
+      ev.__score = (overlap * 1000) - dist;
     });
     candidates.sort((a,b)=> (b.__score - a.__score));
 
     const next = candidates[0];
     route.push(next);
 
-    // advance time & state
     last = next;
-    lastStart = arrival; // we “start” the next stop at arrival (D+1 rule)
+    lastStart = arrival;
     lastDuration = Number(next.duration) || DEFAULT_DURATION_HOURS;
 
-    // remove chosen from pool
     const idx = pool.findIndex(p => (p.id||p.name) === (next.id||next.name));
     if (idx >= 0) pool.splice(idx,1);
   }
 
   return route;
 }
+
 
 // Reuse-safe: only define if not already present
 if (typeof buildGoogleMapsDirUrl !== 'function') {
@@ -1050,6 +1121,29 @@ fetch('events.json')
   .then(events => {
     globalEvents = events;
 
+    // Normalize + validate coordinates for every row
+const toNum = v => Number(String(v ?? '').replace(',', '.').replace(/[^\d.\-]/g, ''));
+
+globalEvents = (events || []).map((e, i) => {
+  const lat = toNum(e.lat ?? e.latitude);
+  const lon = toNum(e.lon ?? e.lng ?? e.longitude);
+  return { ...e, lat, lon, __idx: i };
+});
+
+// Log the first few invalid rows so you can fix the data
+const bad = globalEvents.filter(e => !Number.isFinite(e.lat) || !Number.isFinite(e.lon));
+if (bad.length) {
+  console.warn('⚠️ Invalid coords found:', bad.length);
+  console.table(bad.slice(0, 20).map(e => ({
+    idx: e.__idx, name: e.name || e.title, lat: e.lat, lon: e.lon
+  })));
+}
+
+
+    events.forEach((e, i) => {
+  console.log(i, e.name || e.title, e.lat, e.lon || e.lng);
+});
+
     const todayStr = new Date().toISOString().slice(0, 10);
     eventsToday = globalEvents.filter(ev =>
       ev.dateEvents?.some(e => e.date === todayStr)
@@ -1139,19 +1233,19 @@ const neighborhoodCenters = {
   "west midtown": L.latLng(33.7809, -84.4292)
 };
 
+
   const crawlFlows = {
   "al fresco all day": ["brunch", "garden", "patio", "cocktail", "dinner"],
   "art & culture": ["gallery", "museum", "cocktail", "music", "dessert"],
   "art to afterparty": ["gallery", "exhibit", "wine bar", "dinner", "club"],
-  "artsy & indie": ["gallery", "random gem", "bookstore", "wine bar", "dinner", "music"],
   "brunch & beyond": ["brunch", "market", "rooftop", "bar", "dessert"],
   "cheap & cheerful": ["coffee", "market", "random gem", "gallery", "dinner", "bar"],
   "chill hang": ["coffee", "bookstore", "random gem", "lifestyle", "bar", "dessert"],
   "creative kickstart": ["coffee", "gallery", "random gem", "bookstore", "lunch"],
   "date day": ["brunch", "park", "random gem", "lifestyle", "dinner", "dessert"],
-  "date night": ["dinner", "music", "speakeasy", "dessert"],
+  "date night": ["dinner", "cocktail", "dessert"],
   "foodie tour": ["market", "lunch", "cocktail", "dinner", "dessert"],
-  "friends night out": ["bar", "bar", "dinner", "club", "late-night"],
+  "friends night out": ["dinner", "bar", "bar", "club", "late-night"],
   "gallery crawl": ["gallery", "gallery", "lunch", "wine bar", "music"],
   "health nut": ["fitness", "juice bar", "spa", "garden"],
   "hidden gems": ["random gem", "cafe", "restaurant", "speakeasy", "bar"],
@@ -1174,32 +1268,29 @@ const neighborhoodCenters = {
   "self-care": ["fitness", "spa", "tea", "bookstore", "park"],
   "solo explorer": ["coffee", "random gem", "bookstore", "market", "park", "rooftop"],
   "sports day": ["fitness", "activity", "lunch", "bar", "dinner"],
-  "street food safari": ["market", "street food", "cocktail", "dessert"],
   "stretch, shop, sip": ["yoga", "lifestyle", "juice bar", "brunch", "dessert"],
   "sunrise start": ["fitness", "bakery", "coffee", "market", "park"],
   "sunset lovers": ["park", "rooftop", "dinner", "cocktail"],
   "sunday reset": ["fitness", "market", "lifestyle", "tea", "dinner"],
   "tech bro escape": ["cocktail", "rooftop", "dinner", "club", "late-night"],
-  "vintage vibes": ["thrift store", "coffee", "random gem", "cocktail"],
   "weekend warriors": ["bar", "speakeasy", "bar", "club", "late-night"],
   "work session": ["coffee", "lunch", "coffee", "cocktail"]
 };
 
   
   const themeMap = {
-  "art & culture": ["gallery", "aesthetic", "museum", "art", "exhibit", "creative", "theater", "film", "architecture", "history", "design", "photography"],
-  "artsy & indie": ["gallery", "vinyl", "underground", "zine", "eclectic", "alt", "poetry", "studio", "indie", "niche", "handmade", "crafts", "bohemian"],
+  "art & culture": ["gallery", "aesthetic", "museum", "art", "exhibit", "creative", "theater", "film", "architecture", "history", "design", "photography", "curated", "classical", "modern", "expression", "sculpture", "installation", "culture", "vintage", "inspiration", "refined"],
   "brunch & beyond": ["brunch", "mimosa", "day party", "pancakes", "bistro", "patio", "sunny", "casual", "daytime", "weekend", "outdoor", "social"],
-  "cheap & cheerful": ["diner", "cheap", "budget", "street", "casual", "$", "bite", "fast", "local", "market", "takeout", "food truck"],
-  "chill hang": ["lounge", "cozy", "relaxed", "intimate", "chill", "sofa", "vintage", "casual", "warm", "neighborhood", "laid-back", "friendly"],
+  "cheap & cheerful": ["diner", "cheap", "budget", "street", "casual", "$", "bite", "fast", "local", "market", "takeout", "gallery", "food truck"],
+  "chill hang": ["lounge", "cozy", "relaxed", "intimate", "chill", "sofa", "vintage", "casual", "warm", "neighborhood", "laid-back", "friendly", "comfort", "easygoing", "snack", "small bite", "lowkey", "hangout", "easy", "slow", "conversation", "quiet"],
   "creative kickstart": ["studio", "journal", "sketch", "gallery", "quiet", "inspiration", "café", "bookstore", "sunny", "vinyl", "art", "notebook", "design", "creative space", "makers"],
-  "date day": ["brunch", "park", "casual", "romantic", "patio", "stroll", "serendipity", "daytime", "garden", "outdoor", "café", "dessert"],
-  "date night": ["romantic", "cocktail", "jazz", "twilight", "vibe", "wine", "dim", "moody", "candlelit", "intimate", "charming", "slow-paced"],
-  "foodie tour": ["restaurant", "tasting", "chef", "bistro", "eats", "gastro", "brunch", "dining", "flavors", "street food", "multi-course", "local cuisine"],
-  "friends night out": ["loud", "crowded", "bar", "dinner", "club", "dj", "party", "scene", "drinks", "late-night", "social", "vibrant"],
-  "gallery crawl": ["gallery", "exhibit", "art", "creative", "museum", "opening", "culture", "fine art", "contemporary", "showcase", "art walk"],
-  "health nut": ["wellness", "juice", "smoothie", "matcha", "organic", "spa", "bathhouse", "vegan", "yoga", "fitness", "light bite", "gym", "meditation", "fresh"],
-  "hidden gems": ["speakeasy", "secret", "underground", "niche", "alt", "unmarked", "local", "offbeat", "exclusive", "rare", "quirky", "low-profile"],
+  "date day": ["brunch", "park", "casual", "romantic", "patio", "stroll", "serendipity", "daytime", "garden", "outdoor", "café", "dessert", "flirty", "walkable", "flowers", "sunny", "shared-plates", "laughs", "views", "lighthearted", "sweet", "easygoing"],
+  "date night": ["romantic", "date spot", "cocktail", "jazz", "twilight", "vibe", "wine", "dim", "moody", "candlelit", "intimate", "charming", "slow-paced", "flirty", "cozy", "soft", "sweet", "elegant", "lush", "quiet", "dreamy", "gentle", "classic"],
+  "foodie tour": ["restaurant", "tasting", "chef", "bistro", "eats", "gastro", "brunch", "dining", "flavors", "street food", "multi-course", "local cuisine", "fresh", "artisan", "flavorful", "course", "tasting-menu", "bite-sized", "shared", "seasonal", "notable", "refined"],
+  "friends night out": ["loud", "shareable", "pitchers", "group dinner", "crowded", "bar", "dinner", "club", "dj", "party", "scene", "drinks", "late-night", "social", "vibrant", "group", "shots", "energy", "rowdy", "dance", "hype", "weekend", "pregame", "cheers", "lit"],
+  "gallery crawl": ["gallery", "exhibit", "art", "creative", "museum", "opening", "culture", "fine art", "contemporary", "showcase", "art walk", "curated", "aesthetic", "stylish", "visual", "inspired", "refined", "chic", "trendy", "modern", "buzz"],
+  "health nut": ["wellness", "yoga", "juice", "smoothie", "matcha", "organic", "spa", "bathhouse", "vegan", "yoga", "fitness", "light bite", "gym", "meditation", "fresh"],
+  "hidden gems": ["speakeasy", "hidden", "secret", "underground", "niche", "alt", "unmarked", "local", "offbeat", "exclusive", "rare", "quirky", "low-profile"],
   "last call": ["late-night", "karaoke", "after hours", "lively", "spontaneous", "gritty", "unfiltered", "nocturnal", "dance", "dark", "shots", "underground", "loose", "unhinged", "boozy", "nightcap"],
   "late start legends": ["brunch", "cocktails", "twilight", "pre-game", "vibe", "evening", "casual", "low key", "date", "nightlife", "urban", "chill"],
   "luxe life": ["fine dining", "aesthetic", "exclusive", "high-end", "rooftop", "wine", "luxury", "private", "VIP", "premium", "gourmet", "opulent", "exclusive view"],
@@ -1207,24 +1298,22 @@ const neighborhoodCenters = {
   "mindful mornings": ["yoga", "meditation", "spa", "sunlight", "tea", "calm", "minimal", "introspective", "garden", "journal", "wellness", "fresh air", "stretch"],
   "neighborhood sampler": ["walkable", "local", "market", "coffee", "casual", "random gem", "community vibe", "shops", "restaurants", "street life", "hidden spot", "corner café"],
   "nightcap circuit": ["speakeasy", "whiskey", "jazz", "cozy", "lounge", "low light", "late", "neat", "intimate", "bar", "cigar", "smooth"],
-  "party time": ["club", "dance", "beats", "late", "dj", "loud", "drinks", "bar", "crowded", "energy", "flashy", "after hours"],
-  "post-work wind down": ["happy hour", "bar", "tapas", "light bite", "craft beer", "after work", "relax", "casual", "patio", "drinks", "evening", "mingle"],
+  "party time": ["club", "dance", "beats", "late", "dj", "loud", "drinks", "bar", "crowded", "energy", "flashy", "after hours", "party", "scene", "friends night out", "saturday surge", "lit", "group", "rowdy", "weekend", "pregame", "vibe", "cheers", "social"],
+  "post-work wind down": ["happy hour", "bar", "tapas", "light bite", "craft beer", "after work", "relax", "casual", "patio", "drinks", "evening", "mingle", "unwind", "refresh", "lowkey", "snacks", "cooldown", "ambient", "hangout", "rounds", "winddown", "ease"],
   "quiet escape": ["tea", "bookstore", "park", "quiet", "introspective", "relaxed", "cozy", "minimal", "serene", "slow", "niche", "retreat"],
   "rom-com main character": ["twilight", "charming", "patio", "vintage", "wine", "candlelit", "walkable", "cozy", "date", "serendipity", "scenic", "whimsical"],
   "rooftops & views": ["rooftop", "view", "skyline", "sunset", "elevated", "balcony", "overlook", "outdoor", "cocktail", "scenic", "glamorous", "night lights"],
   "saturday surge": ["dance", "dj", "crowded", "club", "party", "high energy", "beats", "rooftop", "late", "scene", "vibrant", "after hours"],
   "self-care": ["spa", "relax", "yoga", "meditation", "serenity", "retreat", "tea", "calm", "detox", "massage", "rejuvenate", "peace"],
-  "solo explorer": ["bookstore", "quiet", "scenic", "café", "park", "rooftop", "garden", "introspective", "nook", "wander", "hidden spot", "photo walk"],
+  "solo explorer": ["bookstore", "gallery", "quiet", "scenic", "café", "park", "rooftop", "garden", "introspective", "nook", "wander", "hidden spot", "photo walk"],
   "sports day": ["active", "game", "match", "fitness", "team", "outdoor", "energy", "training", "stadium", "competition", "field", "spectator"],
-  "street food safari": ["market", "street", "casual", "cheap", "local", "spicy", "crowd", "quick bite", "vendor", "takeout", "night market", "pop-up"],
-  "sunrise start": ["coffee", "matcha", "sunrise", "morning", "café", "bakery", "brunch", "acai", "patio", "quiet", "fresh", "early"],
+  "sunrise start": ["coffee", "matcha", "sunrise", "morning", "café", "bakery", "brunch", "acai", "patio", "quiet", "fresh", "early", "energizing", "routine", "mindful", "stretch", "wellness", "cozy", "warm", "comforting", "inviting", "brewed", "caffeine", "mellow", "focused", "calm", "local", "seasonal", "browse", "natural", "neighborhood", "green", "stroll", "breeze", "peaceful", "slow-morning", "outdoor"],
   "sunset lovers": ["park", "view", "golden hour", "romantic", "cocktail", "outdoor", "patio", "date", "skyline", "twilight", "serene", "photogenic"],
   "sunday reset": ["garden", "tea", "spa", "quiet", "book", "relax", "wellness", "reflection", "meditation", "sunlight", "fresh", "slow"],
   "tech bro escape": ["steakhouse", "cocktail", "crypto", "rooftop", "sleek", "bourbon", "high-end", "modern", "rare", "network", "exclusive", "private"],
-  "vintage vibes": ["thrift", "retro", "vintage", "coffee", "vinyl", "nostalgic", "eclectic", "antique", "boho", "quirky", "retro bar", "record shop"],
   "weekend warriors": ["dive bar", "after hours", "shots", "karaoke", "late night", "chaotic", "party", "crowd", "open late", "wild", "rowdy", "social"],
-  "work session": ["cafe", "wifi", "coffee", "focus", "quiet", "workspace", "daytime", "study", "productive", "neighborhood", "light music", "comfortable seating"],
-   "patio perfection": ["patio", "al fresco", "open-air", "sunny", "shade", "breezy", "terrace", "brunchy", "plants", "outdoor", "chill", "garden", "social", "view", "loungy", "relaxed"],
+  "work session": ["cafe", "wifi", "coffee", "focus", "remote-friendly", "laptop", "casual", "quiet", "workspace", "daytime", "study", "productive", "neighborhood", "light music", "comfortable seating"],
+  "patio perfection": ["patio", "al fresco", "open-air", "sunny", "shade", "breezy", "terrace", "brunchy", "plants", "outdoor", "chill", "garden", "social", "view", "loungy", "relaxed"],
   "art to afterparty": ["gallery", "creative", "art", "edgy", "expressive", "cocktail", "night", "music", "mood", "chic", "theater", "neon", "bold", "late", "styled", "scene"],
   "pages to pours": ["bookstore", "quiet", "cozy", "literary", "analog", "warm", "vintage", "library", "indie", "wine", "reflective", "moody", "ink", "writerly", "poetic", "sips"],
   "al fresco all day": ["sunny", "bloom", "green", "garden", "light", "fresh", "outdoor", "easy", "brunch", "picnic", "open-air", "dog-friendly", "mellow", "daytime", "leisure", "floral", "relaxing"],
@@ -1369,6 +1458,7 @@ shareBtn.onclick = () => {
   summaryDiv.style.display = "block"; // Show it
 }
   
+// Fixed generateCrawlRoute with real open-time validation and after-midnight handling
 function generateCrawlRoute() {
   const todayStr = new Date().toISOString().slice(0, 10);
   if (!globalEvents.length) {
@@ -1376,35 +1466,24 @@ function generateCrawlRoute() {
     return;
   }
 
-  let center;
-  console.log('🚨 generateCrawlRoute() triggered');
-
-  // Crawl timing
-const crawlStart = new Date();      // or read from a UI input if you expose one
-const bufferHours = 1;              // your D+1 rule (“+1” hour buffer between stops)
-
+  const crawlStart = new Date();
+  const bufferHours = 1;
 
   const neighborhood = document.getElementById('neighborhood-input').value.toLowerCase();
   const priceFilter = document.getElementById('priceFilter').value.trim();
   const durationSetting = document.getElementById('durationDropdown').value;
   const neighborhoodCenter = neighborhoodCenters[neighborhood];
 
-  console.log('📍 Selected Neighborhood:', neighborhood);
-  console.log('🧭 Matched Center:', neighborhoodCenters[neighborhood]);
-
   if (!neighborhoodCenter || isNaN(neighborhoodCenter.lat) || isNaN(neighborhoodCenter.lng)) {
     alert("Invalid or missing neighborhood center.");
     return;
   }
 
-  center = L.latLng(neighborhoodCenter.lat, neighborhoodCenter.lng);
+  let center = L.latLng(neighborhoodCenter.lat, neighborhoodCenter.lng);
   const maxDuration = durationSetting === 'short' ? 2 : durationSetting === 'medium' ? 5 : 8;
   const rawTheme = document.getElementById('themeDropdown').value;
   const theme = rawTheme.trim().toLowerCase();
   const themeKeywords = (themeMap[theme] || []).map(kw => kw.toLowerCase());
-
-  console.log('🧠 Raw Theme:', rawTheme);
-  console.log('🎯 Processed Theme:', theme);
 
   const priceTiers = ['$', '$$', '$$$', '$$$$'];
   const selectedTierIndex = priceTiers.indexOf(priceFilter);
@@ -1440,6 +1519,9 @@ const bufferHours = 1;              // your D+1 rule (“+1” hour buffer betwe
   };
   const currentDayParts = themeOverrides[theme] || baseDayParts;
 
+  const today = new Date();
+  const dayKey = today.toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
+
   const allLocations = globalEvents.map(ev => ({
     ...ev,
     lat: parseFloat(ev.lat),
@@ -1448,80 +1530,41 @@ const bufferHours = 1;              // your D+1 rule (“+1” hour buffer betwe
     tags: (ev.tags || '').split(',').map(t => t.trim().toLowerCase())
   }));
 
-  console.log('⚙️ Filtering open locations...');
-  console.log('📦 All Locations:', allLocations);
-  console.log('🎯 Theme Keywords:', themeKeywords);
-  console.log('🕐 Current Day Parts:', currentDayParts);
+  function isOpenAt(loc, dateTime) {
+    const weekday = dateTime.toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
+    const prevWeekday = new Date(dateTime.getTime() - 86400000).toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
+    const timeDecimal = dateTime.getHours() + dateTime.getMinutes() / 60;
+
+    const todayHours = loc.hoursNumeric?.[weekday];
+    const prevHours = loc.hoursNumeric?.[prevWeekday];
+
+    // Check current day normally
+    if (todayHours && todayHours.open !== undefined && todayHours.close !== undefined) {
+      if (todayHours.close > todayHours.open) {
+        if (timeDecimal >= todayHours.open && timeDecimal <= todayHours.close) return true;
+      } else {
+        // after-midnight case (e.g. 22 to 26)
+        if (timeDecimal >= todayHours.open || timeDecimal <= (todayHours.close % 24)) return true;
+      }
+    }
+
+    // Check if current time falls into after-midnight window from previous day
+    if (prevHours && prevHours.close > 24 && timeDecimal <= (prevHours.close % 24)) {
+      return timeDecimal <= (prevHours.close % 24);
+    }
+
+    return false;
+  }
 
   const openLocations = allLocations.filter(loc => {
     const allKeywords = [...loc.vibe, ...loc.tags];
     const matchesPrice = !priceFilter || (loc.price && priceTiers.indexOf(loc.price) <= selectedTierIndex);
     const matchesTheme = !theme || themeKeywords.some(kw => allKeywords.includes(kw));
-    let matchesDayPart = false;
-    let dayPartsArray = [];
-    if (Array.isArray(loc.dayParts)) {
-      dayPartsArray = loc.dayParts;
-    } else if (typeof loc.dayParts === 'object' && loc.dayParts !== null) {
-      dayPartsArray = Object.values(loc.dayParts).filter(p => p && p !== '-');
-    }
-
-    if (dayPartsArray.length > 0 && dayPartsArray.some(p => p !== '-')) {
-      matchesDayPart = dayPartsArray.some(part => currentDayParts.includes(part));
-    } else {
-      const today = new Date().toLocaleDateString('en-US', { weekday: 'long' });
-      const hoursTodayStr = Array.isArray(loc.hours)
-        ? loc.hours.find(h => h.toLowerCase().startsWith(today.toLowerCase()))
-        : null;
-
-      if (hoursTodayStr && !hoursTodayStr.toLowerCase().includes('closed')) {
-        const timeRangeMatch = hoursTodayStr.match(/\d{1,2}:\d{2}\s*[ap]m\s*[\u2013\-]\s*\d{1,2}:\d{2}\s*[ap]m/i);
-        if (timeRangeMatch) {
-          const [startStr, endStr] = timeRangeMatch[0].split(/[\u2013\-]/).map(s => s.trim());
-
-          function parseTime(str) {
-            const [time, meridian] = str.split(/\s+/);
-            let [h, m] = time.split(':').map(Number);
-            if (meridian.toLowerCase() === 'pm' && h !== 12) h += 12;
-            if (meridian.toLowerCase() === 'am' && h === 12) h = 0;
-            return h + m / 60;
-          }
-
-          const now = new Date();
-          const currentTimeDecimal = now.getHours() + now.getMinutes() / 60;
-          const startDecimal = parseTime(startStr);
-          const endDecimal = parseTime(endStr);
-
-          matchesDayPart = currentTimeDecimal >= startDecimal && currentTimeDecimal <= endDecimal;
-        }
-      }
-    }
-
-    const passes = matchesPrice && matchesTheme && matchesDayPart;
-
-    if (!passes) {
-      console.warn(`[FILTER OUT]`, {
-        name: loc.name,
-        matchesPrice,
-        matchesTheme,
-        matchesDayPart,
-        currentDayParts,
-        locDayParts: loc.dayParts,
-        allKeywords
-      });
-    }
-
-    return passes;
+    const isCurrentlyOpen = isOpenAt(loc, crawlStart);
+    return matchesPrice && matchesTheme && isCurrentlyOpen;
   });
 
-  console.log('✅ Matched Locations:', openLocations);
-  if (!openLocations.length) {
-    alert('No matching locations are open now for that theme.');
-    return;
-  }
-
-  center = L.latLng(neighborhoodCenter.lat, neighborhoodCenter.lng);
   const validLocations = openLocations.filter(ev => ev.lat && ev.lon && !isNaN(ev.lat) && !isNaN(ev.lon));
-
   validLocations.forEach(ev => {
     const vibeMatches = ev.vibe.filter(v => themeKeywords.includes(v));
     const tagMatches = ev.tags.filter(t => themeKeywords.includes(t));
@@ -1531,15 +1574,12 @@ const bufferHours = 1;              // your D+1 rule (“+1” hour buffer betwe
   });
 
   const sorted = validLocations.filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 4000).sort((a, b) => b._score - a._score);
-
   const crawlStages = crawlFlows[theme] || [];
-const crawlRoute = [];
-let timeSpent = 0;
-let lastPoint = center;
-
-// D+1 timing state
-let lastStopStartTime = new Date(crawlStart); // first stop begins at crawlStart
-let lastStopDuration = 0;                     // populated after picking a stop
+  const crawlRoute = [];
+  let timeSpent = 0;
+  let lastPoint = center;
+  let lastStopStartTime = new Date(crawlStart);
+  let lastStopDuration = 0;
 
   let startingStageIndex = crawlStages.findIndex(stage => {
     return sorted.some(loc => loc.type === stage && themeKeywords.some(kw => [...loc.vibe, ...loc.tags].includes(kw)));
@@ -1551,59 +1591,38 @@ let lastStopDuration = 0;                     // populated after picking a stop
   }
 
   for (let i = startingStageIndex; i < crawlStages.length; i++) {
-  const stage = crawlStages[i];
+    const stage = crawlStages[i];
+    const stageCandidates = sorted.filter(loc => {
+      const vibeAndTags = [...(loc.vibe || []), ...(loc.tags || [])];
+      const typeArray = Array.isArray(loc.type) ? loc.type : String(loc.type).split(',').map(s => s.trim().toLowerCase());
+      const matchesType = typeArray.includes(stage.toLowerCase());
+      const matchesVibe = themeKeywords.some(kw => vibeAndTags.includes(kw));
+      const withinDistance = lastPoint.distanceTo(L.latLng(loc.lat, loc.lon)) <= 2500;
+      const fitsTime = timeSpent + (loc.duration || 1) <= maxDuration;
 
-  const stageCandidates = sorted.filter(loc => {
-    const vibeAndTags = [...(loc.vibe || []), ...(loc.tags || [])];
-    const matchesType = loc.type === stage;
-    const matchesVibe = themeKeywords.some(kw => vibeAndTags.includes(kw));
-    const withinDistance = lastPoint.distanceTo(L.latLng(loc.lat, loc.lon)) <= 2500;
-    const fitsTime = timeSpent + (loc.duration || 1) <= maxDuration;
-
-    // D+1 arrival time (no travel time per your requirement)
-    // Rule: only enforce D+1 *after* the initial stop.
-    // If crawlRoute.length === 0, we're selecting the very first stop—skip D+1 check.
-    let passesDPlusOne = true;
-    if (crawlRoute.length > 0) {
-      const arrivalD1 = new Date(
+      const arrivalTime = new Date(
         lastStopStartTime.getTime()
-        + (lastStopDuration || (crawlRoute[crawlRoute.length-1]?.duration || 1))*3600_000
-        + (1 * 3600_000) // +1 hour buffer
+        + (lastStopDuration || (crawlRoute[crawlRoute.length - 1]?.duration || 1)) * 3600_000
+        + (crawlRoute.length > 0 ? bufferHours * 3600_000 : 0)
       );
-      passesDPlusOne = isOpenAt(loc, arrivalD1);
-      // Optional: store debug data for summary logs
-      loc._arrivalCheck = arrivalD1.toISOString();
-      loc._arrivalPass = passesDPlusOne;
-    }
 
-    return matchesType && matchesVibe && withinDistance && fitsTime && passesDPlusOne;
-  });
+      const passesOpenTimeCheck = isOpenAt(loc, arrivalTime);
+      return matchesType && matchesVibe && withinDistance && fitsTime && passesOpenTimeCheck;
+    });
 
-  if (!stageCandidates.length) continue;
-
-  const next = stageCandidates[Math.floor(Math.random() * stageCandidates.length)];
-
-console.log('[D+1 CHECK]', {
-  candidate: next.name,
-  arrivalAt: next._arrivalCheck || '(first stop)',
-  passed: next._arrivalPass ?? true
-});
-    
-  crawlRoute.push(next);
-
-  // update timing state for next hop
-  lastStopStartTime = (crawlRoute.length === 1) ? new Date(crawlStart) : new Date(
-    lastStopStartTime.getTime()
-    + (lastStopDuration || (crawlRoute[crawlRoute.length-2]?.duration || 1))*3600_000
-    + (bufferHours * 3600_000) // D+1 buffer between previous and this stop
-  );
-  lastStopDuration = next.duration || 1;
-
-  timeSpent += next.duration || 1;
-  lastPoint = L.latLng(next.lat, next.lon);
-  sorted.splice(sorted.indexOf(next), 1);
-}
-
+    if (!stageCandidates.length) continue;
+    const next = stageCandidates[0];
+    crawlRoute.push(next);
+    lastStopStartTime = new Date(
+      lastStopStartTime.getTime()
+      + (lastStopDuration || (crawlRoute[crawlRoute.length - 2]?.duration || 1)) * 3600_000
+      + bufferHours * 3600_000
+    );
+    lastStopDuration = next.duration || 1;
+    timeSpent += lastStopDuration;
+    lastPoint = L.latLng(next.lat, next.lon);
+    sorted.splice(sorted.indexOf(next), 1);
+  }
 
   if (crawlRoute.length < 2) {
     alert('Could not build a full crawl with available stops.');
@@ -1624,15 +1643,15 @@ console.log('[D+1 CHECK]', {
   showCrawlSummary(crawlRoute);
   filterMapToRoute();
   setClearRouteButtonEnabled(selectedRoute.length >= 2);
+  try {
+    const routeIds = crawlRoute.map(l => l.id || l.name);
+    showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+  } catch (e) {
+    console.warn('Marker filtering failed:', e);
+  }
+}
 
-  // Hide other locations on the map
-try {
-  const routeIds = crawlRoute.map(l => l.id || l.name); // whatever your marker uses
-  showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
-} catch (e) {
-  console.warn('Marker filtering failed:', e);
-}
-}
+
 
    // ✅ Only trigger crawl logic on button click — no arguments needed
 document.getElementById('crawlNowBtn').addEventListener('click', generateCrawlRoute);
