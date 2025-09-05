@@ -3914,7 +3914,7 @@
   {
     "name": "Woody's CheeseSteaks",
     "vibe": "cheesesteak, late-night, classic, fast-casual, local, no-frills, neighborhood, quick-bite, casual, hearty, retro, laid-back, friendly",
-    "type": ["lunch", "late-night"],
+    "type": ["lunch"],
         "lat": 33.77935922,
     "lon": -84.36955514,
     "link": "https://www.instagram.com/woodysatl/",
