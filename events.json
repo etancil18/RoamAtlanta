@@ -7,7 +7,7 @@
     "lon": -84.378946,
     "link": "https://www.instagram.com/besobuckhead/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–12:00 AM",
       "Monday: Closed",
@@ -53,7 +53,7 @@
     "lon": -84.371798,
     "link": "https://www.instagram.com/pisces.atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -99,7 +99,7 @@
     "lon": -84.3686685,
     "link": "https://www.instagram.com/alicioysterbar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–9:00 PM",
       "Monday: Closed",
@@ -145,7 +145,7 @@
     "lon": -84.37497385,
     "link": "https://www.instagram.com/krsteakbar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -191,7 +191,7 @@
     "lon": -84.3681182,
     "link": "https://www.instagram.com/rubychowsatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -237,7 +237,7 @@
     "lon": -84.41060596,
     "link": "https://www.instagram.com/aftereightatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: Closed",
@@ -283,7 +283,7 @@
     "lon": -84.3803812,
     "link": "https://www.instagram.com/bontonatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:30 PM",
       "Monday: 5:00 PM–10:30 PM",
@@ -324,12 +324,12 @@
   {
     "name": "APT 4B",
     "vibe": "afro-caribbean, vintage, vinyl, lounge, curated, cozy, cool, intimate, soulful, nostalgic, warm, vibey, atmospheric",
-    "type": "brunch, lounge",
+    "type": ["brunch", "lounge"],
         "lat": 33.8156255,
     "lon": -84.3908082,
     "link": "https://www.instagram.com/apt4batl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: Closed",
@@ -370,12 +370,12 @@
   {
     "name": "Delbar - Buckhead",
     "vibe": "middle-eastern, garden, modern, romantic, flavors, chic, mediterranean, lush, airy, elegant, colorful, aromatic, exotic",
-    "type": "lunch, dinner, cocktail",
+    "type": ["lunch", "dinner", "cocktail"],
         "lat": 33.839527,
     "lon": -84.38125303,
     "link": "https://www.instagram.com/delbaratl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: 11:30 AM–10:00 PM",
@@ -421,7 +421,7 @@
     "lon": -84.41030778,
     "link": "https://www.instagram.com/echoroomatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -467,7 +467,7 @@
     "lon": -84.36345598,
     "link": "https://www.instagram.com/97estoria/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 12:00 PM–12:00 AM",
@@ -513,7 +513,7 @@
     "lon": -84.34042587,
     "link": "https://www.instagram.com/bona_fide_deluxe/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: Closed",
@@ -559,7 +559,7 @@
     "lon": -84.34965626,
     "link": "https://www.instagram.com/theporterbeerbar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–11:00 PM",
       "Monday: 12:00 PM–11:00 PM",
@@ -600,12 +600,12 @@
   {
     "name": "Wish Atlanta",
     "vibe": "streetwear, fashion, sneakers, hype, urban, boutique, minimalist, edgy, modern, exclusive, curated, stylish, premium",
-    "type": "random gem, lifestyle",
+    "type": ["random gem", "lifestyle"],
         "lat": 33.7665546,
     "lon": -84.34895681,
     "link": "https://www.instagram.com/wishatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–7:00 PM",
       "Monday: 12:00 PM–7:00 PM",
@@ -651,7 +651,7 @@
     "lon": -84.3496422,
     "link": "https://www.instagram.com/wreckingbarbrewpub/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: Closed",
@@ -697,7 +697,7 @@
     "lon": -84.3488434,
     "link": "https://www.instagram.com/thebrewhousecafe/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–10:00 PM",
       "Monday: 11:00 AM–12:00 AM",
@@ -738,12 +738,12 @@
   {
     "name": "East Palisades Trailhead",
     "vibe": "outdoors, nature, forest, scenic, peaceful, hiking, trails, serene, refreshing, green, quiet, escape, tranquil",
-    "type": "nature, activity, fitness",
+    "type": ["nature", "walk", "activity", "fitness"],
         "lat": 33.87122555,
     "lon": -84.44004635,
     "link": "https://www.instagram.com/explore/search/keyword/?q=east%20palisades%20trail",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–5:00 PM",
       "Monday: 9:00 AM–5:00 PM",
@@ -784,12 +784,12 @@
   {
     "name": "E+ROSE Wellness Cafe - Westside Provisions Atlanta",
     "vibe": "wellness, vegan, minimalist, smoothie, healthy, clean, daytime, fresh, bright, nourishing, energizing, plant-based, wholesome",
-    "type": "coffee",
+    "type": ["coffee", "breakfast", "juice bar"],
         "lat": 33.7847648,
     "lon": -84.4122192,
     "link": "https://www.instagram.com/eandrosewellness/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 7:00 AM–7:00 PM",
@@ -830,12 +830,12 @@
   {
     "name": "Smith's Olde Bar",
     "vibe": "rock, dive, bar, music-venue, local, gritty, live-music, unpolished, vintage, alternative, lively, casual, classic",
-    "type": "bar, club",
+    "type": ["bar", "club"],
         "lat": 33.79770375,
     "lon": -84.36880644,
     "link": "https://www.instagram.com/smithsoldebar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 5:00 PM–2:00 AM",
@@ -881,7 +881,7 @@
     "lon": -84.3809742,
     "link": "https://www.instagram.com/jenisicecreams/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–1:00 AM",
       "Monday: 12:00 PM–1:00 AM",
@@ -927,7 +927,7 @@
     "lon": -84.3856771,
     "link": "https://www.instagram.com/redactedbasementdrinkparlor/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -973,7 +973,7 @@
     "lon": -84.3844007,
     "link": "https://www.instagram.com/edgarsproofprovisionsav/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 2:00 PM–11:00 PM",
       "Monday: 5:00 PM–11:00 PM",
@@ -1019,7 +1019,7 @@
     "lon": -84.3869147,
     "link": "https://www.instagram.com/rpbatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 4:00 PM–11:00 PM",
       "Monday: 4:00 PM–12:00 AM",
@@ -1065,7 +1065,7 @@
     "lon": -84.3964558,
     "link": "https://www.instagram.com/statsbrewpub/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: Closed",
@@ -1106,12 +1106,12 @@
   {
     "name": "The Painted Duck",
     "vibe": "bowling, upscale, industrial, cocktails, playful, social, events, interactive, vibrant, trendy, competitive, stylish, group-oriented",
-    "type": "activity, cocktail",
+    "type": ["activity", "cocktail"],
         "lat": 33.7814781,
     "lon": -84.4136351,
     "link": "https://www.instagram.com/paintedduckatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
@@ -1157,7 +1157,7 @@
     "lon": -84.3892495,
     "link": "https://www.instagram.com/mjqofficial/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -1203,7 +1203,7 @@
     "lon": -84.38370924,
     "link": "https://www.instagram.com/lazybettyatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–8:00 PM",
       "Monday: Closed",
@@ -1244,12 +1244,12 @@
   {
     "name": "Jojo’s Beloved Cocktail Lounge",
     "vibe": "disco, retro, cocktails, intimate, neon, immersive, curated, nostalgic, glamorous, themed, stylish, atmospheric, playful",
-    "type": "speakeasy, lounge",
+    "type": ["speakeasy", "lounge"],
         "lat": 33.787223,
     "lon": -84.3829621,
     "link": "https://www.instagram.com/jojosbeloved/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–12:00 AM",
@@ -1295,7 +1295,7 @@
     "lon": -84.2961643,
     "link": "https://www.instagram.com/distilleryofmodernart/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
@@ -1341,7 +1341,7 @@
     "lon": -84.3805853,
     "link": "https://www.instagram.com/larakinatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–6:00 PM",
       "Monday: 8:00 AM–2:00 PM",
@@ -1387,7 +1387,7 @@
     "lon": -84.3217927,
     "link": "https://www.instagram.com/evergreenbutcherandbaker/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–3:00 PM",
       "Monday: Closed",
@@ -1433,7 +1433,7 @@
     "lon": -84.4201058,
     "link": "https://www.instagram.com/waisgongfutea/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–8:00 PM",
       "Monday: 1:00 PM–8:00 PM",
@@ -1474,12 +1474,12 @@
   {
     "name": "Kinship Butcher & Sundry",
     "vibe": "butcher, grocery, casual, artisanal, neighborhood, rustic, heritage, hearty",
-    "type": "lunch, market",
+    "type": ["lunch", "market"],
         "lat": 33.7822964,
     "lon": -84.3538294,
     "link": "https://www.instagram.com/kinshipbutcher_atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 8:00 AM–7:00 PM",
@@ -1525,7 +1525,7 @@
     "lon": -84.3493682,
     "link": "https://www.instagram.com/whooopsies_place/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
@@ -1571,7 +1571,7 @@
     "lon": -84.3881552,
     "link": "https://www.instagram.com/maypeel_atlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -1612,12 +1612,12 @@
   {
     "name": "Commune",
     "vibe": "vinyl, music, cocktail, creative, neighborhood, quaint, artistic, comfortable, cozy, chill",
-    "type": "cocktail",
+    "type": ["cocktail", "music"],
         "lat": 33.775806,
     "lon": -84.273451,
     "link": "https://www.instagram.com/commune_atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -1663,7 +1663,7 @@
     "lon": -84.3803812,
     "link": "https://www.instagram.com/justkeepwaitingroom/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–9:00 PM",
       "Monday: 9:00 PM–1:00 AM",
@@ -1709,7 +1709,7 @@
     "lon": -84.4098768,
     "link": "https://www.instagram.com/controllerise/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 9:00 PM–1:00 AM",
@@ -1750,12 +1750,12 @@
   {
     "name": "Grana",
     "vibe": "italian, patio, pizza, casual, family-style, bright, buzzy, lively, rustic, flavorful, warm, friendly, approachable",
-    "type": "dinner",
+    "type": ["lunch", "dinner"],
         "lat": 33.805921,
     "lon": -84.366886,
     "link": "https://www.instagram.com/granaatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 4:00 PM–10:00 PM",
@@ -1801,7 +1801,7 @@
     "lon": -84.35594354,
     "link": "https://www.instagram.com/homegrownga/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–2:00 PM",
       "Monday: Closed",
@@ -1842,12 +1842,12 @@
   {
     "name": "Small Fry",
     "vibe": "smashburgers, casual, counter-service, neon, retro, street-food, fun, quick, approachable, fast-casual, indulgent, bold",
-    "type": "lunch, street food",
+    "type": ["lunch", "dinner"],
         "lat": 33.74483765,
     "lon": -84.3613051,
     "link": "https://www.instagram.com/smallfryatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–8:00 PM",
       "Monday: Closed",
@@ -1893,7 +1893,7 @@
     "lon": -84.3836206,
     "link": "https://www.instagram.com/wickedwolfatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 11:00 AM–12:00 AM",
@@ -1939,7 +1939,7 @@
     "lon": -84.313226,
     "link": "https://www.instagram.com/blockanddrum/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–10:30 PM",
       "Monday: Closed",
@@ -1985,7 +1985,7 @@
     "lon": -84.3577859,
     "link": "https://www.instagram.com/victorysandwichbar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–12:00 AM",
       "Monday: 10:00 AM–12:00 AM",
@@ -2031,7 +2031,7 @@
     "lon": -84.294616,
     "link": "https://www.instagram.com/twainsbrewpub/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 5:00 PM–11:00 PM",
@@ -2072,12 +2072,12 @@
   {
     "name": "Fawn Wine + Amaro",
     "vibe": "wine, intimate, european, seafood, romantic, dim, curated, aperitif, refined, cozy, stylish, upscale, slow-paced, warm",
-    "type": "wine bar, cocktail",
+    "type": ["wine bar", "cocktail"],
         "lat": 33.775424,
     "lon": -84.295543,
     "link": "https://www.instagram.com/fawnwineamaro/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -2118,12 +2118,12 @@
   {
     "name": "Indaco",
     "vibe": "italian, stylish, light-filled, brunch, group-friendly, pasta, fresh, airy, modern, inviting, elegant, rustic, approachable",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
         "lat": 33.77372173,
     "lon": -84.36195002,
     "link": "https://www.instagram.com/indacoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:30 PM; 5:00 PM–10:00 PM",
       "Monday: 8:00 AM–2:30 PM; 4:00 PM–10:00 PM",
@@ -2164,12 +2164,12 @@
   {
     "name": "Tesserae",
     "vibe": "rooftop, lounge, swanky, skyline, DJ, upscale, cocktails, chic, panoramic, modern, vibrant, stylish, lively",
-    "type": "rooftop, lounge",
+    "type": ["rooftop", "lounge"],
         "lat": 33.83820075,
     "lon": -84.37431322,
     "link": "https://www.instagram.com/tesseraeatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–11:00 PM",
       "Monday: 7:00 AM–11:00 PM",
@@ -2215,7 +2215,7 @@
     "lon": -84.385751,
     "link": "https://www.instagram.com/halfwaycrooksbeer/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 4:00 PM–10:00 PM",
@@ -2256,12 +2256,12 @@
   {
     "name": "SkyLounge",
     "vibe": "rooftop, skyline, hotel, cocktails, dressy, lounge, city-view, upscale, sophisticated, panoramic, chic, romantic",
-    "type": "rooftop",
+    "type": ["rooftop", "lounge"],
         "lat": 33.7569695,
     "lon": -84.392911,
     "link": "https://www.instagram.com/skyloungeatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 4:00 PM–9:00 PM",
@@ -2302,12 +2302,12 @@
   {
     "name": "Fox Marquee Club",
     "vibe": "lounge, theater-adjacent, stylish, cocktails, moody, upscale, elegant, intimate, glamorous, curated, sleek, fashionable, social",
-    "type": "rooftop, lounge",
+    "type": ["rooftop", "lounge"],
         "lat": 33.7726429,
     "lon": -84.38556184,
     "link": "https://www.instagram.com/foxmarqueeclub/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: Closed",
@@ -2353,7 +2353,7 @@
     "lon": -84.3659039,
     "link": "https://www.instagram.com/9milestation/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -2394,12 +2394,12 @@
   {
     "name": "Breaker Breaker",
     "vibe": "retro, seafood, colorful, beachy, tropical, casual, dog-friendly, patio, nautical, relaxed",
-    "type": "dinner, rooftop",
+    "type": ["dinner", "lunch", "rooftop"],
         "lat": 33.7521019,
     "lon": -84.3568532,
     "link": "https://www.instagram.com/breakerbreaker_atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 5:00 PM–9:00 PM",
@@ -2445,7 +2445,7 @@
     "lon": -84.390777,
     "link": "https://www.instagram.com/scadfash/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
@@ -2486,12 +2486,12 @@
   {
     "name": "Moonlight",
     "vibe": "rooftop, nightlife, sleek, elevated, vibey, cocktails, trendy, chic, moody, upscale, romantic, lively",
-    "type": "rooftop, cocktail",
+    "type": ["rooftop", "cocktail"],
         "lat": 33.768629,
     "lon": -84.363636,
     "link": "https://www.instagram.com/moonlightatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 2:00 PM–9:00 PM",
       "Monday: 5:00 PM–11:00 PM",
@@ -2537,7 +2537,7 @@
     "lon": -84.35858396,
     "link": "https://www.instagram.com/littlespiritatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:30 PM–2:00 AM",
@@ -2583,7 +2583,7 @@
     "lon": -84.352605,
     "link": "https://www.instagram.com/blindwilliesblues/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
@@ -2629,7 +2629,7 @@
     "lon": -84.3538294,
     "link": "https://www.instagram.com/academycoffeeatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 8:00 AM–7:00 PM",
@@ -2675,7 +2675,7 @@
     "lon": -84.35261552,
     "link": "https://www.instagram.com/bigsoftieatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 12:00 PM–9:00 PM",
@@ -2721,7 +2721,7 @@
     "lon": -84.35304857,
     "link": "https://www.instagram.com/plazaatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -2767,7 +2767,7 @@
     "lon": -84.36083484,
     "link": "https://www.instagram.com/whitespace814/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–5:00 PM",
       "Monday: Closed",
@@ -2813,7 +2813,7 @@
     "lon": -84.3481672,
     "link": "https://www.instagram.com/abvgallery/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–7:00 PM",
       "Monday: 11:00 AM–5:00 PM",
@@ -2854,11 +2854,12 @@
   {
     "name": "Mason Fine Art",
     "vibe": "gallery, contemporary, upscale, curated, rotating-exhibits, polished, large-space, modern, refined, artistic, cultural, professional, bright",
+    "type": "gallery",
         "lat": 33.830522,
     "lon": -84.361945,
     "link": "https://www.instagram.com/masonfineart/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
@@ -2904,7 +2905,7 @@
     "lon": -84.3621253,
     "link": "https://www.instagram.com/johnsonlowegallery/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–5:30 PM",
       "Monday: Closed",
@@ -2950,7 +2951,7 @@
     "lon": -84.362606,
     "link": "https://www.instagram.com/thepaintedpinatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–2:00 AM",
       "Monday: 5:00 PM–12:00 AM",
@@ -2996,7 +2997,7 @@
     "lon": -84.37754088,
     "link": "https://www.instagram.com/paintedpickleatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–12:00 AM",
       "Monday: 9:00 AM–10:00 PM",
@@ -3042,7 +3043,7 @@
     "lon": -84.38069217,
     "link": "https://www.instagram.com/sweetwatertaproom/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 11:30 AM–8:00 PM",
@@ -3088,7 +3089,7 @@
     "lon": -84.37704052,
     "link": "https://www.instagram.com/hottohottoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: Closed",
@@ -3129,12 +3130,12 @@
   {
     "name": "Buteco",
     "vibe": "brazilian, music, bar, multicultural, vibrant, relaxed, patio",
-    "type": "music, cocktail, workspace",
+    "type": ["music", "cocktail", "workspace"],
         "lat": 33.7250434,
     "lon": -84.3770384,
     "link": "https://www.instagram.com/butecoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: Closed",
@@ -3180,7 +3181,7 @@
     "lon": -84.3679104,
     "link": "https://www.instagram.com/zibasbistroandwinebar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
@@ -3226,7 +3227,7 @@
     "lon": -84.38546065,
     "link": "https://www.instagram.com/hcbiergarten/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: Closed",
@@ -3267,12 +3268,12 @@
   {
     "name": "BOCA",
     "vibe": "latin, bar, cocktails, night-out, vibrant, modern, small-plates",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "lunch", "cocktail"],
         "lat": 33.736626,
     "lon": -84.386469,
     "link": "https://www.instagram.com/bocaatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 12:00 PM–10:00 PM",
@@ -3310,7 +3311,7 @@
     "lon": -84.3839743,
     "link": "https://www.instagram.com/talatmarketatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
@@ -3348,7 +3349,7 @@
     "lon": -84.36808679,
     "link": "https://www.instagram.com/lottafruttaatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–4:00 PM",
       "Monday: Closed",
@@ -3386,7 +3387,7 @@
     "lon": -84.3727959,
     "link": "https://www.instagram.com/littletartbakeshop/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–3:00 PM; 5:00 PM–9:00 PM",
       "Monday: 7:00 AM–6:00 PM",
@@ -3424,7 +3425,7 @@
     "lon": -84.369851,
     "link": "https://www.instagram.com/staplehouse/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: Closed",
@@ -3457,12 +3458,12 @@
   {
     "name": "OK YAKI",
     "vibe": "japanese, okonomiyaki, authentic, counter-service, casual, niche, neighborhood, cozy, quirky, traditional, street-food, hidden-gem",
-    "type": "dinner",
+    "type": ["dinner", 'patio"],
         "lat": 33.7348157,
     "lon": -84.34881795,
     "link": "https://www.instagram.com/okyakiatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–1:00 AM",
       "Monday: Closed",
@@ -3495,12 +3496,12 @@
   {
     "name": "Gaja Korean Bar",
     "vibe": "korean, cocktails, late-night, trendy, neon, grilled, edgy, bold, vibrant, casual, nightlife, youthful, social",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
         "lat": 33.7405484,
     "lon": -84.3463317,
     "link": "https://www.instagram.com/gaja_eav/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: Closed",
@@ -3526,7 +3527,7 @@
     "dayParts":      { "sun":"E","mon":"-","tue":"E","wed":"E","thu":"E","fri":"L","sat":"L" },
     "timeCategory": "evening, late",
     "energyRamp": 4,
-    "tags": "soju & small plates, neon-lit hangout, Korean fusion flavors, Gen Z nightlife magnet",
+    "tags": "soju & small plates, neon-lit hangout, hidden, Korean fusion flavors, Gen Z nightlife magnet",
     "price": "$$",
     "duration": 2
   },
@@ -3538,7 +3539,7 @@
     "lon": -84.34377155,
     "link": "https://www.instagram.com/bellwoodcoffee/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–6:00 PM",
       "Monday: 7:00 AM–5:00 PM",
@@ -3576,7 +3577,7 @@
     "lon": -84.3459555,
     "link": "https://www.instagram.com/banshee_eav/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -3609,12 +3610,12 @@
   {
     "name": "Lifting Noodles Ramen",
     "vibe": "ramen, street-style, quick-bite, flavorful, casual, cozy",
-    "type": "dinner, street style",
+    "type": ["dinner", "lunch"],
         "lat": 33.7409824,
     "lon": -84.3464894,
     "link": "https://www.instagram.com/liftingnoodlesramen/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -3652,7 +3653,7 @@
     "lon": -84.3428416,
     "link": "https://www.instagram.com/pure.quill.superette/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–6:00 PM",
       "Monday: 9:00 AM–6:00 PM",
@@ -3690,7 +3691,7 @@
     "lon": -84.3443804,
     "link": "https://www.instagram.com/adultbigwheelclub/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–9:00 PM",
       "Monday: 9:00 AM–9:00 PM",
@@ -3723,12 +3724,12 @@
   {
     "name": "ParkGrounds",
     "vibe": "dog-friendly, coffee, patio, casual, local, community, relaxed, social, cozy, laid-back",
-    "type": "coffee, workspace",
+    "type": ["coffee", "workspace"],
         "lat": 33.7501026,
     "lon": -84.354649,
     "link": "https://www.instagram.com/parkgrounds/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–8:00 PM",
       "Monday: 8:00 AM–8:00 PM",
@@ -3766,7 +3767,7 @@
     "lon": -84.3610218,
     "link": "https://www.instagram.com/elmalo.atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 PM–12:00 AM",
       "Monday: Closed",
@@ -3799,12 +3800,12 @@
   {
     "name": "Muchacho",
     "vibe": "tacos, colorful, casual, breakfast, patio, trendy, lively, vibrant, bright, fun, street-food, approachable, hip",
-    "type": "bar, lunch",
+    "type": ["bar", "lunch", "patio", "breakfast", "dinner"],
         "lat": 33.7468699,
     "lon": -84.35798802,
     "link": "https://www.instagram.com/muchachoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–11:00 PM",
       "Monday: 8:00 AM–10:00 PM",
@@ -3837,12 +3838,12 @@
   {
     "name": "El Tesoro",
     "vibe": "mexican, outdoor, margaritas, authentic, family-friendly, casual, vibrant, neighborhood",
-    "type": "bar, dinner",
+    "type": ["bar", "dinner"],
         "lat": 33.749472,
     "lon": -84.342591,
     "link": "https://www.instagram.com/eltesoroatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–10:00 PM",
       "Monday: Closed",
@@ -3880,7 +3881,7 @@
     "lon": -84.36830803,
     "link": "https://www.instagram.com/amanoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:30 PM; 5:00 PM–9:30 PM",
       "Monday: Closed",
@@ -3913,12 +3914,12 @@
   {
     "name": "Woody's CheeseSteaks",
     "vibe": "cheesesteak, late-night, classic, fast-casual, local, no-frills, neighborhood, quick-bite, casual, hearty, retro, laid-back, friendly",
-    "type": "lunch, late-night",
+    "type": ["lunch", "late-night"],
         "lat": 33.77935922,
     "lon": -84.36955514,
     "link": "https://www.instagram.com/woodysatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 11:00 AM–12:00 AM",
@@ -3956,7 +3957,7 @@
     "lon": -84.36923885,
     "link": "https://www.instagram.com/parktavern/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 4:30 PM–12:00 AM",
@@ -3994,7 +3995,7 @@
     "lon": -84.38509403,
     "link": "https://www.instagram.com/barmargotatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 3:00 PM–11:00 PM",
       "Monday: 3:00 PM–11:00 PM",
@@ -4032,7 +4033,7 @@
     "lon": -84.3872941,
     "link": "https://www.instagram.com/midcity.atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: 5:00 PM–12:00 AM",
@@ -4065,12 +4066,12 @@
   {
     "name": "The Garden Room",
     "vibe": "floral, whimsical, upscale, brunch, experiential, photo-ready, chic, vibrant, romantic, creative, lively, curated, elegant",
-    "type": "cocktail, brunch, dinner",
+    "type": ["cocktail", "brunch", "dinner"],
         "lat": 33.8398015,
     "lon": -84.38241589,
     "link": "https://www.instagram.com/thegardenroomatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–3:00 PM",
       "Monday: Closed",
@@ -4108,7 +4109,7 @@
     "lon": -84.3810675,
     "link": "https://www.instagram.com/umisushiatl",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 PM–1:00 AM",
       "Monday: Closed",
@@ -4141,12 +4142,12 @@
   {
     "name": "Ranger Station",
     "vibe": "casual, urban, hangout, eclectic, lounge, local, relaxed, social, neighborhood, inviting, fun, cozy, unpretentious",
-    "type": "speakeasy, lounge",
+    "type": ["speakeasy", "lounge"],
         "lat": 33.759717,
     "lon": -84.3646037,
     "link": "https://www.instagram.com/rangerstationatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
@@ -4179,12 +4180,12 @@
   {
     "name": "Bully Boy",
     "vibe": "japanese, chic, fusion, minimalist, date-night, hip, modern, stylish, intimate, refined, creative, curated, upscale",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
         "lat": 33.768267,
     "lon": -84.360439,
     "link": "https://www.instagram.com/bullyboyatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: Closed",
@@ -4210,7 +4211,7 @@
     "dayParts": { "sun":"E","mon":"-","tue":"-","wed":"E","thu":"E","fri":"E","sat":"E" },
     "timeCategory": "evening",
     "energyRamp": 3,
-    "tags": "East Asian-American fusion, sleek interiors, large-group dining, sake-driven menu",
+    "tags": "East Asian-American fusion, hidden, sleek interiors, large-group dining, sake-driven menu",
     "price": "$$$",
     "duration": 2
   },
@@ -4222,7 +4223,7 @@
     "lon": -84.362462,
     "link": "https://www.instagram.com/burlesbar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: Closed",
@@ -4260,7 +4261,7 @@
     "lon": -84.36229035,
     "link": "https://www.instagram.com/thelocalonponce/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 8:00 PM–2:00 AM",
@@ -4293,12 +4294,12 @@
   {
     "name": "Alon's Bakery & Market",
     "vibe": "bakery, market, brunch, refined, artisanal, fresh, cozy",
-    "type": "bakery, lunch",
+    "type": ["bakery", "lunch"],
         "lat": 33.7926253,
     "lon": -84.3528263,
     "link": "https://www.instagram.com/alonsbakery/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–4:00 PM",
       "Monday: 7:00 AM–7:00 PM",
@@ -4336,7 +4337,7 @@
     "lon": -84.3799419,
     "link": "https://www.instagram.com/marymacstearoom/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: 11:00 AM–9:00 PM",
@@ -4374,7 +4375,7 @@
     "lon": -84.38931505,
     "link": "https://www.instagram.com/thevarsity1928/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: 11:00 AM–8:00 PM",
@@ -4407,12 +4408,12 @@
   {
     "name": "Drawbar",
     "vibe": "rooftop, scenic, upscale, brunch, cocktails, stylish, modern, airy, vibrant, social, relaxed, photogenic",
-    "type": "rooftop",
+    "type": ["rooftop", "brunch", "cocktail"],
         "lat": 33.78497,
     "lon": -84.410571,
     "link": "https://www.instagram.com/drawbaratl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:30 AM–1:00 AM",
       "Monday: 6:30 AM–11:00 PM",
@@ -4445,12 +4446,12 @@
   {
     "name": "Little Sparrow",
     "vibe": "cocktail-bar, moody, modern, chic, intimate, curated, dimly-lit, sophisticated, stylish, cozy, romantic",
-    "type": "cocktail, dinner",
+    "type": ["cocktail", "dinner"],
         "lat": 33.787134,
     "lon": -84.41266,
     "link": "https://www.instagram.com/littlesparrowatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -4483,12 +4484,12 @@
   {
     "name": "Palo Santo",
     "vibe": "rooftop, latin, upscale, views, mezcal, nightlife, vibrant, trendy, exotic, festive, scenic, social, lively",
-    "type": "cocktail, dinner, rooftop",
+    "type": ["cocktail", "dinner", "rooftop"],
         "lat": 33.78396723,
     "lon": -84.41817131,
     "link": "https://www.instagram.com/palosanto_atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 PM–2:00 AM",
       "Monday: Closed",
@@ -4526,7 +4527,7 @@
     "lon": -84.38626657,
     "link": "https://www.instagram.com/highmuseumofart/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: Closed",
@@ -4564,7 +4565,7 @@
     "lon": -84.380822,
     "link": "https://www.instagram.com/johnnyshideaway/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 11:00 AM–3:00 AM",
@@ -4597,12 +4598,12 @@
   {
     "name": "Le Bon Nosh",
     "vibe": "french, café, elegant, gourmet, brunch, minimalist, refined, chic, contemporary",
-    "type": "bakery, brunch",
+    "type": ["bakery", "brunch", "dinner"],
         "lat": 33.84132675,
     "lon": -84.38103404,
     "link": "https://www.instagram.com/lebonnosh/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–3:00 PM",
       "Monday: Closed",
@@ -4655,7 +4656,7 @@
     "lon": -84.3770879,
     "link": "https://www.instagram.com/irbystavern/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: 11:00 AM–12:00 AM",
@@ -4688,12 +4689,12 @@
   {
     "name": "St. Julep",
     "vibe": "rooftop, colorful, cocktails, trendy, skyline, fun, vibrant, casual, upbeat, youthful, scenic, playful, photogenic",
-    "type": "rooftop",
+    "type": ["rooftop", "cocktail"],
         "lat": 33.83935865,
     "lon": -84.37503015,
     "link": "https://www.instagram.com/stjulep/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 3:00 PM–12:00 AM",
       "Monday: 5:00 PM–10:00 PM",
@@ -4726,12 +4727,12 @@
   {
     "name": "Yeppa & Co. - Buckhead",
     "vibe": "italian, lively, upscale, espresso martini, pasta, bright, social, stylish, contemporary, group-friendly",
-    "type": "cocktail, brunch, dinner",
+    "type": ["cocktail", "brunch", "dinner"],
         "lat": 33.83831,
     "lon": -84.378026,
     "link": "https://www.instagram.com/yeppacoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 11:30 AM–11:00 PM",
@@ -4769,7 +4770,7 @@
     "lon": -84.3840009,
     "link": "https://www.instagram.com/fadoirishpub/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–1:00 AM",
       "Monday: 11:30 AM–11:00 PM",
@@ -4802,12 +4803,12 @@
   {
     "name": "Le Colonial Atlanta",
     "vibe": "vietnamese, fine-dining, colonial-style, chic, upscale, romantic, refined, intimate, exotic, curated, hip, sophisticated",
-    "type": "cocktail, dinner",
+    "type": ["cocktail", "lunch", "dinner"],
         "lat": 33.83847596,
     "lon": -84.38087309,
     "link": "https://www.instagram.com/lecolonial_restaurants/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 12:00 PM–10:00 PM",
@@ -4845,7 +4846,7 @@
     "lon": -84.4120813,
     "link": "https://www.instagram.com/thenorthsidetavern/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–2:00 AM",
       "Monday: 12:00 PM–12:00 AM",
@@ -4878,12 +4879,12 @@
   {
     "name": "Wagyu House Atlanta | Rooftop BBQ",
     "vibe": "rooftop, korean, cocktails, scenic, modern, trendy, casual, lively, social, stylish, group-friendly, flavorful, urban",
-    "type": "rooftop, dinner, cocktail",
+    "type": ["rooftop", "dinner", "cocktail"],
         "lat": 33.783135,
     "lon": -84.407566,
     "link": "https://www.instagram.com/wagyuhouseatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–1:00 AM",
       "Monday: 12:00 PM–11:00 PM",
@@ -4915,13 +4916,13 @@
   },
   {
     "name": "Ormsby's",
-    "vibe": "pub, games, basement, chill, bocce, darts, social, casual, playful, retro, fun, beer, relaxed, lively",
+    "vibe": "pub, games, basement, chill, bocce, darts, social, casual, playful, retro, fun, beer, lively",
     "type": "bar",
         "lat": 33.7859263,
     "lon": -84.4119319,
     "link": "https://www.instagram.com/ormsbys/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–3:00 AM",
       "Monday: 4:00 PM–12:00 AM",
@@ -4954,12 +4955,12 @@
   {
     "name": "STEREO",
     "vibe": "bar, funky, music, vinyl, curated, cocktails, stylish, energetic, urban, coffee, creative, trendy",
-    "type": "coffee, cocktail",
+    "type": ["coffee", "cocktail", "music"],
         "lat": 33.755066,
     "lon": -84.357816,
     "link": "https://www.instagram.com/stereoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–3:00 PM; 6:00 PM–12:30 AM",
       "Monday: 8:00 AM–3:00 PM",
@@ -4992,12 +4993,12 @@
   {
     "name": "LLoyd's Restaurant & Lounge",
     "vibe": "retro, diner-vibes, dive-bar, cheeky, cocktails, casual, nostalgic, quirky, lively",
-    "type": "dinner",
+    "type": ["dinner", "bar"],
         "lat": 33.755066,
     "lon": -84.357816,
     "link": "https://www.instagram.com/lloydspizzaparty/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: Closed",
@@ -5030,12 +5031,12 @@
   {
     "name": "Glide Pizza",
     "vibe": "pizza, slice-shop, casual, quick-bite, local",
-    "type": "quick bite, lunch",
+    "type": ["dinner", "lunch"],
         "lat": 33.7560215,
     "lon": -84.36610812,
     "link": "https://www.instagram.com/glidepizza/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–9:00 PM",
       "Monday: 12:00 PM–8:00 PM",
@@ -5073,7 +5074,7 @@
     "lon": -84.3655486,
     "link": "https://www.instagram.com/thejamesroom/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–2:00 AM",
       "Monday: Closed",
@@ -5111,7 +5112,7 @@
     "lon": -84.36615321,
     "link": "https://www.instagram.com/yujiatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–2:30 PM; 5:00 PM–11:00 PM",
       "Monday: 11:30 AM–2:30 PM; 5:00 PM–11:00 PM",
@@ -5149,7 +5150,7 @@
     "lon": -84.3646037,
     "link": "https://www.instagram.com/ladybirdatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: 11:00 AM–12:00 AM",
@@ -5187,7 +5188,7 @@
     "lon": -84.35944542,
     "link": "https://www.instagram.com/paintedparkatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: Closed",
@@ -5213,7 +5214,7 @@
     "dayParts": { "sun":"E","mon":"-","tue":"E","wed":"E","thu":"E","fri":"L","sat":"L" },
     "timeCategory": "evening, late",
     "energyRamp": 3,
-    "tags": "picnic tables, bar, casual beer garden, relaxed weekend energy, group-friendly hang",
+    "tags": "picnic tables, casual beer garden, relaxed weekend energy, group-friendly hang",
     "price": "$$",
     "duration": 2.5
   },
@@ -5225,7 +5226,7 @@
     "lon": -84.358494,
     "link": "https://www.instagram.com/harborcoffee/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–4:00 PM",
       "Monday: 8:00 AM–4:00 PM",
@@ -5263,7 +5264,7 @@
     "lon": -84.35858396,
     "link": "https://www.instagram.com/beetlecatatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–11:00 PM",
       "Monday: 4:00 PM–10:00 PM",
@@ -5296,12 +5297,12 @@
   {
     "name": "Highland Tap",
     "vibe": "steakhouse, underground, dark, classic, old-school, cozy, martinis",
-    "type": "cocktail, dinner",
+    "type": ["cocktail", "dinner"],
         "lat": 33.78284196,
     "lon": -84.35453588,
     "link": "https://www.instagram.com/highlandtapatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:30 AM",
       "Monday: 5:00 PM–12:30 AM",
@@ -5339,7 +5340,7 @@
     "lon": -84.3526593,
     "link": "https://www.instagram.com/darkhorseatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 PM–3:00 AM",
       "Monday: Closed",
@@ -5372,12 +5373,12 @@
   {
     "name": "Dad's",
     "vibe": "cocktails, patio, retro, cinema, funky, fun, casual, eclectic",
-    "type": "bar, cocktail",
+    "type": ["bar", "cocktail"],
         "lat": 33.77832855,
     "lon": -84.35305049,
     "link": "https://www.instagram.com/dadsatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–1:00 AM",
       "Monday: 5:00 PM–12:00 AM",
@@ -5415,7 +5416,7 @@
     "lon": -84.3541834,
     "link": "https://www.instagram.com/moesandjoesatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–2:00 AM",
       "Monday: 11:30 AM–2:00 AM",
@@ -5448,12 +5449,12 @@
   {
     "name": "The Rooftop at Clermont",
     "vibe": "rooftop, skyline, cocktails, scenic, lively, retro, photogenic, breezy",
-    "type": "rooftop",
+    "type": ["rooftop", "cocktail"],
         "lat": 33.77347,
     "lon": -84.361399,
     "link": "https://www.instagram.com/hotelclermont/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–1:00 AM",
       "Monday: 4:00 PM–12:00 AM",
@@ -5491,7 +5492,7 @@
     "lon": -84.361399,
     "link": "https://www.instagram.com/clermontlounge/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 3:00 PM–3:00 AM",
       "Monday: 3:00 PM–3:00 AM",
@@ -5529,7 +5530,7 @@
     "lon": -84.3620118,
     "link": "https://www.instagram.com/spacemanatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–11:00 PM",
@@ -5567,7 +5568,7 @@
     "lon": -84.352723,
     "link": "https://www.instagram.com/elementalspirits.co/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: Closed",
@@ -5605,7 +5606,7 @@
     "lon": -84.3548853,
     "link": "https://www.instagram.com/murphysatlwine/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 12:00 PM–9:00 PM",
@@ -5638,12 +5639,12 @@
   {
     "name": "Wine Shoe",
     "vibe": "wine shop, casual, classes, boutique, local",
-    "type": "wine bar, lifestyle",
+    "type": ["wine bar", "lifestyle"],
         "lat": 33.7515516,
     "lon": -84.3990245,
     "link": "https://www.instagram.com/wineshoe/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -5681,7 +5682,7 @@
     "lon": -84.34042587,
     "link": "https://www.instagram.com/vin.atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–8:00 PM",
       "Monday: 1:00 PM–8:00 PM",
@@ -5719,7 +5720,7 @@
     "lon": -84.411774,
     "link": "https://www.instagram.com/perrineswine_westside/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–7:30 PM",
       "Monday: 11:00 AM–7:30 PM",
@@ -5757,7 +5758,7 @@
     "lon": -84.35944542,
     "link": "https://www.instagram.com/barcelonawinebar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 1:00 PM–12:00 AM",
@@ -5790,12 +5791,12 @@
   {
     "name": "Lucian Books and Wine",
     "vibe": "wine, bookstore, quiet, elegant, artistic, refined",
-    "type": "wine bar, dinner",
+    "type": ["wine bar", "dinner"],
         "lat": 33.8369462,
     "lon": -84.381205,
     "link": "https://www.instagram.com/lucianbooksandwine/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: Closed",
@@ -5833,7 +5834,7 @@
     "lon": -84.36298948,
     "link": "https://www.instagram.com/3parkswine_fourthward/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: Closed",
@@ -5871,7 +5872,7 @@
     "lon": -84.35858396,
     "link": "https://www.instagram.com/shopvinoteca/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 12:00 PM–8:00 PM",
@@ -5904,12 +5905,12 @@
   {
     "name": "SEBASTIAN PINTXOS BAR",
     "vibe": "lively, social, euro, chic, wine, tapas, group, bites, vibrant, upscale",
-    "type": "bar, dinner",
+    "type": ["bar", "dinner"],
         "lat": 33.7768867,
     "lon": -84.38316217,
     "link": "https://www.instagram.com/sebastianpintxosbar/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 12:00 PM–12:00 AM",
@@ -5950,12 +5951,12 @@
   {
     "name": "Criminal Records",
     "vibe": "indie, artsy, vinyl, music, cultural, low-key, shop, retro, niche, local",
-    "type": "random gem, lifestyle",
+    "type": ["random gem", "lifestyle"],
         "lat": 33.7652096,
     "lon": -84.3498878,
     "link": "https://www.instagram.com/criminalrecords/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–6:00 PM",
       "Monday: 12:00 PM–7:00 PM",
@@ -5996,12 +5997,12 @@
   {
     "name": "Carroll Street Cafe",
     "vibe": "cozy, artistic, neighborhood, brunch, laid-back, local, casual, cafe, friendly, social",
-    "type": "brunch, dinner",
+    "type": ["brunch", "dinner"],
         "lat": 33.7489907,
     "lon": -84.3679455,
     "link": "https://www.instagram.com/carrollstcafe/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–11:00 PM",
       "Monday: 10:00 AM–11:30 PM",
@@ -6047,7 +6048,7 @@
     "lon": -84.2958139,
     "link": "https://www.instagram.com/brickstorepub/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–11:30 PM",
       "Monday: 11:30 AM–12:30 AM",
@@ -6093,7 +6094,7 @@
     "lon": -84.3522716,
     "link": "https://www.instagram.com/thefamilydogatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 4:00 PM–10:30 PM",
       "Monday: 11:00 AM–12:30 AM",
@@ -6139,7 +6140,7 @@
     "lon": -84.34895895,
     "link": "https://www.instagram.com/ashcoffeeatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–6:00 PM",
       "Monday: 7:00 AM–6:00 PM",
@@ -6185,7 +6186,7 @@
     "lon": -84.2834331,
     "link": "https://www.instagram.com/javasagacoffee/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:30 PM",
       "Monday: 11:00 AM–8:30 PM",
@@ -6231,7 +6232,7 @@
     "lon": -84.38000079,
     "link": "https://www.instagram.com/hudsonandalphonse/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:00 PM; 5:00 PM–9:00 PM",
       "Monday: 11:00 AM–9:00 PM",
@@ -6277,7 +6278,7 @@
     "lon": -84.38522,
     "link": "https://www.instagram.com/howcrispy/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: 10:00 AM–8:00 PM",
@@ -6323,7 +6324,7 @@
     "lon": -84.30957242,
     "link": "https://www.instagram.com/_genesgenesgenes_/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: 11:30 AM–11:00 PM",
@@ -6369,7 +6370,7 @@
     "lon": -84.3291753,
     "link": "https://www.instagram.com/sublimedoughnuts/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 AM–12:00 AM",
       "Monday: 12:00 AM–12:00 AM",
@@ -6415,7 +6416,7 @@
     "lon": -84.35403173,
     "link": "https://www.instagram.com/paolosgelatoatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–9:00 PM",
       "Monday: 1:00 PM–10:00 PM",
@@ -6461,7 +6462,7 @@
     "lon": -84.375953,
     "link": "https://www.instagram.com/missconduckatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 4:00 PM–9:00 PM",
       "Monday: 4:00 PM–9:00 PM",
@@ -6507,7 +6508,7 @@
     "lon": -84.36276957,
     "link": "https://www.instagram.com/boccalupoatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:30 PM–9:30 PM",
       "Monday: 5:30 PM–9:30 PM",
@@ -6548,12 +6549,12 @@
   {
     "name": "Yakitori Kona",
     "vibe": "late-night, japanese, skewers, sake, local, urban, casual, lively, grill, bar",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
         "lat": 33.78242657,
     "lon": -84.354841,
     "link": "https://www.instagram.com/yakitorikonaatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 PM–12:00 AM",
       "Monday: 6:00 PM–1:00 AM",
@@ -6599,7 +6600,7 @@
     "lon": -84.3836206,
     "link": "https://www.instagram.com/blackjackbartapas/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–2:00 AM",
@@ -6645,7 +6646,7 @@
     "lon": -84.3332078,
     "link": "https://www.instagram.com/gigisitaliankitchen/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–10:00 PM",
@@ -6691,7 +6692,7 @@
     "lon": -84.38522,
     "link": "https://www.instagram.com/littlebearatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -6737,7 +6738,7 @@
     "lon": -84.2886581,
     "link": "https://www.instagram.com/tum_pok_pok/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -6778,12 +6779,12 @@
   {
     "name": "Northern China Eatery",
     "vibe": "hole-in-the-wall, dumpling, authentic, no-frills, casual, local, comfort, flavorful, street, simple",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
         "lat": 33.8925867,
     "lon": -84.2838997,
     "link": "https://www.instagram.com/northernchinaeatery/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -6829,7 +6830,7 @@
     "lon": -84.2819667,
     "link": "https://www.instagram.com/lanzhouramenga/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:30 PM",
       "Monday: 11:00 AM–9:30 PM",
@@ -6875,7 +6876,7 @@
     "lon": -84.33212981,
     "link": "https://www.instagram.com/lacalaverapizza/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 12:00 PM–9:00 PM",
@@ -6916,12 +6917,12 @@
   {
     "name": "Bread & Butterfly",
     "vibe": "parisian, cafe, dreamy, brunch, euro, chic, stylish, local, bright, instagram",
-    "type": "coffee, brunch",
+    "type": ["coffee", "brunch"],
         "lat": 33.7624293,
     "lon": -84.3581661,
     "link": "https://www.instagram.com/bread_and_butterfly/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–3:00 PM; 5:30 PM–9:00 PM",
       "Monday: 10:00 AM–3:00 PM; 5:30 PM–9:00 PM",
@@ -6962,12 +6963,12 @@
   {
     "name": "Buena Gente Cuban Bakery",
     "vibe": "cuban, charm, morning, takeaway, bright, breezy, bakery, local, casual, quick",
-    "type": "bakery, coffee",
+    "type": ["bakery", "coffee"],
         "lat": 33.79332375,
     "lon": -84.30545994,
     "link": "https://www.instagram.com/buenagenteatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–2:00 PM",
       "Monday: 8:00 AM–2:00 PM",
@@ -7013,7 +7014,7 @@
     "lon": -84.277682,
     "link": "https://www.instagram.com/heapsatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: 10:00 AM–6:00 PM",
@@ -7054,12 +7055,12 @@
   {
     "name": "Galette",
     "vibe": "french, minimal, local, quiet, charm, crepe, cozy, casual, cafe, sweet",
-    "type": "bakery, coffee",
+    "type": ["bakery", "coffee"],
         "lat": 33.77627052,
     "lon": -84.26804452,
     "link": "https://www.instagram.com/galetteatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–3:00 PM",
       "Monday: 8:00 AM–2:00 PM",
@@ -7105,7 +7106,7 @@
     "lon": -84.30458409,
     "link": "https://www.instagram.com/thinking.man.tavern/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–1:00 AM",
       "Monday: 11:30 AM–1:00 AM",
@@ -7151,7 +7152,7 @@
     "lon": -84.36842474,
     "link": "https://www.instagram.com/redsbeergarden/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 12:00 PM–10:00 PM",
@@ -7197,7 +7198,7 @@
     "lon": -84.2674198,
     "link": "https://www.instagram.com/arepamia/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–9:00 PM",
       "Monday: 11:30 AM–9:00 PM",
@@ -7243,7 +7244,7 @@
     "lon": -84.2723257,
     "link": "https://www.instagram.com/myparentsbasement/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 11:00 AM–12:00 AM",
@@ -7289,7 +7290,7 @@
     "lon": -84.43040115,
     "link": "https://www.instagram.com/boggssocial/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–2:00 AM",
       "Monday: 11:00 AM–2:00 AM",
@@ -7330,12 +7331,12 @@
   {
     "name": "Joystick Gamebar",
     "vibe": "arcade, retro, gamer, neon, rowdy, nostalgic, bar, fun, drinks, social",
-    "type": "activity, bar",
+    "type": ["activity", "bar"],
         "lat": 33.754137,
     "lon": -84.373619,
     "link": "https://www.instagram.com/joystickgamebar/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 4:00 PM–2:30 AM",
       "Monday: 12:00 PM–2:30 AM",
@@ -7381,7 +7382,7 @@
     "lon": -84.37235211,
     "link": "https://www.instagram.com/sisterlouisaschurch/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–3:00 AM",
       "Monday: 5:00 PM–3:00 AM",
@@ -7427,7 +7428,7 @@
     "lon": -84.37434883,
     "link": "https://www.instagram.com/jacksonfineart/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–5:00 PM",
       "Monday: 10:00 AM–5:00 PM",
@@ -7473,7 +7474,7 @@
     "lon": -87.98562,
     "link": "https://www.instagram.com/thebakeryatlanta/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -7513,7 +7514,7 @@
     "lon": -84.3988864,
     "link": "https://www.instagram.com/zucotgallery/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 12:00 PM–6:00 PM",
@@ -7559,7 +7560,7 @@
     "lon": -84.409924,
     "link": "https://www.instagram.com/mondaynight/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 12:00 PM–12:00 AM",
@@ -7600,12 +7601,12 @@
   {
     "name": "The Goat Farm Arts Center",
     "vibe": "industrial, art, creative, hidden, gritty, inspiring, cultural, local, alt, raw",
-    "type": "activity, gallery",
+    "type": ["activity", "gallery"],
         "lat": 33.7866125,
     "lon": -84.41441842,
     "link": "https://www.instagram.com/thegoatfarm/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–7:00 PM",
       "Monday: 9:00 AM–7:00 PM",
@@ -7646,12 +7647,12 @@
   {
     "name": "La Bodega Atl",
     "vibe": "latin, cafe, local, chill, cozy, daytime, casual, bright, friendly, social",
-    "type": "coffee, lunch",
+    "type": ["coffee", "lunch"],
         "lat": 33.700541,
     "lon": -84.419055,
     "link": "https://www.instagram.com/labodega.atl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–2:30 PM",
       "Monday: 9:00 AM–2:30 PM",
@@ -7692,12 +7693,12 @@
   {
     "name": "Sammy's",
     "vibe": "diner, old-school, hearty, southern, breakfast, casual, local, comfort, vintage, classic",
-    "type": "breakfast, lunch",
+    "type": ["breakfast", "lunch"],
         "lat": 33.7406345,
     "lon": -84.40807286,
     "link": "https://www.instagram.com/sammysatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–3:00 PM; 4:00 PM–8:00 PM",
       "Monday: Closed",
@@ -7743,7 +7744,7 @@
     "lon": -84.4101224,
     "link": "https://www.instagram.com/atlantaauctiongallery/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -7783,7 +7784,7 @@
     "lon": -84.3745335,
     "link": "https://www.instagram.com/thesunatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 11:00 AM–5:00 PM",
@@ -7829,7 +7830,7 @@
     "lon": -84.374769,
     "link": "https://www.instagram.com/one.contemporary/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 11:00 AM–5:00 PM",
@@ -7870,12 +7871,12 @@
   {
     "name": "Blooms Emporium Atlanta",
     "vibe": "vintage, cute, plant, eclectic, giftable, local, cozy, boutique, floral, decor",
-    "type": "random gem, lifestyle",
+    "type": ["random gem", "lifestyle"],
         "lat": 33.77243965,
     "lon": -84.36520322,
     "link": "https://www.instagram.com/blooms.emporium/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–7:00 PM",
       "Monday: 11:00 AM–7:00 PM",
@@ -7921,7 +7922,7 @@
     "lon": -84.35261541,
     "link": "https://www.instagram.com/thesupermarket.atl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 6:00 PM–2:30 AM",
@@ -7967,7 +7968,7 @@
     "lon": -84.3733047,
     "link": "https://www.instagram.com/spaldingnixfineart/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–5:00 PM",
       "Monday: Closed",
@@ -8008,12 +8009,12 @@
   {
     "name": "7th House",
     "vibe": "mystical, lounge, sultry, tarot, cocktails, intimate, dark, moody, romantic, niche",
-    "type": "lounge, cocktail",
+    "type": ["lounge", "cocktail"],
         "lat": 33.7406345,
     "lon": -84.40807286,
     "link": "https://www.instagram.com/seventhouse/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: 5:30 PM–11:00 PM",
@@ -8059,7 +8060,7 @@
     "lon": -84.3684826,
     "link": "https://www.instagram.com/madreselvaatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–11:00 PM",
       "Monday: 12:00 PM–11:00 PM",
@@ -8105,7 +8106,7 @@
     "lon": -84.42061443,
     "link": "https://www.instagram.com/strangersinparadiseatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 12:00 PM–12:00 AM",
@@ -8151,7 +8152,7 @@
     "lon": -84.420261,
     "link": "https://www.instagram.com/bovinoafterdark/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 PM–10:30 PM",
       "Monday: 6:00 PM–10:30 PM",
@@ -8192,12 +8193,12 @@
   {
     "name": "Piedmont Park",
     "vibe": "scenic, active, escape, picnic, dog-friendly, outdoor, sunny, walking, open, green",
-    "type": "park, nature",
+    "type": ["park", "nature"],
         "lat": 33.78904775,
     "lon": -84.37188621,
     "link": "https://www.instagram.com/piedmontpark/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 AM–11:00 PM",
       "Monday: 6:00 AM–11:00 PM",
@@ -8243,7 +8244,7 @@
     "lon": -84.29671367,
     "link": "https://www.instagram.com/communityfarmersmarkets/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -8289,7 +8290,7 @@
     "lon": -84.3444816,
     "link": "https://www.instagram.com/communityfarmersmarkets/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -8335,7 +8336,7 @@
     "lon": -84.3344076,
     "link": "https://www.instagram.com/brookhavenfarmersmarket/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 9:00 AM–12:00 PM",
@@ -8381,7 +8382,7 @@
     "lon": -84.3862539,
     "link": "https://www.instagram.com/ptreefarmersmkt/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 8:30 AM–12:00 PM",
@@ -8427,7 +8428,7 @@
     "lon": -84.35693639,
     "link": "https://www.instagram.com/morningsidefarmersmarket/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 8:00 AM–11:30 AM",
@@ -8473,7 +8474,7 @@
     "lon": -84.363367,
     "link": "https://www.instagram.com/vahifarmersmarket/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -8519,7 +8520,7 @@
     "lon": -84.35867613,
     "link": "https://www.instagram.com/freedomfarmersmkt/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 8:30 AM–12:00 PM",
@@ -8565,7 +8566,7 @@
     "lon": -84.37661647,
     "link": "https://www.instagram.com/communityfarmersmarkets/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -8606,12 +8607,12 @@
   {
     "name": "The EARL",
     "vibe": "dive, indie, rock, gritty, loud, music, late-night, bar, live",
-    "type": "music, bar",
+    "type": ["music", "bar"],
         "lat": 33.740986,
     "lon": -84.345892,
     "link": "https://www.instagram.com/badearl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–2:30 AM",
       "Monday: 11:30 AM–2:30 AM",
@@ -8657,7 +8658,7 @@
     "lon": -84.4115332,
     "link": "https://www.instagram.com/flightclubdartsusa/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 4:00 PM–11:00 PM",
       "Monday: 11:00 AM–12:00 AM",
@@ -8698,12 +8699,12 @@
   {
     "name": "Bar Avize",
     "vibe": "wine, elegant, minimalist, date, upscale, refined, intimate",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
         "lat": 33.78198587,
     "lon": -84.41364117,
     "link": "https://www.instagram.com/bar.avize/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–11:00 PM",
@@ -8749,7 +8750,7 @@
     "lon": -84.4051806,
     "link": "https://www.instagram.com/atlantacontemporary/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
       "Monday: 11:00 AM–6:00 PM",
@@ -8790,12 +8791,12 @@
   {
     "name": "Jolene Jolene",
     "vibe": "casual, indie, date, southern, charm, style, cozy, vintage, local",
-    "type": "lunch, cocktail",
+    "type": ["lunch", "cocktail"],
         "lat": 33.7596328,
     "lon": -84.3289425,
     "link": "https://www.instagram.com/jolenejoleneatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–10:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -8841,7 +8842,7 @@
     "lon": -84.3289412,
     "link": "https://www.instagram.com/prattpullmandistrict/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -8882,12 +8883,12 @@
   {
     "name": "Ticonderoga Club",
     "vibe": "hidden, intimate, dining, cocktails, old-school, cozy, retro, classic, bar",
-    "type": "bar, dinner",
+    "type": ["bar", "dinner"],
         "lat": 33.7588882,
     "lon": -84.36325649,
     "link": "https://www.instagram.com/ticonderogaclub/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–10:00 PM",
@@ -8933,7 +8934,7 @@
     "lon": -84.3505635,
     "link": "https://www.instagram.com/acappellabooks/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 10:00 AM–7:00 PM",
@@ -8979,7 +8980,7 @@
     "lon": -84.41266,
     "link": "https://www.instagram.com/barblancatlanta/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–12:00 AM",
@@ -9020,12 +9021,12 @@
   {
     "name": "Carmel",
     "vibe": "coastal, mediterranean, modern, breezy, upscale, seafood, refined, fresh",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
         "lat": 33.83727906,
     "lon": -84.38016533,
     "link": "https://www.instagram.com/carmelatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–11:00 PM",
       "Monday: 11:30 AM–11:00 PM",
@@ -9066,12 +9067,12 @@
   {
     "name": "Lyla Lila",
     "vibe": "trendy, dinner, refined, upscale, polished, creative, modern, elegant, seasonal",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
         "lat": 33.7735507,
     "lon": -84.3846361,
     "link": "https://www.instagram.com/lylalilaatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
       "Monday: 5:00 PM–11:00 PM",
@@ -9112,12 +9113,12 @@
   {
     "name": "Elektra",
     "vibe": "bold, latin, dj, nightlife, social, vibrant, colorful, dance, chic",
-    "type": "cocktail, dinner",
+    "type": ["cocktail", "dinner"],
         "lat": 33.768629,
     "lon": -84.363636,
     "link": "https://www.instagram.com/elektraatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 4:00 PM–11:00 PM",
       "Monday: 11:00 AM–2:00 PM; 5:00 PM–11:00 PM",
@@ -9163,7 +9164,7 @@
     "lon": -84.381357,
     "link": "https://www.instagram.com/mendcoffee/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–4:00 PM",
       "Monday: 7:00 AM–4:00 PM",
@@ -9209,7 +9210,7 @@
     "lon": -84.38836036,
     "link": "https://www.instagram.com/daydreamercafe/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–2:00 PM",
       "Monday: 8:00 AM–2:00 PM",
@@ -9250,12 +9251,12 @@
   {
     "name": "Cochran Shoals Trail - River Loop",
     "vibe": "outdoor, trail, scenic, active, nature, riverside, walking, fresh, jogging",
-    "type": "nature, activity, fitness",
+    "type": ["nature", "activity", "walk", "fitness"],
         "lat": 33.9032313,
     "lon": -84.4448052,
     "link": "https://www.instagram.com/explore/search/keyword/?q=cochran%20shoals%20trail",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–5:00 PM",
       "Monday: 7:00 AM–5:00 PM",
@@ -9296,12 +9297,12 @@
   {
     "name": "Sean’s Harvest Market",
     "vibe": "casual, local, fresh, healthy, patio, market, bright, airy, friendly",
-    "type": "breakfast, brunch, market",
+    "type": ["breakfast", "brunch", "market"],
     "lat": 33.78830585,
     "lon": -84.36913713,
     "link": "https://www.instagram.com/seansharvestmarket/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–5:00 PM",
       "Monday: 8:00 AM–5:00 PM",
@@ -9342,12 +9343,12 @@
   {
     "name": "Antico Pizza Napoletana",
     "vibe": "pizza, italian, authentic, communal, bustling, casual, no-frills, local, rustic",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.7846556,
     "lon": -84.4056305,
     "link": "https://www.instagram.com/gioantico/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 11:30 AM–10:00 PM",
@@ -9388,12 +9389,12 @@
   {
     "name": "Pelicana Chicken Atlanta",
     "vibe": "korean, chicken, crispy, saucy, casual, hangout, late-night, flavorful, pub",
-    "type": "lunch, dinner, late-night",
+    "type": ["lunch", "dinner", "late-night"],
     "lat": 33.78592805,
     "lon": -84.4008616,
     "link": "https://www.instagram.com/pelicanaatlanta/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–3:00 AM",
       "Monday: 11:00 AM–3:00 AM",
@@ -9434,12 +9435,12 @@
   {
     "name": "The Albert",
     "vibe": "pub, local, sports, casual, comfort, beer, neighborhood, friendly, bar",
-    "type": "bar, dinner",
+    "type": ["bar", "dinner"],
     "lat": 33.76200645,
     "lon": -84.35752215,
     "link": "https://www.instagram.com/thealbertatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–11:00 PM",
       "Monday: 11:30 AM–11:00 PM",
@@ -9485,7 +9486,7 @@
     "lon": -84.3964558,
     "link": "https://www.instagram.com/derbiergarten/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: Closed",
@@ -9526,12 +9527,12 @@
   {
     "name": "Starlight Drive‑In Theatre & Flea Market",
     "vibe": "retro, outdoor, movie, nostalgic, family, vintage, americana, fun, casual",
-    "type": "cinema, market",
+    "type": ["cinema", "market"],
     "lat": 33.7026988,
     "lon": -84.3470132,
     "link": "https://www.instagram.com/starlightdrivein/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 AM–3:00 PM",
       "Monday: 9:00 PM–1:00 AM",
@@ -9572,12 +9573,12 @@
   {
     "name": "One Flew South – BeltLine",
     "vibe": "fusion, global, upscale, sleek, date, refined, dining, modern, creative",
-    "type": "lunch, dinner, cocktail",
+    "type": ["lunch", "dinner", "cocktail"],
     "lat": 33.7615452,
     "lon": -84.3429678,
     "link": "https://www.instagram.com/oneflewsouthatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: Closed",
@@ -9618,12 +9619,12 @@
   {
     "name": "Double Zero",
     "vibe": "italian, contemporary, refined, wine, upscale, date, modern, elegant, dining",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.7879838,
     "lon": -84.3261663,
     "link": "https://www.instagram.com/doublezeroatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–9:00 PM",
@@ -9669,7 +9670,7 @@
     "lon": -84.32672831,
     "link": "https://www.instagram.com/allfiredupatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–7:00 PM",
       "Monday: 10:00 AM–8:00 PM",
@@ -9715,7 +9716,7 @@
     "lon": -84.30455607,
     "link": "https://www.instagram.com/thepoboyshop/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:00 AM",
       "Monday: 11:00 AM–2:00 AM",
@@ -9756,12 +9757,12 @@
   {
     "name": "Salaryman Toco Hills",
     "vibe": "korean, pub, comfort, casual, neighborhood, food, local, social, friendly",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.815529,
     "lon": -84.31112,
     "link": "https://www.instagram.com/salarymanatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–9:30 PM",
       "Monday: 11:30 AM–9:30 PM",
@@ -9802,12 +9803,12 @@
   {
     "name": "CHE BUTTER JONEZ",
     "vibe": "southern, creative, local, flavorful, casual, vibrant, eatery",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.81502703,
     "lon": -84.33629013,
     "link": "https://www.instagram.com/chebutterjonez/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -9853,7 +9854,7 @@
     "lon": -84.35827276,
     "link": "https://www.instagram.com/kodakfilmlabatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 8:00 AM–4:00 PM",
@@ -9899,7 +9900,7 @@
     "lon": -84.3875018,
     "link": "https://www.instagram.com/eleventhstreetpub/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–12:00 AM",
       "Monday: 11:00 AM–3:00 AM",
@@ -9940,12 +9941,12 @@
   {
     "name": "Bulla Gastrobar",
     "vibe": "spanish, tapas, chic, social, lively, brunch, wine, vibrant, upscale",
-    "type": "lunch, dinner, wine bar",
+    "type": ["lunch", "dinner", "wine bar"],
     "lat": 33.7834161,
     "lon": -84.3847646,
     "link": "https://www.instagram.com/bullagastrobar/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: 11:30 AM–10:00 PM",
@@ -9986,12 +9987,12 @@
   {
     "name": "Lure",
     "vibe": "coastal, seafood, elegant, patio, upscale, refined, fresh, modern, relaxed",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.78499975,
     "lon": -84.38454233,
     "link": "https://www.instagram.com/lure.atl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -10032,12 +10033,12 @@
   {
     "name": "El Valle",
     "vibe": "latin, modern, stylish, vibrant, date, upscale, flavorful, lively, bar",
-    "type": "lunch, dinner, cocktail",
+    "type": ["lunch", "dinner", "cocktail"],
     "lat": 33.7763008,
     "lon": -84.3847755,
     "link": "https://www.instagram.com/elvalleatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–11:00 PM",
       "Monday: 11:00 AM–11:00 PM",
@@ -10083,7 +10084,7 @@
     "lon": -84.4086916,
     "link": "https://www.instagram.com/trapmusicmuseum/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–6:00 PM",
       "Monday: Closed",
@@ -10124,12 +10125,12 @@
   {
     "name": "Mirko Pasta",
     "vibe": "italian, cozy, neighborhood, pasta, comfort, casual, local, hearty, classic",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.870015,
     "lon": -84.380597,
     "link": "https://www.instagram.com/mirko_pasta/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:30 PM",
       "Monday: 12:00 PM–9:30 PM",
@@ -10175,7 +10176,7 @@
     "lon": -84.38169335,
     "link": "https://www.instagram.com/halsthesteakhouse/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–11:00 PM",
@@ -10221,7 +10222,7 @@
     "lon": -84.38276373,
     "link": "https://www.instagram.com/punchlinecomedy/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -10267,7 +10268,7 @@
     "lon": -84.36635429,
     "link": "https://www.instagram.com/littlealleysteakatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 11:30 AM–10:00 PM",
@@ -10308,12 +10309,12 @@
   {
     "name": "Rose and Rye",
     "vibe": "rooftop, cocktails, upscale, date, views, glamorous, skyline, chic, romantic",
-    "type": "cocktail, dinner, rooftop",
+    "type": ["cocktail", "dinner", "rooftop"],
     "lat": 33.8479272,
     "lon": -84.3663338,
     "link": "https://www.instagram.com/roseandrye.atl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -10354,12 +10355,12 @@
   {
     "name": "Raging Burrito",
     "vibe": "mexican, casual, patio, colorful, social, fusion, local, tex-mex, lively",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.78443335,
     "lon": -84.2933602,
     "link": "https://www.instagram.com/ragingburrito/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:30 PM",
       "Monday: 11:00 AM–9:30 PM",
@@ -10405,7 +10406,7 @@
     "lon": -84.29244043,
     "link": "https://www.instagram.com/opocoffee/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 6:30 AM–8:00 PM",
@@ -10451,7 +10452,7 @@
     "lon": -84.29902085,
     "link": "https://www.instagram.com/casabalamatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -10492,12 +10493,12 @@
   {
     "name": "The S.O.S. Tiki Bar",
     "vibe": "tiki, tropical, rum, kitschy, playful, colorful, themed, lively, exotic",
-    "type": "bar, cocktail",
+    "type": ["bar", "cocktail"],
     "lat": 33.7742092,
     "lon": -84.2950236,
     "link": "https://www.instagram.com/sostikibar/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -10543,7 +10544,7 @@
     "lon": -84.2854402,
     "link": "https://www.instagram.com/sapphirekaraoke/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–2:00 AM",
       "Monday: Closed",
@@ -10584,12 +10585,12 @@
   {
     "name": "Heirloom Market BBQ",
     "vibe": "bbq, korean, casual, fusion, smoky, local, flavorful, hole-in-the-wall, hearty",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.8985938,
     "lon": -84.4471801,
     "link": "https://www.instagram.com/heirloommarketbbq/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -10630,12 +10631,12 @@
   {
     "name": "The Daily Cafe – Buckhead",
     "vibe": "brunch, bright, minimalist, healthy, coffee, café, social, fresh, airy",
-    "type": "coffee, breakfast, brunch",
+    "type": ["coffee", "breakfast", "brunch"],
     "lat": 33.85513221,
     "lon": -84.43122221,
     "link": "https://www.instagram.com/thedailyatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–3:00 PM",
       "Monday: 7:00 AM–3:00 PM",
@@ -10681,7 +10682,7 @@
     "lon": -84.476868,
     "link": "https://www.instagram.com/bellwoodcoffee/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–4:00 PM",
       "Monday: Closed",
@@ -10722,12 +10723,12 @@
   {
     "name": "Hankook Taqueria",
     "vibe": "korean, mexican, casual, fusion, quick, flavorful, street, local, taco",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.8114042,
     "lon": -84.4317513,
     "link": "https://www.instagram.com/hankooktaqueria/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 11:00 AM–3:00 PM",
@@ -10773,7 +10774,7 @@
     "lon": -84.42947613,
     "link": "https://www.instagram.com/taste.winebar/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 3:00 PM–10:00 PM",
@@ -10819,7 +10820,7 @@
     "lon": -84.4245928,
     "link": "https://www.instagram.com/deljouartgroup/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 9:00 AM–5:00 PM",
@@ -10865,7 +10866,7 @@
     "lon": -84.41374163,
     "link": "https://www.instagram.com/floralparkmarket/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–4:00 PM",
       "Monday: 9:00 AM–6:00 PM",
@@ -10906,12 +10907,12 @@
   {
     "name": "Ace’s Place",
     "vibe": "sports, bar, casual, local, screens, neighborhood, beer, social, friendly",
-    "type": "bar, lunch",
+    "type": ["bar", "lunch"],
     "lat": 33.86082479,
     "lon": -84.33155693,
     "link": "https://www.instagram.com/acesplacebrookhavenga/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 4:00 PM–1:00 AM",
@@ -10957,7 +10958,7 @@
     "lon": -84.3580222,
     "link": "https://www.instagram.com/gunshowatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -10998,12 +10999,12 @@
   {
     "name": "The Dirty Tea",
     "vibe": "tea, boba, colorful, casual, lounge, youth, drinks, sweet, fun",
-    "type": "tea, dessert",
+    "type": ["tea", "dessert"],
     "lat": 33.7755446,
     "lon": -84.3529905,
     "link": "https://www.instagram.com/thedirtyteaatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–6:00 PM",
       "Monday: Closed",
@@ -11044,12 +11045,12 @@
   {
     "name": "Unknown",
     "vibe": "american, seasonal, casual, modern, neighborhood, local, date, fresh, social",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
     "lat": 33.8148981,
     "lon": -84.3537531,
     "link": "https://www.instagram.com/unknown.atlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: Closed",
@@ -11090,12 +11091,12 @@
   {
     "name": "Whitehall Tavern",
     "vibe": "sports, bar, casual, laid-back, local, beer, burgers, pub, friendly",
-    "type": "bar, lunch",
+    "type": ["bar", "lunch"],
     "lat": 33.8201785,
     "lon": -84.3876576,
     "link": "https://www.instagram.com/whitehall_tavern/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 11:30 AM–10:30 PM",
@@ -11141,7 +11142,7 @@
     "lon": -84.3649011,
     "link": "https://www.instagram.com/brewdogatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: 11:00 AM–11:00 PM",
@@ -11182,12 +11183,12 @@
   {
     "name": "The Salty Donut",
     "vibe": "donuts, artisanal, sweet, coffee, bakery, local, treat, dessert",
-    "type": "dessert, bakery",
+    "type": ["dessert", "bakery"],
     "lat": 33.75772085,
     "lon": -84.36423362,
     "link": "https://www.instagram.com/thesaltydonut/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–8:00 PM",
       "Monday: 8:00 AM–8:00 PM",
@@ -11228,12 +11229,12 @@
   {
     "name": "The Vortex Bar & Grill",
     "vibe": "burgers, rock, eclectic, casual, local, pub, landmark, bar, bold",
-    "type": "bar, dinner",
+    "type": ["bar", "dinner"],
     "lat": 33.7662554,
     "lon": -84.349211,
     "link": "https://www.instagram.com/thevortexatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 11:00 AM–12:00 AM",
@@ -11274,12 +11275,12 @@
   {
     "name": "no. 246",
     "vibe": "italian, patio, seasonal, date, garden, upscale, modern, local, romantic",
-    "type": "brunch, dinner",
+    "type": ["brunch", "dinner"],
     "lat": 33.775422,
     "lon": -84.295294,
     "link": "https://www.instagram.com/no246atlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:30 AM–2:30 PM; 5:00 PM–9:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -11325,7 +11326,7 @@
     "lon": -84.35769409,
     "link": "https://www.instagram.com/sottosottoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:30 PM–10:00 PM",
       "Monday: 5:30 PM–11:00 PM",
@@ -11371,7 +11372,7 @@
     "lon": -84.38759961,
     "link": "https://www.instagram.com/lagrottaatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:30 PM–9:30 PM",
@@ -11412,12 +11413,12 @@
   {
     "name": "Yonder Yoga – Inman Park",
     "vibe": "yoga, bright, airy, wellness, mindful, community, movement, fresh, calm",
-    "type": "fitness",
+    "type": ["fitness", "yoga"],
     "lat": 33.7611561,
     "lon": -84.3657219,
     "link": "https://www.instagram.com/yonderyoga/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:30 AM–7:30 PM",
       "Monday: 6:30 AM–8:30 PM",
@@ -11458,12 +11459,12 @@
   {
     "name": "evolation yoga atlanta",
     "vibe": "yoga, calm, warm, flow, friendly, wellness, minimal, guided, serene",
-    "type": "fitness",
+    "type": ["fitness", "yoga"],
     "lat": 33.7801725,
     "lon": -84.3875317,
     "link": "https://www.instagram.com/evolationyogaatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–9:00 PM",
       "Monday: 6:00 AM–9:00 PM",
@@ -11504,12 +11505,12 @@
   {
     "name": "Yebo Beach Haus",
     "vibe": "coastal, trendy, seasonal, upscale, social, seafood, modern, vibrant, fresh",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.84334392,
     "lon": -84.38290658,
     "link": "https://www.instagram.com/yebobeachhaus/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 11:30 AM–10:00 PM",
@@ -11550,12 +11551,12 @@
   {
     "name": "Tiny Lou’s",
     "vibe": "french, retro, chic, romantic, brasserie, upscale, classic, elegant, intimate",
-    "type": "brunch, lunch, dinner",
+    "type": ["brunch", "lunch", "dinner"],
     "lat": 33.77347,
     "lon": -84.361399,
     "link": "https://www.instagram.com/tinylousatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–2:00 PM; 5:00 PM–10:00 PM",
       "Monday: 5:30 PM–10:00 PM",
@@ -11596,12 +11597,12 @@
   {
     "name": "Yalda",
     "vibe": "persian, elegant, upscale, stylish, refined, flavorful, luxury, modern, vibrant",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
     "lat": 33.7811243,
     "lon": -84.411056,
     "link": "https://www.instagram.com/yalda.atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–2:45 PM; 4:00 PM–10:00 PM",
       "Monday: 4:00 PM–10:00 PM",
@@ -11642,12 +11643,12 @@
   {
     "name": "Vesper Atlanta",
     "vibe": "cocktails, lounge, upscale, moody, late-night, intimate, trendy, dim-lighting, chic",
-    "type": "cocktail, bar",
+    "type": ["cocktail", "bar"],
     "lat": 33.7407235,
     "lon": -84.3578402,
     "link": "https://www.instagram.com/vesperatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: 5:00 PM–12:00 AM",
@@ -11688,12 +11689,12 @@
   {
     "name": "Umi",
     "vibe": "japanese, sushi, upscale, sleek, celebrity, fine-dining, refined, elegant, high-end",
-    "type": "dinner, cocktail",
+    "type": ["dinner", "cocktail"],
     "lat": 33.8395908,
     "lon": -84.3816729,
     "link": "https://www.instagram.com/umisushiatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:00 PM–9:00 PM",
@@ -11734,12 +11735,12 @@
   {
     "name": "Fudo",
     "vibe": "japanese, sushi, creative, sleek, local, modern, rolls, fresh, casual",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.8877602,
     "lon": -84.3147177,
     "link": "https://www.instagram.com/fudoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–9:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -11785,7 +11786,7 @@
     "lon": -84.4106648,
     "link": "https://www.instagram.com/mujoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -11826,12 +11827,12 @@
   {
     "name": "Rock Steady – Atlanta",
     "vibe": "caribbean, nightlife, stylish, dance, vibrant, dj, high-energy, social, urban",
-    "type": "dinner, cocktail, late-night",
+    "type": ["dinner", "cocktail", "late-night"],
     "lat": 33.777293,
     "lon": -84.408183,
     "link": "https://www.instagram.com/rocksteadyatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–12:00 AM",
       "Monday: Closed",
@@ -11872,12 +11873,12 @@
   {
     "name": "Cafe Comma",
     "vibe": "coffee, minimalist, work, pastry, cozy, modern, quiet, bright, study",
-    "type": "coffee, breakfast",
+    "type": ["coffee", "breakfast"],
     "lat": 33.8647205,
     "lon": -84.4719725,
     "link": "https://www.instagram.com/cafecomma_atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–7:00 AM",
       "Monday: 8:00 AM–6:00 PM",
@@ -11918,12 +11919,12 @@
   {
     "name": "Old Vinings Inn",
     "vibe": "historic, southern, upscale, porch, charm, classic, romantic, traditional, scenic",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.86654265,
     "lon": -84.46597944,
     "link": "https://www.instagram.com/oldvinings/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–2:00 PM",
       "Monday: Closed",
@@ -11964,12 +11965,12 @@
   {
     "name": "Canoe",
     "vibe": "riverside, romantic, garden, seasonal, american, upscale, scenic, elegant, patio",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.85974,
     "lon": -84.455173,
     "link": "https://www.instagram.com/canoe_atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:30 AM–9:30 PM",
       "Monday: 11:30 AM–9:30 PM",
@@ -12010,12 +12011,12 @@
   {
     "name": "Read Shop by The Merchant",
     "vibe": "bookstore, café, coffee, creative, cozy, quiet, stylish, design, literary",
-    "type": "coffee, bookstore",
+    "type": ["coffee", "bookstore"],
     "lat": 33.8649149,
     "lon": -84.4655889,
     "link": "https://www.instagram.com/read.shop/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–6:00 PM",
       "Monday: 7:00 AM–7:00 PM",
@@ -12056,12 +12057,12 @@
   {
     "name": "Folk Art Restaurant Inman Park",
     "vibe": "diner, southern, brunch, eclectic, casual, comfort-food, retro, local, hearty",
-    "type": "breakfast, brunch",
+    "type": ["breakfast", "brunch"],
     "lat": 33.766686,
     "lon": -84.352985,
     "link": "https://www.instagram.com/folkart_inmanpark/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–5:00 PM",
       "Monday: 7:30 AM–3:00 PM",
@@ -12102,12 +12103,12 @@
   {
     "name": "Communidad Taqueria",
     "vibe": "mexican, casual, bright, quick, fresh, colorful, local, taco, neighborhood",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.7611561,
     "lon": -84.3657219,
     "link": "https://www.instagram.com/communidadatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–9:00 PM",
       "Monday: 8:00 AM–9:00 PM",
@@ -12148,12 +12149,12 @@
   {
     "name": "La Semilla",
     "vibe": "vegan, modern, latin, brunch, plant-based, fresh, bright, innovative, casual",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.74673873,
     "lon": -84.36330386,
     "link": "https://www.instagram.com/lasemilla.atl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 5:00 PM–9:00 PM",
       "Monday: Closed",
@@ -12199,7 +12200,7 @@
     "lon": -84.416017,
     "link": "https://www.instagram.com/mondaynight/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–8:00 PM",
       "Monday: 12:00 PM–9:00 PM",
@@ -12240,12 +12241,12 @@
   {
     "name": "Daily Chew",
     "vibe": "seasonal, café, fresh, plant-based, wholesome, bright, healthy, casual, breakfast",
-    "type": "breakfast, lunch",
+    "type": ["breakfast", "lunch"],
     "lat": 33.8117273,
     "lon": -84.3627468,
     "link": "https://www.instagram.com/dailychewatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–3:00 PM",
       "Monday: 8:00 AM–3:00 PM",
@@ -12286,12 +12287,12 @@
   {
     "name": "Fellaship.ATL",
     "vibe": "lounge, sports, southern, cigar, upscale, lively, social, drinks, crowd",
-    "type": "bar, dinner",
+    "type": ["bar", "dinner"],
     "lat": 33.7521147,
     "lon": -84.3990442,
     "link": "https://www.instagram.com/fellaship.atl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–6:00 PM",
       "Monday: Closed",
@@ -12337,7 +12338,7 @@
     "lon": -84.34905613,
     "link": "https://www.instagram.com/recordloftatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 2:00 PM–7:00 PM",
       "Monday: 12:00 PM–6:00 PM",
@@ -12378,12 +12379,12 @@
   {
     "name": "Your 3rd Spot",
     "vibe": "dining, games, group, modern, social, entertainment, fun, interactive, casual",
-    "type": "bar, activity",
+    "type": ["bar", "activity"],
     "lat": 33.80292775,
     "lon": -84.42947057,
     "link": "https://www.instagram.com/your3rdspot/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–11:30 PM",
       "Monday: 6:00 PM–11:30 PM",
@@ -12429,7 +12430,7 @@
     "lon": -84.36493295,
     "link": "https://www.instagram.com/sidesaddlewine/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 5:00 PM–10:00 PM",
@@ -12462,12 +12463,12 @@
   {
     "name": "Fat Matt’s Rib Shack",
     "vibe": "bbq, blues, casual, southern, live-music, classic, smoky, local, comfort",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.80470696,
     "lon": -84.36735975,
     "link": "https://www.instagram.com/fatmattsribshack/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–10:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -12500,12 +12501,12 @@
   {
     "name": "Pata Negra Mezcaleria",
     "vibe": "mezcal, mexican, rustic, intimate, bar, artisanal, cocktail, cozy, warm",
-    "type": "cocktail, dinner",
+    "type": ["cocktail", "dinner"],
     "lat": 33.80277748,
     "lon": -84.39306704,
     "link": "https://www.instagram.com/patanegraatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: Closed",
@@ -12538,12 +12539,12 @@
   {
     "name": "Varasano’s Pizzeria – Buckhead",
     "vibe": "pizza, italian, casual, family, neighborhood, classic, thin-crust, local, friendly",
-    "type": "lunch, dinner, brunch",
+    "type": ["lunch", "dinner", "brunch"],
     "lat": 33.813769,
     "lon": -84.392083,
     "link": "https://www.instagram.com/varasanospizzeria/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–9:00 PM",
       "Monday: 5:30 PM–9:00 PM",
@@ -12576,12 +12577,12 @@
   {
   "name": "Tuk Tuk Thai Food Loft",
   "vibe": "thai, upscale, bold, scenic, flavorful, colorful, modern, vibrant, city-view",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.8003326,
   "lon": -84.3921328,
   "link": "https://www.instagram.com/tuktuk_thairestaurant/?hl=en",
   "cover": "",
-	"openNow":true,
+	"openNow": true,
   "hours": [
     "Sunday: 5:00 PM–10:00 PM",
     "Monday: 11:30 AM–2:30 PM; 5:30 PM–10:00 PM",
@@ -12614,12 +12615,12 @@
   {
     "name": "El Azteca",
     "vibe": "mexican, casual, margarita, patio, festive, colorful, local, lively, relaxed",
-    "type": "lunch, dinner, bar",
+    "type": ["lunch", "dinner", "bar"],
     "lat": 33.80292081,
     "lon": -84.39310231,
     "link": "https://www.instagram.com/elaztecaatlanta/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–10:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -12652,12 +12653,12 @@
   {
     "name": "Little Rey",
     "vibe": "mexican, casual, chicken, family, bright, fresh, local, quick, upbeat",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.807094,
     "lon": -84.36650078,
     "link": "https://www.instagram.com/littlereyalcarbon/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–9:00 PM",
       "Monday: 11:00 AM–9:00 PM",
@@ -12690,12 +12691,12 @@
   {
     "name": "New Realm Brewing Co.",
     "vibe": "brewery, rooftop, industrial, events, taproom, large, social, group, casual",
-    "type": " bar",
+    "type": ["rooftop", "bar"],
     "lat": 33.7690299,
     "lon": -84.36195415,
     "link": "https://www.instagram.com/newrealmbrewing/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–10:00 PM",
       "Monday: 12:00 PM–10:00 PM",
@@ -12728,12 +12729,12 @@
   {
     "name": "Atlanta Worldwide Gallery",
     "vibe": "photography, shop, specialty, expert, camera, niche, creative, visual, art",
-    "type": "random gem, lifestyle",
+    "type": ["random gem", "lifestyle"],
     "lat": 33.758602,
     "lon": -84.365546,
     "link": "https://www.instagram.com/atlworldwidegallery/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–7:00 PM",
       "Monday: 12:00 PM–7:00 PM",
@@ -12766,12 +12767,12 @@
   {
     "name": "TEN ATL",
     "vibe": "lounge, hip-hop, urban, nightlife, party, lively, music, local, social",
-    "type": "bar, music",
+    "type": ["bar", "music"],
     "lat": 33.7403991,
     "lon": -84.34613055,
     "link": "https://www.instagram.com/tenatl/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 PM–12:00 AM",
       "Monday: 8:00 PM–2:00 AM",
@@ -12809,7 +12810,7 @@
     "lon": -84.3860568,
     "link": "https://www.instagram.com/fiveirongolf/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–11:00 PM",
       "Monday: 6:00 AM–11:00 PM",
@@ -12847,7 +12848,7 @@
     "lon": -84.38342062,
     "link": "https://www.instagram.com/cafeintermezzo/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–12:00 AM",
       "Monday: 9:00 AM–12:00 AM",
@@ -12877,19 +12878,19 @@
     },
     "timeCategory": "evening, late",
     "energyRamp": 2,
-    "tags": "literary, lingerer, velvet-lined, euro-noir, after-dark, ornate, mirrored, aromatic",
+    "tags": "decadent, layered, plush, sultry, romantic, nostalgic, indulgent, European",
     "price": "$$",
     "duration": 1.5
   },
   {
     "name": "The Daily Pilates - Inman Park",
     "vibe": "local, intentional, bright, feminine, habit, clean, structured, fresh",
-    "type": "wellness",
+    "type": ["fitness", "yoga"],
     "lat": 33.755066,
     "lon": -84.357816,
     "link": "https://www.instagram.com/thedailypilates/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–5:30 PM",
       "Monday: 7:00 AM–9:00 PM",
@@ -12926,12 +12927,12 @@
   {
     "name": "Pêche Pilates",
     "vibe": "airy, elegant, soft, graceful, curated, feminine, minimal, fluid",
-    "type": "wellness",
+    "type": ["fitness", "yoga"],
     "lat": 33.84303775,
     "lon": -84.38072177,
     "link": "https://www.instagram.com/pechepilates/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–12:00 PM",
       "Monday: 8:00 AM–9:00 PM",
@@ -12968,12 +12969,12 @@
   {
     "name": "Le' Muse Pilates",
     "vibe": "poised, sculpted, boutique, refined, mindful, luxe, ambient, precise",
-    "type": "wellness",
+    "type": ["fitness", "yoga"],
     "lat": 33.789128,
     "lon": -84.426118,
     "link": "https://www.instagram.com/lemusepilates/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–4:00 PM",
       "Monday: 8:00 AM–8:00 PM",
@@ -13010,12 +13011,12 @@
   {
     "name": "The Union Fit Hub",
     "vibe": "bold, driven, modern, collective, functional, kinetic, focused, energized",
-    "type": "wellness",
+    "type": "fitness",
     "lat": 33.7683055,
     "lon": -84.3602398,
     "link": "https://www.instagram.com/theunionfithub/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 AM–12:00 AM",
       "Monday: 12:00 AM–12:00 AM",
@@ -13052,12 +13053,12 @@
   {
     "name": "Urban Body Fitness",
     "vibe": "gritty, active, strength, reliable, durable, fast-paced, grounded, local-core",
-    "type": "wellness",
+    "type": "fitness",
     "lat": 33.78830585,
     "lon": -84.36913713,
     "link": "https://www.instagram.com/urbanbodyfitness/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–5:00 PM",
       "Monday: 5:30 AM–10:00 PM",
@@ -13094,12 +13095,12 @@
   {
     "name": "The Reading Room",
     "vibe": "spiritual, healing, immersive, meditative, warm, slow, candlelit, sonic",
-    "type": "meditation",
+    "type": ["bookstore", "coffee"],
     "lat": 33.77501829,
     "lon": -84.29474871,
     "link": "https://www.instagram.com/thereadingroomdecaturga/?hl=en",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 8:00 AM–7:00 PM",
       "Monday: 7:30 AM–7:00 PM",
@@ -13141,7 +13142,7 @@
     "lon": -84.3625239,
     "link": "https://www.instagram.com/mementoatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: Closed",
@@ -13183,7 +13184,7 @@
     "lon": -84.3686685,
     "link": "https://www.instagram.com/independentatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
       "Monday: 5:00 PM–1:00 AM",
@@ -13225,7 +13226,7 @@
     "lon": -84.3946526,
     "link": "https://www.instagram.com/cratesatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 1:00 PM–6:00 PM",
       "Monday: Closed",
@@ -13267,7 +13268,7 @@
     "lon": -84.396962,
     "link": "https://www.instagram.com/wildleapatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–9:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -13309,7 +13310,7 @@
     "lon": -84.39851514,
     "link": "https://www.instagram.com/vsatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: 12:00 PM–6:00 PM",
@@ -13351,7 +13352,7 @@
     "lon": -84.4272646,
     "link": "https://www.instagram.com/starprovisions/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 5:30 PM–9:30 PM",
@@ -13393,7 +13394,7 @@
     "lon": -84.42727178,
     "link": "https://www.instagram.com/starprovisions/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–3:00 PM",
       "Monday: Closed",
@@ -13435,7 +13436,7 @@
     "lon": -84.34201307,
     "link": "https://www.instagram.com/youngbloodboutique/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–4:00 PM",
       "Monday: Closed",
@@ -13477,7 +13478,7 @@
     "lon": -84.327606,
     "link": "https://www.instagram.com/fernbankmuseum/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–4:30 PM",
       "Monday: 10:00 AM–4:30 PM",
@@ -13514,12 +13515,12 @@
   {
     "name": "Clyde Shepherd Nature Preserve",
     "vibe": "birding, low-key, community, dirt-trail, slow, hidden-gem, uncut, chill",
-    "type": "walk",
+    "type": ["park", "walk"],
     "lat": 33.80619705,
     "lon": -84.28430186,
     "link": "https://www.cshepherdpreserve.org/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–9:00 PM",
       "Monday: 7:00 AM–9:00 PM",
@@ -13556,12 +13557,12 @@
   {
     "name": "Blue Heron Nature Preserve",
     "vibe": "creekside, holistic, reflective, mindful, eco-conscious, airy, peaceful, small-scale",
-    "type": "walk",
+    "type": ["park", "walk"],
     "lat": 33.8671587,
     "lon": -84.3799249,
     "link": "https://www.instagram.com/bhnpatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 AM–11:00 PM",
       "Monday: 6:00 AM–11:00 PM",
@@ -13598,12 +13599,12 @@
   {
     "name": "Morningside Nature Preserve",
     "vibe": "leaf-covered, worn-in, earthy, animal-friendly, meandering, locals-only, ambient, nature",
-    "type": "walk",
+    "type": ["park", "walk"],
     "lat": 33.8096851,
     "lon": -84.3520012,
     "link": "https://exploregeorgia.org/atlanta/outdoors-nature/hiking/morningside-nature-preserve",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:30 AM–11:00 PM",
       "Monday: 6:30 AM–11:00 PM",
@@ -13645,7 +13646,7 @@
     "lon": -84.3203472,
     "link": "https://www.tclf.org/druid-hills-deepdene-park",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 AM–11:00 PM",
       "Monday: 6:00 AM–11:00 PM",
@@ -13687,7 +13688,7 @@
     "lon": -84.4029808,
     "link": "https://www.buckhead.com/parks/tanyard-creek-park/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 6:00 AM–11:00 PM",
       "Monday: 6:00 AM–11:00 PM",
@@ -13729,7 +13730,7 @@
     "lon": -84.38304027,
     "link": "https://www.atlantaareaparks.com/parks/winn-park/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 9:00 AM–5:00 PM",
@@ -13771,7 +13772,7 @@
     "lon": -84.30338078,
     "link": "https://www.instagram.com/woodlandsgarden",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 7:00 AM–7:00 PM",
       "Monday: 7:00 AM–7:00 PM",
@@ -13813,7 +13814,7 @@
     "lon": -84.35467746,
     "link": "https://www.instagram.com/vahibooks/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 12:00 PM–5:00 PM",
       "Monday: 10:00 AM–7:00 PM",
@@ -13855,7 +13856,7 @@
     "lon": -84.3548853,
     "link": "https://www.instagram.com/murphysatlanta/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 9:00 AM–9:00 PM",
       "Monday: 11:00 AM–9:00 PM",
@@ -13892,12 +13893,12 @@
   {
     "name": "Superica Buckhead",
     "vibe": "neon, upbeat, colorful, vibey, new-school, zesty, group-dining, pop",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.85989,
     "lon": -84.381567,
     "link": "https://www.instagram.com/supericatexmex/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–10:00 PM",
       "Monday: 11:00 AM–10:00 PM",
@@ -13939,7 +13940,7 @@
     "lon": -84.381357,
     "link": "https://www.instagram.com/postinowinecafe/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 10:00 AM–10:00 PM",
       "Monday: 11:00 AM–11:00 PM",
@@ -13974,6 +13975,48 @@
     "duration": 2
   },
   {
+    "name": "South River Art Studios",
+    "vibe": "collective, rough-edged, unfinished, bold-color, DIY, expressive-space, maker-energy, indie-core",
+    "type": "gallery",
+    "lat": 33.683606,
+    "lon": -84.337046,
+    "link": "https://www.instagram.com/southriverartstudios/",
+    "cover": "",
+	"openNow": true,
+    "hours": [
+      "Sunday: Closed",
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: Closed"
+    ],
+    "hoursNumeric": {
+      "sun": null,
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null
+    },
+    "dayParts": {
+      "sun": "-",
+      "mon": "-",
+      "tue": "-",
+      "wed": "-",
+      "thu": "-",
+      "fri": "-",
+      "sat": "-"
+    },
+    "timeCategory": "-",
+    "energyRamp": 2,
+    "tags": "collective, rough-edged, unfinished, bold-color, DIY, expressive-space, maker-energy, indie-core",
+    "price": "$",
+    "duration": 2.5
+  },
+  {
     "name": "JDS SUMMERHILL VARIETY DELI",
     "vibe": "corner-shop, wrap-joint, fast-casual, lowkey, gritty, delicious, backdoor, local-vibe",
     "type": "lunch",
@@ -13981,7 +14024,7 @@
     "lon": -84.38424365,
     "link": "https://www.instagram.com/summerhill_variety/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: Closed",
       "Monday: 8:00 AM–8:00 PM",
@@ -14023,7 +14066,7 @@
     "lon": -84.3685077,
     "link": "https://www.instagram.com/mannysgrantpark/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
       "Monday: 12:00 PM–3:00 AM",
@@ -14060,12 +14103,12 @@
   {
     "name": "El Ponce",
     "vibe": "Latin-pop, punchy, flavorful, retro-vibe, salsa, late-bite, neighborhood-joint, festive",
-    "type": "lunch, dinner",
+    "type": ["lunch", "dinner"],
     "lat": 33.7734985,
     "lon": -84.35664855,
     "link": "https://www.instagram.com/elponceatl/",
     "cover": "",
-	"openNow":true,
+	"openNow": true,
     "hours": [
       "Sunday: 11:30 AM–9:30 PM",
       "Monday: Closed",
@@ -14102,11 +14145,12 @@
 {
   "name": "Roshambo",
   "vibe": "Modern American, Neighborhood charm, Brunch glow, Creative comfort, Casual chic, Local spirit, Stylish bustle, Approachable, Happy hour buzz, Family-friendly",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.81919459,
   "lon": -84.38845395,
   "link": "https://www.instagram.com/roshamboatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 10:00 AM–9:00 PM",
@@ -14148,11 +14192,12 @@
 {
   "name": "Hawkers Asian Street Food",
   "vibe": "Street eats, Shareable plates, Bold flavors, Craft cocktails, Urban energy, Lively, Generational recipes, Communal vibe, BeltLine buzz, Casual edge",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.7562599,
   "lon": -84.365444,
   "link": "https://www.instagram.com/eathawkers/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–10:00 PM",
@@ -14199,6 +14244,7 @@
   "lon": -84.36335397,
   "link": "https://www.instagram.com/kevinrathbunsteak/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -14245,6 +14291,7 @@
   "lon": -84.37823402,
   "link": "https://www.instagram.com/buckheadartcompany/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–5:00 PM",
@@ -14286,11 +14333,12 @@
 {
   "name": "Mister O1 Extraordinary Pizza - Buckhead",
   "vibe": "Artisanal, Thin-crust, Italian import, Innovative star-shaped, Light dough, Crafted, Fresh ingredients, Playful plating, Shareable, Creative",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.8496628,
   "lon": -84.3738312,
   "link": "https://www.instagram.com/mistero1pizza/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–10:00 PM",
@@ -14332,11 +14380,12 @@
 {
   "name": "Bar Pilar",
   "vibe": "Hidden cocktail den, Hemingway-inspired, Seasonal, Intimate, Dramatic, New American flair, Cozy intrigue, Sophisticated, Underground cool, Curated libations",
-  "type": "dinner, cocktail",
+  "type": ["dinner", "cocktail"],
   "lat": 33.7797376,
   "lon": -84.3675947,
   "link": "https://www.instagram.com/barpilar_atl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–9:00 PM",
@@ -14378,11 +14427,12 @@
 {
   "name": "Pink Lotus Thai Restaurant",
   "vibe": "Modern Thai, Regional specialties, Shareable, Lively, Unexpected, Isaan-inspired, After-work buzz, Refined street food, Vibrant plating, Bold flavors",
-  "type": "lunch, dinner, patio, cocktail",
+  "type": ["lunch", "dinner", "patio", "cocktail"],
   "lat": 33.7814781,
   "lon": -84.4136351,
   "link": "https://www.instagram.com/pinklotusthai/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–10:00 PM",
@@ -14424,11 +14474,12 @@
 {
   "name": "Slingshot Social Game Club",
   "vibe": "Arcade fun, Social gaming, Exclusive cocktails, Duckpin & skeeball, Welcoming, Night-out energy, Group play, Retro games, Casual entertainment, Inclusive",
-  "type": "bar, activity",
+  "type": ["bar", "activity"],
   "lat": 33.78177753,
   "lon": -84.42984293,
   "link": "https://www.instagram.com/slingshotsocialatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 3:00 PM–8:00 PM",
@@ -14470,11 +14521,12 @@
 {
   "name": "The Optimist",
   "vibe": "Coastal escape, Seafood raw bar, Nautical-touch, Breezy, Oyster bar charm, Re-purposed ham-aging house vibe, Date-night fish camp, Casual elegance, Seaside mood, Inviting",
-  "type": "cocktail, dinner",
+  "type": ["cocktail", "dinner"],
   "lat": 33.7798543,
   "lon": -84.4106489,
   "link": "https://www.instagram.com/theoptimistatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 3:00 PM–10:00 PM",
@@ -14516,11 +14568,12 @@
 {
   "name": "Belen Bistro + Market Argentina",
   "vibe": "Charming, Empanada queen, Three-level dining, Decatur warmth, Argentine staples, Malbec friendly, Shareable bites, Cozy, Cultural, Lavishly filled",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.7744047,
   "lon": -84.2960771,
   "link": "https://www.instagram.com/belenbistro_argentina/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–8:00 PM",
@@ -14567,6 +14620,7 @@
   "lon": -84.390266,
   "link": "https://www.instagram.com/norifishsushiizakaya/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -14608,11 +14662,12 @@
 {
   "name": "Café Momentum Atlanta",
   "vibe": "Mission-driven, Nonprofit dining, Youth empowerment, Cozy lighting, Seasonal menu, Dimmed ambiance, Social impact, Hopeful, Community nurture, Uplifting",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.75924167,
   "lon": -84.387691,
   "link": "https://www.instagram.com/cafemomentum.atl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -14659,6 +14714,7 @@
   "lon": -84.268344,
   "link": "https://www.instagram.com/billysavondale/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–3:30 PM",
@@ -14700,11 +14756,12 @@
 {
   "name": "Smiley's Burger Club",
   "vibe": "Smashburger, Casual, Comfort food, Retro, Nostalgic, Quick bite, Neighborhood, Juicy, Fun, No-frills",
-  "type": "lunch, dinner, patio",
+  "type": ["lunch", "dinner", "patio"],
   "lat": 33.771963,
   "lon": -84.292277,
   "link": "https://www.instagram.com/smileysburgerclub/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–10:00 PM",
@@ -14746,11 +14803,12 @@
 {
   "name": "Reynolds Makery & Pulperia",
   "vibe": "Artistic, Crafty, Hidden gem, Creative hub, Local, Eclectic, Food & art, Quirky, Gathering space, Offbeat",
-  "type": "coffee, lifestyle",
+  "type": ["coffee", "lifestyle"],
   "lat": 33.74969185,
   "lon": -84.36199475,
   "link": "https://www.instagram.com/shopreynoldsatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 8:00 AM–5:00 PM",
@@ -14797,6 +14855,7 @@
   "lon": -84.3627598,
   "link": "https://www.instagram.com/florafaunaatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–5:00 PM",
@@ -14843,6 +14902,7 @@
   "lon": -84.41961189,
   "link": "https://www.instagram.com/tropicalexpressatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -14884,11 +14944,12 @@
 {
   "name": "Vinyl Paradise at Tropical Express",
   "vibe": "Retro vinyl, Music and greens, Hidden gem, Vintage tunes, Chill browsing, Plant + record fusion, Creative enclave, Quirky pairing, Nostalgic vibe, Local-luxe",
-  "type": "random gem, lifestyle",
+  "type": ["random gem", "lifestyle"],
   "lat": 33.7752395,
   "lon": -84.41961189,
   "link": "https://www.instagram.com/vinylparadiseatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -14930,11 +14991,12 @@
 {
   "name": "ADios Cafe",
   "vibe": "Mexican-breakfast haven, Specialty coffee, Antiques charm, Patio glow, Warm décor, Creative brunch, Cozy nook, Early riser, Flavorful, Inviting retreat",
-  "type": "breakfast, dessert, coffee",
+  "type": ["breakfast", "dessert", "coffee"],
   "lat": 33.749891,
   "lon": -84.4010243,
   "link": "https://www.instagram.com/adioscafe/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 8:00 AM–10:00 PM",
@@ -14981,6 +15043,7 @@
   "lon": -84.40096876,
   "link": "https://www.instagram.com/bottlerocketatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 5:00 PM–10:00 PM",
@@ -15027,6 +15090,7 @@
   "lon": -84.39545516,
   "link": "https://www.instagram.com/smorgasburgatlanta/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -15073,6 +15137,7 @@
   "lon": -84.3939306,
   "link": "https://www.instagram.com/cat_eye_creative/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–5:00 PM",
@@ -15114,11 +15179,12 @@
 {
   "name": "Ray's In the City",
   "vibe": "Timeless fine dining, Seafood & steaks, Live jazz evenings, Upscale downtown, Elegant comfort, Private dining, Wine‑forward, Classic institution, Urban elegance, Polished ambiance",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.7603914,
   "lon": -84.3877294,
   "link": "https://www.instagram.com/raysrestaurants/?hl=en",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–9:00 PM",
@@ -15160,11 +15226,12 @@
 {
   "name": "Mister Burger",
   "vibe": "Late-night smashburger, Buckhead hotspot, Open past midnight, Smash-style, Saucy indulgence, Quick counter, Night-owl favorite, Brunch-on-repeat, Juicy sliders, Casual crave",
-  "type": "lunch, dinner, late‑night",
+  "type": ["lunch", "dinner", "late‑night"],
   "lat": 33.8371162,
   "lon": -84.377444,
   "link": "https://www.instagram.com/misterburgeratl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 7:00 PM–1:00 AM",
@@ -15206,11 +15273,12 @@
 {
   "name": "Brasiliana Pizza - Atlanta",
   "vibe": "Brazilian‑Italian fusion, Long‑fermented dough, Unique toppings, Dessert pizzas, Flavor adventure, Creative crust, East Atlanta vibe, Bold layers, Cultural mash‑up, Artisan flair",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.7400183,
   "lon": -84.3466872,
   "link": "https://www.instagram.com/brasilianaus/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–10:30 PM",
@@ -15252,11 +15320,12 @@
 {
   "name": "Krog Bar",
   "vibe": "Pizza, Coal‑fired, Intimate, Rustic, Cozy, Buckhead, Wine, Neighborhood, Casual, Small‑plates",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.81826905,
   "lon": -84.37497385,
   "link": "https://www.instagram.com/krogbar_pizza_/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -15298,11 +15367,12 @@
 {
   "name": "The 57th Fighter Group Restaurant",
   "vibe": "Aviation, Historic, Planes, Themed, Southern, Nostalgic, WWII, Runway, Family-friendly, Quirky",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.87143786,
   "lon": -84.30933686,
   "link": "https://www.instagram.com/57threstaurantandevents/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–9:00 PM",
@@ -15349,6 +15419,7 @@
   "lon": -84.3488242,
   "link": "https://www.instagram.com/sosofedatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 5:00 PM–11:00 PM",
@@ -15390,11 +15461,12 @@
 {
   "name": "Skyline Park",
   "vibe": "Rooftop, Views, Games, Retro, Social, Carnival, Skyline, Amusement, Colorful, Playful",
-  "type": "activity, rooftop",
+  "type": ["activity", "rooftop"],
   "lat": 33.7728212,
   "lon": -84.3659039,
   "link": "https://www.instagram.com/poncecityroof/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–10:00 PM",
@@ -15441,6 +15513,7 @@
   "lon": -84.3646745,
   "link": "https://www.instagram.com/socialspace.atl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 AM–6:00 PM",
@@ -15482,11 +15555,12 @@
 {
   "name": "Elmyr",
   "vibe": "Tex‑Mex, Divey, Graffiti, Casual, Quirky, Margaritas, Local, Alternative, Funky, Eclectic",
-  "type": "bar, lunch, dinner",
+  "type": ["bar", "lunch", "dinner"],
   "lat": 33.7633915,
   "lon": -84.3511774,
   "link": "https://www.instagram.com/elmyr_atl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–12:00 AM",
@@ -15528,11 +15602,12 @@
 {
   "name": "Ollie's Market & Deli",
   "vibe": "Deli, Sandwiches, Local, Fresh, Casual, Neighborhood, Simple, Everyday, Grab-and-go, Friendly",
-  "type": "breakfast, lunch",
+  "type": ["breakfast", "lunch"],
   "lat": 33.7301663,
   "lon": -84.37392105,
   "link": "https://www.instagram.com/olliesmarketatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 9:00 AM–6:00 PM",
@@ -15574,11 +15649,12 @@
 {
   "name": "Pizza Verdura Sincera",
   "vibe": "Pizza, Vegan, Artisan, Plant-based, Fresh, Creative, Natural, Mindful, Modern, Cozy",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.7647329,
   "lon": -84.3489303,
   "link": "https://www.instagram.com/pizzaverdura/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–10:00 PM",
@@ -15620,11 +15696,12 @@
 {
   "name": "The Midway Pub",
   "vibe": "Pub, Beer, Sports, Burgers, Patio, Chill, Neighborhood, Craft, Casual, Laid-back",
-  "type": "bar, patio",
+  "type": ["bar", "patio"],
   "lat": 33.739449,
   "lon": -84.344208,
   "link": "https://www.instagram.com/midwaypub/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–12:00 AM",
@@ -15666,11 +15743,12 @@
 {
   "name": "Universal Joint Decatur",
   "vibe": "Pub, Patio, Casual, Beer, Family, Local, Burgers, Easygoing, Friendly, Neighborhood",
-  "type": "bar, lunch",
+  "type": ["bar", "lunch"],
   "lat": 33.7594521,
   "lon": -84.3030657,
   "link": "https://www.instagram.com/universaljointatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–12:00 AM",
@@ -15717,6 +15795,7 @@
   "lon": -84.3704991,
   "link": "https://www.instagram.com/havananightclubatl/?hl=en",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -15763,6 +15842,7 @@
   "lon": -84.3818011,
   "link": "https://www.instagram.com/sanctuarynightclubatlanta/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -15809,6 +15889,7 @@
   "lon": -84.3687794,
   "link": "https://www.instagram.com/tongueandgrooveatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -15850,11 +15931,12 @@
 {
   "name": "Anis Cafe & Bistro",
   "vibe": "Bistro, Cozy, European, Brunch, Coffee, Charming, Romantic, French, Garden, Warm",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.8357586,
   "lon": -84.37659378,
   "link": "https://www.instagram.com/aniscafebistro/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–2:00 PM; 5:00 PM–10:00 PM",
@@ -15896,11 +15978,12 @@
 {
   "name": "Westside Motor Lounge",
   "vibe": "Lounge, Retro, Motor, Drinks, Stylish, Casual, Social, Creative, Outdoor, Community",
-  "type": "bar, patio",
+  "type": ["bar", "patio"],
   "lat": 33.77475185,
   "lon": -84.41030889,
   "link": "https://www.instagram.com/westside_motor_lounge/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–9:00 PM",
@@ -15942,11 +16025,12 @@
 {
   "name": "Hattie B's Hot Chicken - Atlanta West Midtown",
   "vibe": "Hot-chicken, Spicy, Nashville, Famous, Southern, Comfort, Casual, Juicy, Fried, Local",
-  "type": "lunch, dinner, patio",
+  "type": ["lunch", "dinner", "patio"],
   "lat": 33.7818182,
   "lon": -84.4116779,
   "link": "https://www.instagram.com/hattiebs/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 10:45 AM–10:00 PM",
@@ -15988,11 +16072,12 @@
 {
   "name": "Flower Child Westside Provisions",
   "vibe": "Healthy, Bowl, Bright, Fresh, Modern, Vegan, Wholesome, Organic, Light, Daytime",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.7854942,
   "lon": -84.4126344,
   "link": "https://www.instagram.com/eatflowerchild/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:00 AM–9:00 PM",
@@ -16039,6 +16124,7 @@
   "lon": -84.41159442,
   "link": "https://www.instagram.com/kinjoroom/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 5:00 PM–10:00 PM",
@@ -16080,11 +16166,12 @@
 {
   "name": "O-Ku",
   "vibe": "Sushi, Upscale, Japanese, Modern, Elegant, Refined, Rooftop, Creative, Date-night, Sophisticated",
-  "type": "brunch, dinner, cocktail, rooftop",
+  "type": ["brunch", "dinner", "cocktail", "rooftop"],
   "lat": 33.7845132,
   "lon": -84.4111736,
   "link": "https://www.instagram.com/okuatlanta/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–2:00 PM; 5:00 PM–9:00 PM",
@@ -16131,6 +16218,7 @@
   "lon": -84.4118933,
   "link": "https://www.instagram.com/prevailcoffee/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 8:00 AM–5:00 PM",
@@ -16172,11 +16260,12 @@
 {
   "name": "Negril ATL",
   "vibe": "Caribbean, Jerk, Casual, Colorful, Flavorful, Island, Rum, Tropical, Spicy, Lively",
-  "type": "lunch, dinner",
+  "type": ["lunch", "dinner"],
   "lat": 33.8007556,
   "lon": -84.4204931,
   "link": "https://www.instagram.com/negrilatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–10:00 PM",
@@ -16223,6 +16312,7 @@
   "lon": -84.3528036,
   "link": "https://www.instagram.com/conlecheatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 7:00 AM–4:00 PM",
@@ -16264,11 +16354,12 @@
 {
   "name": "Necessary Purveyor",
   "vibe": "Market, All-day, Coffee, Casual, Grab-and-go, Bakery, Neighborhood, Fresh, Social, Creative",
-  "type": "coffee, breakfast, lunch",
+  "type": ["coffee", "breakfast", "lunch"],
   "lat": 33.7724308,
   "lon": -84.3675124,
   "link": "https://www.instagram.com/necessarypurveyor/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 8:00 AM–5:00 PM",
@@ -16310,11 +16401,12 @@
 {
   "name": "The Postcard",
   "vibe": "Wine-bar, Chic, Romantic, Stylish, Intimate, Modern, Social, Cozy, Trendy, Elegant",
-  "type": "coffee, bakery",
+  "type": ["coffee", "bakery"],
   "lat": 33.8399014,
   "lon": -84.3771177,
   "link": "https://www.instagram.com/thepostcardatl/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 7:00 AM–5:00 PM",
@@ -16361,6 +16453,7 @@
   "lon": -84.405805,
   "link": "https://www.instagram.com/pecanjackswestmid/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–8:00 PM",
@@ -16407,6 +16500,7 @@
   "lon": -84.2717867,
   "link": "https://www.instagram.com/thebookbirdae/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 10:00 AM–4:00 PM",
@@ -16453,6 +16547,7 @@
   "lon": -84.3097037,
   "link": "https://www.instagram.com/atlantavintagebooks/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–5:00 PM",
@@ -16499,6 +16594,7 @@
   "lon": -84.3454548,
   "link": "https://www.instagram.com/joescoffeeeav/",
   "cover": "",
+	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 8:00 AM–7:00 PM",
