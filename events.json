@@ -3458,7 +3458,7 @@
   {
     "name": "OK YAKI",
     "vibe": "japanese, okonomiyaki, authentic, counter-service, casual, niche, neighborhood, cozy, quirky, traditional, street-food, hidden-gem",
-    "type": ["dinner", 'patio"],
+    "type": ["dinner", "patio"],
         "lat": 33.7348157,
     "lon": -84.34881795,
     "link": "https://www.instagram.com/okyakiatl/",
@@ -10175,7 +10175,7 @@
     "lat": 33.8546922,
     "lon": -84.38169335,
     "link": "https://www.instagram.com/halsthesteakhouse/?hl=en",
-    "cover": "img/venues/Hal's "The Steakhouse".jpg",
+    "cover": "img/venues/Hal's The Steakhouse.jpg",
 	"openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -13975,48 +13975,6 @@
     "duration": 2
   },
   {
-    "name": "South River Art Studios",
-    "vibe": "collective, rough-edged, unfinished, bold-color, DIY, expressive-space, maker-energy, indie-core",
-    "type": "gallery",
-    "lat": 33.683606,
-    "lon": -84.337046,
-    "link": "https://www.instagram.com/southriverartstudios/",
-    "cover": "",
-	"openNow": true,
-    "hours": [
-      "Sunday: Closed",
-      "Monday: Closed",
-      "Tuesday: Closed",
-      "Wednesday: Closed",
-      "Thursday: Closed",
-      "Friday: Closed",
-      "Saturday: Closed"
-    ],
-    "hoursNumeric": {
-      "sun": null,
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": null,
-      "sat": null
-    },
-    "dayParts": {
-      "sun": "-",
-      "mon": "-",
-      "tue": "-",
-      "wed": "-",
-      "thu": "-",
-      "fri": "-",
-      "sat": "-"
-    },
-    "timeCategory": "-",
-    "energyRamp": 2,
-    "tags": "collective, rough-edged, unfinished, bold-color, DIY, expressive-space, maker-energy, indie-core",
-    "price": "$",
-    "duration": 2.5
-  },
-  {
     "name": "JDS SUMMERHILL VARIETY DELI",
     "vibe": "corner-shop, wrap-joint, fast-casual, lowkey, gritty, delicious, backdoor, local-vibe",
     "type": "lunch",
@@ -14380,7 +14338,6 @@
   "lon": -84.3675947,
   "link": "https://www.instagram.com/barpilar_atl/",
   "cover": "img/venues/Bar Pilar.jpg",
-	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–9:00 PM",
@@ -14565,7 +14522,6 @@
   "lon": -84.2960771,
   "link": "https://www.instagram.com/belenbistro_argentina/",
   "cover": "img/venues/Belen Bistro .jpg",
-	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–8:00 PM",
@@ -14704,7 +14660,6 @@
   "lon": -84.268344,
   "link": "https://www.instagram.com/billysavondale/",
   "cover": "img/venues/Billy's Avondale.jpg",
-	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–3:30 PM",
@@ -14842,7 +14797,6 @@
   "lat": 33.7480535,
   "lon": -84.3627598,
   "link": "https://www.instagram.com/florafaunaatl/",
-  "cover": "",
 	"cover": "img/venues/Flora:Fauna.jpg",
 	"openNow":true,
   "hours": [
@@ -15074,7 +15028,6 @@
   "lon": -84.39545516,
   "link": "https://www.instagram.com/smorgasburgatlanta/",
   "cover": "",
-	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: Closed",
@@ -15903,7 +15856,6 @@
   "lon": -84.37659378,
   "link": "https://www.instagram.com/aniscafebistro/",
   "cover": "img/venues/Anis Cafe & Bistro.jpg",
-	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 11:30 AM–2:00 PM; 5:00 PM–10:00 PM",
@@ -16216,7 +16168,7 @@
   "energyRamp": 3,
   "tags": "Clean, Smoothies, Fresh, Healthy, Minimal",
   "price": "$",
-  "duration": .5
+  "duration": 0.5
 },
 {
   "name": "Negril ATL",
@@ -16502,7 +16454,6 @@
   "lon": -84.3097037,
   "link": "https://www.instagram.com/atlantavintagebooks/",
   "cover": "img/venues/Atlanta Vintage Books.jpg",
-	"cover": "",
 	"openNow":true,
   "hours": [
     "Sunday: 12:00 PM–5:00 PM",
